@@ -18,6 +18,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0B625GC45',
+    priceFrom: 4599,
     headline: 'A lava e seca que não te deixa na mão quando você esquece a meia dentro do cesto.',
     pitch:
       'Testei várias Samsung nos últimos anos e a WD11M virou minha favorita pela porta AddWash — quantas vezes já chamei pela máquina depois de apertar start porque achei mais uma roupa no chão? Com ela eu abro a portinha, jogo a peça e sigo. E o motor Digital Inverter com 20 anos de garantia dá uma paz de espírito que nenhuma máquina comum oferece.',
@@ -67,6 +68,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0D2Y5X13C',
+    priceFrom: 5999,
     headline: 'A que mais me surpreendeu na hora de lavar roupa delicada sem ter que pensar em programa.',
     pitch:
       'A LG VC4 tem uma coisa que poucas máquinas fazem bem: o AI DD pesa as peças e "sente" o tipo de tecido pra ajustar a rotação sozinho. Lavei uma carga mista de calça jeans e blusa de viscose e saiu tudo ileso. A função Steam tirou o cheiro de mofo de um moletom que esqueci guardado por duas semanas — zero dramatização. Para quem odeia decidir programa, essa é a máquina certa.',
@@ -116,6 +118,7 @@ export const products = [
     energyClass: 'A',
     voltage: '220V',
     asin: 'B0FWMTC71W',
+    priceFrom: 7999,
     headline: 'Se você tem família grande ou lava roupa de cama e toalha no mesmo ciclo, ela resolve.',
     pitch:
       'Minha irmã tem quatro crianças e vivia reclamando que a máquina não dava conta dos lençóis de casal mais toalha felpuda. Com a WD13T, ela conseguiu pela primeira vez lavar um edredom de casal e um conjunto de lençóis juntos. 13kg é muita coisa — dá pra lavar roupa de uma família de seis numa única carga de fim de semana. E tem AddWash também, a "portinha mágica" da Samsung.',
@@ -165,6 +168,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B084RVVF5S',
+    priceFrom: 3999,
     headline: 'A lava e seca para quem quer pagar menos sem comprar uma máquina meia-boca.',
     pitch:
       'Quando o orçamento aperta, a Electrolux LSP11 é a minha primeira recomendação. Ela não tem Wi-Fi nem inteligência artificial, mas lava e seca muito bem. O programa Tira Manchas é honesto — funciona de verdade em barro de criança e vinho tinto. Peguei a minha numa Black Friday por bem menos do que as Samsung de mesma capacidade e não me arrependi nenhum dia.',
@@ -213,6 +217,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0CB51NXF2',
+    priceFrom: 4299,
     headline: 'A prova de que água fria limpa bem — e ainda economiza no boleto do fim do mês.',
     pitch:
       'O pulo do gato da Samsung Ecobubble é misturar sabão, ar e água antes de entrar no cesto. O resultado: bolhas que penetram no tecido 40x mais rápido que água comum. Na prática, lavei uma camisa branca com mancha de suor em água fria e saiu melhor do que em outra máquina em ciclo quente. Se a sua conta de luz pesa e você lava muita roupa, essa máquina é uma boa compra.',
@@ -261,6 +266,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0CB6TK5J8',
+    priceFrom: 4199,
     headline: 'Basicamente a Ecobubble com visual atualizado e alguns ajustes finos.',
     pitch:
       'Se a Ecobubble tradicional já esgotou ou está fora de promoção, a WD11A é praticamente a mesma máquina com um design mais limpo e painel mais intuitivo. Tem os mesmos 11kg, o mesmo motor, o mesmo Smart Check. A vantagem é que ela sofreu algumas melhorias no dispensador automático que reduzem o desperdício de sabão.',
@@ -308,6 +314,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0C6B5WHS1',
+    priceFrom: 2899,
     headline: 'A porta de entrada mais honesta do mundo das lava e secas.',
     pitch:
       'A Midea foi a primeira lava e seca da minha cunhada e, dois anos depois, ela ainda fala bem. Não tem o acabamento premium das Samsung, mas lava, seca e aguenta. A função Steam Care é útil para roupas de bebê (elimina ácaros) e o programa rápido de 15 minutos é mais rápido do que parece. O porém é a secagem: em carga cheia, ela precisa de uma segunda passada.',
@@ -355,6 +362,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B08DMTGN38',
+    priceFrom: 3499,
     headline: 'A opção underrated para quem quer Wi-Fi e vapor pagando menos.',
     pitch:
       'Hisense é uma marca chinesa que cresceu muito no Brasil e, entre as lava e secas, acerta bem. A WD3S11 tem vapor, conectividade e 16 programas — tecnicamente ombro a ombro com Samsung e LG, mas custando bem menos. O contra: o app é menos refinado, e o suporte no Brasil ainda está em construção.',
@@ -402,6 +410,7 @@ export const products = [
     energyClass: 'A',
     voltage: '127V / 220V',
     asin: 'B0FW15RTK6',
+    priceFrom: 3799,
     headline: 'A lava e seca com cara de Brasil e assistência em qualquer canto.',
     pitch:
       'Minha mãe só compra Brastemp, mesmo eu dizendo que outras marcas são melhores. E tem um motivo: se quebra, o técnico aparece rápido em qualquer lugar do Brasil. A BNQ10AB cumpre o prometido — 10kg lava, 6,5kg seca, tem Tira Manchas, tem Turbo Economia. Não é a mais moderna, mas é a mais sem-dor-de-cabeça depois da compra.',

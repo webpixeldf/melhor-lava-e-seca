@@ -57,6 +57,11 @@ export function BreadcrumbSchema({ items }) {
 }
 
 export function ProductSchema({ product }) {
+  // priceValidUntil: validade do preço estimado (30 dias à frente)
+  const now = new Date();
+  const validUntil = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+  const priceValidUntil = validUntil.toISOString().split('T')[0];
+
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -93,10 +98,50 @@ export function ProductSchema({ product }) {
       '@type': 'Offer',
       url: amazonLink(product),
       priceCurrency: 'BRL',
+      price: product.priceFrom || 0,
+      priceValidUntil,
       availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
       seller: {
         '@type': 'Organization',
         name: 'Amazon Brasil',
+      },
+      // Frete (Amazon Prime — entrega Brasil)
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: '0',
+          currency: 'BRL',
+        },
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: 'BR',
+        },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 0,
+            maxValue: 1,
+            unitCode: 'DAY',
+          },
+          transitTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 1,
+            maxValue: 7,
+            unitCode: 'DAY',
+          },
+        },
+      },
+      // Política de devolução Amazon (30 dias, grátis via A-Z)
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: 'BR',
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 30,
+        returnMethod: 'https://schema.org/ReturnByMail',
+        returnFees: 'https://schema.org/FreeReturn',
       },
     },
   };
