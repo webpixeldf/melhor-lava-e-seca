@@ -1,0 +1,59 @@
+name: Blog diário (DeepSeek + RSS + Unsplash)
+
+# Roda 1x por dia em horário natural (10:23 BRT = 13:23 UTC).
+# GitHub Actions cron usa UTC. Pode atrasar alguns minutos na fila do GitHub.
+on:
+  schedule:
+    - cron: '23 13 * * *'
+  workflow_dispatch: {}  # permite disparar manualmente na aba Actions
+
+concurrency:
+  group: blog-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Gera artigo a partir do RSS
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-chat
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          AMAZON_PARTNER_TAG: melhorlavaeseca-20
+          SITE_URL: https://melhorlavaeseca.com
+        run: npm run blog:from-rss
+
+      - name: Commita artigo novo se houver
+        run: |
+          git config user.name "melhor-lava-e-seca-bot"
+          git config user.email "bot@melhorlavaeseca.com"
+          git add src/content/blog public/images/blog scripts/data 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "Nenhum artigo novo gerado hoje (RSS sem conteudo novo ou falha). Tudo bem."
+            exit 0
+          fi
+
+          git commit -m "blog: novo artigo diário via RSS + DeepSeek"
+          git push
