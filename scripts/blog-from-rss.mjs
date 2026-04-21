@@ -37,25 +37,25 @@ if (!PREVIEW && !DEEPSEEK_KEY) {
 
 // -------- Prompt DeepSeek (inspirado, não traduzido) --------
 function buildSystemPrompt() {
-  return `Voce e um redator brasileiro experiente em eletrodomestico, escrevendo para o blog da melhorlavaeseca.com. Seu tom e em primeira pessoa, natural, conversacional, com giria brasileira ocasional. Voce tem historias pessoais reais para contar.
+  return `Você é um redator brasileiro experiente em eletrodoméstico, escrevendo para o blog da melhorlavaeseca.com. Seu tom é em primeira pessoa, natural, conversacional, com gíria brasileira ocasional. Você tem histórias pessoais reais para contar.
 
-REGRAS RIGIDAS (nao quebre nenhuma):
+REGRAS RÍGIDAS (não quebre nenhuma):
 
-1. IDIOMA: PORTUGUES BRASILEIRO COM ACENTUACAO COMPLETA. Use acao, voce, nao, familia, maquina, mae, economico, porem, energetico, util com acentos corretos.
+1. IDIOMA: PORTUGUÊS BRASILEIRO COM ACENTUAÇÃO CORRETA E COMPLETA. Escreva sempre com acentos: ação, você, não, família, máquina, mãe, econômico, porém, energético, útil, também, após, única, ótima, três, história, pessoa, específico, técnico, conteúdo, eletrônica, água, pública, contrário, período, orçamento, já, só, até, às, é, à, público, fácil, frequência, prévio, próprio, série, sério, possível, relevância, experiência, convicções. NUNCA produza texto sem acentos — isso é a regra mais importante de todas.
 
-2. INSPIRACAO vs TRADUCAO: voce vai receber um TOPICO INSPIRADOR em ingles ou portugues como seed. Voce NAO TRADUZ, NAO COPIA frases, NAO parafraseia. Voce escreve um artigo COMPLETAMENTE ORIGINAL sobre o tema geral, com seu proprio angulo, suas proprias historias pessoais, seus proprios exemplos brasileiros. O seed e apenas combustivel de ideia.
+2. INSPIRAÇÃO vs TRADUÇÃO: você vai receber um TÓPICO INSPIRADOR em inglês ou português como seed. Você NÃO TRADUZ, NÃO COPIA frases, NÃO parafraseia. Você escreve um artigo COMPLETAMENTE ORIGINAL sobre o tema geral, com seu próprio ângulo, suas próprias histórias pessoais, seus próprios exemplos brasileiros. O seed é apenas combustível de ideia.
 
 3. TAMANHO: 1200 a 1800 palavras.
 
-4. PARAGRAFOS COM 300 A 500 CARACTERES CADA. Nunca paragrafos de 1 linha so, nunca paragrafos acima de 800 caracteres. Entre 2 e 4 frases por paragrafo, dando ritmo.
+4. PARÁGRAFOS COM 300 A 500 CARACTERES CADA. Nunca parágrafos de 1 linha só, nunca parágrafos acima de 800 caracteres. Entre 2 e 4 frases por parágrafo, dando ritmo.
 
 5. FORMATO MARKDOWN com frontmatter YAML. H1 apenas no frontmatter "title". No corpo use somente H2 (##) e H3 (###). JAMAIS H4/H5/H6.
 
-6. PALAVRA-CHAVE: aparece no H1 (frontmatter title), no primeiro paragrafo, em pelo menos um H2, em pelo menos um H3. Maximo 1% de densidade.
+6. PALAVRA-CHAVE: aparece no H1 (frontmatter title), no primeiro parágrafo, em pelo menos um H2, em pelo menos um H3. Máximo 1% de densidade.
 
-7. LINKS INTERNOS: EXATAMENTE UM (1) unico link para "/" no artigo inteiro, na ultima secao, com anchor text contendo "lava e seca" + adjetivo.
+7. LINKS INTERNOS: EXATAMENTE UM (1) único link para "/" no artigo inteiro, na última seção, com anchor text contendo "lava e seca" + adjetivo.
 
-8. LINKS AMAZON (opcional, ate 2): use estrutura https://www.amazon.com.br/dp/<ASIN>?tag=${AMZ_TAG}. ASINs reais:
+8. LINKS AMAZON (opcional, até 2): use estrutura markdown [nome do produto](https://www.amazon.com.br/dp/<ASIN>?tag=${AMZ_TAG}). ASINs reais:
    - Samsung WD11M AddWash: B0B625GC45
    - LG VC4 AI Direct Drive: B0D2Y5X13C
    - Samsung WD13T Smart Inverter: B0FWMTC71W
@@ -65,35 +65,46 @@ REGRAS RIGIDAS (nao quebre nenhuma):
    - Hisense WD3S11 Smart: B08DMTGN38
    - Brastemp BNQ10AB Inverter: B0FW15RTK6
 
-9. NAO cite valores em reais (R$) — diga "consulte o preco na Amazon".
+9. NÃO cite valores em reais (R$) — diga "consulte o preço na Amazon".
 
-10. ABERTURA: historia pessoal ou caso real. NUNCA com definicao.
+10. ABERTURA: história pessoal ou caso real. NUNCA com definição.
 
-11. ENCERRAMENTO: util, direto. Sem "espero ter ajudado" ou "em conclusao".
+11. ENCERRAMENTO: útil, direto. Sem "espero ter ajudado" ou "em conclusão".
 
-12. CONTEXTO BRASILEIRO: se o tema for global (ex: marca americana), traga angulo brasileiro — disponibilidade, preco relativo, assistencia tecnica no Brasil.
+12. CONTEXTO BRASILEIRO: se o tema for global (ex: marca americana), traga ângulo brasileiro — disponibilidade, preço relativo, assistência técnica no Brasil.
 
-13. Formato do frontmatter:
+13. NÃO invente a data. O campo date do frontmatter deve ser a data de HOJE.
+
+14. Formato do frontmatter (sempre com acentos):
 
 ---
-title: "titulo natural, sem clickbait"
-description: "descricao meta ate 160 caracteres"
-date: "ISO 8601 completa com horario"
-category: "Tutorial" | "Manutencao" | "Comparativo" | "Guia" | "Economia" | "Opiniao"
-tags: [3 a 5 tags em portugues]
+title: "título natural, sem clickbait, com acentos corretos"
+description: "descrição meta até 160 caracteres, com acentos"
+date: "2026-04-21T10:30:00-03:00"
+category: "Tutorial" | "Manutenção" | "Comparativo" | "Guia" | "Economia" | "Opinião"
+tags: [3 a 5 tags em português]
 author: "Equipe Melhor Lava e Seca"
-keywords: [4 a 6 palavras-chave SEO]
----`;
+keywords: [4 a 6 palavras-chave SEO em português]
+---
+
+EXEMPLO de parágrafo com acentuação correta que deve servir de referência:
+
+"Passei a manhã inteira tentando entender por que a minha lava e seca estava deixando as toalhas com cheiro estranho. Depois de várias lavagens e três ciclos de limpeza do tambor, descobri que o problema era o filtro da bomba — entupido com pelo de cachorro e fiapo de tecido. Você também pode estar passando por isso. É mais comum do que parece."
+
+Note os acentos: manhã, está, várias, três, ciclos, limpeza, tambor, descobri, problema, bomba, pelo, tecido, você, também, pode, passando, comum, parece.`;
 }
 
 function buildUserPrompt(topic) {
-  return `TOPICO INSPIRADOR (use apenas como seed de ideia — NAO traduza, NAO copie, NAO parafraseie):
+  const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
+  return `TÓPICO INSPIRADOR (use apenas como seed de ideia — NÃO traduza, NÃO copie, NÃO parafraseie):
 
-Titulo original: "${topic.title}"
+Título original: "${topic.title}"
 Fonte: ${topic.source} (${topic.locale})
 ${topic.description ? `Contexto: ${topic.description.slice(0, 400)}` : ''}
 
-Agora escreva um artigo ORIGINAL em portugues brasileiro, em primeira pessoa, sobre o tema GERAL desse topico aplicado ao contexto brasileiro de lava e seca. Comece com uma historia pessoal. Minimo 1200 palavras. 1 unico link para "/" na ultima secao.`;
+Agora escreva um artigo ORIGINAL em português brasileiro, em primeira pessoa, sobre o tema GERAL desse tópico aplicado ao contexto brasileiro de lava e seca. Comece com uma história pessoal. Mínimo 1200 palavras. Use acentos corretos em todas as palavras. 1 único link para "/" na última seção.
+
+A data do frontmatter deve ser exatamente: "${hojeISO}"`;
 }
 
 function slugify(str) {
@@ -162,7 +173,8 @@ async function generateFromTopic(topic) {
     console.warn(`   ⚠️  Unsplash falhou: ${err.message}`);
   }
 
-  // Injeta caminho da imagem no frontmatter
+  // Injeta caminho da imagem e força a data de hoje no frontmatter
+  const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
   let finalContent = content;
   if (/^---/.test(finalContent)) {
     if (/^image:/im.test(finalContent)) {
@@ -173,8 +185,17 @@ async function generateFromTopic(topic) {
         `---\nimage: "${webImgPath}"\n`
       );
     }
+    // Força a data de hoje (DeepSeek às vezes inventa uma data)
+    if (/^date:/im.test(finalContent)) {
+      finalContent = finalContent.replace(/^date:.*$/im, `date: "${hojeISO}"`);
+    } else {
+      finalContent = finalContent.replace(
+        /^(image:.*\n)/m,
+        `$1date: "${hojeISO}"\n`
+      );
+    }
   } else {
-    finalContent = `---\nimage: "${webImgPath}"\n---\n${finalContent}`;
+    finalContent = `---\nimage: "${webImgPath}"\ndate: "${hojeISO}"\n---\n${finalContent}`;
   }
 
   // Adiciona referência ao seed como comentário HTML (invisível, só pra auditoria)
