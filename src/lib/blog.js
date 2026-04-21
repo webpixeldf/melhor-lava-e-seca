@@ -68,5 +68,33 @@ export async function renderMarkdown(markdown) {
     .use(remarkGfm)
     .use(remarkHtml, { sanitize: false })
     .process(markdown);
-  return String(processed);
+  return enhanceLinks(String(processed));
+}
+
+/**
+ * Pós-processa HTML do blog para injetar atributos rel/target nos links:
+ *  - Amazon (afiliado): rel="sponsored nofollow noopener" + target="_blank"
+ *  - Outros externos:   rel="noopener"                   + target="_blank"
+ *  - Internos (/):      sem modificação
+ */
+function enhanceLinks(html) {
+  return html.replace(
+    /<a\s+([^>]*?)href="([^"]+)"([^>]*?)>/gi,
+    (match, pre, href, post) => {
+      // link interno (começa com /, #, ou mesmo caminho relativo sem protocolo)
+      const isExternal = /^https?:\/\//i.test(href);
+      if (!isExternal) return match;
+
+      const isAmazon = /amazon\.com(\.br)?/i.test(href) || /amzn\.to/i.test(href);
+
+      // Remove atributos rel/target que porventura já existam pra não duplicar
+      const clean = (pre + post).replace(/\s*(rel|target)="[^"]*"/gi, '').trim();
+
+      const rel = isAmazon
+        ? 'sponsored nofollow noopener'
+        : 'noopener noreferrer';
+
+      return `<a ${clean ? clean + ' ' : ''}href="${href}" target="_blank" rel="${rel}">`;
+    }
+  );
 }

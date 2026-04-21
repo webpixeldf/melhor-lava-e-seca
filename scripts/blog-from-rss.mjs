@@ -47,7 +47,13 @@ REGRAS RÍGIDAS (não quebre nenhuma):
 
 3. TAMANHO: 1200 a 1800 palavras.
 
-4. PARÁGRAFOS COM 300 A 500 CARACTERES CADA. Nunca parágrafos de 1 linha só, nunca parágrafos acima de 800 caracteres. Entre 2 e 4 frases por parágrafo, dando ritmo.
+4. PARÁGRAFOS CURTOS — regra CRÍTICA. Cada parágrafo tem entre 300 e 500 caracteres (≈ 50-80 palavras, 2-3 frases). Mais de 500 caracteres = parágrafo ruim = quebrar em dois. JAMAIS parágrafo com mais de 600 caracteres. Antes de enviar cada parágrafo, mentalmente conte os caracteres — se passou de 500, divide em dois. Isso melhora leitura em mobile e SEO.
+
+EXEMPLOS de parágrafos com tamanho bom (430-480 chars):
+
+"Passei a manhã inteira tentando entender por que a minha lava e seca estava deixando as toalhas com cheiro estranho. Depois de várias lavagens e três ciclos de limpeza do tambor, descobri que o problema era o filtro da bomba — entupido com pelo de cachorro e fiapo de tecido. É mais comum do que parece."
+
+"O segredo da durabilidade de uma lava e seca está em três coisas: não sobrecarregar, limpar o filtro toda semana e deixar a porta aberta depois do ciclo. Parece bobagem, mas já salvei duas máquinas antigas aqui em casa seguindo essa rotina. E nenhum manual fala disso com tanta clareza — você só aprende errando."
 
 5. FORMATO MARKDOWN com frontmatter YAML. H1 apenas no frontmatter "title". No corpo use somente H2 (##) e H3 (###). JAMAIS H4/H5/H6.
 
@@ -105,6 +111,57 @@ ${topic.description ? `Contexto: ${topic.description.slice(0, 400)}` : ''}
 Agora escreva um artigo ORIGINAL em português brasileiro, em primeira pessoa, sobre o tema GERAL desse tópico aplicado ao contexto brasileiro de lava e seca. Comece com uma história pessoal. Mínimo 1200 palavras. Use acentos corretos em todas as palavras. 1 único link para "/" na última seção.
 
 A data do frontmatter deve ser exatamente: "${hojeISO}"`;
+}
+
+/**
+ * Pós-processa o markdown e divide parágrafos grandes (>550 chars)
+ * em dois, cortando no final de frase mais próximo do meio.
+ */
+function splitLongParagraphs(md) {
+  const LIMIT = 550;
+
+  const lines = md.split(/\n/);
+  const out = [];
+  let buf = [];
+
+  const flush = () => {
+    if (buf.length === 0) return;
+    const para = buf.join(' ').trim();
+    buf = [];
+    if (para.length <= LIMIT || para.startsWith('#') || para.startsWith('```') || para.startsWith('>')) {
+      out.push(para);
+      return;
+    }
+    // divide em frases
+    const sentences = para.match(/[^.!?]+[.!?]+(\s|$)/g) || [para];
+    let current = '';
+    for (const s of sentences) {
+      if ((current + s).length > LIMIT && current.length > 0) {
+        out.push(current.trim());
+        current = s;
+      } else {
+        current += s;
+      }
+    }
+    if (current.trim()) out.push(current.trim());
+  };
+
+  for (const line of lines) {
+    if (line.trim() === '') {
+      flush();
+      out.push('');
+    } else if (/^(#{1,3}\s|```|>|\-\s|\d+\.\s|---)/.test(line.trim())) {
+      // cabeçalhos, blocos, listas, separadores — não agrupa
+      flush();
+      out.push(line);
+    } else {
+      buf.push(line);
+    }
+  }
+  flush();
+
+  // Garante parágrafos separados por linha em branco
+  return out.join('\n').replace(/\n{3,}/g, '\n\n');
 }
 
 function slugify(str) {
@@ -175,7 +232,7 @@ async function generateFromTopic(topic) {
 
   // Injeta caminho da imagem e força a data de hoje no frontmatter
   const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
-  let finalContent = content;
+  let finalContent = splitLongParagraphs(content);
   if (/^---/.test(finalContent)) {
     if (/^image:/im.test(finalContent)) {
       finalContent = finalContent.replace(/^image:.*$/im, `image: "${webImgPath}"`);
