@@ -17,6 +17,8 @@
     "blog:rss-preview": "node scripts/blog-from-rss.mjs --preview",
     "blog:daily": "node scripts/schedule-daily.mjs",
     "blog:refresh-images": "node scripts/refresh-blog-images.mjs",
+    "indexnow:latest": "node scripts/indexnow-ping.mjs --latest",
+    "indexnow:all": "node scripts/indexnow-ping.mjs --all",
     "icons:build": "node scripts/build-favicons.mjs",
     "postinstall": "node scripts/build-favicons.mjs || echo 'favicons opcional'"
   },

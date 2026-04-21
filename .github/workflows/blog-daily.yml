@@ -57,3 +57,8 @@ jobs:
 
           git commit -m "blog: novo artigo diário via RSS + DeepSeek"
           git push
+
+      - name: Notifica Bing/Yandex via IndexNow
+        if: success()
+        continue-on-error: true
+        run: npm run indexnow:latest
