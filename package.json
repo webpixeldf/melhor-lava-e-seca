@@ -1,0 +1,38 @@
+{
+  "name": "melhor-lava-e-seca",
+  "version": "1.0.0",
+  "description": "Site de reviews e afiliados Amazon das melhores lava e seca — melhorlavaeseca.com",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build",
+    "lint": "next lint",
+    "amazon:search": "node scripts/amazon-search.mjs",
+    "images:download": "node scripts/download-images.mjs",
+    "images:webp": "node scripts/convert-to-webp.mjs",
+    "blog:generate": "node scripts/generate-blog-post.mjs",
+    "blog:from-rss": "node scripts/blog-from-rss.mjs",
+    "blog:rss-preview": "node scripts/blog-from-rss.mjs --preview",
+    "blog:daily": "node scripts/schedule-daily.mjs",
+    "blog:refresh-images": "node scripts/refresh-blog-images.mjs",
+    "icons:build": "node scripts/build-favicons.mjs",
+    "postinstall": "node scripts/build-favicons.mjs || echo 'favicons opcional'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "reading-time": "^1.5.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-html": "^16.0.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "node-cron": "^3.0.3"
+  }
+}

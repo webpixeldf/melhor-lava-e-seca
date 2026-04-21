@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "amazon-associates": {
+      "source": "rocket-repos/agent-skills",
+      "sourceType": "github",
+      "computedHash": "1c8b5ba9efe3c99c73077dcdf1c8334bbdcab89dccfb84f6096a307ef705a4cc"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "2e91c1a968d435712d1deb3845a35021842c168f132f81027c071ad43f78cb0a"
+    },
+    "seo-content-writer": {
+      "source": "aaron-he-zhu/seo-geo-claude-skills",
+      "sourceType": "github",
+      "computedHash": "41c7ea10af1046bfabe379782c85d158e2ca38c1d11e21cf7a84479e44005245"
+    },
+    "seo-geo": {
+      "source": "resciencelab/opc-skills",
+      "sourceType": "github",
+      "computedHash": "1d38520f453282af8712874c360e3e34a379827f737fb536bd45055e2d60d964"
+    },
+    "web-design-reviewer": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "10c6fad8b4f01dbeae969009d81d6c306c8a96d56077cad9bfe2a73a38f5dcbe"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Melhor Lava e Seca",
+  "short_name": "Lava e Seca",
+  "description": "Reviews honestos das melhores lava e seca do Brasil",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B5FFF",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
