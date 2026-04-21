@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://melhorlavaeseca.com/sitemap.xml
-Host: https://melhorlavaeseca.com
