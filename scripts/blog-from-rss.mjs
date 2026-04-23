@@ -165,42 +165,81 @@ function splitLongParagraphs(md) {
 }
 
 /**
+ * Limpa o output bruto do DeepSeek antes de qualquer processamento.
+ * O modelo às vezes:
+ *  - Envolve tudo num code block ```markdown ... ```
+ *  - Escreve preâmbulo tipo "Aqui está o artigo:\n---"
+ *  - Adiciona explicação depois do artigo
+ *
+ * Queremos ficar apenas com: ---\nfrontmatter\n---\ncorpo
+ */
+function cleanRawContent(raw) {
+  let c = (raw || '').replace(/\r\n/g, '\n').trim();
+
+  // Remove BOM se existir
+  if (c.charCodeAt(0) === 0xfeff) c = c.slice(1);
+
+  // Remove wrapper ```markdown ... ``` ou ``` ... ```
+  c = c.replace(/^```(?:markdown|md|yaml|mdx)?\s*\n/i, '');
+  c = c.replace(/\n```\s*$/i, '');
+
+  // Se existe preâmbulo antes do primeiro ---, joga fora
+  const firstDelim = c.indexOf('---');
+  if (firstDelim > 0) {
+    c = c.slice(firstDelim);
+  }
+
+  return c.trim();
+}
+
+/**
  * Conserta frontmatter quando o DeepSeek devolve tudo numa linha só
  * (sem newlines entre as chaves) — caso real que quebra o YAML parser.
- *
- * Detecta padrão tipo:
- *   title: "..." description: "..." date: "..."
- * E injeta \n entre as chaves conhecidas.
  */
 function normalizeFrontmatter(md) {
-  const FM_RE = /^---\n([\s\S]+?)\n---/;
+  // Aceita --- seguido de qualquer whitespace (inclusive conteúdo na mesma linha)
+  const FM_RE = /^---\s*\n?([\s\S]+?)\n---/;
   const m = md.match(FM_RE);
   if (!m) return md;
 
   let fm = m[1];
-  // Lista de chaves esperadas no frontmatter (ordem não importa)
   const KEYS = ['title', 'description', 'date', 'updated', 'category', 'tags', 'author', 'keywords', 'image'];
 
-  // Se aparece "key1: ...value... key2:" na MESMA linha, quebra
-  for (const key of KEYS) {
-    // padrão: " <key>:" precedido por algo que não é \n
-    const re = new RegExp(`([^\\n])\\s+(${key}:)`, 'g');
-    fm = fm.replace(re, '$1\n$2');
-  }
+  // Várias passadas até estabilizar (caso chaves encadeadas)
+  let previous;
+  do {
+    previous = fm;
+    for (const key of KEYS) {
+      const re = new RegExp(`([^\\n])\\s+(${key}:)`, 'g');
+      fm = fm.replace(re, '$1\n$2');
+    }
+  } while (fm !== previous);
+
+  // Remove linhas em branco dentro do frontmatter
+  fm = fm
+    .split('\n')
+    .map((l) => l.trim())
+    .filter((l, i, arr) => l !== '' || (i > 0 && i < arr.length - 1))
+    .join('\n')
+    .trim();
 
   return md.replace(FM_RE, `---\n${fm}\n---`);
 }
 
 /**
- * Valida o YAML do frontmatter. Retorna true se parser aceita.
+ * Valida o YAML do frontmatter. Retorna { ok, error, data } pra log detalhado.
  */
-async function isValidFrontmatter(md) {
+async function validateFrontmatter(md) {
   try {
     const matter = (await import('gray-matter')).default;
-    matter(md);
-    return true;
-  } catch {
-    return false;
+    const parsed = matter(md);
+    const keys = Object.keys(parsed.data);
+    if (!parsed.data.title) {
+      return { ok: false, error: 'title ausente', data: parsed.data };
+    }
+    return { ok: true, data: parsed.data, keys };
+  } catch (err) {
+    return { ok: false, error: err.message };
   }
 }
 
@@ -273,8 +312,11 @@ async function generateFromTopic(topic) {
   // Injeta caminho da imagem e força a data de hoje no frontmatter
   const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
 
-  // ETAPA 1: normaliza frontmatter caso DeepSeek tenha vomitado tudo numa linha só
-  let finalContent = normalizeFrontmatter(content);
+  // ETAPA 0: limpa wrappers markdown + preâmbulo do DeepSeek
+  let finalContent = cleanRawContent(content);
+
+  // ETAPA 1: normaliza frontmatter (frontmatter numa linha só, etc)
+  finalContent = normalizeFrontmatter(finalContent);
 
   // ETAPA 2: divide parágrafos longos
   finalContent = splitLongParagraphs(finalContent);
@@ -307,12 +349,16 @@ async function generateFromTopic(topic) {
   const mdPath = path.join(BLOG_DIR, `${slug}.md`);
 
   // ETAPA 3: valida YAML antes de gravar — se quebrar, aborta com erro claro
-  const valid = await isValidFrontmatter(finalContent);
-  if (!valid) {
-    console.error(`❌ Frontmatter inválido após normalização. Não vou salvar pra não quebrar a build.`);
-    console.error(`Conteúdo problemático:\n${finalContent.slice(0, 600)}`);
+  const result = await validateFrontmatter(finalContent);
+  if (!result.ok) {
+    console.error(`\n❌ Frontmatter inválido após normalização: ${result.error}`);
+    console.error('\n--- CONTEÚDO PROBLEMÁTICO (primeiros 800 chars) ---');
+    console.error(finalContent.slice(0, 800));
+    console.error('--- FIM ---\n');
+    console.error('Não vou salvar pra não quebrar a build. O cron tenta de novo amanhã.');
     process.exit(2);
   }
+  console.log(`✅ Frontmatter válido com chaves: ${result.keys.join(', ')}`);
 
   if (fs.existsSync(mdPath)) {
     const alt = path.join(BLOG_DIR, `${slug}-${Date.now()}.md`);
