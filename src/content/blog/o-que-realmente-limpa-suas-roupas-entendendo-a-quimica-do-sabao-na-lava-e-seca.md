@@ -1,7 +1,12 @@
 ---
-image: "/images/blog/o-que-realmente-limpa-suas-roupas-entendendo-a-quimica-do-sabao-na-lava-e-seca.webp"
+title: "O que Realmente Limpa Suas Roupas? Entendendo a Química do Sabão na Lava e Seca"
+description: "Descubra como os surfactantes do seu sabão funcionam dentro da máquina lava e seca e como escolher o melhor para seus tecidos no Brasil."
 date: "2026-04-22T14:56:44-03:00"
-title: "O que Realmente Limpa Suas Roupas? Entendendo a Química do Sabão na Lava e Seca" description: "Descubra como os surfactantes do seu sabão funcionam dentro da máquina lava e seca e como escolher o melhor para seus tecidos no Brasil." date: "2026-04-22T14:54:49-03:00" category: "Guia" tags: ["detergente", "sabão em pó", "lava e seca", "química da limpeza", "surfactantes"] author: "Equipe Melhor Lava e Seca" keywords: ["surfactantes", "sabão lava e seca", "como funciona detergente", "limpeza eficiente", "química da lavagem"]
+category: "Guia"
+tags: ["detergente", "sabão em pó", "lava e seca", "química da limpeza", "surfactantes"]
+author: "Equipe Melhor Lava e Seca"
+keywords: ["surfactantes", "sabão lava e seca", "como funciona detergente", "limpeza eficiente", "química da lavagem"]
+image: "/images/blog/o-que-realmente-limpa-suas-roupas-entendendo-a-quimica-do-sabao-na-lava-e-seca.webp"
 ---
 
 Lembro perfeitamente do dia em que quase causei um pequeno desastre ecológico na minha própria lavanderia. Minha lava e seca, uma companheira fiel, começou a produzir uma quantidade absurda de espuma no meio do ciclo.

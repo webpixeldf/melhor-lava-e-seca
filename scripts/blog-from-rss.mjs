@@ -164,6 +164,46 @@ function splitLongParagraphs(md) {
   return out.join('\n').replace(/\n{3,}/g, '\n\n');
 }
 
+/**
+ * Conserta frontmatter quando o DeepSeek devolve tudo numa linha só
+ * (sem newlines entre as chaves) — caso real que quebra o YAML parser.
+ *
+ * Detecta padrão tipo:
+ *   title: "..." description: "..." date: "..."
+ * E injeta \n entre as chaves conhecidas.
+ */
+function normalizeFrontmatter(md) {
+  const FM_RE = /^---\n([\s\S]+?)\n---/;
+  const m = md.match(FM_RE);
+  if (!m) return md;
+
+  let fm = m[1];
+  // Lista de chaves esperadas no frontmatter (ordem não importa)
+  const KEYS = ['title', 'description', 'date', 'updated', 'category', 'tags', 'author', 'keywords', 'image'];
+
+  // Se aparece "key1: ...value... key2:" na MESMA linha, quebra
+  for (const key of KEYS) {
+    // padrão: " <key>:" precedido por algo que não é \n
+    const re = new RegExp(`([^\\n])\\s+(${key}:)`, 'g');
+    fm = fm.replace(re, '$1\n$2');
+  }
+
+  return md.replace(FM_RE, `---\n${fm}\n---`);
+}
+
+/**
+ * Valida o YAML do frontmatter. Retorna true se parser aceita.
+ */
+async function isValidFrontmatter(md) {
+  try {
+    const matter = (await import('gray-matter')).default;
+    matter(md);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function slugify(str) {
   return str
     .toLowerCase()
@@ -232,7 +272,12 @@ async function generateFromTopic(topic) {
 
   // Injeta caminho da imagem e força a data de hoje no frontmatter
   const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
-  let finalContent = splitLongParagraphs(content);
+
+  // ETAPA 1: normaliza frontmatter caso DeepSeek tenha vomitado tudo numa linha só
+  let finalContent = normalizeFrontmatter(content);
+
+  // ETAPA 2: divide parágrafos longos
+  finalContent = splitLongParagraphs(finalContent);
   if (/^---/.test(finalContent)) {
     if (/^image:/im.test(finalContent)) {
       finalContent = finalContent.replace(/^image:.*$/im, `image: "${webImgPath}"`);
@@ -260,6 +305,14 @@ async function generateFromTopic(topic) {
 
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   const mdPath = path.join(BLOG_DIR, `${slug}.md`);
+
+  // ETAPA 3: valida YAML antes de gravar — se quebrar, aborta com erro claro
+  const valid = await isValidFrontmatter(finalContent);
+  if (!valid) {
+    console.error(`❌ Frontmatter inválido após normalização. Não vou salvar pra não quebrar a build.`);
+    console.error(`Conteúdo problemático:\n${finalContent.slice(0, 600)}`);
+    process.exit(2);
+  }
 
   if (fs.existsSync(mdPath)) {
     const alt = path.join(BLOG_DIR, `${slug}-${Date.now()}.md`);
