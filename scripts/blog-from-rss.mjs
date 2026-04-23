@@ -123,6 +123,8 @@ function splitLongParagraphs(md) {
   const lines = md.split(/\n/);
   const out = [];
   let buf = [];
+  let inFrontmatter = false;
+  let frontmatterDone = false;
 
   const flush = () => {
     if (buf.length === 0) return;
@@ -132,7 +134,6 @@ function splitLongParagraphs(md) {
       out.push(para);
       return;
     }
-    // divide em frases
     const sentences = para.match(/[^.!?]+[.!?]+(\s|$)/g) || [para];
     let current = '';
     for (const s of sentences) {
@@ -147,11 +148,30 @@ function splitLongParagraphs(md) {
   };
 
   for (const line of lines) {
+    // Detecta frontmatter YAML (--- ... ---) e preserva linha-a-linha
+    if (line.trim() === '---') {
+      flush();
+      out.push(line);
+      if (!frontmatterDone) {
+        if (inFrontmatter) {
+          inFrontmatter = false;
+          frontmatterDone = true;
+        } else {
+          inFrontmatter = true;
+        }
+      }
+      continue;
+    }
+    if (inFrontmatter) {
+      // Dentro do frontmatter — preserva exatamente como veio
+      out.push(line);
+      continue;
+    }
+
     if (line.trim() === '') {
       flush();
       out.push('');
-    } else if (/^(#{1,3}\s|```|>|\-\s|\d+\.\s|---)/.test(line.trim())) {
-      // cabeçalhos, blocos, listas, separadores — não agrupa
+    } else if (/^(#{1,3}\s|```|>|\-\s|\d+\.\s)/.test(line.trim())) {
       flush();
       out.push(line);
     } else {
@@ -160,7 +180,6 @@ function splitLongParagraphs(md) {
   }
   flush();
 
-  // Garante parágrafos separados por linha em branco
   return out.join('\n').replace(/\n{3,}/g, '\n\n');
 }
 
@@ -193,37 +212,101 @@ function cleanRawContent(raw) {
 }
 
 /**
- * Conserta frontmatter quando o DeepSeek devolve tudo numa linha só
- * (sem newlines entre as chaves) — caso real que quebra o YAML parser.
+ * Extrai campos conhecidos do frontmatter bruto, mesmo se tudo estiver numa
+ * linha só. Usa regex tolerante que respeita aspas. Retorna um objeto com
+ * os valores limpos.
  */
-function normalizeFrontmatter(md) {
-  // Aceita --- seguido de qualquer whitespace (inclusive conteúdo na mesma linha)
-  const FM_RE = /^---\s*\n?([\s\S]+?)\n---/;
-  const m = md.match(FM_RE);
-  if (!m) return md;
+function extractFrontmatterFields(fmBody) {
+  const out = {};
 
-  let fm = m[1];
-  const KEYS = ['title', 'description', 'date', 'updated', 'category', 'tags', 'author', 'keywords', 'image'];
-
-  // Várias passadas até estabilizar (caso chaves encadeadas)
-  let previous;
-  do {
-    previous = fm;
-    for (const key of KEYS) {
-      const re = new RegExp(`([^\\n])\\s+(${key}:)`, 'g');
-      fm = fm.replace(re, '$1\n$2');
+  // Chaves com valor string: match aspas duplas ou simples ou unquoted
+  const STRING_KEYS = ['title', 'description', 'date', 'updated', 'category', 'author', 'image'];
+  for (const key of STRING_KEYS) {
+    const re = new RegExp(
+      // key: "valor"  |  key: 'valor'  |  key: >-\n  valor linha1\n  valor linha2  |  key: valor
+      `(?:^|\\s)${key}:\\s*(?:"([^"]*)"|'([^']*)'|>-\\s*\\n((?:\\s+[^\\n]+\\n?)+?)(?=\\s*[a-z_]+:|$)|([^\\n]+?))(?=\\s+[a-z_]+:|\\s*$)`,
+      'mi'
+    );
+    const m = fmBody.match(re);
+    if (m) {
+      const val = m[1] ?? m[2] ?? (m[3] ? m[3].replace(/\s+/g, ' ').trim() : null) ?? m[4];
+      if (val) out[key] = val.trim();
     }
-  } while (fm !== previous);
+  }
 
-  // Remove linhas em branco dentro do frontmatter
-  fm = fm
-    .split('\n')
-    .map((l) => l.trim())
-    .filter((l, i, arr) => l !== '' || (i > 0 && i < arr.length - 1))
-    .join('\n')
-    .trim();
+  // Chaves array: tags e keywords, em formato [a,b,c] ou YAML lista
+  const ARRAY_KEYS = ['tags', 'keywords'];
+  for (const key of ARRAY_KEYS) {
+    // formato inline: tags: ["a", "b"]
+    let re = new RegExp(`${key}:\\s*\\[([^\\]]*)\\]`, 'i');
+    let m = fmBody.match(re);
+    if (m) {
+      out[key] = m[1]
+        .split(',')
+        .map((s) => s.trim().replace(/^["']|["']$/g, ''))
+        .filter(Boolean);
+      continue;
+    }
+    // formato YAML lista:  tags:\n  - a\n  - b
+    re = new RegExp(`${key}:\\s*\\n((?:\\s+-\\s+[^\\n]+\\n?)+)`, 'i');
+    m = fmBody.match(re);
+    if (m) {
+      out[key] = m[1]
+        .split('\n')
+        .map((l) => l.replace(/^\s+-\s+/, '').trim())
+        .filter(Boolean);
+    }
+  }
 
-  return md.replace(FM_RE, `---\n${fm}\n---`);
+  return out;
+}
+
+/**
+ * Serializa valor pra YAML seguro.
+ */
+function yamlEscape(v) {
+  if (Array.isArray(v)) {
+    return '[' + v.map((x) => `"${String(x).replace(/"/g, '\\"')}"`).join(', ') + ']';
+  }
+  const s = String(v);
+  // Se contém aspas duplas, usa aspas simples; senão usa duplas
+  if (s.includes('"') && !s.includes("'")) return `'${s}'`;
+  return `"${s.replace(/"/g, '\\"')}"`;
+}
+
+/**
+ * Reconstrói o frontmatter de forma canônica: uma chave por linha, aspas
+ * corretas, ordem previsível. Garante que nunca vai haver chave duplicada.
+ */
+function rebuildFrontmatter(md, overrides = {}) {
+  // Acha bloco frontmatter (aceita delimitador com/sem newline imediato)
+  const FM_RE = /^---[ \t]*\n?([\s\S]+?)\n---/;
+  const m = md.match(FM_RE);
+  if (!m) {
+    // Sem frontmatter — cria do zero
+    const data = { ...overrides };
+    return buildFrontmatterBlock(data) + '\n' + md.trim();
+  }
+
+  const fmBody = m[1];
+  const body = md.slice(m[0].length).replace(/^\n+/, '');
+
+  const fields = extractFrontmatterFields(fmBody);
+  const merged = { ...fields, ...overrides };
+
+  return buildFrontmatterBlock(merged) + '\n\n' + body;
+}
+
+function buildFrontmatterBlock(data) {
+  const ORDER = ['title', 'description', 'date', 'updated', 'category', 'tags', 'author', 'keywords', 'image'];
+  const lines = ['---'];
+  for (const key of ORDER) {
+    if (data[key] !== undefined && data[key] !== null && data[key] !== '') {
+      lines.push(`${key}: ${yamlEscape(data[key])}`);
+    }
+  }
+  lines.push('---');
+  return lines.join('\n');
 }
 
 /**
@@ -315,32 +398,16 @@ async function generateFromTopic(topic) {
   // ETAPA 0: limpa wrappers markdown + preâmbulo do DeepSeek
   let finalContent = cleanRawContent(content);
 
-  // ETAPA 1: normaliza frontmatter (frontmatter numa linha só, etc)
-  finalContent = normalizeFrontmatter(finalContent);
+  // ETAPA 1: reconstroi frontmatter do zero (extrai campos conhecidos e
+  // reemite em YAML canônico, força image e date). Imune a frontmatter
+  // quebrado em uma linha só, chaves duplicadas, aspas soltas, etc.
+  finalContent = rebuildFrontmatter(finalContent, {
+    image: webImgPath,
+    date: hojeISO,
+  });
 
-  // ETAPA 2: divide parágrafos longos
+  // ETAPA 2: divide parágrafos longos (só no corpo, depois do frontmatter)
   finalContent = splitLongParagraphs(finalContent);
-  if (/^---/.test(finalContent)) {
-    if (/^image:/im.test(finalContent)) {
-      finalContent = finalContent.replace(/^image:.*$/im, `image: "${webImgPath}"`);
-    } else {
-      finalContent = finalContent.replace(
-        /^---\s*\n/,
-        `---\nimage: "${webImgPath}"\n`
-      );
-    }
-    // Força a data de hoje (DeepSeek às vezes inventa uma data)
-    if (/^date:/im.test(finalContent)) {
-      finalContent = finalContent.replace(/^date:.*$/im, `date: "${hojeISO}"`);
-    } else {
-      finalContent = finalContent.replace(
-        /^(image:.*\n)/m,
-        `$1date: "${hojeISO}"\n`
-      );
-    }
-  } else {
-    finalContent = `---\nimage: "${webImgPath}"\ndate: "${hojeISO}"\n---\n${finalContent}`;
-  }
 
   // Adiciona referência ao seed como comentário HTML (invisível, só pra auditoria)
   finalContent += `\n\n<!-- seed: ${topic.source} | ${topic.link} -->\n`;
