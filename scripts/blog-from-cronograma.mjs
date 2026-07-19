@@ -54,7 +54,10 @@ COMO VOCE ESCREVE:
 - Portugues brasileiro com acentuacao completa e correta. Isso e inegociavel.
 - Primeira pessoa, tom de conversa, como quem explica pra um amigo. Pode usar expressao coloquial brasileira sem exagero.
 - Frases de tamanho variado. Alterne periodo curto e longo: texto com todas as frases do mesmo tamanho soa robotico.
-- Paragrafos de 2 a 4 frases (300 a 500 caracteres). Nunca passe de 600 caracteres num paragrafo.
+- PARAGRAFO CURTO, regra critica: 2 ou 3 frases, entre 180 e 320 caracteres.
+  NUNCA passe de 420 caracteres. A maioria le no celular, e bloco grande de
+  texto faz o leitor desistir. Na duvida, quebre em dois. Paragrafo de uma
+  frase so, isolado, tambem funciona bem e cria respiro.
 - Concreto sempre: numero, exemplo, situacao real. "Economiza energia" e vago; "gasta cerca de 0,27 kWh por ciclo em agua fria" e util.
 
 O QUE VOCE NUNCA FAZ:
@@ -134,8 +137,10 @@ ${written.length ? `SECOES JA ESCRITAS (NAO repita esse conteudo, nao reintroduz
 ${written.map((w) => '- ' + w).join('\n')}` : 'Esta e a primeira secao do corpo.'}
 
 REGRAS DESTA SECAO:
-- LIMITE DE REPETICAO: a expressao exata "${pauta.keyword}" pode aparecer no
-  MAXIMO 2 vezes nesta secao, contando o subtitulo. No resto do texto use
+- REPETICAO DA PALAVRA-CHAVE: a expressao exata "${pauta.keyword}" deve
+  aparecer 1 ou 2 vezes nesta secao (contando o subtitulo) — nem menos, nem
+  mais. Menos que isso e o Google nao entende o tema; mais que isso vira
+  stuffing. No resto do texto use
   sinonimo ("a maquina", "o aparelho", "ela", "esse tipo de lavadora") ou
   simplesmente omita — o leitor ja sabe do que voce esta falando. Repetir a
   expressao inteira toda hora e o erro que mais denuncia texto feito por IA.
@@ -213,6 +218,44 @@ function fixAccents(md) {
   return out;
 }
 
+/**
+ * Quebra paragrafo longo em dois, cortando no fim de frase mais proximo do
+ * meio. Instrucao no prompt ajuda mas nao garante: o modelo escapa. Como a
+ * maioria le no celular, bloco grande e o que mais faz abandonar a pagina.
+ */
+const PARA_MAX = 420;
+
+function splitLongParagraphs(md) {
+  const out = [];
+  let inCode = false;
+
+  for (const bloco of md.split('\n\n')) {
+    const t = bloco.trim();
+    if (t.startsWith('```')) inCode = !inCode;
+    // Nao mexe em heading, tabela, lista, citacao nem bloco de codigo.
+    if (inCode || !t || t.length <= PARA_MAX || /^[#|>\-*\d`]/.test(t)) {
+      out.push(bloco);
+      continue;
+    }
+
+    const frases = t.match(/[^.!?]+[.!?]+[\s]*/g);
+    if (!frases || frases.length < 2) { out.push(bloco); continue; }
+
+    // Acumula ate passar da metade: o corte fica equilibrado.
+    const meio = t.length / 2;
+    let buf = '', corte = 0;
+    for (let i = 0; i < frases.length - 1; i++) {
+      buf += frases[i];
+      if (buf.length >= meio) { corte = i + 1; break; }
+    }
+    if (!corte) { out.push(bloco); continue; }
+
+    out.push(frases.slice(0, corte).join('').trim());
+    out.push(frases.slice(corte).join('').trim());
+  }
+  return out.join('\n\n');
+}
+
 /** Secao cortada no meio da frase = estouro de token. Precisa refazer. */
 function looksTruncated(md) {
   const last = md.trimEnd().split('\n').filter(Boolean).pop() || '';
@@ -256,7 +299,10 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
 
   const occurrences = (body.toLowerCase().match(new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
   const density = (occurrences * kw.split(/\s+/).length) / words * 100;
+  // Faixa saudavel: 0,8% a 1,5%. Acima vira stuffing; muito abaixo, o Google
+  // pode nao entender sobre o que a pagina e.
   if (density > 2.5) problems.push(`keyword stuffing: densidade ${density.toFixed(2)}%`);
+  if (density < 0.45) problems.push(`palavra-chave sub-utilizada: densidade ${density.toFixed(2)}%`);
   if (occurrences === 0) problems.push('palavra-chave nao aparece no texto');
 
   const headings = body.split('\n').filter((l) => /^#{2,3}\s/.test(l));
@@ -273,9 +319,10 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
     problems.push(`links internos insuficientes: ${linkReport.count}, esperado ${linkTarget}`);
   }
 
-  // Paragrafo gigante = leitura ruim no mobile.
-  const longP = body.split('\n\n').filter((p) => !p.startsWith('#') && !p.startsWith('|') && p.length > 700);
-  if (longP.length) problems.push(`${longP.length} paragrafo(s) acima de 700 caracteres`);
+  // Paragrafo gigante = leitura ruim no mobile. O divisor automatico mira 420,
+  // entao 500 aqui e so rede de seguranca pro que escapou.
+  const longP = body.split('\n\n').filter((p) => !/^[#|>\-*`]/.test(p.trim()) && p.length > 500);
+  if (longP.length) problems.push(`${longP.length} paragrafo(s) acima de 500 caracteres`);
 
   // Rede de seguranca: se alguma secao ainda escapou truncada, nao publica.
   for (const bloco of body.split(/\n(?=## )/)) {
@@ -339,7 +386,8 @@ function readCorpus() {
       const title = raw.match(/title:\s*"([^"]+)"/)?.[1] || f;
       const kws = raw.match(/keywords:\s*\[([^\]]*)\]/)?.[1] || '';
       const keyword = kws.split(',')[0]?.replace(/["']/g, '').trim() || '';
-      return { slug: f.replace(/\.md$/, ''), title, keyword, file: path.join(BLOG_DIR, f) };
+      const date = raw.match(/date:\s*"([^"]+)"/)?.[1] || '';
+      return { slug: f.replace(/\.md$/, ''), title, keyword, date, file: path.join(BLOG_DIR, f) };
     })
     .filter((c) => c.keyword);
 }
@@ -383,7 +431,7 @@ async function generate(pauta, corpus) {
     console.log(`${countWords(md)}p`);
   }
 
-  let body = fixAccents(parts.join('\n\n'));
+  let body = splitLongParagraphs(fixAccents(parts.join('\n\n')));
 
   const { body: linked, report } = addInternalLinks(body, pauta, corpus);
   body = linked + '\n\n' + buildLeiaTambem(pauta, corpus);

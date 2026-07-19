@@ -183,19 +183,22 @@ export function buildLeiaTambem(pauta, corpus = []) {
     pauta.keyword.toLowerCase().split(/\s+/).filter((w) => w.length > 2 && !stop.has(w))
   );
 
-  const scored = corpus
-    .filter((c) => c.slug !== pauta.slug)
+  const outros = corpus.filter((c) => c.slug !== pauta.slug);
+
+  const scored = outros
     .map((c) => {
       const theirs = c.keyword.toLowerCase().split(/\s+/).filter((w) => !stop.has(w));
-      const shared = theirs.filter((w) => mine.has(w)).length;
-      return { ...c, shared };
+      return { ...c, shared: theirs.filter((w) => mine.has(w)).length };
     })
-    .filter((c) => c.shared > 0)
-    .sort((a, b) => b.shared - a.shared)
-    .slice(0, 5);
+    .sort((a, b) => b.shared - a.shared || String(b.date).localeCompare(String(a.date)));
+
+  // Primeiro os que compartilham termo; se sobrar espaco, completa com os mais
+  // recentes. Diferente do link inline, aqui a ancora e o TITULO do artigo —
+  // ela descreve o destino por definicao, entao nunca fica sem sentido.
+  const escolhidos = scored.slice(0, 5);
 
   const lines = ['## Leia também', ''];
-  for (const c of scored) lines.push(`- [${c.title}](/blog/${c.slug}/)`);
+  for (const c of escolhidos) lines.push(`- [${c.title}](/blog/${c.slug}/)`);
   lines.push(`- [Ranking das melhores lava e seca do mercado](/)`);
   return lines.join('\n');
 }
