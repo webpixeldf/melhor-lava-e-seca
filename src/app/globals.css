@@ -413,7 +413,15 @@ blockquote p:last-child {
   display: flex;
   gap: 0.8rem;
   flex-wrap: wrap;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-disclosure {
+  max-width: 620px;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0;
 }
 
 .hero-meta {
@@ -502,6 +510,29 @@ blockquote p:last-child {
 }
 
 .btn-amazon:hover::after {
+  transform: translateX(3px);
+}
+
+.btn-ml {
+  background: linear-gradient(135deg, #FFE600 0%, #FFD400 100%);
+  color: #2D3277;
+  box-shadow: 0 10px 26px rgba(255, 214, 0, 0.28), 0 4px 12px rgba(255, 214, 0, 0.2);
+  padding: 1rem 1.8rem;
+  font-size: 1rem;
+}
+
+.btn-ml::after {
+  content: '→';
+  font-size: 1.15em;
+  transition: transform 0.2s var(--ease);
+}
+
+.btn-ml:hover {
+  color: #2D3277;
+  box-shadow: 0 16px 40px rgba(255, 214, 0, 0.36), 0 6px 16px rgba(255, 214, 0, 0.24);
+}
+
+.btn-ml:hover::after {
   transform: translateX(3px);
 }
 

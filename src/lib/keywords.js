@@ -18,6 +18,16 @@ const POOL = [
   'lava e seca para familia',
   'lava e seca inteligente',
   'lava e seca em oferta',
+  'melhor lavadora e secadora',
+  'máquina lava e seca',
+  'lavadora e secadora 2026',
+  'máquina de lavar e secar',
+  'lava e seca custo benefício',
+  'lava e seca para apartamento',
+  'eletrodoméstico lava e seca',
+  'qual lava e seca vale a pena',
+  'lava e seca mais silenciosa',
+  'lava e seca com melhor custo',
 ];
 
 function hashStr(str) {

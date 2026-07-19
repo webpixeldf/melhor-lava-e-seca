@@ -1,11 +1,19 @@
 name: Blog diário (DeepSeek + RSS + Unsplash)
 
-# Roda 1x por dia em horário natural (10:23 BRT = 13:23 UTC).
-# GitHub Actions cron usa UTC. Pode atrasar alguns minutos na fila do GitHub.
+# DESATIVADO em 19/07/2026 (Fase 1 da nova estratégia de conteúdo).
+#
+# Este pipeline gerava 1 artigo/dia a partir de RSS. Os 93 artigos que ele
+# produziu foram removidos por recomendação da consultoria de SEO. O cron
+# está comentado de propósito: se voltasse a rodar, ele repovoaria o blog
+# com o conteúdo que acabamos de tirar do ar E quebraria o build, já que a
+# rota /blog/[slug] está temporariamente desabilitada.
+#
+# Será SUBSTITUÍDO na Fase 2 pelo pipeline guiado pela planilha de
+# cronograma (3 artigos/dia). Só então o agendamento volta.
 on:
-  schedule:
-    - cron: '23 13 * * *'
-  workflow_dispatch: {}  # permite disparar manualmente na aba Actions
+  # schedule:
+  #   - cron: '23 13 * * *'
+  workflow_dispatch: {}  # só disparo manual na aba Actions
 
 concurrency:
   group: blog-daily

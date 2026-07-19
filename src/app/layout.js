@@ -15,9 +15,9 @@ const lexend = Lexend({
 });
 
 export const metadata = buildMetadata({
-  title: 'Melhor Lava e Seca 2026: Ranking Honesto em Primeira Pessoa',
+  title: 'Melhor Lava e Seca 2026: Ranking e Reviews Reais | Melhor Lava e Seca',
   description:
-    'Review completo das 9 melhores lava e seca de 2026. Testei Samsung, LG, Electrolux, Midea, Brastemp e mais — com pros, contras e qual comprar para cada tipo de familia.',
+    'Descubra qual a melhor lava e seca para sua casa em 2026. Ranking honesto com 9 modelos testados: Samsung, LG, Electrolux, Midea, Brastemp e mais. Prós, contras, consumo real de energia e qual comprar para cada família.',
   path: '/',
   keywords: [
     'melhor lava e seca',
@@ -32,6 +32,14 @@ export const metadata = buildMetadata({
     'review lava e seca',
     'ranking lava e seca',
     'comparativo lava e seca',
+    'lavadora e secadora',
+    'máquina lava e seca',
+    'lava e seca custo benefício',
+    'lava e seca para apartamento',
+    'melhor lavadora e secadora',
+    'qual a melhor máquina de lavar e secar',
+    'lava e seca com melhor avaliação',
+    'guia de compra lava e seca',
   ],
 });
 

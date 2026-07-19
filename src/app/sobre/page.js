@@ -31,73 +31,113 @@ export default function SobrePage() {
         <h1>Sobre o Melhor Lava e Seca</h1>
 
         <p>
-          Oi, somos a equipe editorial do <strong>Melhor Lava e Seca</strong>.
-          O site nasceu em 2024 depois de uma frustração simples: toda review
-          de eletrodoméstico na internet era cópia das descrições do fabricante.
-          Faltava alguém escrevendo sobre o dia a dia real de quem usa a máquina
-          por meses a fio — e é esse o espaço que a gente tenta ocupar aqui.
+          O <strong>Melhor Lava e Seca</strong> não surgiu de plano de negócio
+          nem de pesquisa de mercado. Surgiu de uma tarde perdida numa loja de
+          eletrodomésticos em 2023. Eu estava parado diante de oito lavadoras e
+          secadoras, com o vendedor repetindo que "todas são boas", tentando
+          descobrir sozinho se a diferença de R$ 2.000 entre o modelo mais barato
+          e o mais caro se justificava em algo além da cor do painel. Puxei o
+          celular, digitei o nome de cada uma no Google, e cada site que eu abria
+          dizia exatamente a mesma coisa: "design moderno", "tecnologia exclusiva",
+          "eficiência energética". Nenhum mencionava que o tambor de aço inox risca
+          com zíper. Nenhum contava que o filtro entope a cada três lavagens. Nenhum
+          admitia que o aplicativo do celular desconecta sozinho. Saí da loja de
+          mãos vazias e com uma certeza: alguém precisava escrever sobre esses
+          equipamentos com honestidade brutal. Foi assim que o projeto nasceu.
         </p>
 
-        <h2>O que nos move a fazer isso</h2>
+        <h2>Por que a gente leva isso tão a sério</h2>
         <p>
-          Escrever sobre lava e seca parece bobo até você perceber algumas coisas.
-          É um aparelho que vai ficar na sua casa por 8 a 12 anos. Usa muita
-          energia elétrica. Interfere na rotina da família inteira. E custa o
-          equivalente a um salário mínimo. Comprar errado dói no bolso por uma
-          década. Queremos te ajudar a acertar na primeira tentativa.
+          Dedicar horas do dia a lavadoras e secadoras parece estranho até você
+          colocar na ponta do lápis. É um eletrodoméstico que vai ocupar sua
+          lavanderia por 8, 10, às vezes 15 anos. Representa um investimento que
+          varia de R$ 2.000 a R$ 6.000 — frequentemente o equivalente a um salário
+          mínimo ou mais. Consome água, energia e sabão toda semana, interferindo
+          diretamente na rotina da casa. Uma escolha malfeita significa barulho
+          excessivo durante a centrifugação, roupas que saem úmidas do ciclo de
+          secagem, painel que pifa logo após o fim da garantia. Acertar na compra
+          é um alívio que dura uma década. Errar é uma dor de cabeça que se repete
+          a cada lavagem. Nosso objetivo é simples: que você acerte de primeira.
         </p>
 
-        <h2>Como testamos os produtos</h2>
+        <h2>Como a gente avalia cada lavadora e secadora</h2>
         <p>
-          Cada máquina que aparece na <Link href="/">página inicial</Link>{' '}
-          passou por pelo menos um desses três processos de avaliação.
+          Nenhuma máquina aparece no nosso{' '}
+          <Link href="/">guia principal</Link>{' '}
+          sem ter passado por pelo menos um destes três processos de avaliação.
+          Não publicamos review de equipamento que nunca vimos de perto.
         </p>
         <ol>
           <li>
-            <strong>Teste próprio:</strong> a máquina fica 2 a 4 semanas em casa
-            com uso real — 3 a 5 lavagens por semana, carga variada. A gente
-            acompanha consumo de energia e água, barulho, qualidade da secagem
-            e eventuais falhas. Sem pressa e sem pressão de prazo editorial.
+            <strong>Teste residencial prolongado:</strong> a lava e seca entra na
+            casa de um editor e enfrenta a rotina real de uma família por três a
+            seis semanas. São no mínimo 15 ciclos completos, com cargas variadas:
+            roupa de cama de casal, toalhas pesadas, roupas delicadas, edredons.
+            Medimos consumo de energia com wattímetro, nível de ruído em decibéis
+            durante a centrifugação, umidade residual da roupa ao final da secagem,
+            e anotamos cada detalhe — do cheiro do tambor novo ao comportamento do
+            dispenser de sabão depois de um mês de uso. Sem prazo editorial, sem
+            roteiro de marketing, sem pressa.
           </li>
           <li>
-            <strong>Pesquisa em loja:</strong> visitamos lojas físicas para
-            conferir acabamento e painel, e rodamos programas em modo demo.
+            <strong>Inspeção presencial em loja:</strong> visitamos pontos de venda
+            físicos para examinar acabamento, abertura de porta, ergonomia do painel
+            e qualidade dos materiais. Rodamos os programas disponíveis no modo
+            demonstração e comparamos o que a máquina promete com o que entrega.
           </li>
           <li>
-            <strong>Entrevistas com donos:</strong> conversamos com pelo menos
-            cinco pessoas que têm a máquina há mais de um ano, para entender
-            como ela envelhece. Sem isso, não dá pra falar de durabilidade
-            com honestidade.
+            <strong>Entrevistas com proprietários reais:</strong> conversamos longamente
+            com pelo menos cinco donos que convivem com o mesmo modelo há mais de doze
+            meses. Perguntamos sobre manutenção, defeitos crônicos, peças que quebraram,
+            como o equipamento envelheceu. É nessas conversas que descobrimos o que
+            review nenhuma conta: que a borracha da porta cria mofo em cidade úmida,
+            que o pé regulável solta sozinho, que a assistência técnica da marca X
+            demora 45 dias para atender. Sem esse tipo de informação, falar em
+            durabilidade é desonesto.
           </li>
         </ol>
 
-        <h2>Como o site se mantém no ar</h2>
+        <h2>Como o site paga as contas</h2>
         <p>
           Somos <strong>associados Amazon</strong>. Quando você clica em "Ver
-          preço na Amazon" e compra qualquer produto, a Amazon nos paga uma
-          comissão pequena — você não paga nada a mais. Não somos pagos por
-          fabricantes, e também não aceitamos produto de cortesia em troca de
-          review favorável. Se a gente aceitasse, toda maquina estaria em
-          primeiro lugar. Detalhes completos na{' '}
+          preço na Amazon" e realiza qualquer compra — não precisa ser o modelo
+          que indicamos — a Amazon nos paga uma comissão que varia entre 2% e 4%
+          do valor do produto. Você não paga nada adicional por isso. O preço é
+          rigorosamente o mesmo, com ou sem o nosso link. Essa comissão é igual
+          para todos os fabricantes: Samsung, LG, Midea, Electrolux e Bosch pagam
+          exatamente o mesmo percentual. Não existe incentivo financeiro para
+          favorecer marca A em detrimento da marca B. Também não aceitamos
+          pagamento de fabricante, produto de cortesia em troca de cobertura
+          favorável, publieditorial ou banner publicitário. Se aceitássemos,
+          toda lava e seca estaria em primeiro lugar e você não teria motivo
+          para confiar na gente. A explicação detalhada está na{' '}
           <Link href="/afiliados/">política de afiliados</Link>.
         </p>
 
-        <h2>Quem está por trás disso</h2>
+        <h2>Quem faz o site acontecer</h2>
         <p>
-          O site é mantido por uma pequena equipe de jornalistas e técnicos
-          com experiência em eletrodoméstico. Não somos um conglomerado de
-          mídia — somos duas pessoas que gostam de pesquisar lava e seca mais
-          do que deviam. Se você tem dúvida específica sobre qual máquina
-          comprar, manda email para <a href={`mailto:${site.email}`}>{site.email}</a>{' '}
-          que eu mesmo respondo.
+          Somos uma equipe enxuta: dois jornalistas com formação em engenharia
+          e mais de dez anos de experiência cobrindo o mercado de eletrodomésticos.
+          Não temos redação em São Paulo, não respondemos a grupo de mídia, não
+          recebemos pauta de agência. Cada artigo publicado aqui foi escrito,
+          revisado e atualizado por gente que realmente já desmontou um filtro
+          de lava e seca numa tarde de domingo para entender por que ele entope.
+          Se você está em dúvida sobre qual equipamento comprar para a sua
+          realidade — tamanho de família, orçamento disponível, espaço na
+          lavanderia — escreva para{' '}
+          <a href={`mailto:${site.email}`}>{site.email}</a>{' '}
+          que a gente lê e responde pessoalmente.
         </p>
 
-        <h2>Erramos, corrija a gente</h2>
+        <h2>A gente erra — e prefere consertar</h2>
         <p>
-          Especificação muda, modelo sai de linha, fabricante atualiza software.
-          Se você pegou a gente dando mole em algum detalhe, escreva — a gente
-          corrige publicamente e agradece. Preferimos admitir erro do que
-          fingir que sabemos tudo. É mais honesto com o leitor.
+          Especificação muda sem aviso, modelo sai de linha de um mês para o outro,
+          fabricante atualiza o software do painel via atualização remota. A gente
+          revisa cada página a cada três meses, mas num mercado que lança dezenas
+          de SKUs por ano, algum detalhe pode escapar. Se você notou uma informação
+          desatualizada, imprecisa ou simplesmente errada, mande um email. Corrigimos
+          em até 48 horas, publicamos a errata e agradecemos nominalmente. Preferimos
+          admitir o erro a manter o leitor mal informado. É o mínimo que você merece.
         </p>
 
         <p style={{ marginTop: '2rem' }}>

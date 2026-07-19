@@ -9,6 +9,9 @@ export const site = {
   email: 'contato@melhorlavaeseca.com',
   founded: '2024',
   amazonPartnerTag: 'melhorlavaeseca-20',
+  // ID de afiliado do Mercado Livre (Central de Afiliados → seu "matt_word").
+  // Deixe vazio até ter o seu; o link continua funcionando, só sem rastreio.
+  mlAffiliateId: '',
   social: {
     instagram: 'https://instagram.com/melhorlavaeseca',
     youtube: 'https://youtube.com/@melhorlavaeseca',
