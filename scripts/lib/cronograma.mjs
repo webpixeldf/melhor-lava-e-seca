@@ -1,0 +1,109 @@
+/**
+ * Fila de pautas + estruturas de artigo por intencao de busca.
+ *
+ * A fila vem de scripts/data/cronograma.json, gerado por build-cronograma.py
+ * a partir da planilha editorial. Este modulo so le e atualiza o status.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, '..', '..');
+const QUEUE = path.join(ROOT, 'scripts', 'data', 'cronograma.json');
+
+export function loadQueue() {
+  return JSON.parse(fs.readFileSync(QUEUE, 'utf8'));
+}
+
+export function saveQueue(data) {
+  fs.writeFileSync(QUEUE, JSON.stringify(data, null, 2) + '\n', 'utf8');
+}
+
+/** Proximas N pautas pendentes, ja ordenadas por volume no JSON. */
+export function nextPending(data, n = 1) {
+  return data.items.filter((i) => i.status === 'pending').slice(0, n);
+}
+
+export function markStatus(data, slug, status, extra = {}) {
+  const item = data.items.find((i) => i.slug === slug);
+  if (!item) return;
+  item.status = status;
+  Object.assign(item, extra);
+}
+
+/**
+ * Esqueleto de H2 por intencao. Segue o padrao definido pela consultoria:
+ * review de verdade tem testes, pros, contras, comparativo e veredito.
+ *
+ * `weight` distribui o total de palavras entre as secoes.
+ */
+const OUTLINES = {
+  review: [
+    { h2: 'O que é a {kw}', weight: 10, guide: 'Explique o que é o produto, em que categoria se encaixa e qual a proposta principal dele. Contextualize pra quem nunca ouviu falar.' },
+    { h2: 'Principais características e especificações', weight: 14, guide: 'Liste recursos e ficha técnica em bullets: capacidade de lavagem e secagem, motor, rotação, programas, eficiência energética, dimensões, voltagem. Seja concreto.' },
+    { h2: 'Como avaliamos a {kw}', weight: 10, guide: 'Explique a metodologia: quanto tempo de uso, que tipo de carga foi testada, o que foi medido (consumo, ruído, tempo de ciclo, resultado de secagem). Isso dá credibilidade.' },
+    { h2: 'Pontos positivos', weight: 12, guide: 'Prós específicos e justificados, não genéricos. Cada ponto explica POR QUE é bom no uso real.' },
+    { h2: 'Pontos negativos', weight: 12, guide: 'Contras reais e honestos. Review sem defeito não tem credibilidade. Explique o impacto prático de cada limitação.' },
+    { h2: 'Para quem vale a pena', weight: 10, guide: 'Descreva o perfil ideal de usuário: tamanho de família, tipo de moradia, rotina de lavagem, orçamento. E também para quem NÃO vale.' },
+    { h2: 'Comparação com alternativas', weight: 12, guide: 'Compare com 2 ou 3 concorrentes diretos, em tabela markdown. Colunas: modelo, capacidade, recurso diferencial, para quem serve.' },
+    { h2: 'Preço e custo-benefício', weight: 8, guide: 'Discuta a faixa de preço e se o valor se justifica frente ao que entrega e aos concorrentes. NUNCA cite valores em reais: diga para consultar o preço atualizado.' },
+    { h2: 'Veredito final', weight: 8, guide: 'Resposta objetiva e direta: vale a pena ou não, e em que condição. Sem enrolação.' },
+    { h2: 'Perguntas frequentes sobre a {kw}', weight: 4, guide: 'De 4 a 5 perguntas reais que quem pesquisa esse termo faz, cada uma com resposta curta e direta. Use H3 para cada pergunta.' },
+  ],
+  ranking: [
+    { h2: 'Como escolhemos as melhores opções', weight: 10, guide: 'Explique os critérios de avaliação e a metodologia. O que foi priorizado e por quê.' },
+    { h2: 'As melhores opções de {kw}', weight: 26, guide: 'Apresente de 5 a 7 modelos. Para cada um use H3 com o nome do modelo, e traga: para quem serve, principais recursos, um ponto forte e um ponto fraco reais.' },
+    { h2: 'Comparativo lado a lado', weight: 10, guide: 'Tabela markdown comparando os modelos citados: capacidade de lavagem e secagem, motor, recurso destaque, perfil indicado.' },
+    { h2: 'Guia de compra: o que observar antes de decidir', weight: 20, guide: 'Fatores decisivos com H3: capacidade, tipo de motor, eficiência energética, programas que se usa de verdade, espaço e dimensões, assistência técnica. Explique o impacto prático de cada um.' },
+    { h2: 'Qual escolher para cada perfil', weight: 12, guide: 'Recomendação por cenário: casal, família grande, apartamento pequeno, orçamento apertado, quem quer tecnologia.' },
+    { h2: 'Erros comuns na hora de comprar', weight: 10, guide: 'Armadilhas frequentes e como evitar. Traga situações concretas.' },
+    { h2: 'Veredito: qual vale mais a pena', weight: 8, guide: 'Fechamento objetivo indicando as melhores escolhas por categoria.' },
+    { h2: 'Perguntas frequentes sobre {kw}', weight: 4, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+  ],
+  guia: [
+    // A forma "{kw}: subtitulo" e gramaticalmente segura com qualquer
+    // palavra-chave. Interpolar a keyword no meio da frase quebra ("O que
+    // causa lava e seca fazendo barulho"). Só 2 secoes levam a keyword:
+    // repetir em todas viraria stuffing.
+    { h2: '{kw}: o que causa', weight: 20, kw: true, guide: 'Explique as causas mais comuns, da mais provável para a menos provável. Seja técnico mas acessível.' },
+    { h2: 'Como identificar o que está acontecendo', weight: 16, guide: 'Sinais e sintomas que ajudam a diagnosticar, e como testar cada hipótese em casa.' },
+    { h2: '{kw}: como resolver passo a passo', weight: 28, kw: true, guide: 'Passo a passo numerado e prático, do mais simples ao mais complexo. Use H3 para agrupar por tipo de solução.' },
+    { h2: 'Quando chamar a assistência técnica', weight: 12, guide: 'Deixe claro o limite entre o que dá pra resolver sozinho e o que exige técnico, e o risco de insistir.' },
+    { h2: 'Como evitar que aconteça de novo', weight: 16, guide: 'Rotina de prevenção e manutenção concreta, com frequência recomendada.' },
+    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+  ],
+  comparativo: [
+    { h2: 'Visão geral de cada opção', weight: 20, guide: 'Apresente cada lado da comparação com H3, explicando a proposta e o público de cada um.' },
+    { h2: 'Comparativo lado a lado', weight: 16, guide: 'Tabela markdown com os critérios que realmente importam na decisão.' },
+    { h2: 'Onde cada uma se sai melhor', weight: 24, guide: 'Analise por critério (limpeza, secagem, ruído, consumo, durabilidade, assistência), dizendo quem ganha em cada e por quê.' },
+    { h2: 'Qual escolher para cada perfil', weight: 20, guide: 'Recomendação por cenário de uso concreto.' },
+    { h2: 'Veredito', weight: 12, guide: 'Conclusão objetiva sobre qual escolher e em que situação.' },
+    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+  ],
+  informativo: [
+    { h2: '{kw}: o que é e por que importa', weight: 16, kw: true, guide: 'Explique o conceito com clareza e contextualize dentro do universo de lava e seca.' },
+    { h2: 'Como funciona na prática', weight: 22, guide: 'Detalhe o funcionamento, o que acontece em cada etapa e o que isso significa no dia a dia.' },
+    { h2: '{kw}: o que observar antes de decidir', weight: 22, kw: true, guide: 'Aspectos decisivos, com H3 por tópico, sempre ligando ao impacto real pro leitor.' },
+    { h2: 'Dicas práticas que funcionam', weight: 18, guide: 'Recomendações acionáveis que a pessoa consegue aplicar hoje mesmo.' },
+    { h2: 'Erros comuns que custam caro', weight: 14, guide: 'O que a maioria faz errado e qual a consequência.' },
+    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+  ],
+};
+
+/** Monta o outline com a keyword aplicada e o alvo de palavras por secao. */
+export function buildOutline(pauta) {
+  const base = OUTLINES[pauta.intent] || OUTLINES.informativo;
+  const introWords = 160;
+  const bodyWords = Math.max(pauta.targetWords - introWords, 400);
+  const totalWeight = base.reduce((s, x) => s + x.weight, 0);
+
+  // A keyword abre o H2 na forma "{kw}: ...", entao entra capitalizada.
+  const kwCap = pauta.keyword.charAt(0).toUpperCase() + pauta.keyword.slice(1);
+
+  return base.map((s) => ({
+    h2: s.h2.replace(/\{kw\}/g, kwCap),
+    guide: s.guide,
+    words: Math.round((s.weight / totalWeight) * bodyWords),
+  }));
+}
