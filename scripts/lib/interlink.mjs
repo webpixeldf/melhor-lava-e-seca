@@ -42,7 +42,16 @@ const products = loadProducts();
 const MAX_LINKS = 15;
 const MIN_LINKS = 10;
 
-/** Ancoras naturais pra home. Da mais especifica pra mais generica. */
+/**
+ * Ancoras naturais pra home, da mais especifica pra mais generica.
+ *
+ * NENHUMA e a keyword crua "melhor lava e seca": ancora de correspondencia
+ * exata da keyword principal apontando pra home, repetida em todo artigo, e
+ * sinal classico de over-optimization. Toda ancora aqui carrega um
+ * qualificador ("do mercado", "de 2026", "custo-benefício"...), entao o link
+ * lê como frase, nao como keyword plantada. Se nenhuma aparecer no texto, cai
+ * no fecho descritivo mais abaixo — que tambem nunca usa a keyword crua.
+ */
 const HOME_ANCHORS = [
   /\ba melhor lava e seca do mercado\b/i,
   /\bmelhores lava e seca do mercado\b/i,
@@ -51,8 +60,9 @@ const HOME_ANCHORS = [
   /\bmelhor lava e seca para apartamento\b/i,
   /\bmelhor lava e seca econômica\b/i,
   /\bmelhor lava e seca silenciosa\b/i,
-  /\bmelhores lava e seca\b/i,
-  /\bmelhor lava e seca\b/i,
+  /\bmelhor lava e seca de 202\d\b/i,
+  /\bmelhores modelos de lava e seca\b/i,
+  /\branking de lava e seca\b/i,
 ];
 
 /** Secoes da home, com termos que legitimamente as descrevem. */
@@ -64,6 +74,13 @@ const HOME_SECTIONS = [
 
 function escapeRe(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** Hash estavel e simples (djb2) pra escolher variante de fecho por slug. */
+function hashSlug(slug = '') {
+  let h = 5381;
+  for (let i = 0; i < slug.length; i++) h = ((h << 5) + h + slug.charCodeAt(i)) >>> 0;
+  return h;
 }
 
 /**
@@ -123,13 +140,19 @@ export function addInternalLinks(body, pauta, corpus = []) {
     if (state.done) { out = next; count++; report.home = true; break; }
   }
 
-  // Nem todo artigo diz "melhor lava e seca" naturalmente — um texto sobre
-  // centrifugacao ou mofo no tambor pode nunca usar a expressao. Nesse caso a
-  // ancora entra numa frase de fechamento que faz sentido no contexto, em vez
-  // de ser forcada no meio do texto.
+  // Nem todo artigo traz uma das frases acima naturalmente. Nesse caso a
+  // ancora entra numa frase de fechamento, em vez de ser forcada no meio do
+  // texto. Ha varias variantes e a escolha e estavel por slug: assim dois
+  // artigos seguidos nao terminam com a mesma frase, mas reprocessar o mesmo
+  // artigo nao troca o fecho. Nenhuma variante usa a keyword crua como ancora.
   if (!report.home) {
-    const fecho = `\n\nAinda está escolhendo qual aparelho levar pra casa? Vale conferir o ranking com [a melhor lava e seca do mercado](/) antes de decidir.`;
-    out = out + fecho;
+    const fechos = [
+      `\n\nAinda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking com os melhores modelos de lava e seca](/) antes de decidir.`,
+      `\n\nSe a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhores lava e seca do mercado](/).`,
+      `\n\nNa dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) ajuda a fechar a escolha.`,
+    ];
+    const idx = hashSlug(pauta.slug) % fechos.length;
+    out = out + fechos[idx];
     count++;
     report.home = true;
     report.homeFallback = true;

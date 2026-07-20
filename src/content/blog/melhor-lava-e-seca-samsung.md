@@ -13,7 +13,7 @@ Você passou meia hora olhando o painel da sua máquina de lavar, que já não s
 
 Neste guia, vou mostrar o ranking com as melhores opções de 2026, baseado em testes reais de consumo, capacidade e eficiência na secagem. Também explico o que observar na hora da compra, como o tipo de motor, a tecnologia de secagem e os ciclos que realmente funcionam no dia a dia.
 
-Se você quer economizar tempo e não ter surpresas com roupa úmida no final do ciclo, fique aqui. Vou te ajudar a encontrar o [melhor lava e seca](/) Samsung para a sua rotina.
+Se você quer economizar tempo e não ter surpresas com roupa úmida no final do ciclo, fique aqui. Vou te ajudar a encontrar o melhor lava e seca Samsung para a sua rotina, com base no nosso [ranking das lava e seca mais bem avaliadas](/).
 
 ## Como escolhemos as melhores opções
 
