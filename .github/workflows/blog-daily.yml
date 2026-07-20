@@ -84,6 +84,15 @@ jobs:
 
           git commit -m "blog: ${TITULO}"
 
+          # npm ci (postinstall) e npm run build regeneram favicons e o
+          # og-default a partir da marca. Entre maquinas o sharp/libvips gera
+          # bytes um pouco diferentes, entao esses arquivos rastreados ficam
+          # modificados na arvore. Nao entram no commit do artigo (o git add
+          # acima e so de conteudo), e sobrando unstaged travam o rebase com
+          # "cannot pull with rebase: You have unstaged changes". Como sao
+          # apenas artefatos de build, descartamos antes de sincronizar.
+          git checkout -- .
+
           # Outra execução pode ter publicado nesse meio tempo.
           git pull --rebase origin main
           git push
