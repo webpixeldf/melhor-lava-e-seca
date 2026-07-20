@@ -6,10 +6,11 @@ import { site } from '@/lib/site';
 import { blogAnchor, imageAlt } from '@/lib/keywords';
 
 export const metadata = buildMetadata({
-  title: 'Blog — Dicas, Tutoriais e Guias de Lava e Seca',
+  title: 'Blog de Lava e Seca: Dicas, Tutoriais e Guias de Uso',
   description:
-    'Artigos sobre manutenção, programas, economia de energia, escolha e uso diário de lava e seca.',
+    'Artigos sobre lava e seca: manutenção, programas de lavagem, economia de energia e uso diário, além de guias para escolher o modelo certo em 2026.',
   path: '/blog/',
+  appendSiteName: false,
 });
 
 export default function BlogIndex() {

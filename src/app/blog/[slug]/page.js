@@ -25,6 +25,10 @@ export async function generateMetadata({ params }) {
     articleSection: post.category,
     articleTags: post.tags,
     keywords: post.keywords,
+    // O gerador ja monta o titulo em 50-60 caracteres, liderado pela keyword.
+    // Somar " | Melhor Lava e Seca" jogaria todo artigo pra ~78 e ainda
+    // repetiria a keyword, que quase sempre contem "lava e seca".
+    appendSiteName: false,
   });
 }
 

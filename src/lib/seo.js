@@ -12,9 +12,14 @@ export function buildMetadata({
   authorName,
   articleSection,
   articleTags,
+  appendSiteName = true,
 }) {
   const url = `${site.url}${path}`;
-  const fullTitle = title?.endsWith(site.name) ? title : `${title} | ${site.name}`;
+  // Paginas cuja propria keyword ja e o nome do site (a home, por exemplo)
+  // passam appendSiteName: false — o sufixo so repetiria a keyword e estouraria
+  // os 60 caracteres.
+  const fullTitle =
+    !appendSiteName || title?.endsWith(site.name) ? title : `${title} | ${site.name}`;
   const ogImage = image.startsWith('http') ? image : `${site.url}${image}`;
 
   const metadata = {

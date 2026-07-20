@@ -342,18 +342,115 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
 
 // ------------------------------------------------------------ frontmatter
 
-function metaDescription(pauta, intro) {
-  // 140-160 chars, com a palavra-chave. Parte da intro e aparada na frase.
-  const base = intro.replace(/\s+/g, ' ').replace(/[#*_]/g, '').trim();
-  let d = base.slice(0, 200);
-  const cut = d.lastIndexOf('. ');
-  if (cut > 120) d = d.slice(0, cut + 1);
-  if (d.length > 160) d = d.slice(0, 157).replace(/\s+\S*$/, '') + '...';
-  if (!d.toLowerCase().includes(pauta.keyword.toLowerCase())) {
-    const prefix = `${pauta.keyword}: `;
-    d = (prefix + d).slice(0, 157).replace(/\s+\S*$/, '') + '...';
+const META_MIN = 140;
+const META_MAX = 160;
+
+const capitalizar = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+/** Junta frases inteiras ate o limite. Nunca corta no meio da frase. */
+function frasesAte(texto, max) {
+  const frases = texto.match(/[^.!?]+[.!?]+/g) || [];
+  let out = '';
+  for (const f of frases) {
+    const proximo = (out ? `${out} ${f.trim()}` : f.trim());
+    if (proximo.length > max) break;
+    out = proximo;
   }
+  return out;
+}
+
+function metaAceitavel(d, pauta) {
+  return (
+    d.length >= META_MIN &&
+    d.length <= META_MAX &&
+    d.toLowerCase().includes(pauta.keyword.toLowerCase()) &&
+    !d.includes('...') &&
+    !d.includes('…') &&
+    !d.includes('\n')
+  );
+}
+
+/**
+ * Rede de seguranca pra quando o modelo nao entrega description na faixa.
+ * Monta com frases INTEIRAS da introducao — cortar no meio da frase e o que
+ * gerava aquele "..." no fim do snippet.
+ */
+function metaFallback(pauta, intro) {
+  const base = intro.replace(/\s+/g, ' ').replace(/[#*_]/g, '').trim();
+
+  let d = frasesAte(base, META_MAX);
+  if (d.toLowerCase().includes(pauta.keyword.toLowerCase()) && d.length >= META_MIN) {
+    return d.replace(/"/g, "'");
+  }
+
+  // Sem a keyword no trecho, abre com ela — mas como frase de verdade,
+  // capitalizada, e nao como rotulo solto grudado na frente.
+  const abertura = `${capitalizar(pauta.keyword)}: `;
+  const resto = frasesAte(base, META_MAX - abertura.length);
+  d = resto ? abertura + resto : abertura + base.slice(0, META_MAX - abertura.length).replace(/\s+\S*$/, '');
   return d.replace(/"/g, "'");
+}
+
+/**
+ * Meta description escrita pelo modelo, validada em 140-160 caracteres.
+ *
+ * A versao anterior fatiava a introducao no braco e, quando a keyword nao caia
+ * no pedaco, colava "keyword: " em minuscula na frente e cortava com
+ * reticencias. Saia assim no Google:
+ *   "melhor lava e seca samsung: Voce passou meia hora olhando o painel..."
+ * Keyword solta em minuscula na frente e frase cortada no meio sao exatamente
+ * o que o padrao de SEO proibe.
+ */
+function metaProblema(d, pauta) {
+  if (d.length > META_MAX) return `Ficou com ${d.length} caracteres, ${d.length - META_MAX} acima do teto. Corte o que for acessorio`;
+  if (d.length < META_MIN) return `Ficou com ${d.length} caracteres, ${META_MIN - d.length} abaixo do minimo. Acrescente um detalhe concreto`;
+  if (!d.toLowerCase().includes(pauta.keyword.toLowerCase())) return `Faltou a palavra-chave "${pauta.keyword}". Encaixe ela de forma natural`;
+  return 'Terminou cortada. Reescreva com frases completas';
+}
+
+async function metaDescription(pauta, intro) {
+  const prompt = `ARTIGO: "${pauta.title}"
+PALAVRA-CHAVE PRINCIPAL: "${pauta.keyword}"
+
+INTRODUCAO DO ARTIGO:
+${intro.slice(0, 900)}
+
+Escreva a meta description desse artigo — o texto que aparece embaixo do
+titulo no resultado do Google.
+
+REGRAS:
+- Entre ${META_MIN} e ${META_MAX} caracteres. Conte antes de responder: fora dessa faixa o Google corta.
+- A palavra-chave "${pauta.keyword}" precisa aparecer, de forma natural.
+- Uma ou duas frases COMPLETAS, terminando com ponto. Nunca corte com reticencias.
+- Diga o que o leitor ganha lendo: promessa concreta, nao resumo generico.
+- Sem aspas, sem markdown, sem quebra de linha.
+- Responda SOMENTE com a meta description.`;
+
+  // Pedir de novo do zero quase nao ajuda: num teste de 3 chamadas so uma caiu
+  // na faixa (181, 152, 162 caracteres). Modelo nao conta caractere bem. Mostrar
+  // a tentativa anterior e de quanto ela errou converge muito mais rapido.
+  const messages = [{ role: 'system', content: VOICE }, { role: 'user', content: prompt }];
+
+  for (let tentativa = 1; tentativa <= 3; tentativa++) {
+    try {
+      const raw = (await ask(messages, 300))
+        .replace(/\s+/g, ' ')
+        .replace(/^["'\s]+|["'\s]+$/g, '')
+        .trim();
+      if (metaAceitavel(raw, pauta)) return raw.replace(/"/g, "'");
+
+      console.log(`      meta description com ${raw.length} chars, ajustando (tentativa ${tentativa}/3)`);
+      messages.push({ role: 'assistant', content: raw });
+      messages.push({
+        role: 'user',
+        content: `${metaProblema(raw, pauta)}. A nova versao precisa ter entre ${META_MIN} e ${META_MAX} caracteres, conter "${pauta.keyword}" e terminar em ponto final. Responda SOMENTE com a meta description corrigida.`,
+      });
+    } catch (err) {
+      console.log(`      meta description falhou (${err.message}), usando a introducao`);
+      break;
+    }
+  }
+  return metaFallback(pauta, intro);
 }
 
 const CATEGORY = { review: 'Review', ranking: 'Comparativo', comparativo: 'Comparativo', guia: 'Manutenção', informativo: 'Guia' };
@@ -474,7 +571,8 @@ async function main() {
         } catch { console.log('   (capa nao baixada, seguindo sem imagem nova)'); }
       }
 
-      const md = buildFrontmatter(pauta, metaDescription(pauta, intro), imgWeb, iso) + '\n\n' + body + '\n';
+      const description = await metaDescription(pauta, intro);
+      const md = buildFrontmatter(pauta, description, imgWeb, iso) + '\n\n' + body + '\n';
 
       if (DRY) {
         console.log('   [dry-run] nao gravado');

@@ -1,6 +1,6 @@
 ---
 title: "Lava e seca roupas: Tudo o Que Você Precisa Saber em 2026"
-description: "lava e seca roupas: Você já ficou na frente da máquina de lavar esperando o ciclo terminar pra pendurar as roupas? Eu já, e sei como esse “segundo turno”..."
+description: "Como a lava e seca roupas de verdade no dia a dia: quanto cabe em cada ciclo, quanto tempo leva para secar e quais tecidos exigem cuidado extra."
 date: "2026-07-19T23:52:26-03:00"
 category: "Guia"
 tags: ["lava e seca roupas", "como lavar roupas", "programas de lavagem", "secagem automática"]
