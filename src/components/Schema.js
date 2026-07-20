@@ -1,6 +1,5 @@
 import { site } from '@/lib/site';
 import { products as allProducts, averageRating, totalReviews } from '@/content/products';
-import { amazonLink } from '@/lib/amazon';
 
 export function OrganizationSchema() {
   const data = {
@@ -57,14 +56,6 @@ export function BreadcrumbSchema({ items }) {
 }
 
 export function ProductSchema({ product }) {
-  // Janela de validade do preço: vale a partir de hoje por 30 dias.
-  // O Search Console acusa "validFrom não encontrado" quando só há
-  // priceValidUntil — é aviso não crítico, mas a oferta fica mais completa.
-  const now = new Date();
-  const validUntil = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
-  const validFrom = now.toISOString().split('T')[0];
-  const priceValidUntil = validUntil.toISOString().split('T')[0];
-
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -97,57 +88,20 @@ export function ProductSchema({ product }) {
       },
       reviewBody: product.pitch,
     },
-    offers: {
-      '@type': 'Offer',
-      url: amazonLink(product),
-      priceCurrency: 'BRL',
-      price: product.priceFrom || 0,
-      validFrom,
-      priceValidUntil,
-      availability: 'https://schema.org/InStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      seller: {
-        '@type': 'Organization',
-        name: 'Amazon Brasil',
-      },
-      // Frete (Amazon Prime — entrega Brasil)
-      shippingDetails: {
-        '@type': 'OfferShippingDetails',
-        shippingRate: {
-          '@type': 'MonetaryAmount',
-          value: '0',
-          currency: 'BRL',
-        },
-        shippingDestination: {
-          '@type': 'DefinedRegion',
-          addressCountry: 'BR',
-        },
-        deliveryTime: {
-          '@type': 'ShippingDeliveryTime',
-          handlingTime: {
-            '@type': 'QuantitativeValue',
-            minValue: 0,
-            maxValue: 1,
-            unitCode: 'DAY',
-          },
-          transitTime: {
-            '@type': 'QuantitativeValue',
-            minValue: 1,
-            maxValue: 7,
-            unitCode: 'DAY',
-          },
-        },
-      },
-      // Política de devolução Amazon (30 dias, grátis via A-Z)
-      hasMerchantReturnPolicy: {
-        '@type': 'MerchantReturnPolicy',
-        applicableCountry: 'BR',
-        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-        merchantReturnDays: 30,
-        returnMethod: 'https://schema.org/ReturnByMail',
-        returnFees: 'https://schema.org/FreeReturn',
-      },
-    },
+    // O bloco "offers" foi REMOVIDO de proposito (19/07/2026).
+    //
+    // Ele declarava ao Google quatro coisas que o site nao tem como verificar:
+    // preco fixo vindo de products.js, disponibilidade sempre "InStock",
+    // frete gratis e devolucao gratuita em 30 dias. Preco divergente do que
+    // a Amazon cobra e motivo de penalizacao do resultado rico, alem de
+    // frustrar quem clica esperando aquele valor.
+    //
+    // Nao da pra manter so o "offers" sem preco: Offer sem price e schema
+    // invalido. E o resultado rico continua valendo, porque aggregateRating
+    // e review, que o Google aceita como sinal, seguem presentes.
+    //
+    // Quando a PA-API for liberada (hoje retorna AssociateNotEligible, exige
+    // 3 vendas em 180 dias), da pra reintroduzir com preco real e automatico.
   };
   return <JsonLd data={data} />;
 }
