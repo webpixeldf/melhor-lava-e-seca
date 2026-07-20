@@ -1,5 +1,5 @@
 import { site } from '@/lib/site';
-import { products as allProducts, averageRating, totalReviews } from '@/content/products';
+import { products as allProducts } from '@/content/products';
 
 export function OrganizationSchema() {
   const data = {
@@ -68,13 +68,13 @@ export function ProductSchema({ product }) {
     },
     sku: product.asin,
     mpn: product.asin,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: product.rating,
-      reviewCount: product.reviewsCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
+    // aggregateRating REMOVIDO (19/07/2026): afirmava agregar milhares de
+    // avaliacoes de terceiros ("reviewCount: 2847"), mas os numeros eram
+    // estimados. Dado estruturado inventado e tratado pelo Google como spam
+    // e pode gerar acao manual — risco bem maior que perder o snippet.
+    //
+    // O "review" abaixo continua, e e legitimo: e a avaliacao editorial do
+    // proprio site, com autoria declarada. Nao afirma agregar nada de fora.
     review: {
       '@type': 'Review',
       reviewRating: {
@@ -173,23 +173,16 @@ export function ArticleSchema({ article }) {
   return <JsonLd data={data} />;
 }
 
+// ReviewSummarySchema foi DESATIVADO em 19/07/2026.
+//
+// Ele existia so pra declarar um aggregateRating do ranking inteiro, somando
+// as notas e os reviewCount de products.js — numeros que eram estimados, nao
+// coletados. Sem esse bloco o componente nao teria proposito: sobraria um
+// Product sem oferta, sem review e sem nota, que nao gera resultado algum.
+//
+// Se um dia houver avaliacao real e agregada de leitores, da pra reativar.
 export function ReviewSummarySchema() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: 'Ranking Melhores Lava e Seca 2026',
-    description: 'Review e comparativo das melhores lava e seca do mercado brasileiro em 2026.',
-    image: `${site.url}/og/og-default.png`,
-    brand: { '@type': 'Brand', name: site.name },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: averageRating(),
-      reviewCount: totalReviews(),
-      bestRating: 5,
-      worstRating: 1,
-    },
-  };
-  return <JsonLd data={data} />;
+  return null;
 }
 
 function JsonLd({ data }) {
