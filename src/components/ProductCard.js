@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { amazonLink } from '@/lib/amazon';
-import { mercadoLivreLink } from '@/lib/mercadolivre';
 import { productAnchor, imageAlt } from '@/lib/keywords';
+import { emParagrafos } from '@/lib/text';
 
 function Stars({ value }) {
   const full = Math.floor(value);
@@ -31,7 +31,6 @@ function ScoreRow({ label, value }) {
 
 export default function ProductCard({ product }) {
   const link = amazonLink(product);
-  const mlLink = mercadoLivreLink(product);
   const isWinner = product.rank === 1;
   const anchor = productAnchor(product);
 
@@ -73,7 +72,9 @@ export default function ProductCard({ product }) {
           </div>
 
           <p className="product-headline">{product.headline}</p>
-          <p className="product-pitch">{product.pitch}</p>
+          {emParagrafos(product.pitch, 260).map((par, i) => (
+            <p key={i} className="product-pitch">{par}</p>
+          ))}
 
           <div className="specs-grid">
             <div className="spec">
@@ -128,15 +129,7 @@ export default function ProductCard({ product }) {
             >
               Ver preço na Amazon
             </a>
-            <a
-              className="btn btn-ml"
-              href={mlLink}
-              target="_blank"
-              rel="sponsored nofollow noopener"
-            >
-              Ver no Mercado Livre
-            </a>
-            <span className="price-note">Compare o preço nas duas lojas</span>
+            <span className="price-note">Preço e estoque em tempo real</span>
           </div>
         </div>
       </div>

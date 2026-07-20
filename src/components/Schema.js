@@ -57,9 +57,12 @@ export function BreadcrumbSchema({ items }) {
 }
 
 export function ProductSchema({ product }) {
-  // priceValidUntil: validade do preço estimado (30 dias à frente)
+  // Janela de validade do preço: vale a partir de hoje por 30 dias.
+  // O Search Console acusa "validFrom não encontrado" quando só há
+  // priceValidUntil — é aviso não crítico, mas a oferta fica mais completa.
   const now = new Date();
   const validUntil = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+  const validFrom = now.toISOString().split('T')[0];
   const priceValidUntil = validUntil.toISOString().split('T')[0];
 
   const data = {
@@ -99,6 +102,7 @@ export function ProductSchema({ product }) {
       url: amazonLink(product),
       priceCurrency: 'BRL',
       price: product.priceFrom || 0,
+      validFrom,
       priceValidUntil,
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',

@@ -11,7 +11,7 @@ import { faq } from '@/content/faq';
 import { testimonials } from '@/content/testimonials';
 import { site } from '@/lib/site';
 import { amazonLink } from '@/lib/amazon';
-import { mercadoLivreLink } from '@/lib/mercadolivre';
+import { emParagrafos } from '@/lib/text';
 
 export default async function HomePage() {
   return (
@@ -43,8 +43,8 @@ export default async function HomePage() {
           </div>
 
           <p className="hero-disclosure">
-            Como afiliado da Amazon e do Mercado Livre, este site pode ganhar
-            comissão em compras qualificadas — sem custo extra pra você.
+            Como afiliado da Amazon, este site pode ganhar comissão em compras
+            qualificadas — sem custo extra pra você.
           </p>
         </div>
       </section>
@@ -134,14 +134,15 @@ export default async function HomePage() {
               <span className="num">1</span>
               <h3>Capacidade de lavagem e secagem</h3>
               <p>
-                Toda máquina lava e seca tem duas capacidades: a de lavagem
-                (sempre maior) e a de secagem (menor, em média 60% da primeira).
-                É aqui que a maioria das pessoas erra feio — compra pensando só
-                na lavagem e depois descobre que pra secar precisa dividir a
-                carga em duas fornadas. Regra prática: some a roupa semanal da
-                sua casa e divida por duas lavagens. Se deu 10kg, compre 11kg
-                de lavagem e pelo menos 7kg de secagem. E jamais trabalhe no
-                limite — máquina que vive cheia força motor, desgasta
+                Toda máquina lava e seca tem duas capacidades: a de lavagem (sempre
+                maior) e a de secagem (menor, em média 60% da primeira). É aqui que a
+                maioria das pessoas erra feio — compra pensando só na lavagem e depois
+                descobre que pra secar precisa dividir a carga em duas fornadas. Regra
+                prática: some a roupa semanal da sua casa e divida por duas lavagens.
+              </p>
+              <p>
+                Se deu 10kg, compre 11kg de lavagem e pelo menos 7kg de secagem. E
+                jamais trabalhe no limite — máquina que vive cheia força motor, desgasta
                 amortecedor e vai pro conserto antes da hora.
               </p>
             </div>
@@ -151,14 +152,19 @@ export default async function HomePage() {
               <h3>Motor: Inverter ou convencional?</h3>
               <p>
                 Sempre Inverter. Em 2026, comprar lavadora e secadora com motor
-                convencional é jogar dinheiro fora. O Inverter elimina as
-                escovas de carvão que se desgastam com o atrito — por isso ele
-                é drasticamente mais silencioso, vibra menos e dura muito mais.
-                Na prática: enquanto um motor comum vai pro saco entre 5 e 8
-                anos, o Inverter das melhores marcas (Samsung, LG, Electrolux)
-                tem garantia de 10 a 20 anos. Fora que ele ajusta a rotação
-                conforme a carga, então gasta até 35% menos energia. O frete
-                do técnico que você evita já paga a diferença de preço.
+                convencional é jogar dinheiro fora. O Inverter elimina as escovas de
+                carvão que se desgastam com o atrito — por isso ele é drasticamente mais
+                silencioso, vibra menos e dura muito mais.
+              </p>
+              <p>
+                Na prática: enquanto um motor comum vai pro saco entre 5 e 8 anos, o
+                Inverter das melhores marcas (Samsung, LG, Electrolux) tem garantia de
+                10 a 20 anos.
+              </p>
+              <p>
+                Fora que ele ajusta a rotação conforme a carga, então gasta até 35%
+                menos energia. O frete do técnico que você evita já paga a diferença de
+                preço.
               </p>
             </div>
 
@@ -166,14 +172,16 @@ export default async function HomePage() {
               <span className="num">3</span>
               <h3>Classificação energética</h3>
               <p>
-                Procure classe A ou A+. O que mais pesa na conta de luz dessa
-                máquina é a secagem — a resistência elétrica que aquece o ar é
-                um sorvedouro de energia. A diferença entre uma lavadora e
-                secadora classe A e uma classe B pode chegar a R$ 40 por mês
-                numa casa que lava quatro vezes por semana. Em 10 anos, essa
-                diferença banca sozinha o upgrade de modelo. Não caia na
-                armadilha de economizar R$ 300 na compra pra gastar R$ 4000
-                em luz ao longo da década.
+                Procure classe A ou A+. O que mais pesa na conta de luz dessa máquina é
+                a secagem — a resistência elétrica que aquece o ar é um sorvedouro de
+                energia. A diferença entre uma lavadora e secadora classe A e uma classe
+                B pode chegar a R$ 40 por mês numa casa que lava quatro vezes por
+                semana.
+              </p>
+              <p>
+                Em 10 anos, essa diferença banca sozinha o upgrade de modelo. Não caia
+                na armadilha de economizar R$ 300 na compra pra gastar R$ 4000 em luz ao
+                longo da década.
               </p>
             </div>
 
@@ -181,14 +189,16 @@ export default async function HomePage() {
               <span className="num">4</span>
               <h3>Programas que você vai usar de verdade</h3>
               <p>
-                Não caia no conto dos 25 programas. Você vai usar cinco, no
-                máximo seis. Os que realmente importam são: Algodão (o cavalo
-                de batalha do dia a dia), Delicado (pra seda, lingerie e roupa
-                de ginástica), Rápido (aquele que te salva quando a camiseta
-                precisa estar seca em 1 hora), Roupa Pesada (edredom, toalha,
-                jeans) e Roupa de Cama. Todo o resto é enfeite de painel que
-                você nunca vai apertar. O que faz diferença não é a quantidade
-                de programas — é a qualidade da lavagem e da secagem de cada um.
+                Não caia no conto dos 25 programas. Você vai usar cinco, no máximo seis.
+                Os que realmente importam são: Algodão (o cavalo de batalha do dia a
+                dia), Delicado (pra seda, lingerie e roupa de ginástica), Rápido (aquele
+                que te salva quando a camiseta precisa estar seca em 1 hora), Roupa
+                Pesada (edredom, toalha, jeans) e Roupa de Cama.
+              </p>
+              <p>
+                Todo o resto é enfeite de painel que você nunca vai apertar. O que faz
+                diferença não é a quantidade de programas — é a qualidade da lavagem e
+                da secagem de cada um.
               </p>
             </div>
 
@@ -196,15 +206,17 @@ export default async function HomePage() {
               <span className="num">5</span>
               <h3>Conectividade Wi-Fi</h3>
               <p>
-                Parece frescura, mas não é. O Wi-Fi na sua lavadora e secadora
-                entrega três coisas que mudam a rotina: primeiro, você recebe
-                notificação no celular quando o ciclo acaba — nunca mais roupa
-                mofando porque esqueceu na máquina. Segundo, diagnóstico remoto:
-                o Smart Check da Samsung e o Smart Diagnosis da LG identificam
-                defeito pelo app antes mesmo de você chamar um técnico, o que
-                evita visita desnecessária e troca de peça errada. Terceiro, se
-                você tem tarifa branca de energia, programa o ciclo pra rodar de
-                madrugada e economiza até 40% na conta. O Wi-Fi se paga sozinho
+                Parece frescura, mas não é. O Wi-Fi na sua lavadora e secadora entrega
+                três coisas que mudam a rotina: primeiro, você recebe notificação no
+                celular quando o ciclo acaba — nunca mais roupa mofando porque esqueceu
+                na máquina. Segundo, diagnóstico remoto: o Smart Check da Samsung e o
+                Smart Diagnosis da LG identificam defeito pelo app antes mesmo de você
+                chamar um técnico, o que evita visita desnecessária e troca de peça
+                errada.
+              </p>
+              <p>
+                Terceiro, se você tem tarifa branca de energia, programa o ciclo pra
+                rodar de madrugada e economiza até 40% na conta. O Wi-Fi se paga sozinho
                 em menos de dois anos.
               </p>
             </div>
@@ -213,15 +225,17 @@ export default async function HomePage() {
               <span className="num">6</span>
               <h3>Função vapor (Steam)</h3>
               <p>
-                O vapor não é luxo — é saúde. Uma máquina de lavar com secadora
-                que tem Steam elimina ácaros, bactérias e pelo de animal sem
-                precisar de água quente no chuveiro. Se na sua casa tem bebê que
-                bota tudo na boca, criança com rinite alérgica, ou cachorro que
-                dorme no sofá, o vapor é divisor de águas. Todas as Samsung, LG
-                e Hisense do meu ranking têm essa função integrada. Já as
-                Electrolux e Midea, não. Se você se identificou com esses
-                cenários, o vapor deixa de ser opcional — vira critério de
-                corte na sua escolha.
+                O vapor não é luxo — é saúde. Uma máquina de lavar com secadora que tem
+                Steam elimina ácaros, bactérias e pelo de animal sem precisar de água
+                quente no chuveiro. Se na sua casa tem bebê que bota tudo na boca,
+                criança com rinite alérgica, ou cachorro que dorme no sofá, o vapor é
+                divisor de águas. Todas as Samsung, LG e Hisense do meu ranking têm essa
+                função integrada.
+              </p>
+              <p>
+                Já as Electrolux e Midea, não. Se você se identificou com esses
+                cenários, o vapor deixa de ser opcional — vira critério de corte na sua
+                escolha.
               </p>
             </div>
 
@@ -229,17 +243,19 @@ export default async function HomePage() {
               <span className="num">7</span>
               <h3>Rede de assistência técnica</h3>
               <p>
-                Esse é o fator que o marketing das marcas varre pra debaixo do
-                tapete. Se você mora em capital, qualquer fabricante atende —
-                tem autorizada de todas as marcas. Mas se você mora no interior,
-                a conversa muda completamente. Brastemp, Electrolux e Consul têm
-                a rede mais capilarizada do Brasil, com assistência até em
-                cidade de 30 mil habitantes. Samsung e LG estão mais concentradas
-                nas capitais e regiões metropolitanas. Hisense ainda está
-                abrindo postos. Minha dica antes de fechar a compra: ligue pra
-                duas autorizadas da sua região e pergunte se atendem o modelo
-                que você está de olho. Se disserem que "a placa tem que vir de
-                São Paulo", fuja.
+                Esse é o fator que o marketing das marcas varre pra debaixo do tapete.
+                Se você mora em capital, qualquer fabricante atende — tem autorizada de
+                todas as marcas. Mas se você mora no interior, a conversa muda
+                completamente. Brastemp, Electrolux e Consul têm a rede mais
+                capilarizada do Brasil, com assistência até em cidade de 30 mil
+                habitantes.
+              </p>
+              <p>
+                Samsung e LG estão mais concentradas nas capitais e regiões
+                metropolitanas. Hisense ainda está abrindo postos. Minha dica antes de
+                fechar a compra: ligue pra duas autorizadas da sua região e pergunte se
+                atendem o modelo que você está de olho. Se disserem que "a placa tem que
+                vir de São Paulo", fuja.
               </p>
             </div>
 
@@ -247,16 +263,20 @@ export default async function HomePage() {
               <span className="num">8</span>
               <h3>Dimensões e acesso</h3>
               <p>
-                Meça três coisas antes de comprar: a porta da cozinha (ou lavanderia),
-                a largura do corredor e o espaço onde a máquina vai morar. Deixe
-                no mínimo 3cm de folga de cada lado para ventilação — se a
-                máquina ficar encostada na parede, a placa superaquece e pode
-                queimar. Modelos de 13kg são mais altos (em torno de 88cm):
-                confira se não bate no armário suspenso ou na janela basculante
-                que abre pra dentro. E atenção ao peso: uma lava e seca pesa
-                entre 75kg e 90kg vazia. Se o piso da sua lavanderia é de tábua
-                corrida ou porcelanato fino, pode precisar de reforço. Já vi
-                máquina nova rachando piso na primeira centrifugação.
+                Meça três coisas antes de comprar: a porta da cozinha (ou lavanderia), a
+                largura do corredor e o espaço onde a máquina vai morar. Deixe no mínimo
+                3cm de folga de cada lado para ventilação — se a máquina ficar encostada
+                na parede, a placa superaquece e pode queimar.
+              </p>
+              <p>
+                Modelos de 13kg são mais altos (em torno de 88cm): confira se não bate
+                no armário suspenso ou na janela basculante que abre pra dentro.
+              </p>
+              <p>
+                E atenção ao peso: uma lava e seca pesa entre 75kg e 90kg vazia. Se o
+                piso da sua lavanderia é de tábua corrida ou porcelanato fino, pode
+                precisar de reforço. Já vi máquina nova rachando piso na primeira
+                centrifugação.
               </p>
             </div>
           </div>
@@ -272,67 +292,80 @@ export default async function HomePage() {
           </div>
 
           <p>
-            Uma máquina lava e seca é, na essência, uma lavadora de abertura
-            frontal com três componentes extras dentro dela: uma resistência
-            elétrica, um ventilador e um sistema de condensação. A resistência
-            esquenta o ar, o ventilador sopra esse ar quente pelo cesto cheio de
-            roupa molhada, e o vapor resultante é transformado em água e
-            eliminado pelo ralo — sem precisar de mangueira de exaustão pra fora
-            de casa. Simples no conceito, mas cada detalhe desse processo muda
-            completamente a sua experiência com o equipamento.
+            Uma máquina lava e seca é, na essência, uma lavadora de abertura frontal
+            com três componentes extras dentro dela: uma resistência elétrica, um
+            ventilador e um sistema de condensação. A resistência esquenta o ar, o
+            ventilador sopra esse ar quente pelo cesto cheio de roupa molhada, e o
+            vapor resultante é transformado em água e eliminado pelo ralo — sem
+            precisar de mangueira de exaustão pra fora de casa.
+          </p>
+          <p>
+            Simples no conceito, mas cada detalhe desse processo muda completamente
+            a sua experiência com o equipamento.
           </p>
 
           <h3>1. A lavagem — o que acontece lá dentro</h3>
           <p>
-            A água entra pela válvula solenoide (aquela pecinha que abre e fecha
-            a passagem de água automaticamente), atravessa o dispensador de sabão
-            e amaciante, e desce para o cesto. O motor gira o tambor em baixa
-            rotação, alternando o sentido — pra esquerda, pra direita — pra
-            movimentar a roupa sem enrolar tudo numa bola só. Depois vem o
-            enxágue com água limpa e, por fim, a centrifugação: o cesto acelera
-            até 1400 rpm pra arrancar o máximo de água possível da roupa. Quanto
-            mais eficiente a centrifugação, menos trabalho a secagem tem depois.
+            A água entra pela válvula solenoide (aquela pecinha que abre e fecha a
+            passagem de água automaticamente), atravessa o dispensador de sabão e
+            amaciante, e desce para o cesto. O motor gira o tambor em baixa rotação,
+            alternando o sentido — pra esquerda, pra direita — pra movimentar a
+            roupa sem enrolar tudo numa bola só.
+          </p>
+          <p>
+            Depois vem o enxágue com água limpa e, por fim, a centrifugação: o cesto
+            acelera até 1400 rpm pra arrancar o máximo de água possível da roupa.
+            Quanto mais eficiente a centrifugação, menos trabalho a secagem tem
+            depois.
           </p>
 
           <h3>2. A secagem — o segredo que ninguém explica</h3>
           <p>
             Aqui está o coração do aparelho dois em um. A resistência elétrica
             aquece o ar dentro da máquina, e o ventilador sopra esse ar quente
-            através do cesto, que gira devagar e alterna o sentido — exatamente
-            como na lavagem, só que sem água. O ar quente rouba a umidade do
-            tecido fibra por fibra. A maioria das lava e seca modernas usa o
-            sistema de <strong>ar condensado</strong>: a umidade, em vez de ser
-            jogada pra fora como vapor (como fazem as secadoras tradicionais
-            da época da vovó), é resfriada por uma corrente de água fria, vira
-            líquido de novo e escorre pelo ralo. Por isso você não precisa
-            furar parede nem instalar cano de saída — o ralo da lavanderia
-            resolve tudo.
+            através do cesto, que gira devagar e alterna o sentido — exatamente como
+            na lavagem, só que sem água. O ar quente rouba a umidade do tecido fibra
+            por fibra.
+          </p>
+          <p>
+            A maioria das lava e seca modernas usa o sistema de <strong>ar
+            condensado</strong>: a umidade, em vez de ser jogada pra fora como vapor
+            (como fazem as secadoras tradicionais da época da vovó), é resfriada por
+            uma corrente de água fria, vira líquido de novo e escorre pelo ralo.
+          </p>
+          <p>
+            Por isso você não precisa furar parede nem instalar cano de saída — o
+            ralo da lavanderia resolve tudo.
           </p>
 
           <h3>3. Por que a secagem às vezes fica incompleta?</h3>
           <p>
-            A resposta é mais simples do que parece: você colocou roupa demais.
-            Toda lavadora e secadora tem uma capacidade de secagem menor que a
-            de lavagem — por exemplo, 11kg pra lavar e 7kg pra secar. Se você
-            enfia os 11kg cheios e manda secar tudo de uma vez, o ar quente
-            simplesmente não consegue atravessar aquele volume de tecido
-            compactado. O centro da carga fica úmido, as pontas ressecam, e
-            você culpa a máquina. A solução é prática: lave a carga completa e
-            na hora de secar, divida em duas levas. Sim, dá mais trabalho, mas
-            é o preço de ter duas funções num equipamento só.
+            A resposta é mais simples do que parece: você colocou roupa demais. Toda
+            lavadora e secadora tem uma capacidade de secagem menor que a de lavagem
+            — por exemplo, 11kg pra lavar e 7kg pra secar. Se você enfia os 11kg
+            cheios e manda secar tudo de uma vez, o ar quente simplesmente não
+            consegue atravessar aquele volume de tecido compactado.
+          </p>
+          <p>
+            O centro da carga fica úmido, as pontas ressecam, e você culpa a
+            máquina. A solução é prática: lave a carga completa e na hora de secar,
+            divida em duas levas. Sim, dá mais trabalho, mas é o preço de ter duas
+            funções num equipamento só.
           </p>
 
           <h3>4. Quanto tempo leva, afinal?</h3>
           <p>
-            Um ciclo completo de lavagem dura entre 55 minutos e 2 horas,
-            dependendo do programa escolhido. A secagem sozinha leva de 1h30
-            a 3h30 — quanto mais roupa e mais pesado o tecido (toalha, jeans),
-            mais tempo. Somando os dois, você gasta de 3 a 5 horas pra roupa
-            sair do cesto sujo e ir direto pra gaveta. É por isso que o Wi-Fi
-            faz tanta diferença na rotina: você carrega a máquina, programa o
-            ciclo pelo celular pra começar enquanto está no trabalho, e quando
-            chega em casa a roupa está pronta — seca, cheirosa e sem aquela
-            cara de quem esqueceu no varal três dias.
+            Um ciclo completo de lavagem dura entre 55 minutos e 2 horas, dependendo
+            do programa escolhido. A secagem sozinha leva de 1h30 a 3h30 — quanto
+            mais roupa e mais pesado o tecido (toalha, jeans), mais tempo. Somando
+            os dois, você gasta de 3 a 5 horas pra roupa sair do cesto sujo e ir
+            direto pra gaveta.
+          </p>
+          <p>
+            É por isso que o Wi-Fi faz tanta diferença na rotina: você carrega a
+            máquina, programa o ciclo pelo celular pra começar enquanto está no
+            trabalho, e quando chega em casa a roupa está pronta — seca, cheirosa e
+            sem aquela cara de quem esqueceu no varal três dias.
           </p>
         </div>
       </section>
@@ -362,7 +395,6 @@ export default async function HomePage() {
                   <th>Vapor</th>
                   <th>Nota</th>
                   <th>Amazon</th>
-                  <th>Mercado Livre</th>
                 </tr>
               </thead>
               <tbody>
@@ -388,16 +420,6 @@ export default async function HomePage() {
                     <td>
                       <a
                         href={amazonLink(p)}
-                        target="_blank"
-                        rel="sponsored nofollow noopener"
-                        style={{ fontWeight: 600 }}
-                      >
-                        Ver →
-                      </a>
-                    </td>
-                    <td>
-                      <a
-                        href={mercadoLivreLink(p)}
                         target="_blank"
                         rel="sponsored nofollow noopener"
                         style={{ fontWeight: 600 }}
@@ -538,7 +560,9 @@ export default async function HomePage() {
           {faq.map((item, i) => (
             <details key={i} className="faq-item">
               <summary>{item.q}</summary>
-              <p>{item.a}</p>
+              {emParagrafos(item.a, 260).map((par, j) => (
+                <p key={j}>{par}</p>
+              ))}
             </details>
           ))}
         </div>
