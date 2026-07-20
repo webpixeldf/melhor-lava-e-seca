@@ -8,7 +8,7 @@ export function OrganizationSchema() {
     '@id': `${site.url}/#organization`,
     name: site.name,
     url: site.url,
-    logo: `${site.url}/logo.png`,
+    logo: `${site.url}${site.logo}`,
     sameAs: [site.social.instagram, site.social.youtube].filter(Boolean),
     contactPoint: [
       {
@@ -163,7 +163,9 @@ export function ArticleSchema({ article }) {
       name: site.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${site.url}/logo.png`,
+        url: `${site.url}${site.logo}`,
+        width: site.logoWidth,
+        height: site.logoHeight,
       },
     },
     articleSection: article.category,

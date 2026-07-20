@@ -465,7 +465,7 @@ function buildFrontmatter(pauta, description, image, iso) {
     `date: ${q(iso)}`,
     `category: ${q(CATEGORY[pauta.intent] || 'Guia')}`,
     `tags: [${kws.slice(0, 4).map(q).join(', ')}]`,
-    `author: "Equipe Melhor Lava e Seca"`,
+    `author: "Marcelo França"`,
     `keywords: [${kws.map(q).join(', ')}]`,
     `image: ${q(image)}`,
     '---',

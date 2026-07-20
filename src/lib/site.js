@@ -5,7 +5,13 @@ export const site = {
   domain: 'melhorlavaeseca.com',
   locale: 'pt-BR',
   country: 'BR',
-  author: 'Equipe Melhor Lava e Seca',
+  author: 'Marcelo França',
+  // Logomarca oficial. PNG (e nao o webp) porque e o formato que o Google
+  // recomenda para o logo do schema Organization.
+  logo: '/melhor-lava-e-seca-logo.png',
+  logoWebp: '/melhor-lava-e-seca-logo.webp',
+  logoWidth: 400,
+  logoHeight: 148,
   email: 'contato@melhorlavaeseca.com',
   founded: '2024',
   amazonPartnerTag: 'melhorlavaeseca-20',

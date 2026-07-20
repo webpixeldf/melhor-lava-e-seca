@@ -4,7 +4,7 @@ description: "Qual a melhor lava e seca Samsung em 2026? Comparo capacidade, mot
 date: "2026-07-19T23:56:59-03:00"
 category: "Comparativo"
 tags: ["melhor lava e seca samsung", "lava e seca samsung custo-benefício", "lava e seca samsung inverter", "lava e seca samsung silenciosa"]
-author: "Equipe Melhor Lava e Seca"
+author: "Marcelo França"
 keywords: ["melhor lava e seca samsung", "lava e seca samsung custo-benefício", "lava e seca samsung inverter", "lava e seca samsung silenciosa", "lava e seca samsung econômica", "lava e seca samsung comparativo"]
 image: "/images/blog/melhor-lava-e-seca-samsung.webp"
 ---

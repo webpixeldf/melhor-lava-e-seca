@@ -4,7 +4,7 @@ description: "Como a lava e seca roupas de verdade no dia a dia: quanto cabe em 
 date: "2026-07-19T23:52:26-03:00"
 category: "Guia"
 tags: ["lava e seca roupas", "como lavar roupas", "programas de lavagem", "secagem automática"]
-author: "Equipe Melhor Lava e Seca"
+author: "Marcelo França"
 keywords: ["lava e seca roupas", "como lavar roupas", "programas de lavagem", "secagem automática", "tipos de tecido", "lavar edredom"]
 image: "/images/blog/lava-e-seca-roupas.webp"
 ---

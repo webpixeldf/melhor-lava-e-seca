@@ -236,16 +236,26 @@ blockquote p:last-child {
   letter-spacing: -0.025em;
 }
 
-.logo svg {
-  width: 38px;
-  height: 38px;
+/* Altura fixa e largura automatica: a logomarca e horizontal (400x148), entao
+   travar a largura distorceria. */
+.logo img {
+  height: 42px;
+  width: auto;
   flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .logo img { height: 34px; }
+  /* Abaixo disso a tagline briga com o menu por espaco. */
+  .logo-tag { display: none; }
 }
 
 .logo-tag {
   display: flex;
   flex-direction: column;
   line-height: 1.05;
+  padding-left: 0.65rem;
+  border-left: 1px solid var(--border);
 }
 
 .logo-tag small {

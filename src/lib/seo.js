@@ -80,17 +80,16 @@ export function buildMetadata({
         'max-snippet': -1,
       },
     },
+    // Sem entrada SVG: a marca so existe em raster. Um favicon.svg placeholder
+    // aqui seria PREFERIDO pelo Chrome e pelo Firefox e a aba mostraria o icone
+    // antigo mesmo com os PNGs atualizados.
     icons: {
       icon: [
         { url: '/favicon.ico', sizes: '48x48' },
-        { url: '/favicon.svg', type: 'image/svg+xml' },
         { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
         { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       ],
       apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
-      other: [
-        { rel: 'mask-icon', url: '/favicon.svg', color: '#0B5FFF' },
-      ],
     },
     manifest: '/site.webmanifest',
     other: {

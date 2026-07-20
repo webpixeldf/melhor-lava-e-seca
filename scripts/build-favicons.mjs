@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 /**
- * Gera favicons e icones PWA a partir do SVG em public/favicon.svg
+ * Gera favicons e icones PWA a partir da marca real.
+ *
+ * FONTES (versionadas, nao mexer sem trocar a marca):
+ *   public/favicon-source.png          — icone quadrado 400x400
+ *   public/melhor-lava-e-seca-logo.png — logomarca horizontal transparente
+ *
  * Outputs:
  *   public/favicon-16x16.png
  *   public/favicon-32x32.png
@@ -9,8 +14,11 @@
  *   public/apple-touch-icon.png (180x180)
  *   public/android-chrome-192x192.png
  *   public/android-chrome-512x512.png
- *   public/logo.png (512x512 transparente)
  *   public/og/og-default.png (1200x630)
+ *
+ * ATENCAO: este script roda no postinstall, ou seja, a cada `npm ci` do
+ * workflow do blog (3x por dia). Tudo que ele gera e sobrescrito nessas horas.
+ * Nao edite os arquivos de saida na mao — edite a fonte aqui em cima.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,11 +26,12 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const SVG = path.join(ROOT, 'public', 'favicon.svg');
+const ICON_SRC = path.join(ROOT, 'public', 'favicon-source.png');
+const LOGO_SRC = path.join(ROOT, 'public', 'melhor-lava-e-seca-logo.png');
 const OG_DIR = path.join(ROOT, 'public', 'og');
 
-if (!fs.existsSync(SVG)) {
-  console.log('ℹ️  public/favicon.svg ainda nao existe. Pulei a geracao de favicons.');
+if (!fs.existsSync(ICON_SRC)) {
+  console.log('ℹ️  public/favicon-source.png nao existe. Pulei a geracao de favicons.');
   process.exit(0);
 }
 
@@ -43,26 +52,20 @@ const SIZES = [
   { size: 180, name: 'apple-touch-icon.png' },
   { size: 192, name: 'android-chrome-192x192.png' },
   { size: 512, name: 'android-chrome-512x512.png' },
-  { size: 512, name: 'logo.png' },
 ];
 
 async function main() {
-  const svg = fs.readFileSync(SVG);
-
   for (const { size, name } of SIZES) {
     const out = path.join(ROOT, 'public', name);
-    await sharp(svg, { density: 300 })
-      .resize(size, size)
-      .png()
-      .toFile(out);
+    await sharp(ICON_SRC).resize(size, size).png().toFile(out);
     console.log(`✅ ${name} (${size}x${size})`);
   }
 
   // favicon.ico (multi-size — 16/32/48)
   try {
-    const ico16 = await sharp(svg, { density: 300 }).resize(16, 16).png().toBuffer();
-    const ico32 = await sharp(svg, { density: 300 }).resize(32, 32).png().toBuffer();
-    const ico48 = await sharp(svg, { density: 300 }).resize(48, 48).png().toBuffer();
+    const ico16 = await sharp(ICON_SRC).resize(16, 16).png().toBuffer();
+    const ico32 = await sharp(ICON_SRC).resize(32, 32).png().toBuffer();
+    const ico48 = await sharp(ICON_SRC).resize(48, 48).png().toBuffer();
     const ico = pngsToIco([ico16, ico32, ico48]);
     fs.writeFileSync(path.join(ROOT, 'public', 'favicon.ico'), ico);
     console.log('✅ favicon.ico (16/32/48)');
@@ -70,28 +73,30 @@ async function main() {
     console.warn('⚠️  favicon.ico falhou:', err.message);
   }
 
-  // og default 1200x630 com fundo gradiente azul
-  const ogSvg = `
+  // og default 1200x630.
+  // Fundo claro, e nao o degrade azul de antes: a logomarca tem o "Melhor" em
+  // azul escuro e sumiria em cima de azul.
+  const ogFundo = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B5FFF"/>
-      <stop offset="1" stop-color="#0847B8"/>
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#g)"/>
-  <g transform="translate(100 200)">
-    <rect x="-10" y="-40" width="160" height="160" rx="36" fill="rgba(255,255,255,0.12)"/>
-    <circle cx="70" cy="40" r="48" fill="#fff"/>
-    <circle cx="70" cy="40" r="26" fill="#E8F1FF"/>
-    <circle cx="70" cy="40" r="10" fill="#0B5FFF"/>
-  </g>
-  <text x="300" y="280" fill="#fff" font-family="Inter, Arial" font-size="72" font-weight="800">Melhor Lava e Seca</text>
-  <text x="300" y="360" fill="rgba(255,255,255,0.85)" font-family="Inter, Arial" font-size="36" font-weight="500">Reviews honestos das melhores de 2026</text>
-  <text x="300" y="480" fill="rgba(255,255,255,0.7)" font-family="Inter, Arial" font-size="28" font-weight="500">melhorlavaeseca.com</text>
+  <rect x="0" y="606" width="1200" height="24" fill="#0B5FFF"/>
+  <text x="100" y="430" fill="#0A2A5E" font-family="Inter, Arial" font-size="40" font-weight="700">Reviews honestos das melhores de 2026</text>
+  <text x="100" y="500" fill="#5A6B85" font-family="Inter, Arial" font-size="30" font-weight="500">melhorlavaeseca.com</text>
 </svg>
   `.trim();
-  await sharp(Buffer.from(ogSvg)).png().toFile(path.join(OG_DIR, 'og-default.png'));
+
+  const logoOg = await sharp(LOGO_SRC).resize({ width: 620 }).png().toBuffer();
+
+  await sharp(Buffer.from(ogFundo))
+    .composite([{ input: logoOg, left: 100, top: 150 }])
+    .png()
+    .toFile(path.join(OG_DIR, 'og-default.png'));
   console.log('✅ og/og-default.png (1200x630)');
 }
 

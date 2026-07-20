@@ -5,6 +5,7 @@ import readingTime from 'reading-time';
 import { remark } from 'remark';
 import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
+import { site } from './site';
 
 const BLOG_DIR = path.join(process.cwd(), 'src', 'content', 'blog');
 
@@ -43,7 +44,7 @@ export function getPostBySlug(slug) {
     updated: data.updated || data.date || new Date().toISOString(),
     category: data.category || 'Guia',
     tags: data.tags || [],
-    author: data.author || 'Equipe Melhor Lava e Seca',
+    author: data.author || site.author,
     image: data.image || '/images/blog/default-cover.jpg',
     keywords: data.keywords || [],
     content,
