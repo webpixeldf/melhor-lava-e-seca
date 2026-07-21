@@ -159,8 +159,11 @@
         "especificações lava e seca samsung wd11m",
         "preço lava e seca samsung wd11m"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.51%"
+      ]
     },
     {
       "keyword": "melhor lava e seca philco",
