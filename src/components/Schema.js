@@ -32,11 +32,9 @@ export function WebSiteSchema() {
     description: site.tagline,
     inLanguage: 'pt-BR',
     publisher: { '@id': `${site.url}/#organization` },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${site.url}/?s={search_term_string}`,
-      'query-input': 'required name=search_term_string',
-    },
+    // SearchAction REMOVIDO (22/07/2026): declarava uma busca em /?s= que o
+    // site nao tem. O Google testa a URL do sitelinks searchbox; apontar pra
+    // uma busca inexistente e dado estruturado falso.
   };
   return <JsonLd data={data} />;
 }
@@ -97,8 +95,8 @@ export function ProductSchema({ product }) {
     // frustrar quem clica esperando aquele valor.
     //
     // Nao da pra manter so o "offers" sem preco: Offer sem price e schema
-    // invalido. E o resultado rico continua valendo, porque aggregateRating
-    // e review, que o Google aceita como sinal, seguem presentes.
+    // invalido. E o resultado rico continua valendo, porque o "review"
+    // editorial acima, que o Google aceita como sinal, segue presente.
     //
     // Quando a PA-API for liberada (hoje retorna AssociateNotEligible, exige
     // 3 vendas em 180 dias), da pra reintroduzir com preco real e automatico.
