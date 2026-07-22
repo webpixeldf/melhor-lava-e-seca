@@ -33,33 +33,62 @@ export function markStatus(data, slug, status, extra = {}) {
 }
 
 /**
+ * Tokens que precisam de caixa propria quando a keyword vira titulo.
+ * A keyword da planilha e toda minuscula ("melhor lava e seca lg"); sem isso
+ * o H2 sai com a marca em minuscula ("...lava e seca lg").
+ */
+const CAPS = {
+  lg: 'LG', samsung: 'Samsung', hisense: 'Hisense', philco: 'Philco',
+  electrolux: 'Electrolux', brastemp: 'Brastemp', midea: 'Midea',
+  tcl: 'TCL', toshiba: 'Toshiba', eos: 'EOS', consul: 'Consul',
+  panasonic: 'Panasonic', bespoke: 'Bespoke',
+  wd11m: 'WD11M', wd11t: 'WD11T', wd13t: 'WD13T', wd11a: 'WD11A',
+  vc2: 'VC2', vc4: 'VC4', pls11c: 'PLS11C', mf200d: 'MF200D',
+  bnq10: 'BNQ10', hc2: 'HC2', oe: 'OE',
+};
+
+/** Keyword em forma de titulo: 1a letra maiuscula + marcas/modelos com caixa certa. */
+export function displayKeyword(keyword) {
+  const s = keyword
+    .split(/\s+/)
+    .map((w) => CAPS[w.toLowerCase()] || w)
+    .join(' ');
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+/**
  * Esqueleto de H2 por intencao. Segue o padrao definido pela consultoria:
  * review de verdade tem testes, pros, contras, comparativo e veredito.
  *
  * `weight` distribui o total de palavras entre as secoes.
+ *
+ * Onde a keyword entra num H2, SEMPRE na forma "{kw}: complemento". Colar a
+ * keyword no meio da frase quebra a gramatica quando ela ja comeca com
+ * "melhor" — foi o que gerou "As melhores opções de Melhor lava e seca lg"
+ * em todos os rankings publicados ate 22/07/2026.
  */
 const OUTLINES = {
   review: [
-    { h2: 'O que é a {kw}', weight: 10, guide: 'Explique o que é o produto, em que categoria se encaixa e qual a proposta principal dele. Contextualize pra quem nunca ouviu falar.' },
+    { h2: '{kw}: visão geral do modelo', weight: 10, guide: 'Explique o que é o produto, em que categoria se encaixa e qual a proposta principal dele. Contextualize pra quem nunca ouviu falar.' },
     { h2: 'Principais características e especificações', weight: 14, guide: 'Liste recursos e ficha técnica em bullets: capacidade de lavagem e secagem, motor, rotação, programas, eficiência energética, dimensões, voltagem. Seja concreto.' },
-    { h2: 'Como avaliamos a {kw}', weight: 10, guide: 'Explique a metodologia: quanto tempo de uso, que tipo de carga foi testada, o que foi medido (consumo, ruído, tempo de ciclo, resultado de secagem). Isso dá credibilidade.' },
+    { h2: 'Como avaliamos este modelo', weight: 10, guide: 'Explique a metodologia: quanto tempo de uso, que tipo de carga foi testada, o que foi medido (consumo, ruído, tempo de ciclo, resultado de secagem). Isso dá credibilidade.' },
     { h2: 'Pontos positivos', weight: 12, guide: 'Prós específicos e justificados, não genéricos. Cada ponto explica POR QUE é bom no uso real.' },
     { h2: 'Pontos negativos', weight: 12, guide: 'Contras reais e honestos. Review sem defeito não tem credibilidade. Explique o impacto prático de cada limitação.' },
     { h2: 'Para quem vale a pena', weight: 10, guide: 'Descreva o perfil ideal de usuário: tamanho de família, tipo de moradia, rotina de lavagem, orçamento. E também para quem NÃO vale.' },
     { h2: 'Comparação com alternativas', weight: 12, guide: 'Compare com 2 ou 3 concorrentes diretos, em tabela markdown. Colunas: modelo, capacidade, recurso diferencial, para quem serve.' },
     { h2: 'Preço e custo-benefício', weight: 8, guide: 'Discuta a faixa de preço e se o valor se justifica frente ao que entrega e aos concorrentes. NUNCA cite valores em reais: diga para consultar o preço atualizado.' },
     { h2: 'Veredito final', weight: 8, guide: 'Resposta objetiva e direta: vale a pena ou não, e em que condição. Sem enrolação.' },
-    { h2: 'Perguntas frequentes sobre a {kw}', weight: 4, guide: 'De 4 a 5 perguntas reais que quem pesquisa esse termo faz, cada uma com resposta curta e direta. Use H3 para cada pergunta.' },
+    { h2: 'Perguntas frequentes', weight: 4, guide: 'De 4 a 5 perguntas reais que quem pesquisa esse termo faz, cada uma com resposta curta e direta. Use H3 para cada pergunta.' },
   ],
   ranking: [
     { h2: 'Como escolhemos as melhores opções', weight: 10, guide: 'Explique os critérios de avaliação e a metodologia. O que foi priorizado e por quê.' },
-    { h2: 'As melhores opções de {kw}', weight: 26, guide: 'Apresente de 5 a 7 modelos. Para cada um use H3 com o nome do modelo, e traga: para quem serve, principais recursos, um ponto forte e um ponto fraco reais.' },
-    { h2: 'Comparativo lado a lado', weight: 10, guide: 'Tabela markdown comparando os modelos citados: capacidade de lavagem e secagem, motor, recurso destaque, perfil indicado.' },
+    { h2: '{kw}: as melhores opções', weight: 26, guide: 'Apresente APENAS modelos da lista fornecida — de 3 a 7. Se a lista tiver menos que 5, apresente todos e NENHUM a mais (nunca complete com modelo de outra marca). Para cada um use H3 com o nome do modelo, e traga: para quem serve, principais recursos, um ponto forte e um ponto fraco reais.' },
+    { h2: 'Comparativo lado a lado', weight: 10, guide: 'Tabela markdown comparando SOMENTE os modelos apresentados na seção anterior (nenhum outro): capacidade de lavagem e secagem, motor, recurso destaque, perfil indicado.' },
     { h2: 'Guia de compra: o que observar antes de decidir', weight: 20, guide: 'Fatores decisivos com H3: capacidade, tipo de motor, eficiência energética, programas que se usa de verdade, espaço e dimensões, assistência técnica. Explique o impacto prático de cada um.' },
     { h2: 'Qual escolher para cada perfil', weight: 12, guide: 'Recomendação por cenário: casal, família grande, apartamento pequeno, orçamento apertado, quem quer tecnologia.' },
     { h2: 'Erros comuns na hora de comprar', weight: 10, guide: 'Armadilhas frequentes e como evitar. Traga situações concretas.' },
     { h2: 'Veredito: qual vale mais a pena', weight: 8, guide: 'Fechamento objetivo indicando as melhores escolhas por categoria.' },
-    { h2: 'Perguntas frequentes sobre {kw}', weight: 4, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+    { h2: 'Perguntas frequentes', weight: 4, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
   ],
   guia: [
     // A forma "{kw}: subtitulo" e gramaticalmente segura com qualquer
@@ -98,8 +127,9 @@ export function buildOutline(pauta) {
   const bodyWords = Math.max(pauta.targetWords - introWords, 400);
   const totalWeight = base.reduce((s, x) => s + x.weight, 0);
 
-  // A keyword abre o H2 na forma "{kw}: ...", entao entra capitalizada.
-  const kwCap = pauta.keyword.charAt(0).toUpperCase() + pauta.keyword.slice(1);
+  // A keyword abre o H2 na forma "{kw}: ...", entao entra capitalizada e com
+  // marca/modelo na caixa certa ("Melhor lava e seca LG", nao "...lg").
+  const kwCap = displayKeyword(pauta.keyword);
 
   return base.map((s) => ({
     h2: s.h2.replace(/\{kw\}/g, kwCap),

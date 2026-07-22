@@ -25,9 +25,10 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config();
 
-import { loadQueue, saveQueue, nextPending, markStatus, buildOutline } from './lib/cronograma.mjs';
+import { loadQueue, saveQueue, markStatus, buildOutline } from './lib/cronograma.mjs';
 import { addInternalLinks, buildLeiaTambem, linkBackToNewPost } from './lib/interlink.mjs';
 import { fetchBlogCover } from './lib/unsplash.mjs';
+import { fixAccents } from './lib/accents.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -58,7 +59,7 @@ COMO VOCE ESCREVE:
   NUNCA passe de 420 caracteres. A maioria le no celular, e bloco grande de
   texto faz o leitor desistir. Na duvida, quebre em dois. Paragrafo de uma
   frase so, isolado, tambem funciona bem e cria respiro.
-- Concreto sempre: numero, exemplo, situacao real. "Economiza energia" e vago; "gasta cerca de 0,27 kWh por ciclo em agua fria" e util.
+- Concreto sempre: exemplo e situacao real. Numero exato, SO quando ele veio na lista de modelos fornecida. Se voce nao tem o numero, seja concreto pelo cenario ("um edredom de casal precisa de duas levas pra secar") — nunca invente valor.
 
 O QUE VOCE NUNCA FAZ:
 - Nunca copie nem parafraseie texto de outro site. Escreva do zero, com seu proprio angulo.
@@ -67,6 +68,7 @@ O QUE VOCE NUNCA FAZ:
 - Nunca abra secao com definicao de dicionario.
 - Nunca escreva conclusao generica tipo "espero ter ajudado" ou "em suma".
 - Nunca cite preco em reais. Diga para consultar o preco atualizado.
+- Nunca cite numero de kWh, decibeis, rpm ou anos de garantia que nao esteja na lista de modelos fornecida. Sem o dado, fale qualitativamente ("gasta pouco", "quase nao vibra").
 - Nunca invente link, URL ou marcacao de link. Escreva so o texto corrido: os links sao inseridos depois.
 
 REGRA DE PRODUTOS (a mais importante de todas):
@@ -82,16 +84,79 @@ com modelo inventado.`;
  * pode citar: sem isso ele alucina ("Samsung WD5000", "WD9000") — foi o que
  * aconteceu no primeiro teste.
  */
-function catalogBlock() {
+function loadCatalog() {
   const file = path.join(ROOT, 'src', 'content', 'products.js');
-  if (!fs.existsSync(file)) return '';
+  if (!fs.existsSync(file)) return [];
   const src = fs.readFileSync(file, 'utf8');
-  const re = /name:\s*'([^']+)'[\s\S]{0,900}?capacityWash:\s*([\d.]+)[\s\S]{0,200}?capacityDry:\s*([\d.]+)/g;
-  const lines = [];
+  const out = [];
+  const re = /name:\s*'([^']+)',\s*\n\s*brand:\s*'([^']+)'[\s\S]{0,1500}?capacityWash:\s*([\d.]+),[\s\S]{0,120}?capacityDry:\s*([\d.]+)/g;
   let m;
-  while ((m = re.exec(src))) lines.push(`- ${m[1]} (lava ${m[2]}kg / seca ${m[3]}kg)`);
-  if (!lines.length) return '';
-  return `\n\nMODELOS QUE VOCE PODE CITAR (os unicos — nao invente outros):\n${lines.join('\n')}\n\nSe a pauta for de uma marca que nao esta nessa lista, NAO cite modelo nenhum dessa marca: fale de criterios e do que observar na hora de escolher.`;
+  while ((m = re.exec(src))) {
+    out.push({ name: m[1], brand: m[2], wash: parseFloat(m[3]), dry: parseFloat(m[4]) });
+  }
+  return out;
+}
+
+// Marcas que existem no mercado mas (ainda) nao no catalogo. Se a pauta cita
+// uma delas, a cobertura reprova em vez de deixar o artigo coroar uma Samsung
+// como "melhor Philco" — exatamente o que saiu publicado em 22/07/2026.
+const MARCAS_FORA = ['philco', 'tcl', 'toshiba', 'panasonic', 'consul', 'wanke', 'mueller', 'eos', 'gree', 'daewoo'];
+
+/**
+ * Cobertura de catalogo da pauta. Ranking/review/comparativo so podem citar
+ * modelo real, entao:
+ *   - pauta de marca -> so modelos DAQUELA marca; nenhum -> pula a pauta;
+ *   - pauta de capacidade ("13kg") -> so modelos daquela faixa;
+ *   - ranking com menos de 3 modelos cobertos nao e ranking honesto -> pula;
+ *   - review de modelo que nao esta no catalogo -> pula.
+ * Pauta pulada recebe status proprio na fila e a razao registrada, pra virar
+ * decisao editorial (ampliar catalogo ou descartar a pauta) em vez de artigo ruim.
+ */
+function checkCoverage(pauta, catalog) {
+  if (!NEEDS_CATALOG.has(pauta.intent)) return { ok: true, models: [] };
+
+  const kw = ` ${pauta.keyword.toLowerCase()} `;
+  const knownBrands = [...new Set([...catalog.map((c) => c.brand.toLowerCase()), ...MARCAS_FORA])];
+  const brands = knownBrands.filter((b) => kw.includes(` ${b} `));
+
+  let models = catalog;
+  if (brands.length) {
+    models = catalog.filter((c) => brands.includes(c.brand.toLowerCase()));
+    if (!models.length) return { ok: false, reason: `marca sem produto no catalogo: ${brands.join(', ')}` };
+  }
+
+  const caps = [...pauta.keyword.matchAll(/(\d+(?:[.,]\d+)?)\s*kg/g)].map((m) => parseFloat(m[1].replace(',', '.')));
+  if (caps.length) {
+    models = models.filter((c) => caps.some((v) => Math.abs(c.wash - v) < 0.6));
+    if (!models.length) return { ok: false, reason: `nenhum modelo de ${caps.join('/')}kg no catalogo` };
+  }
+
+  // Codigo de modelo na keyword ("wd11t", "pls11c"): precisa existir de verdade.
+  const tokens = pauta.keyword.toLowerCase().match(/\b[a-z]{2,4}\d+\w*\b/g) || [];
+  for (const t of tokens) {
+    if (!models.some((c) => c.name.toLowerCase().includes(t))) {
+      return { ok: false, reason: `modelo "${t}" nao esta no catalogo` };
+    }
+  }
+
+  if (pauta.intent === 'ranking' && models.length < 3) {
+    return { ok: false, reason: `apenas ${models.length} modelo(s) cobrem a pauta — ranking honesto precisa de 3+` };
+  }
+  if (pauta.intent === 'comparativo') {
+    for (const b of brands) {
+      if (!models.some((c) => c.brand.toLowerCase() === b)) {
+        return { ok: false, reason: `comparativo sem modelo da marca ${b}` };
+      }
+    }
+  }
+
+  return { ok: true, models };
+}
+
+function catalogBlock(models) {
+  if (!models.length) return '';
+  const lines = models.map((c) => `- ${c.name} (lava ${c.wash}kg / seca ${c.dry}kg)`);
+  return `\n\nMODELOS QUE VOCE PODE CITAR (os unicos — nao invente outros nem cite modelo de outra marca):\n${lines.join('\n')}`;
 }
 
 /**
@@ -111,9 +176,8 @@ function themesFrom(pauta) {
 // Intencoes que citam modelo especifico e portanto precisam do catalogo real.
 const NEEDS_CATALOG = new Set(['ranking', 'review', 'comparativo']);
 
-function sectionPrompt(pauta, section, index, total, written) {
+function sectionPrompt(pauta, section, index, total, written, catalogo) {
   const secundarias = themesFrom(pauta);
-  const catalogo = NEEDS_CATALOG.has(pauta.intent) ? catalogBlock() : '';
   return `ARTIGO: "${pauta.title}"${catalogo}
 PALAVRA-CHAVE PRINCIPAL: "${pauta.keyword}"
 TEMAS A COBRIR AO LONGO DO ARTIGO (aborde os que fizerem sentido nesta secao): ${secundarias}
@@ -137,13 +201,14 @@ ${written.length ? `SECOES JA ESCRITAS (NAO repita esse conteudo, nao reintroduz
 ${written.map((w) => '- ' + w).join('\n')}` : 'Esta e a primeira secao do corpo.'}
 
 REGRAS DESTA SECAO:
-- REPETICAO DA PALAVRA-CHAVE: a expressao exata "${pauta.keyword}" deve
-  aparecer 1 ou 2 vezes nesta secao (contando o subtitulo) — nem menos, nem
-  mais. Menos que isso e o Google nao entende o tema; mais que isso vira
-  stuffing. No resto do texto use
-  sinonimo ("a maquina", "o aparelho", "ela", "esse tipo de lavadora") ou
-  simplesmente omita — o leitor ja sabe do que voce esta falando. Repetir a
-  expressao inteira toda hora e o erro que mais denuncia texto feito por IA.
+- REPETICAO DA PALAVRA-CHAVE: a expressao exata "${pauta.keyword}" pode
+  aparecer NO MAXIMO 1 vez nesta secao (contando o subtitulo) — e somente
+  onde encaixar com naturalidade absoluta. Se a frase precisar se contorcer
+  pra caber a expressao, NAO use: prefira sinonimo ("a maquina", "o aparelho",
+  "ela", "esse tipo de lavadora") ou simplesmente omita — o leitor ja sabe do
+  que voce esta falando. Forcar a expressao inteira onde ela nao cabe e o erro
+  que mais denuncia texto feito por IA (ex.: "essa e a melhor lava e seca X
+  que cabe no bolso" falando de um modelo de outra marca).
 - Comece direto pelo H2 acima. Nao escreva introducao do artigo nem frontmatter.
 - Use H3 (###) para subdividir quando fizer sentido. Nunca use H4 ou menor.
 - Pelo menos um subtitulo desta secao deve conter a palavra-chave principal ou uma secundaria, desde que fique natural.
@@ -196,27 +261,10 @@ function clean(md) {
     .trim();
 }
 
-/**
- * O DeepSeek as vezes deixa escapar palavra sem acento mesmo com a regra no
- * prompt. Corrige as reincidentes sem tocar em nada mais.
- */
-const ACENTOS = [
-  [/\bmaquina(s)?\b/g, 'máquina$1'], [/\bvoce\b/g, 'você'],
-  [/\bagua\b/g, 'água'], [/\btambem\b/g, 'também'],
-  [/\bproprio(s|a|as)?\b/g, 'próprio$1'], [/\bpossivel(is)?\b/g, 'possível$1'],
-  [/\bfacil(is)?\b/g, 'fácil$1'], [/\brapido(s|a|as)?\b/g, 'rápido$1'],
-  [/\bbasico(s|a|as)?\b/g, 'básico$1'], [/\btecnico(s|a|as)?\b/g, 'técnico$1'],
-  [/\bperiodo(s)?\b/g, 'período$1'], [/\bautomatico(s|a|as)?\b/g, 'automático$1'],
-  [/\bumido(s|a|as)?\b/g, 'úmido$1'], [/\bminimo(s|a|as)?\b/g, 'mínimo$1'],
-  [/\bmaximo(s|a|as)?\b/g, 'máximo$1'], [/\beletrico(s|a|as)?\b/g, 'elétrico$1'],
-  [/\benergetico(s|a|as)?\b/g, 'energético$1'], [/\bconteudo(s)?\b/g, 'conteúdo$1'],
-];
-
-function fixAccents(md) {
-  let out = md;
-  for (const [re, to] of ACENTOS) out = out.replace(re, to);
-  return out;
-}
+// A correcao de acentuacao mora em lib/accents.mjs (lista bem maior que a
+// original: o modelo escapava com "nao", "voce", "ja", "pecas"... em secoes
+// inteiras). O validate() ainda tem uma rede de seguranca por densidade de
+// acentos pro que a lista nao cobrir.
 
 /**
  * Quebra paragrafo longo em dois, cortando no fim de frase mais proximo do
@@ -336,6 +384,26 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
   const sentences = body.split(/(?<=[.!?])\s+/).map((s) => s.trim().toLowerCase()).filter((s) => s.length > 60);
   const dupes = sentences.length - new Set(sentences).size;
   if (dupes > 2) problems.push(`${dupes} frases repetidas literalmente`);
+
+  // Consumo por ciclo com precisao falsa ("0,27 kWh", "0,23 kWh"): nao ha
+  // fonte pra esse dado no catalogo, entao qualquer valor assim e inventado —
+  // um exemplo de prompt antigo apareceu em 6 dos 8 primeiros artigos.
+  if (/\b0,\d{1,2}\s*kwh/i.test(body)) {
+    problems.push('consumo em kWh com precisao falsa (dado sem fonte no catalogo)');
+  }
+
+  // Secao praticamente sem acento = o modelo escreveu sem acentuacao e a
+  // whitelist de accents.mjs nao cobriu tudo. Texto normal em portugues tem
+  // ~2-4% de caracteres acentuados; abaixo de 0,25% e falha sistemica.
+  for (const bloco of body.split(/\n(?=## )/)) {
+    const texto = bloco.replace(/\|[^\n]*\|/g, '');
+    if (texto.length < 400) continue;
+    const acentuados = (texto.match(/[áàâãéêíóôõúç]/gi) || []).length;
+    if (acentuados < texto.length / 400) {
+      problems.push(`secao com acentuacao faltando: "${bloco.trim().slice(0, 48)}..."`);
+      break;
+    }
+  }
 
   return { ok: problems.length === 0, problems, words, density, occurrences, headings: headings.length };
 }
@@ -489,10 +557,11 @@ function readCorpus() {
     .filter((c) => c.keyword);
 }
 
-async function generate(pauta, corpus) {
+async function generate(pauta, corpus, models = []) {
   const outline = buildOutline(pauta);
+  const catalogo = catalogBlock(models);
   console.log(`\n  "${pauta.title}"`);
-  console.log(`   /blog/${pauta.slug}/ | ${pauta.intent} | alvo ${pauta.targetWords}p | ${outline.length} secoes`);
+  console.log(`   /blog/${pauta.slug}/ | ${pauta.intent} | alvo ${pauta.targetWords}p | ${outline.length} secoes | ${models.length} modelo(s) no catalogo da pauta`);
 
   console.log('   intro...');
   const intro = clean(await ask([
@@ -512,14 +581,14 @@ async function generate(pauta, corpus) {
     const budget = Math.min(4096, Math.max(900, Math.round(s.words * 4)));
     let md = clean(await ask([
       { role: 'system', content: VOICE },
-      { role: 'user', content: sectionPrompt(pauta, s, i, outline.length, written) },
+      { role: 'user', content: sectionPrompt(pauta, s, i, outline.length, written, catalogo) },
     ], budget));
 
     if (looksTruncated(md)) {
       process.stdout.write('(truncou, refazendo) ');
       md = clean(await ask([
         { role: 'system', content: VOICE },
-        { role: 'user', content: sectionPrompt(pauta, s, i, outline.length, written) },
+        { role: 'user', content: sectionPrompt(pauta, s, i, outline.length, written, catalogo) },
       ], 4096));
     }
 
@@ -541,20 +610,38 @@ async function generate(pauta, corpus) {
 
 async function main() {
   const queue = loadQueue();
-  const pautas = ONLY
-    ? queue.items.filter((i) => i.slug === ONLY)
-    : nextPending(queue, COUNT);
-
-  if (!pautas.length) { console.log('Nada pendente na fila.'); return; }
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   fs.mkdirSync(IMG_DIR, { recursive: true });
 
+  const catalog = loadCatalog();
   let published = 0, skipped = 0;
+  const tried = new Set();
 
-  for (const pauta of pautas) {
+  // Pauta sem cobertura de catalogo e PULADA (status registrado) e a fila
+  // segue pra proxima: melhor a execucao publicar a pauta seguinte do que
+  // sair um "ranking Philco" cheio de Samsung, ou nada.
+  while (published < COUNT) {
+    const pauta = ONLY
+      ? queue.items.find((i) => i.slug === ONLY && !tried.has(i.slug))
+      : queue.items.find((i) => i.status === 'pending' && !tried.has(i.slug));
+    if (!pauta) {
+      if (!tried.size) console.log(ONLY ? `Pauta "${ONLY}" nao encontrada.` : 'Nada pendente na fila.');
+      break;
+    }
+    tried.add(pauta.slug);
+
+    const cover = checkCoverage(pauta, catalog);
+    if (!cover.ok) {
+      console.log(`\n  "${pauta.title}"\n   PULADO (sem cobertura): ${cover.reason}`);
+      if (!DRY && !ONLY) { markStatus(queue, pauta.slug, 'sem-cobertura', { problems: [cover.reason] }); saveQueue(queue); }
+      skipped++;
+      if (ONLY) break;
+      continue;
+    }
+
     const corpus = readCorpus();
     try {
-      const { body, intro, check } = await generate(pauta, corpus);
+      const { body, intro, check } = await generate(pauta, corpus, cover.models);
 
       if (!check.ok) {
         console.log(`   REPROVADO: ${check.problems.join('; ')}`);
