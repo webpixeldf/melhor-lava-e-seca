@@ -33,59 +33,59 @@ No fim das contas, montei um ranking que equilibra preço, economia, silêncio e
 
 ### Samsung WD11M AddWash
 
-Essa máquina e pra quem não suporta esquecer uma meia dentro do cesto e ter que esperar o ciclo inteiro. A porta AddWash permite abrir a máquina no meio da lavagem e colocar uma peça esquecida, literalmente. A capacidade e boa pra famílias de até 4 pessoas: lava 11kg e seca 7kg.
+Essa máquina é pra quem não suporta esquecer uma meia dentro do cesto e ter que esperar o ciclo inteiro. A porta AddWash permite abrir a máquina no meio da lavagem e colocar uma peça esquecida, literalmente. A capacidade é boa pra famílias de até 4 pessoas: lava 11kg e seca 7kg.
 
-O ponto forte e justamente essa praticidade de adicionar roupa durante o ciclo. Não tem outro modelo com essa feature no mercado hoje.
+O ponto forte é justamente essa praticidade de adicionar roupa durante o ciclo. Não tem outro modelo com essa feature no mercado hoje.
 
 Ponto fraco: o consumo de água e um pouco mais alto que a média da categoria, então se sua conta já pesa, vale ficar de olho. E o preço costuma ser salgado, mas promo aparece com certa frequência.
 
 ### LG VC4 AI Direct Drive
 
-Essa e a queridinha de quem prioriza máquina silenciosa. O motor Inverter Direct Drive da LG elimina correias e polias, então ela praticamente sussurra na centrifugação. Ideal pra quem lava a noite ou mora em apto com isolamento acústico duvidoso.
+Essa é a queridinha de quem prioriza máquina silenciosa. O motor Inverter Direct Drive da LG elimina correias e polias, então ela praticamente sussurra na centrifugação. Ideal pra quem lava à noite ou mora em apto com isolamento acústico duvidoso.
 
 Outra vantagem: a tecnologia AI DD ajusta o movimento do cesto conforme o peso e o tipo de tecido, o que evita desgaste desnecessário. Lava 11kg e seca 7kg, mesma faixa da Samsung.
 
-O contra e que o painel touch pode ser um pouco lento pra responder, e secagem de edredons pesados não fica 100% — você vai precisar de um tempinho extra no varal. Nada grave, mas e bom saber.
+O contra é que o painel touch pode ser um pouco lento pra responder, e secagem de edredons pesados não fica 100% — você vai precisar de um tempinho extra no varal. Nada grave, mas é bom saber.
 
 ### Samsung WD13T Smart Inverter
 
-Aqui a conversa e pra quem tem família grande ou acumula muita roupa durante a semana. Com 13kg de lavagem e 8kg de secagem, ela leva um edredom king size e ainda sobra espaço pra mais peças. O motor Digital Inverter e silencioso e vem com 10 anos de garantia no motor.
+Aqui a conversa é pra quem tem família grande ou acumula muita roupa durante a semana. Com 13kg de lavagem e 8kg de secagem, ela leva um edredom king size e ainda sobra espaço pra mais peças. O motor Digital Inverter é silencioso e vem com 10 anos de garantia no motor.
 
-O ponto forte e sem dúvida a capacidade: e a maior entre as lava e seca da Samsung que cabem no Brasil. O tambor também tem um design que trata melhor os tecidos, então suas camisas sociais duram mais.
+O ponto forte é sem dúvida a capacidade: é a maior entre as lava e seca da Samsung que cabem no Brasil. O tambor também tem um design que trata melhor os tecidos, então suas camisas sociais duram mais.
 
-O ponto fraco e que ela e mais larga que o padrão (60cm x 60cm x 85cm), então meça as medidas do seu banheiro ou área de serviço antes de comprar. E o consumo de energia no ciclo de secagem e elevado — nada fora do normal pra categoria, mas vale considerar.
+O ponto fraco é que ela é mais larga que o padrão (60cm x 60cm x 85cm), então meça as medidas do seu banheiro ou área de serviço antes de comprar. E o consumo de energia no ciclo de secagem é elevado — nada fora do normal pra categoria, mas vale considerar.
 
 ### Electrolux LSP11 Turbo
 
-Essa e pra quem não abre mão de secagem rápida. O ciclo TurboSecagem promete secar 3kg de algodão em menos de 50 minutos, o que e ótimo pra quem precisa de roupa no mesmo dia. Lava 11kg e seca 7kg.
+Essa é pra quem não abre mão de secagem rápida. O ciclo TurboSecagem promete secar 3kg de algodão em menos de 50 minutos, o que é ótimo pra quem precisa de roupa no mesmo dia. Lava 11kg e seca 7kg.
 
-O ponto forte e justamente essa velocidade na secagem, que e realmente notável. A bomba de calor que ela usa ajuda a economizar energia comparada com modelos mais antigos.
+O ponto forte é justamente essa velocidade na secagem, que é realmente notável. A bomba de calor que ela usa ajuda a economizar energia comparada com modelos mais antigos.
 
-Ponto fraco: o painel e um pouco confuso de navegar no início — você vai precisar do manual nos primeiros usos. E a garantia de motor e de 5 anos, enquanto concorrentes oferecem 10. Não e um problema grave, mas e diferença.
+Ponto fraco: o painel é um pouco confuso de navegar no início — você vai precisar do manual nos primeiros usos. E a garantia de motor é de 5 anos, enquanto concorrentes oferecem 10. Não é um problema grave, mas é diferença.
 
 ### Samsung Ecobubble Digital Inverter
 
-Essa e a melhor custo-benefício da linha Samsung atualmente. A tecnologia Ecobubble dissolve o sabão em bolhas antes de jogar na roupa, então ela lava bem até em água fria. Isso e ótimo pra quem quer economizar na conta de luz (água fria gasta menos energia pra aquecer).
+Essa é a melhor custo-benefício da linha Samsung atualmente. A tecnologia Ecobubble dissolve o sabão em bolhas antes de jogar na roupa, então ela lava bem até em água fria. Isso é ótimo pra quem quer economizar na conta de luz (água fria gasta menos energia pra aquecer).
 
 Lava 11kg e seca 7kg, o suficiente pra maioria das famílias. O motor Digital Inverter e silencioso e eficiente.
 
-O ponto fraco e que o programa de secagem pode deixar algumas peças um pouco úmidas se você lotar o tambor. Respeitar a capacidade de secagem (7kg) e essencial. Nada que um ciclo extra de centrifugação não resolva.
+O ponto fraco é que o programa de secagem pode deixar algumas peças um pouco úmidas se você lotar o tambor. Respeitar a capacidade de secagem (7kg) é essencial. Nada que um ciclo extra de centrifugação não resolva.
 
 ### Brastemp BNQ10AB Inverter
 
-Se você quer uma máquina confiável de uma marca brasileira, essa e a opção mais sólida. Ela tem motor Inverter (portanto, silenciosa e econômica), lava 10kg e seca 6.5kg. Ideal pra casais ou famílias pequenas.
+Se você quer uma máquina confiável de uma marca brasileira, essa é a opção mais sólida. Ela tem motor Inverter (portanto, silenciosa e econômica), lava 10kg e seca 6.5kg. Ideal pra casais ou famílias pequenas.
 
-O ponto forte e a durabilidade. A Brastemp tem uma rede de assistência técnica que cobre o país todo, e as peças são fáceis de encontrar. Se der problema daqui 5 anos, você resolve com rapidez.
+O ponto forte é a durabilidade. A Brastemp tem uma rede de assistência técnica que cobre o país todo, e as peças são fáceis de encontrar. Se der problema daqui 5 anos, você resolve com rapidez.
 
-Ponto fraco: a capacidade de secagem e a menor da lista (6.5kg). Se você lava muito edredom ou peças volumosas, pode ser limitante. Também o preço inicial costuma ser mais alto que concorrentes com a mesma capacidade.
+Ponto fraco: a capacidade de secagem é a menor da lista (6.5kg). Se você lava muito edredom ou peças volumosas, pode ser limitante. Também o preço inicial costuma ser mais alto que concorrentes com a mesma capacidade.
 
 ### Hisense WD3S11 Smart
 
-Essa e a opção de entrada que entrega mais do que o básico. Lava 11kg e seca 7kg, tem motor Inverter (portanto, silenciosa) e conectividade Wi-Fi pra controlar pelo celular. O ponto forte e o custo-benefício.
+Essa é a opção de entrada que entrega mais do que o básico. Lava 11kg e seca 7kg, tem motor Inverter (portanto, silenciosa) e conectividade Wi-Fi pra controlar pelo celular. O ponto forte é o custo-benefício.
 
-Ela e mais barata que a concorrência direta da Samsung e LG, mas entrega recursos similares. A conectividade Smart e útil pra programar ciclos de longe ou receber notificações quando o ciclo termina.
+Ela é mais barata que a concorrência direta da Samsung e LG, mas entrega recursos similares. A conectividade Smart é útil pra programar ciclos de longe ou receber notificações quando o ciclo termina.
 
-Ponto fraco: o app e um pouco instável e, em algumas casas, a conexão cai as vezes. Também a garantia de motor e de 5 anos, não 10. Mas pelo preço, e uma escolha justa.
+Ponto fraco: o app é um pouco instável e, em algumas casas, a conexão cai às vezes. Também a garantia de motor é de 5 anos, não 10. Mas pelo preço, é uma escolha justa.
 
 ## Comparativo lado a lado
 
@@ -96,7 +96,7 @@ Pra te ajudar a decidir, montei uma tabela que compara os modelos lado a lado. E
 | Modelo | Lavagem (kg) | Secagem (kg) | Motor | Diferencial | Ideal para |
 |---|---|---|---|---|---|
 | [Samsung WD11M AddWash](/#samsung-wd11m-addwash) | 11 | 7 | Digital Inverter | AddWash (portinhola pra adicionar roupa) | Quem esquece peça no meio do ciclo |
-| [LG VC4 AI Direct Drive](/#lg-vc4-ai-direct-drive) | 11 | 7 | Direto (DD) | AI DD (inteligencia artificial) | Quem busca economia de água e energia |
+| [LG VC4 AI Direct Drive](/#lg-vc4-ai-direct-drive) | 11 | 7 | Direto (DD) | AI DD (inteligência artificial) | Quem busca economia de água e energia |
 | [Samsung WD13T Smart Inverter](/#samsung-wd13t-smart-inverter) | 13 | 8 | Digital Inverter | Maior capacidade | Famílias grandes ou roupa de cama |
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 | 7 | Turbo | Ciclo Turbo de 15 min | Quem tem pressa no dia a dia |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 | 7 | Digital Inverter | Ecobubble (bolhas que limpam melhor) | Quem lava roupa delicada |

@@ -231,8 +231,11 @@
         "lava e seca 13kg consumo de energia",
         "lava e seca 13kg garantia"
       ],
-      "status": "publicado",
-      "publishedAt": "2026-07-22T23:37:50-03:00"
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "publicado em 22/07 pelo codigo antigo: ranking 13kg com 1 so modelo de 13kg no catalogo; removido"
+      ]
     },
     {
       "keyword": "melhor lava e seca 14kg",
@@ -300,8 +303,11 @@
         "lava e seca promoção custo benefício consumo de energia",
         "lava e seca promoção custo benefício garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "coberto-pela-home",
+      "publishedAt": null,
+      "problems": [
+        "ranking generico de custo-beneficio duplica a home"
+      ]
     },
     {
       "keyword": "melhor lava e seca inox",
@@ -323,8 +329,11 @@
         "lava e seca inox consumo de energia",
         "lava e seca inox garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "catalogo sem dado de cor/acabamento — afirmacoes sairiam inventadas"
+      ]
     },
     {
       "keyword": "melhor lava e seca lg 12kg",
@@ -530,8 +539,11 @@
         "lava e seca preta consumo de energia",
         "lava e seca preta garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "catalogo sem dado de cor/acabamento"
+      ]
     },
     {
       "keyword": "melhor lava e seca tcl",
@@ -622,8 +634,11 @@
         "lava e seca branca consumo de energia",
         "lava e seca branca garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "catalogo sem dado de cor/acabamento"
+      ]
     },
     {
       "keyword": "lava e seca lg 11 kg é boa",
@@ -875,8 +890,11 @@
         "lava e seca torre consumo de energia",
         "lava e seca torre garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "tipo de produto (torre) ausente do catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca 17kg",
@@ -1013,8 +1031,11 @@
         "maquina lava e seca inox consumo de energia",
         "maquina lava e seca inox garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "catalogo sem dado de cor/acabamento"
+      ]
     },
     {
       "keyword": "melhor maquina lava e seca pequena",
@@ -1059,8 +1080,11 @@
         "valor lava e seca preço opiniões",
         "valor lava e seca preço promoção"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "pauta de preco num site que (corretamente) nao cita preco em reais"
+      ]
     },
     {
       "keyword": "lava e seca lg ou samsung",
@@ -1243,8 +1267,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "recurso de passadoria sem dado no catalogo"
+      ]
     },
     {
       "keyword": "melhor tcl lava e seca",
@@ -1335,8 +1362,11 @@
         "Carrefour",
         "comparar preços"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "pauta de preco num site que nao cita preco em reais"
+      ]
     },
     {
       "keyword": "lava e seca samsung bespoke é boa",
@@ -1404,8 +1434,11 @@
         "Comfort",
         "Ypê amaciante"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "pauta de amaciante num site cujo catalogo so tem maquinas — ranking sairia inventado"
+      ]
     },
     {
       "keyword": "melhor balcão para lava e seca",
@@ -1427,8 +1460,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "acessorio/movel fora do catalogo — ranking sairia inventado"
+      ]
     },
     {
       "keyword": "melhor base para lava e seca",
@@ -1450,8 +1486,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "acessorio fora do catalogo — ranking sairia inventado"
+      ]
     },
     {
       "keyword": "melhor cesto lava e seca samsung",
@@ -1473,8 +1512,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "peca/acessorio fora do catalogo — ranking sairia inventado"
+      ]
     },
     {
       "keyword": "melhor lava e seca suspensa",
@@ -1496,8 +1538,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "tipo de produto (suspensa) ausente do catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca toshiba",
@@ -1726,8 +1771,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "produto de limpeza fora do catalogo — ranking sairia inventado"
+      ]
     },
     {
       "keyword": "reclame aqui brastemp lava e seca",
@@ -1749,8 +1797,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "descartado",
+      "publishedAt": null,
+      "problems": [
+        "exigiria dados reais do Reclame Aqui que nao temos — risco de fabricacao"
+      ]
     },
     {
       "keyword": "amortecedor lava e seca midea",

@@ -171,7 +171,7 @@ Outro ponto: a tecnologia Ecobubble dissolve o sabão antes de jogar no tecido, 
 
 ### Família grande com criança
 
-Quando tem criança em casa, a roupa acumula num piscar de olhos. Aqui o negocio e capacidade maior e ciclo rápido. O Samsung WD13T Smart Inverter, com 13 kg de lavagem e 8 kg de secagem, e o mais indicado. Você lava edredom, toalha de banho e uniforme escolar numa tacada so.
+Quando tem criança em casa, a roupa acumula num piscar de olhos. Aqui o negócio é capacidade maior e ciclo rápido. O Samsung WD13T Smart Inverter, com 13 kg de lavagem e 8 kg de secagem, é o mais indicado. Você lava edredom, toalha de banho e uniforme escolar numa tacada só.
 
 O motor Inverter também faz diferença: além de ser mais silencioso (importante se a máquina ficar perto do quarto das crianças), ele tem garantia mais longa e consome menos eletricidade. Economia que pesa no fim do mês quando a lava e seca roda todo dia.
 

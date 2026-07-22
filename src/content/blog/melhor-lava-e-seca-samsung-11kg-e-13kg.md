@@ -33,45 +33,45 @@ Por fim, priorizamos máquinas que oferecem um bom conjunto: motor eficiente, ca
 
 ### Samsung WD11M AddWash
 
-Essa máquina e a queridinha de quem não quer perder tempo. O diferencial dela e a portinha na porta: você abre, joga aquela meia esquecida ou a roupa que ficou no cesto e pronto, o ciclo continua sem interrupção. Lavar 11kg e secar 7kg atende bem famílias de três a quatro pessoas.
+Essa máquina é a queridinha de quem não quer perder tempo. O diferencial dela é a portinha na porta: você abre, joga aquela meia esquecida ou a roupa que ficou no cesto e pronto, o ciclo continua sem interrupção. Lavar 11kg e secar 7kg atende bem famílias de três a quatro pessoas.
 
-O ponto forte e justamente a praticidade do AddWash. Não precisa esperar o programa acabar nem desligar tudo. O ponto fraco? A secagem de 7kg exige que você tire metade da carga se quiser secar tudo de uma vez. Se lavar lotado, vai ter que pendurar uma parte.
+O ponto forte é justamente a praticidade do AddWash. Não precisa esperar o programa acabar nem desligar tudo. O ponto fraco? A secagem de 7kg exige que você tire metade da carga se quiser secar tudo de uma vez. Se lavar lotado, vai ter que pendurar uma parte.
 
 ### Samsung Ecobubble Digital Inverter
 
 A tecnologia Ecobubble e o trunfo dela. Ela mistura detergente com água e ar antes de jogar na roupa, formando bolhas que penetram mais rápido no tecido. Funciona até em água fria, o que gera uma economia de energia de cerca de 50% comparado com ciclos que aquecem a água.
 
-Lava 11kg e seca 7kg, mas o motor Digital Inverter faz ela ser praticamente silenciosa. Dá pra colocar para lavar de madrugada sem acordar ninguém. O contra e que o painel pode ser confuso no início, com tantas combinações de programas.
+Lava 11kg e seca 7kg, mas o motor Digital Inverter faz ela ser praticamente silenciosa. Dá pra colocar para lavar de madrugada sem acordar ninguém. O contra é que o painel pode ser confuso no início, com tantas combinações de programas.
 
 ### Samsung WD13T Smart Inverter
 
-Se você tem família grande ou faz muitas reuniões em casa, esse modelo e o mais indicado. Com 13kg de lavagem e 8kg de secagem, ele leva edredom de casal e toalhas de banho sem sofrimento. O motor Smart Inverter e super silencioso e vem com garantia de 10 anos no motor.
+Se você tem família grande ou faz muitas reuniões em casa, esse modelo é o mais indicado. Com 13kg de lavagem e 8kg de secagem, ele leva edredom de casal e toalhas de banho sem sofrimento. O motor Smart Inverter é super silencioso e vem com garantia de 10 anos no motor.
 
-A conectividade WiFi permite iniciar ou agendar ciclos pelo celular, o que ajuda no dia a dia corrido. O ponto fraco e o preço: ele e mais caro que os modelos de 11kg, mas entre as opções de 13kg e uma das mais equilibradas em custo-benefício.
+A conectividade WiFi permite iniciar ou agendar ciclos pelo celular, o que ajuda no dia a dia corrido. O ponto fraco é o preço: ele é mais caro que os modelos de 11kg, mas entre as opções de 13kg é uma das mais equilibradas em custo-benefício.
 
 ### Samsung WD11A Ecobubble
 
 Parecida com a versão Digital Inverter, mas com um acabamento um pouco mais simples. Lava 11kg e seca 7kg, e o Ecobubble continua sendo o grande destaque. A economia real aparece na conta de luz: o ciclo a frio é o que menos pesa no consumo.
 
-O ponto forte e o custo-benefício. Costuma aparecer em promoção e entrega um desempenho de secagem consistente, sem encolher as peças. O ponto fraco e que ela não tem o AddWash, então se esquecer uma peça, vai ter que esperar o ciclo acabar ou reiniciar.
+O ponto forte é o custo-benefício. Costuma aparecer em promoção e entrega um desempenho de secagem consistente, sem encolher as peças. O ponto fraco é que ela não tem o AddWash, então se esquecer uma peça, vai ter que esperar o ciclo acabar ou reiniciar.
 
 ### LG VC4 AI Direct Drive
 
-Essa e a principal concorrente da Samsung na faixa de 11kg. Lava 11kg e seca 7kg, mas o motor AI Direct Drive e o destaque: ele detecta o tipo de tecido e ajusta o movimento do cesto automaticamente. Roupa delicada não sai amassada, jeans sai menos engomado.
+Essa é a principal concorrente da Samsung na faixa de 11kg. Lava 11kg e seca 7kg, mas o motor AI Direct Drive é o destaque: ele detecta o tipo de tecido e ajusta o movimento do cesto automaticamente. Roupa delicada não sai amassada, jeans sai menos engomado.
 
-Ela e bastante silenciosa, com cerca de 54 dB na lavagem e 62 dB na centrifugação. A desvantagem e que o sistema de secagem dela pode demorar um pouco mais que o das Samsung, especialmente em cargas cheias. Ainda assim, e uma máquina excelente.
+Ela é bastante silenciosa, com cerca de 54 dB na lavagem e 62 dB na centrifugação. A desvantagem é que o sistema de secagem dela pode demorar um pouco mais que o das Samsung, especialmente em cargas cheias. Ainda assim, é uma máquina excelente.
 
 ### Electrolux LSP11 Turbo
 
-Essa e para quem precisa de agilidade. O ciclo Turbo leva cerca de 30 minutos para lavar 11kg, o que e ótimo para o dia a dia. A secagem de 7kg também e rápida, mas o consumo de água e um pouco maior que o das concorrentes, coisa de 10 a 15 litros por ciclo.
+Essa é para quem precisa de agilidade. O ciclo Turbo leva cerca de 30 minutos para lavar 11kg, o que é ótimo para o dia a dia. A secagem de 7kg também é rápida, mas o consumo de água é um pouco maior que o das concorrentes, coisa de 10 a 15 litros por ciclo.
 
-O ponto forte e a velocidade. O ponto fraco e que o motor não e inverter, então o barulho na centrifugação e mais alto do que nas Samsung e LG. Em compensação, o preço costuma ser mais baixo, o que faz dela uma boa entrada para quem quer lava e seca sem gastar muito.
+O ponto forte é a velocidade. O ponto fraco é que o motor não é inverter, então o barulho na centrifugação é mais alto do que nas Samsung e LG. Em compensação, o preço costuma ser mais baixo, o que faz dela uma boa entrada para quem quer lava e seca sem gastar muito.
 
 ### Midea MF200D Storm Wash
 
 A Midea chega com um diferencial de capacidade: lava 10,1kg e seca 6kg. Parece pouco, mas na prática atende bem casais ou famílias pequenas que não acumulam muita roupa. O sistema Storm Wash usa jatos de água potentes para remover sujeira pesada sem precisar de pre-lavagem.
 
-O ponto forte e o motor inverter silencioso e o preço competitivo. O ponto fraco e a secagem limitada: você não vai conseguir secar um edredom de casal inteiro de uma vez. Para quem lava todo dia, funciona bem.
+O ponto forte é o motor inverter silencioso e o preço competitivo. O ponto fraco é a secagem limitada: você não vai conseguir secar um edredom de casal inteiro de uma vez. Para quem lava todo dia, funciona bem.
 
 ## Comparativo lado a lado
 

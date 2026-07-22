@@ -105,7 +105,7 @@ Repare que a maioria hoje usa motor inverter — ele gasta menos energia, faz me
 
 ### O que muda na prática
 
-A capacidade de secagem e sempre menor que a de lavagem. Isso e regra. O Samsung WD13T, por exemplo, lava 13 kg mas seca so 8 kg. Se você encher até o limite de lavagem, vai precisar tirar parte da roupa molhada e secar em dois lotes. Não adianta so olhar o número grande.
+A capacidade de secagem é sempre menor que a de lavagem. Isso é regra. O Samsung WD13T, por exemplo, lava 13 kg mas seca só 8 kg. Se você encher até o limite de lavagem, vai precisar tirar parte da roupa molhada e secar em dois lotes. Não adianta só olhar o número grande.
 
 Modelos com motor inverter, como o LG VC4 ou o Samsung Ecobubble, tendem a ser mais silenciosos na centrifugação e no ciclo de secagem. Se a máquina fica perto do quarto, isso faz uma diferença enorme. Já o Electrolux LSP11, por ser de motor com escova, e um pouco mais barulhento — mas compensa no preço e na durabilidade do sistema de lavagem.
 

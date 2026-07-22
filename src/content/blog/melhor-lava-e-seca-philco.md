@@ -129,7 +129,7 @@ A Midea MF200D Storm Wash é a mais barata da lista, mas com 10,1kg de lavagem e
 
 ### E o melhor lava e seca Philco fica com…
 
-Olhando a tabela, o título de melhor lava e seca Philco vai pra Samsung WD11M AddWash. Equilibra capacidade boa (11kg/7kg), motor inverter silencioso e o recurso AddWash que resolve um problema clássico: esquecer a meia suja dentro da máquina.
+Sendo transparente: a Philco ainda não entrou na nossa bancada de testes, então este comparativo mostra as alternativas que avaliamos de verdade. Olhando a tabela, quem mais entrega é a Samsung WD11M AddWash — capacidade boa (11kg/7kg), motor inverter silencioso e o recurso AddWash, que resolve um problema clássico: esquecer a meia suja dentro da máquina.
 
 Mas cada modelo atende um perfil. A LG VC4 é mais econômica; a Brastemp BNQ10AB, mais silenciosa. A escolha depende do que você prioriza – e a tabela acima deixa isso claro.
 
@@ -177,7 +177,7 @@ Cada casa tem um ritmo diferente. O que funciona pra mim pode não servir pra vo
 
 ### Casal ou apartamento pequeno: economia de espaço e água
 
-Se você mora so ou com uma pessoa, uma máquina de 10 a 11 kg de lavagem já da conta do recado. O segredo aqui e o tamanho físico — modelos mais estreitos ou com profundidade reduzida fazem diferença em cozinha ou banheiro apertado. A Midea MF200D Storm Wash lava 10,1 kg e seca 6 kg, o que atende bem um casal que lava roupa a cada dois ou três dias.
+Se você mora só ou com uma pessoa, uma máquina de 10 a 11 kg de lavagem já da conta do recado. O segredo aqui e o tamanho físico — modelos mais estreitos ou com profundidade reduzida fazem diferença em cozinha ou banheiro apertado. A Midea MF200D Storm Wash lava 10,1 kg e seca 6 kg, o que atende bem um casal que lava roupa a cada dois ou três dias.
 
 Ela ainda tem o ciclo rápido que fica pronto em torno de 1 hora. Outra opção interessante e a Brastemp BNQ10AB Inverter, que entrega os mesmos 10 kg de lavagem e 6,5 kg de secagem com motor que faz menos barulho — ótimo pra quem trabalha em casa e não quer ouvir a centrífuga durante a reunião.
 
@@ -191,7 +191,7 @@ Se o orçamento apertar um pouco, a Samsung WD11A Ecobubble com 11 kg de lavagem
 
 Tem gente que gosta de programar a lavagem pelo celular ou receber notificação quando o ciclo termina. Nesse caso, a Samsung WD11M AddWash e a LG VC4 AI Direct Drive são as que mais entregam recursos inteligentes. A AddWash tem a porta adicional na porta, que deixa você colocar uma peça esquecida depois que o ciclo já comecou — salva casais que sempre lembram do uniforme do filho no último minuto.
 
-A LG, por sua vez, usa inteligencia artificial pra pesar a roupa e dosar água e tempo de lavagem automaticamente. São os dois modelos mais "conectados" da lista e valem cada centavo pra quem gosta de controle total.
+A LG, por sua vez, usa inteligência artificial pra pesar a roupa e dosar água e tempo de lavagem automaticamente. São os dois modelos mais "conectados" da lista e valem cada centavo pra quem gosta de controle total.
 
 ### Orçamento mais enxuto: custo-benefício real
 
@@ -237,15 +237,15 @@ Depois de analisar cada modelo de perto, fica mais fácil decidir. Não existe u
 
 ### Para quem busca a melhor lava e seca Philco custo-benefício
 
-Se a prioridade e gastar bem cada centavo, o caminho mais seguro e a **Samsung Ecobubble Digital Inverter**. Ela lava 11kg, seca 7kg e ainda tem a tecnologia Ecobubble, que dissolve o sabão antes de jogar na roupa. O resultado e menos desgaste do tecido e economia de água. O motor Digital Inverter e silencioso e vem com garantia estendida – um respiro e tanto.
+Se a prioridade e gastar bem cada centavo, o caminho mais seguro e a **Samsung Ecobubble Digital Inverter**. Ela lava 11kg, seca 7kg e ainda tem a tecnologia Ecobubble, que dissolve o sabão antes de jogar na roupa. O resultado e menos desgaste do tecido e economia de água. O motor Digital Inverter é silencioso e vem com garantia estendida – um respiro e tanto.
 
 ### Silenciosa e econômica para uso noturno
 
-Quem lava a noite ou mora em apartamento com parede fina precisa de uma máquina que não pareça um trator. A **LG VC4 AI Direct Drive** leva essa medalha. O motor inversor dela e um dos mais quietos do mercado, e o consumo em água fria é dos mais baixos da categoria. A inteligência artificial ajusta o movimento do cesto sozinha, o que evita aqueles solavancos na centrífuga.
+Quem lava a noite ou mora em apartamento com parede fina precisa de uma máquina que não pareça um trator. A **LG VC4 AI Direct Drive** leva essa medalha. O motor inversor dela é um dos mais quietos do mercado, e o consumo em água fria é dos mais baixos da categoria. A inteligência artificial ajusta o movimento do cesto sozinha, o que evita aqueles solavancos na centrífuga.
 
 ### Potência máxima para famílias grandes
 
-Para quem enche o cesto todo dia, capacidade e velocidade importam. A **Samsung WD13T Smart Inverter** leva 13kg na lavagem e seca 8kg de uma vez. E a única da lista que encara um edredom de casal sem chorar. O motor Smart Inverter também e silencioso e econômico, mas aqui o destaque e o tamanho. So confira se a lavanderia tem espaço – ela e mais alta e funda que os modelos de 11kg.
+Para quem enche o cesto todo dia, capacidade e velocidade importam. A **Samsung WD13T Smart Inverter** leva 13kg na lavagem e seca 8kg de uma vez. É a única da lista que encara um edredom de casal sem chorar. O motor Smart Inverter também é silencioso e econômico, mas aqui o destaque é o tamanho. Só confira se a lavanderia tem espaço – ela é mais alta e funda que os modelos de 11kg.
 
 ### O resumo final
 

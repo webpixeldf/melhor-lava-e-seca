@@ -33,45 +33,45 @@ No final, a **melhor lava e seca hisense** que aparece no ranking não é a mais
 
 ### Samsung WD11M AddWash
 
-Essa máquina resolve um problema clássico: esquecer aquela meia no cesto. A tampa adicional na porta permite abrir o ciclo já em andamento pra colocar ou retirar peças. Pra quem tem pressa e não quer esperar o programa terminar, e um alívio.
+Essa máquina resolve um problema clássico: esquecer aquela meia no cesto. A tampa adicional na porta permite abrir o ciclo já em andamento pra colocar ou retirar peças. Pra quem tem pressa e não quer esperar o programa terminar, é um alívio.
 
-Lava 11kg e seca 7kg, combo suficiente pra uma família de quatro pessoas. O motor Digital Inverter e silencioso e vem com garantia de 20 anos. O ponto fraco e que a secagem de 7kg exige dividir roupas de cama em duas levas, senão sai úmida. Serve bem quem prioriza praticidade no dia a dia.
+Lava 11kg e seca 7kg, combo suficiente pra uma família de quatro pessoas. O motor Digital Inverter é silencioso e vem com garantia de 20 anos. O ponto fraco é que a secagem de 7kg exige dividir roupas de cama em duas levas, senão sai úmida. Serve bem quem prioriza praticidade no dia a dia.
 
 ### LG VC4 AI Direct Drive
 
-Se barulho te incomoda, essa e a candidata. O motor Direct Drive da LG elimina correias e polias, então o ciclo roda quase sem vibrar. Dá pra programar a lavagem pelo Wi-Fi e receber notificação no celular quando termina.
+Se barulho te incomoda, essa é a candidata. O motor Direct Drive da LG elimina correias e polias, então o ciclo roda quase sem vibrar. Dá pra programar a lavagem pelo Wi-Fi e receber notificação no celular quando termina.
 
-A capacidade e a mesma da concorrente: 11kg pra lavar, 7kg pra secar. O sistema de inteligencia artificial detecta o peso e a maciez do tecido, ajustando o tempo de lavagem sozinho. O contra e que o preço costuma ser mais salgado que o de modelos similares da Samsung. Vale pra quem quer uma máquina silenciosa e conectada.
+A capacidade é a mesma da concorrente: 11kg pra lavar, 7kg pra secar. O sistema de inteligência artificial detecta o peso e a maciez do tecido, ajustando o tempo de lavagem sozinho. O contra é que o preço costuma ser mais salgado que o de modelos similares da Samsung. Vale pra quem quer uma máquina silenciosa e conectada.
 
 ### Samsung WD13T Smart Inverter
 
-Pra famílias grandes ou quem lava edredom com frequência, essa e a opção certa. Lava 13kg e seca 8kg, então uma cama queen-size inteira cabe numa leva. O motor Digital Inverter também e silencioso e econômico.
+Pra famílias grandes ou quem lava edredom com frequência, essa é a opção certa. Lava 13kg e seca 8kg, então uma cama queen-size inteira cabe numa leva. O motor Digital Inverter também é silencioso e econômico.
 
-Tem o ciclo EcoBubble, que mistura água e detergente antes de jogar na roupa. Isso dissolve melhor o sabão e limpa em água fria, o que segura o consumo de energia. O ponto fraco e que a máquina e mais larga que o padrão: confira as medidas do seu banheiro ou área de serviço antes de comprar. E a escolha certa pra quem não quer abrir mão de capacidade.
+Tem o ciclo EcoBubble, que mistura água e detergente antes de jogar na roupa. Isso dissolve melhor o sabão e limpa em água fria, o que segura o consumo de energia. O ponto fraco é que a máquina é mais larga que o padrão: confira as medidas do seu banheiro ou área de serviço antes de comprar. É a escolha certa pra quem não quer abrir mão de capacidade.
 
 ### Electrolux LSP11 Turbo
 
-Essa máquina e a campeã da rapidez. O ciclo Turbo de 15 minutos lava 2kg de roupa cotidiana — suficiente pra uniforme do dia ou roupa de academia. Pra quem mora sozinho ou em casal sem filhos, isso faz diferença.
+Essa máquina é a campeã da rapidez. O ciclo Turbo de 15 minutos lava 2kg de roupa cotidiana — suficiente pra uniforme do dia ou roupa de academia. Pra quem mora sozinho ou em casal sem filhos, isso faz diferença.
 
-Lava 11kg e seca 7kg, mas o destaque mesmo e a centrífuga de 1400 rpm. A roupa sai quase seca, reduzindo o tempo de secagem na máquina e no varal. O lado negativo e que a secagem por condensação não e das mais eficientes: roupas mais grossas podem sair úmidas. Serve pra quem valoriza agilidade e mora em espaços pequenos.
+Lava 11kg e seca 7kg, mas o destaque mesmo é a centrífuga de 1400 rpm. A roupa sai quase seca, reduzindo o tempo de secagem na máquina e no varal. O lado negativo é que a secagem por condensação não é das mais eficientes: roupas mais grossas podem sair úmidas. Serve pra quem valoriza agilidade e mora em espaços pequenos.
 
 ### Samsung Ecobubble Digital Inverter
 
-Essa e a versão mais equilibrada da linha. Lava 11kg e seca 7kg, com o mesmo motor Inverter de longa duração e a tecnologia Ecobubble que limpa em água fria. O consumo energético fica baixo, e a máquina pesa menos na conta no fim do mês.
+Essa é a versão mais equilibrada da linha. Lava 11kg e seca 7kg, com o mesmo motor Inverter de longa duração e a tecnologia Ecobubble que limpa em água fria. O consumo energético fica baixo, e a máquina pesa menos na conta no fim do mês.
 
-O display digital facilita a escolha do ciclo, e tem opção de vapor que reduz amassados. O ponto fraco e que a secagem pode exigir um ciclo extra pra peças mais grossas, como jeans. E uma aposta segura pra quem busca custo-benefício sem abrir mão dos recursos essenciais.
+O display digital facilita a escolha do ciclo, e tem opção de vapor que reduz amassados. O ponto fraco é que a secagem pode exigir um ciclo extra pra peças mais grossas, como jeans. É uma aposta segura pra quem busca custo-benefício sem abrir mão dos recursos essenciais.
 
 ### Hisense WD3S11 Smart
 
 Aqui você encontra a marca do título com um modelo que entrega o básico bem feito. Lava 11kg e seca 7kg, com motor Inverter que faz menos barulho e gasta menos luz. Tem conectividade Wi-Fi pra controlar pelo celular e 14 programas de lavagem.
 
-O ponto forte e o preço, que costuma ser mais em conta que o das concorrentes coreanas. O contra e que o aplicativo da Hisense não e tão intuitivo quanto o da Samsung ou LG, e a secagem pode deixar roupas sintéticas mais enrugadas. Serve pra quem quer uma máquina moderna sem pagar o premium das marcas líderes.
+O ponto forte é o preço, que costuma ser mais em conta que o das concorrentes coreanas. O contra é que o aplicativo da Hisense não é tão intuitivo quanto o da Samsung ou LG, e a secagem pode deixar roupas sintéticas mais enrugadas. Serve pra quem quer uma máquina moderna sem pagar o premium das marcas líderes.
 
 ### Brastemp BNQ10AB Inverter
 
-A Brastemp e conhecida pela durabilidade, e esse modelo não foge a regra. Lava 10kg e seca 6,5kg, um pouco menos que as opções de 11kg, mas suficiente pra famílias de três pessoas. O motor Inverter reduz vibração e o ruído durante a centrifugação.
+A Brastemp é conhecida pela durabilidade, e esse modelo não foge à regra. Lava 10kg e seca 6,5kg, um pouco menos que as opções de 11kg, mas suficiente pra famílias de três pessoas. O motor Inverter reduz vibração e o ruído durante a centrifugação.
 
-Tem ciclo de vapor que ajuda a eliminar bactérias e odores, e abertura da porta de vidro que da um toque mais elegante. O ponto fraco e que a capacidade de secagem e limitada: pra secar um edredom de casal, provavelmente vai precisar de dois ciclos. Vale pra quem confia na marca e não precisa de capacidade máxima.
+Tem ciclo de vapor que ajuda a eliminar bactérias e odores, e abertura da porta de vidro que dá um toque mais elegante. O ponto fraco é que a capacidade de secagem é limitada: pra secar um edredom de casal, provavelmente vai precisar de dois ciclos. Vale pra quem confia na marca e não precisa de capacidade máxima.
 
 ## Comparativo lado a lado
 
@@ -137,7 +137,7 @@ Outro detalhe: a profundidade. Máquinas de 11kg costumam ter 60 cm de profundid
 
 ### Assistência técnica: o ponto cego da compra
 
-Não tem adiantado comprar a melhor lava e seca Hisense se a assistência técnica fica a 200 km de distância. Antes de decidir, veja se a marca tem autorizada perto de você ou se oferece serviço remoto.
+Não adianta comprar a melhor lava e seca Hisense se a assistência técnica fica a 200 km de distância. Antes de decidir, veja se a marca tem autorizada perto de você ou se oferece serviço remoto.
 
 A Samsung e a LG têm cobertura boa no Brasil, com várias autorizadas. Já marcas como a Midea e a Brastemp também estão bem presentes, mas é bom confirmar. Uma dica: ligue na autorizada mais próxima e pergunte sobre peças e prazo de conserto. Se demorar mais de uma semana, repense.
 
@@ -161,7 +161,7 @@ O motor digital inverter ajuda a economizar energia em ciclos longos, e o recurs
 
 Quem mora em quitinete ou studio precisa de um aparelho que não exija obra e nem ocupe meio banheiro. A Midea MF200D Storm Wash, com 10,1 kg para lavar e 6 kg para secar, é a menor da lista. Ela cabe embaixo de bancada e o ciclo rápido (cerca de 30 minutos) resolve uma pilha de roupa do dia a dia.
 
-O custo-benefício é forte: não tem frescuras nem tela touch, mas faz o básico com competência. Para quem está no aperto, essa é a melhor lava e seca hisense que cabe no bolso — aliás, a Hisense WD3S11 Smart também entra nessa faixa, com 11 kg e preço similar.
+O custo-benefício é forte: não tem frescuras nem tela touch, mas faz o básico com competência. Para quem está no aperto, é a opção que cabe no bolso — e a Hisense WD3S11 Smart entra na mesma faixa, com 11 kg e preço similar.
 
 ### Para quem prioriza tecnologia e praticidade
 
@@ -219,7 +219,7 @@ Para quem vive em casa com pouco espaço e quer algo silencioso, a **LG VC4 AI D
 
 ### O modelo mais completo da lista
 
-Na minha opinião, a **Samsung WD13T Smart Inverter** leva a taça de melhor lava e seca hisense (e das outras marcas também) neste ranking. Lavar 13kg e secar 8kg é um luxo para famílias grandes. Ela tem conectividade, painel bonito e não gasta mais energia que as rivais de 11kg — vale cada centavo.
+Entre as concorrentes que comparei, a **Samsung WD13T Smart Inverter** é a mais completa deste comparativo. Lavar 13kg e secar 8kg é um luxo para famílias grandes. Ela tem conectividade, painel bonito e não gasta mais energia que as rivais de 11kg — vale cada centavo.
 
 ### E a Hisense, fica devendo?
 
