@@ -75,10 +75,15 @@ jobs:
             exit 0
           fi
 
+          # O mais RECENTE por publishedAt, nao o ultimo na ordem do array:
+          # a fila e ordenada por volume de busca, entao o ultimo "publicado"
+          # do array era sempre o mesmo e todo commit saia com titulo errado.
           TITULO=$(node -e "
             const fs=require('fs');
             const q=JSON.parse(fs.readFileSync('scripts/data/cronograma.json','utf8'));
-            const pub=q.items.filter(i=>i.status==='publicado');
+            const pub=q.items
+              .filter(i=>i.status==='publicado'&&i.publishedAt)
+              .sort((a,b)=>String(a.publishedAt).localeCompare(String(b.publishedAt)));
             console.log(pub.length ? pub[pub.length-1].title : 'novo artigo');
           ")
 
