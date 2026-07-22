@@ -29,49 +29,49 @@ A gente também olhou o consumo de água e energia. Modelos com sensores automá
 
 Por fim, priorizamos máquinas que oferecem um bom conjunto: motor eficiente, capacidade honesta, funções úteis (como vapor para tirar odores) e, claro, um preço que não seja absurdo. Nada de pagar caro por firula que você nunca vai usar.
 
-## As melhores opções de Melhor lava e seca samsung 11kg e 13kg
+## Melhor lava e seca Samsung 11kg e 13kg: as melhores opções
 
 ### Samsung WD11M AddWash
 
-Essa máquina e a queridinha de quem nao quer perder tempo. O diferencial dela e a portinha na porta: você abre, joga aquela meia esquecida ou a roupa que ficou no cesto e pronto, o ciclo continua sem interrupcao. Lavar 11kg e secar 7kg atende bem familias de tres a quatro pessoas.
+Essa máquina e a queridinha de quem não quer perder tempo. O diferencial dela e a portinha na porta: você abre, joga aquela meia esquecida ou a roupa que ficou no cesto e pronto, o ciclo continua sem interrupção. Lavar 11kg e secar 7kg atende bem famílias de três a quatro pessoas.
 
-O ponto forte e justamente a praticidade do AddWash. Nao precisa esperar o programa acabar nem desligar tudo. O ponto fraco? A secagem de 7kg exige que você tire metade da carga se quiser secar tudo de uma vez. Se lavar lotado, vai ter que pendurar uma parte.
+O ponto forte e justamente a praticidade do AddWash. Não precisa esperar o programa acabar nem desligar tudo. O ponto fraco? A secagem de 7kg exige que você tire metade da carga se quiser secar tudo de uma vez. Se lavar lotado, vai ter que pendurar uma parte.
 
 ### Samsung Ecobubble Digital Inverter
 
-A tecnologia Ecobubble e o trunfo dela. Ela mistura detergente com água e ar antes de jogar na roupa, formando bolhas que penetram mais rápido no tecido. Funciona ate em água fria, o que gera uma economia de energia de cerca de 50% comparado com ciclos que aquecem a água.
+A tecnologia Ecobubble e o trunfo dela. Ela mistura detergente com água e ar antes de jogar na roupa, formando bolhas que penetram mais rápido no tecido. Funciona até em água fria, o que gera uma economia de energia de cerca de 50% comparado com ciclos que aquecem a água.
 
-Lava 11kg e seca 7kg, mas o motor Digital Inverter faz ela ser praticamente silenciosa. Da pra colocar para lavar de madrugada sem acordar ninguem. O contra e que o painel pode ser confuso no inicio, com tantas combinacoes de programas.
+Lava 11kg e seca 7kg, mas o motor Digital Inverter faz ela ser praticamente silenciosa. Dá pra colocar para lavar de madrugada sem acordar ninguém. O contra e que o painel pode ser confuso no início, com tantas combinações de programas.
 
 ### Samsung WD13T Smart Inverter
 
-Se você tem familia grande ou faz muitas reunioes em casa, esse modelo e o mais indicado. Com 13kg de lavagem e 8kg de secagem, ele leva edredom de casal e toalhas de banjo sem sofrimento. O motor Smart Inverter e super silencioso e vem com garantia de 10 anos no motor.
+Se você tem família grande ou faz muitas reuniões em casa, esse modelo e o mais indicado. Com 13kg de lavagem e 8kg de secagem, ele leva edredom de casal e toalhas de banho sem sofrimento. O motor Smart Inverter e super silencioso e vem com garantia de 10 anos no motor.
 
-A conectividade WiFi permite iniciar ou agendar ciclos pelo celular, o que ajuda no dia a dia corrido. O ponto fraco e o preco: ele e mais caro que os modelos de 11kg, mas entre as opcoes de 13kg e uma das mais equilibradas em custo-beneficio.
+A conectividade WiFi permite iniciar ou agendar ciclos pelo celular, o que ajuda no dia a dia corrido. O ponto fraco e o preço: ele e mais caro que os modelos de 11kg, mas entre as opções de 13kg e uma das mais equilibradas em custo-benefício.
 
 ### Samsung WD11A Ecobubble
 
-Parecida com a versao Digital Inverter, mas com um acabamento um pouco mais simples. Lava 11kg e seca 7kg, e o Ecobubble continua sendo o grande destaque. A economia real aparece na conta de luz: o ciclo a frio gasta cerca de 0,27 kWh por quilograma de roupa.
+Parecida com a versão Digital Inverter, mas com um acabamento um pouco mais simples. Lava 11kg e seca 7kg, e o Ecobubble continua sendo o grande destaque. A economia real aparece na conta de luz: o ciclo a frio é o que menos pesa no consumo.
 
-O ponto forte e o custo-beneficio. Costuma aparecer em promocao e entrega um desempenho de secagem consistente, sem encolher as pecas. O ponto fraco e que ela nao tem o AddWash, entao se esquecer uma peca, vai ter que esperar o ciclo acabar ou reiniciar.
+O ponto forte e o custo-benefício. Costuma aparecer em promoção e entrega um desempenho de secagem consistente, sem encolher as peças. O ponto fraco e que ela não tem o AddWash, então se esquecer uma peça, vai ter que esperar o ciclo acabar ou reiniciar.
 
 ### LG VC4 AI Direct Drive
 
-Essa e a principal concorrente da Samsung na faixa de 11kg. Lava 11kg e seca 7kg, mas o motor AI Direct Drive e o destaque: ele detecta o tipo de tecido e ajusta o movimento do cesto automaticamente. Roupa delicada nao sai amassada, jeans sai menos engomado.
+Essa e a principal concorrente da Samsung na faixa de 11kg. Lava 11kg e seca 7kg, mas o motor AI Direct Drive e o destaque: ele detecta o tipo de tecido e ajusta o movimento do cesto automaticamente. Roupa delicada não sai amassada, jeans sai menos engomado.
 
-Ela e bastante silenciosa, com cerca de 54 dB na lavagem e 62 dB na centrifugacao. A desvantagem e que o sistema de secagem dela pode demorar um pouco mais que o das Samsung, especialmente em cargas cheias. Ainda assim, e uma máquina excelente.
+Ela e bastante silenciosa, com cerca de 54 dB na lavagem e 62 dB na centrifugação. A desvantagem e que o sistema de secagem dela pode demorar um pouco mais que o das Samsung, especialmente em cargas cheias. Ainda assim, e uma máquina excelente.
 
 ### Electrolux LSP11 Turbo
 
-Essa e para quem precisa de agilidade. O ciclo Turbo leva cerca de 30 minutos para lavar 11kg, o que e otimo para o dia a dia. A secagem de 7kg também e rapida, mas o consumo de água e um pouco maior que o das concorrentes, coisa de 10 a 15 litros por ciclo.
+Essa e para quem precisa de agilidade. O ciclo Turbo leva cerca de 30 minutos para lavar 11kg, o que e ótimo para o dia a dia. A secagem de 7kg também e rápida, mas o consumo de água e um pouco maior que o das concorrentes, coisa de 10 a 15 litros por ciclo.
 
-O ponto forte e a velocidade. O ponto fraco e que o motor nao e inverter, entao o barulho na centrifugacao e mais alto do que nas Samsung e LG. Em compensacao, o preco costuma ser mais baixo, o que faz dela uma boa entrada para quem quer lava e seca sem gastar muito.
+O ponto forte e a velocidade. O ponto fraco e que o motor não e inverter, então o barulho na centrifugação e mais alto do que nas Samsung e LG. Em compensação, o preço costuma ser mais baixo, o que faz dela uma boa entrada para quem quer lava e seca sem gastar muito.
 
 ### Midea MF200D Storm Wash
 
-A Midea chega com um diferencial de capacidade: lava 10,1kg e seca 6kg. Parece pouco, mas na pratica atende bem casais ou familias pequenas que nao acumulam muita roupa. O sistema Storm Wash usa jatos de água potentes para remover sujeira pesada sem precisar de pre-lavagem.
+A Midea chega com um diferencial de capacidade: lava 10,1kg e seca 6kg. Parece pouco, mas na prática atende bem casais ou famílias pequenas que não acumulam muita roupa. O sistema Storm Wash usa jatos de água potentes para remover sujeira pesada sem precisar de pre-lavagem.
 
-O ponto forte e o motor inverter silencioso e o preco competitivo. O ponto fraco e a secagem limitada: você nao vai conseguir secar um edredom de casal inteiro de uma vez. Para quem lava todo dia, funciona bem.
+O ponto forte e o motor inverter silencioso e o preço competitivo. O ponto fraco e a secagem limitada: você não vai conseguir secar um edredom de casal inteiro de uma vez. Para quem lava todo dia, funciona bem.
 
 ## Comparativo lado a lado
 
@@ -117,7 +117,7 @@ Se você mora em apartamento ou lava de noite, a diferença no silêncio é nít
 
 ### Eficiência energética: o selo que vale ouro
 
-No Brasil, o selo Procel A é o mínimo desejável. Máquinas com classificação A++ ou A+++ (comuns nos modelos importados) gastam ainda menos. Uma lava e seca Samsung 11kg com motor Inverter puxa cerca de 0,27 kWh por ciclo em água fria.
+No Brasil, o selo Procel A é o mínimo desejável. Máquinas com classificação A++ ou A+++ (comuns nos modelos importados) gastam ainda menos. Uma lava e seca Samsung 11kg com motor Inverter, lavando em água fria, fica entre as mais econômicas da categoria.
 
 Se você usa água quente ou secagem completa, o consumo sobe para 1,2 kWh. Parece pouco, mas multiplicado por 4 lavagens por semana vira uma conta de luz salgada no fim do mês. Olhe a etiqueta antes de fechar negócio.
 
@@ -211,7 +211,7 @@ Se a conta de luz pesa no orçamento, o Samsung Ecobubble Digital Inverter merec
 
 No fim, a minha dica é simples: pense no que mais te irrita no tanque ou na lavadora atual. Se é esquecer roupa no cesto, o AddWash resolve. Se é não caber um edredom, vá de 13kg. Se é barulho e conta alta, o Ecobubble é a paz que você procura. Qualquer uma dessas opções vai te atender bem — só depende do que você mais valoriza.
 
-## Perguntas frequentes sobre Melhor lava e seca samsung 11kg e 13kg
+## Perguntas frequentes
 
 ### Qual a diferença real entre os modelos de 11kg e 13kg?
 

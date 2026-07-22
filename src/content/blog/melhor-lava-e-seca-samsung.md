@@ -25,7 +25,7 @@ O primeiro filtro foi a capacidade. Uma máquina que lava 11kg mas seca só 7kg 
 
 ### Eficiência energética e consumo
 
-Ninguém quer uma conta de luz que voa. Foquei em aparelhos com motor inverter, que gastam menos eletricidade e duram mais. Os números concretos fazem diferença: um modelo econômico consome cerca de 0,25 a 0,35 kWh por ciclo em água fria, enquanto um convencional passa fácil de 0,5 kWh. A economia no fim do mês é real.
+Ninguém quer uma conta de luz que voa. Foquei em aparelhos com motor inverter, que gastam menos eletricidade e duram mais. Na prática, um modelo econômico lavando em água fria gasta bem menos que um convencional — e a economia no fim do mês é real.
 
 ### Nível de ruído e vibração
 
@@ -39,7 +39,7 @@ AddWash, Ecobubble, conexão smart — nem todo mundo precisa de tudo. Mas recur
 
 Por fim, comparei o preço com o que cada um entrega. Uma máquina mais cara pode valer se economizar energia e tiver garantia estendida. Já um modelo básico compensa se você não usa os recursos avançados. O dicionário aqui é equilíbrio.
 
-## As melhores opções de Melhor lava e seca samsung
+## Melhor lava e seca Samsung: as melhores opções
 
 Depois de analisar os critérios que realmente importam, chega a hora de colocar a mão na massa. Selecionei os modelos que mais se destacam no mercado brasileiro hoje. Cada um tem um perfil diferente, e a escolha depende muito do seu orçamento e da rotina da sua casa.
 
@@ -141,7 +141,7 @@ Os modelos com Digital Inverter da Samsung são um bom exemplo disso. Já motore
 
 ### Eficiência energética: onde o bolso sente a diferença
 
-Essa é a parte chata, mas necessária. Olhe a etiqueta do Inmetro e o selo Procel. Uma máquina boa gasta cerca de 0,27 kWh por ciclo em água fria. Se você lava todo dia, a diferença entre um modelo A e um A+++ pode chegar a uns R$ 200 por ano na conta de luz (considerando a tarifa média).
+Essa é a parte chata, mas necessária. Olhe a etiqueta do Inmetro e o selo Procel: quanto melhor a classificação, menos a máquina gasta por ciclo, principalmente lavando em água fria. Se você lava todo dia, a diferença entre um modelo A e um A+++ pode chegar a uns R$ 200 por ano na conta de luz (considerando a tarifa média).
 
 Além disso, a eficiência na centrifugação (medida em rotações por minuto) influencia: 1200 rpm é o mínimo aceitável pra roupa sair menos encharcada e secar mais rápido na máquina ou no varal. 1400 rpm já é um bom meio-termo entre secagem e cuidado com os tecidos.
 
@@ -165,33 +165,33 @@ Esse é o fator que ninguém lembra na hora da empolgação. Antes de fechar a c
 
 ### Casal que mora em apartamento
 
-Se você mora com o parceiro num ap de dois quartos, o espaço conta mais que a capacidade. Modelos de 10 a 11 kg de lavagem e 6 a 7 kg de secagem resolvem o dia a dia sem ocupar a sala inteira. O Samsung Ecobubble Digital Inverter, por exemplo, lava 11 kg e seca 7 kg — medida que atende bem um casal que lava roupa a cada dois ou tres dias.
+Se você mora com o parceiro num ap de dois quartos, o espaço conta mais que a capacidade. Modelos de 10 a 11 kg de lavagem e 6 a 7 kg de secagem resolvem o dia a dia sem ocupar a sala inteira. O Samsung Ecobubble Digital Inverter, por exemplo, lava 11 kg e seca 7 kg — medida que atende bem um casal que lava roupa a cada dois ou três dias.
 
-Outro ponto: a tecnologia Ecobubble dissolve o sabao antes de jogar no tecido, entao você usa água fria e gasta menos energia. Se o orcamento permitir, a versao com AddWash facilita jogar aquela peca esquecida no meio do ciclo.
+Outro ponto: a tecnologia Ecobubble dissolve o sabão antes de jogar no tecido, então você usa água fria e gasta menos energia. Se o orçamento permitir, a versão com AddWash facilita jogar aquela peça esquecida no meio do ciclo.
 
-### Familia grande com crianca
+### Família grande com criança
 
-Quando tem crianca em casa, a roupa acumula num piscar de olhos. Aqui o negocio e capacidade maior e ciclo rápido. O Samsung WD13T Smart Inverter, com 13 kg de lavagem e 8 kg de secagem, e o mais indicado. Voce lava edredom, toalha de banho e uniforme escolar numa tacada so.
+Quando tem criança em casa, a roupa acumula num piscar de olhos. Aqui o negocio e capacidade maior e ciclo rápido. O Samsung WD13T Smart Inverter, com 13 kg de lavagem e 8 kg de secagem, e o mais indicado. Você lava edredom, toalha de banho e uniforme escolar numa tacada so.
 
-O motor Inverter também faz diferenca: alem de ser mais silencioso (importante se a máquina ficar perto do quarto das criancas), ele tem garantia mais longa e consome menos eletricidade. Economia que pesa no fim do mes quando a lava e seca roda todo dia.
+O motor Inverter também faz diferença: além de ser mais silencioso (importante se a máquina ficar perto do quarto das crianças), ele tem garantia mais longa e consome menos eletricidade. Economia que pesa no fim do mês quando a lava e seca roda todo dia.
 
-### Orcamento mais apertado
+### Orçamento mais apertado
 
-Nem todo mundo quer desembolsar o valor de um modelo top de linha. Se o foco e custo-beneficio, vale olhar as opcoes de entrada da Samsung, como o Samsung WD11A Ecobubble. Ele entrega os 11 kg de lavagem e 7 kg de secagem, tem o sistema de bolhas que limpa bem em água fria e ainda usa motor Digital Inverter — o mesmo dos modelos mais caros.
+Nem todo mundo quer desembolsar o valor de um modelo top de linha. Se o foco e custo-benefício, vale olhar as opções de entrada da Samsung, como o Samsung WD11A Ecobubble. Ele entrega os 11 kg de lavagem e 7 kg de secagem, tem o sistema de bolhas que limpa bem em água fria e ainda usa motor Digital Inverter — o mesmo dos modelos mais caros.
 
-A diferenca fica por conta dos recursos extras, como conectividade e painel mais simples. Para quem quer uma máquina confiavel sem pagar a mais por firula, e escolha certeira.
+A diferença fica por conta dos recursos extras, como conectividade e painel mais simples. Para quem quer uma máquina confiável sem pagar a mais por firula, e escolha certeira.
 
 ### Quem prioriza tecnologia e praticidade
 
-Se você gosta de ter o controle na mao e nao abre mao de inovacao, os modelos com SmartThings e AddWash sao os seus. O Samsung WD11M AddWash, por exemplo, permite pausar o ciclo e abrir uma janelinha para colocar roupa esquecida ou amaciante. Pelo aplicativo, da para agendar a lavagem, receber notificacao de fim de ciclo e ate diagnosticar problemas.
+Se você gosta de ter o controle na mão e não abre mão de inovacao, os modelos com SmartThings e AddWash são os seus. O Samsung WD11M AddWash, por exemplo, permite pausar o ciclo e abrir uma janelinha para colocar roupa esquecida ou amaciante. Pelo aplicativo, da para agendar a lavagem, receber notificação de fim de ciclo e até diagnosticar problemas.
 
-E o tipo de aparelho que transforma a tarefa chata de lavar em algo mais pratico. A secagem também e eficiente: os 7 kg entregam roupa quase seca, so um passinho rápido no ferro e pronto.
+E o tipo de aparelho que transforma a tarefa chata de lavar em algo mais prático. A secagem também e eficiente: os 7 kg entregam roupa quase seca, so um passinho rápido no ferro e pronto.
 
 ### Quem busca o melhor das duas marcas
 
-Se você esta em duvida entre a melhor lava e seca Samsung e algum modelo de outra marca, o criterio principal e o que mais pesa no seu uso. A Samsung domina em tecnologia de lavagem a frio e conectividade, mas marcas como LG e Electrolux tem pontos fortes em outras areas.
+Se você esta em dúvida entre a melhor lava e seca Samsung e algum modelo de outra marca, o criterio principal e o que mais pesa no seu uso. A Samsung domina em tecnologia de lavagem a frio e conectividade, mas marcas como LG e Electrolux tem pontos fortes em outras áreas.
 
-O importante e bater o martelo baseado na sua rotina: capacidade, tipo de motor e recursos que você realmente vai usar. Nao adianta pagar por funcao que nunca saira do manual.
+O importante e bater o martelo baseado na sua rotina: capacidade, tipo de motor e recursos que você realmente vai usar. Não adianta pagar por função que nunca saira do manual.
 
 ## Erros comuns na hora de comprar
 
@@ -225,7 +225,7 @@ Se você está buscando a melhor lava e seca Samsung para o seu caso, foque nos 
 
 Se você quer gastar bem e não abrir mão de qualidade, a Samsung Ecobubble Digital Inverter entrega o equilíbrio perfeito. Ela lava 11kg, seca 7kg, tem o sistema Ecobubble que dissolve o sabão antes de jogar na roupa e um motor inverter silencioso.
 
-O consumo fica na casa dos 0,23 kWh por ciclo em água fria — uma economia de verdade. Ela não é a mais barata do mercado, mas o que você paga a mais volta em durabilidade e conta de luz menor no fim do mês.
+O consumo em água fria fica entre os mais baixos da categoria — uma economia de verdade. Ela não é a mais barata do mercado, mas o que você paga a mais volta em durabilidade e conta de luz menor no fim do mês.
 
 ### Melhor performance geral: Samsung WD13T Smart Inverter
 
@@ -241,7 +241,7 @@ Se a Samsung não encaixa no seu orçamento, a LG VC4 AI Direct Drive briga de i
 
 No fim, a sua escolha depende do que você mais valoriza: economia, tecnologia ou capacidade. De qualquer jeito, uma lava e seca Samsung com motor inverter é um investimento que se paga com o tempo.
 
-## Perguntas frequentes sobre Melhor lava e seca samsung
+## Perguntas frequentes
 
 ### Quanto tempo dura em média um ciclo completo?
 
@@ -249,7 +249,7 @@ Depende do programa e da carga. Um ciclo de algodão com água fria leva entre 2
 
 ### A Samsung é mais econômica que a concorrência?
 
-Sim, especialmente os modelos com motor Digital Inverter. Eles gastam cerca de 0,27 kWh por quilo de roupa em água fria. Para você ter ideia, isso representa uns 30% a menos que máquinas convencionais de mesma capacidade. A economia na conta de luz aparece já no primeiro mês.
+Sim, especialmente os modelos com motor Digital Inverter. Em água fria, eles gastam bem menos energia que máquinas convencionais de mesma capacidade, e a economia na conta de luz aparece já nos primeiros meses de uso.
 
 ### Qual modelo da Samsung é mais silencioso?
 
