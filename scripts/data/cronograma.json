@@ -257,8 +257,11 @@
         "lava e seca 14kg consumo de energia",
         "lava e seca 14kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 14kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca 15kg",
@@ -280,8 +283,11 @@
         "lava e seca 15kg consumo de energia",
         "lava e seca 15kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 15kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca promoção custo benefício",
@@ -355,8 +361,11 @@
         "lava e seca lg 12kg consumo de energia",
         "lava e seca lg 12kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 12kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca 220v",
@@ -378,8 +387,11 @@
         "lava e seca 220v consumo de energia",
         "lava e seca 220v garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.24%"
+      ]
     },
     {
       "keyword": "melhor lava e seca 8kg",
@@ -401,8 +413,11 @@
         "lava e seca 8kg consumo de energia",
         "lava e seca 8kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 8kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca brastemp 15kg",
@@ -424,8 +439,11 @@
         "lava e seca brastemp 15kg consumo de energia",
         "lava e seca brastemp 15kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 15kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca pequena",
@@ -447,8 +465,11 @@
         "lava e seca pequena consumo de energia",
         "lava e seca pequena garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.38%"
+      ]
     },
     {
       "keyword": "qual a melhor lava e seca do mercado",
@@ -516,8 +537,8 @@
         "lava e seca inverter consumo de energia",
         "lava e seca inverter garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-07-23T14:31:27-03:00"
     },
     {
       "keyword": "melhor lava e seca preta",
