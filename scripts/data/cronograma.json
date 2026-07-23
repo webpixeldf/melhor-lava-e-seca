@@ -687,8 +687,11 @@
         "especificações lava e seca lg 11 kg",
         "preço lava e seca lg 11 kg"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "links internos insuficientes: 2, esperado 7"
+      ]
     },
     {
       "keyword": "lava e seca lg vc2 14kg é boa",
@@ -710,8 +713,11 @@
         "especificações lava e seca lg vc2 14kg",
         "preço lava e seca lg vc2 14kg"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 14kg no catalogo"
+      ]
     },
     {
       "keyword": "lava e seca lg vc4 14kg é boa",
@@ -733,8 +739,11 @@
         "especificações lava e seca lg vc4 14kg",
         "preço lava e seca lg vc4 14kg"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 14kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor mini lava e seca",
@@ -756,8 +765,8 @@
         "mini lava e seca consumo de energia",
         "mini lava e seca garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-07-23T23:36:02-03:00"
     },
     {
       "keyword": "samsung lava e seca wd11m é boa",
