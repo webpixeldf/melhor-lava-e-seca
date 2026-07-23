@@ -150,6 +150,9 @@ export function addInternalLinks(body, pauta, corpus = []) {
       `\n\nAinda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking com os melhores modelos de lava e seca](/) antes de decidir.`,
       `\n\nSe a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhores lava e seca do mercado](/).`,
       `\n\nNa dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) ajuda a fechar a escolha.`,
+      `\n\nAntes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais bem avaliadas](/) e ver qual encaixa na sua rotina.`,
+      `\n\nQuer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resume o que compensa em cada faixa.`,
+      `\n\nSe ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos](/) mostra os pontos fortes de cada um.`,
     ];
     const idx = hashSlug(pauta.slug) % fechos.length;
     out = out + fechos[idx];
