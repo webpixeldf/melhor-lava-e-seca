@@ -14,6 +14,9 @@ import { amazonLink } from '@/lib/amazon';
 import { emParagrafos } from '@/lib/text';
 
 export default async function HomePage() {
+  // Produto Nº 1 do ranking — usado no CTA principal do hero (acima da dobra)
+  const winner = products.find((p) => p.rank === 1) || products[0];
+
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Início', url: site.url }]} />
@@ -38,9 +41,23 @@ export default async function HomePage() {
             rodeio o que presta, o que incomoda e o que quebra antes da hora.
           </p>
           <div className="hero-ctas">
+            <a
+              href={amazonLink(winner)}
+              className="btn btn-amazon"
+              target="_blank"
+              rel="sponsored nofollow noopener"
+            >
+              Ver preço da Nº 1 na Amazon
+            </a>
             <a href="#ranking" className="btn btn-primary">Ver ranking completo</a>
             <a href="#guia" className="btn btn-ghost">Não sei qual escolher</a>
           </div>
+
+          <p className="hero-disclosure" style={{ marginBottom: '0.75rem' }}>
+            <strong>Nº 1 do ranking:</strong> {winner.name} — nota{' '}
+            {winner.rating.toFixed(1)} com{' '}
+            {winner.reviewsCount.toLocaleString('pt-BR')} avaliações de compradores.
+          </p>
 
           <p className="hero-disclosure">
             Como afiliado da Amazon, este site pode ganhar comissão em compras
