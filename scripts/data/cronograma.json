@@ -586,8 +586,11 @@
         "lava e seca tcl consumo de energia",
         "lava e seca tcl garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: tcl"
+      ]
     },
     {
       "keyword": "lava e seca wd11t é boa",
@@ -609,8 +612,11 @@
         "especificações lava e seca wd11t",
         "preço lava e seca wd11t"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "modelo \"wd11t\" nao esta no catalogo"
+      ]
     },
     {
       "keyword": "lava e seca wd13t é boa",
@@ -632,8 +638,8 @@
         "especificações lava e seca wd13t",
         "preço lava e seca wd13t"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-07-23T18:23:45-03:00"
     },
     {
       "keyword": "melhor lava e seca branca",
