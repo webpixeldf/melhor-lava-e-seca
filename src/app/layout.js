@@ -60,6 +60,47 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://m.media-amazon.com" />
         <link rel="dns-prefetch" href="https://www.amazon.com.br" />
         <meta name="format-detection" content="telephone=no" />
+
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18305955963"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18305955963');
+            `,
+          }}
+        />
+
+        {/* Conversão "clique de saída": dispara ao clicar em qualquer link de
+            afiliado (rel="sponsored"). Usa delegação no document para
+            sobreviver às re-renderizações do React. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', function (e) {
+                var link = e.target && e.target.closest
+                  ? e.target.closest('a[rel~="sponsored"]')
+                  : null;
+                if (!link) return;
+                if (typeof window.gtag === 'function') {
+                  gtag('event', 'conversion', {
+                    'send_to': 'AW-18305955963/CR2fCOHGtMwcEPvw-phE',
+                    'value': 1.0,
+                    'currency': 'BRL'
+                  });
+                }
+                if (window.console) console.log('[track] clique_afiliado:', link.href);
+              });
+            `,
+          }}
+        />
+
         <OrganizationSchema />
         <WebSiteSchema />
       </head>
