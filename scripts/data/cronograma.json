@@ -788,8 +788,11 @@
         "especificações samsung lava e seca wd11m",
         "preço samsung lava e seca wd11m"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "links internos insuficientes: 3, esperado 7"
+      ]
     },
     {
       "keyword": "lava e seca barata é boa",
@@ -811,8 +814,11 @@
         "especificações lava e seca barata",
         "preço lava e seca barata"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "inflado: 3505 palavras, alvo 2500"
+      ]
     },
     {
       "keyword": "lava e seca encolhe roupa",
@@ -834,8 +840,11 @@
         "dicas de secagem",
         "mitos da lava e seca"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "links internos insuficientes: 1, esperado 7"
+      ]
     },
     {
       "keyword": "lava e seca gasta muita energia",
@@ -857,8 +866,11 @@
         "comparativo consumo",
         "economizar energia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "links internos insuficientes: 1, esperado 7"
+      ]
     },
     {
       "keyword": "lava e seca tcl é boa",
@@ -880,8 +892,11 @@
         "especificações lava e seca tcl",
         "preço lava e seca tcl"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: tcl"
+      ]
     },
     {
       "keyword": "melhor lava e seca smart",
@@ -903,8 +918,11 @@
         "lava e seca smart consumo de energia",
         "lava e seca smart garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.36%"
+      ]
     },
     {
       "keyword": "melhor lava e seca torre",
@@ -952,8 +970,11 @@
         "lava e seca 17kg consumo de energia",
         "lava e seca 17kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 17kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca agua quente",
@@ -975,8 +996,13 @@
         "lava e seca agua quente consumo de energia",
         "lava e seca agua quente garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave"
+      ]
     },
     {
       "keyword": "melhor lava e seca compacta",
@@ -998,8 +1024,11 @@
         "lava e seca compacta consumo de energia",
         "lava e seca compacta garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "reprovado",
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.34%"
+      ]
     },
     {
       "keyword": "melhor lava e seca eco bubble",
@@ -1021,8 +1050,8 @@
         "lava e seca eco bubble consumo de energia",
         "lava e seca eco bubble garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-07-24T14:17:35-03:00"
     },
     {
       "keyword": "melhor lava e seca frontal",
