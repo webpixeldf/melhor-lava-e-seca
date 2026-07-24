@@ -1194,8 +1194,11 @@
         "lava e seca 18kg consumo de energia",
         "lava e seca 18kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 18kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava e seca 20 kg",
@@ -1217,8 +1220,11 @@
         "lava e seca 20 kg consumo de energia",
         "lava e seca 20 kg garantia"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 20kg no catalogo"
+      ]
     },
     {
       "keyword": "maquina lava e seca industrial",
@@ -1309,8 +1315,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "nenhum modelo de 6kg no catalogo"
+      ]
     },
     {
       "keyword": "melhor lava seca e passa",
@@ -1358,8 +1367,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: tcl"
+      ]
     },
     {
       "keyword": "lava e seca electrolux perfect care é boa",
@@ -1404,8 +1416,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: eos"
+      ]
     },
     {
       "keyword": "lava e seca melhores preços",
@@ -1629,8 +1644,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: toshiba"
+      ]
     },
     {
       "keyword": "erro hc2 lava e seca samsung",
@@ -1767,8 +1785,11 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: philco"
+      ]
     },
     {
       "keyword": "lava e seca a gas é boa",
@@ -3751,8 +3772,11 @@
         "custo-benefício",
         "opiniões"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: philco"
+      ]
     },
     {
       "keyword": "lava e seca samsung nao centrifuga",
@@ -3912,8 +3936,11 @@
         "preço",
         "comparação"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: consul"
+      ]
     },
     {
       "keyword": "melhor lava e seca mueller",
@@ -3935,8 +3962,11 @@
         "assistência",
         "ficha técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: mueller"
+      ]
     },
     {
       "keyword": "melhor lava e seca silenciosa",
@@ -4487,8 +4517,11 @@
         "prós e contras",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "modelo \"lse09\" nao esta no catalogo"
+      ]
     },
     {
       "keyword": "electrolux lava e seca lse11 é boa",
@@ -4510,8 +4543,11 @@
         "prós e contras",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "modelo \"lse11\" nao esta no catalogo"
+      ]
     },
     {
       "keyword": "electrolux lava e seca lst12 é boa",
@@ -4533,8 +4569,11 @@
         "prós e contras",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "modelo \"lst12\" nao esta no catalogo"
+      ]
     },
     {
       "keyword": "funcoes painel lava e seca samsung",
@@ -5430,8 +5469,11 @@
         "prós e contras",
         "custo-benefício"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "sem-cobertura",
+      "publishedAt": null,
+      "problems": [
+        "marca sem produto no catalogo: eos"
+      ]
     },
     {
       "keyword": "melhor lava e seca de até r$ 2.500",
