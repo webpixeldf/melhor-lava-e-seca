@@ -26,7 +26,13 @@ dotenv.config({ path: '.env.local' });
 dotenv.config();
 
 import { loadQueue, saveQueue, markStatus, buildOutline } from './lib/cronograma.mjs';
-import { addInternalLinks, buildLeiaTambem, linkBackToNewPost } from './lib/interlink.mjs';
+import {
+  addInternalLinks,
+  buildLeiaTambem,
+  linkBackToNewPost,
+  linkTargetFor,
+  countInternalLinks,
+} from './lib/interlink.mjs';
 import { fetchBlogCover } from './lib/unsplash.mjs';
 import { fixAccents } from './lib/accents.mjs';
 
@@ -36,7 +42,7 @@ const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
 
 const KEY = process.env.DEEPSEEK_API_KEY;
-const MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-chat';
+const MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
 
 const argv = process.argv.slice(2);
 const has = (f) => argv.includes(f);
@@ -232,8 +238,14 @@ REGRAS:
 
 // ------------------------------------------------------------------- api
 
+/**
+ * NAO troque o modelo pra deepseek-v4-pro sem mexer aqui: o pro raciocina
+ * antes de responder, gasta o orcamento de max_tokens no raciocinio e devolve
+ * `content` vazio — testado em 27/07/2026, falhou nas 3 tentativas da 1a secao.
+ * O v4-flash tambem devolve vazio de vez em quando, dai as 5 tentativas.
+ */
 async function ask(messages, maxTokens = 4096) {
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
     try {
       const r = await fetch('https://api.deepseek.com/chat/completions', {
         method: 'POST',
@@ -246,7 +258,7 @@ async function ask(messages, maxTokens = 4096) {
       if (!c) throw new Error('resposta vazia');
       return c;
     } catch (err) {
-      if (attempt === 3) throw err;
+      if (attempt === 5) throw err;
       console.log(`      tentativa ${attempt} falhou (${err.message}), repetindo...`);
       await new Promise((res) => setTimeout(res, 2000 * attempt));
     }
@@ -362,7 +374,7 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
 
   // A meta de 10-15 links so e alcancavel quando ja existe acervo pra apontar.
   // Nos primeiros artigos, exigir isso reprovaria texto bom por falta de destino.
-  const linkTarget = Math.min(10, 1 + Math.floor(corpusSize * 0.6));
+  const linkTarget = linkTargetFor(corpusSize);
   if (linkReport.count < linkTarget) {
     problems.push(`links internos insuficientes: ${linkReport.count}, esperado ${linkTarget}`);
   }
@@ -600,7 +612,14 @@ async function generate(pauta, corpus, models = []) {
   let body = splitLongParagraphs(fixAccents(parts.join('\n\n')));
 
   const { body: linked, report } = addInternalLinks(body, pauta, corpus);
-  body = linked + '\n\n' + buildLeiaTambem(pauta, corpus);
+
+  // O "Leia tambem" fecha a diferenca entre o que o link inline conseguiu
+  // encaixar e o que o portao exige — ver linkTargetFor/countInternalLinks.
+  const faltam = linkTargetFor(corpus.length) - report.count;
+  body = linked + '\n\n' + buildLeiaTambem(pauta, corpus, faltam);
+
+  // O portao precisa contar o corpo MONTADO, senao ignora o bloco acima.
+  report.count = countInternalLinks(body);
 
   const check = validate(body, pauta, report, corpus.length);
   console.log(`   -> ${check.words} palavras | densidade ${check.density.toFixed(2)}% | ${report.count} links | ${check.headings} subtitulos`);
@@ -616,6 +635,14 @@ async function main() {
   const catalog = loadCatalog();
   let published = 0, skipped = 0;
   const tried = new Set();
+
+  // Quando a falha e sistemica (API fora do ar, modelo renomeado, portao
+  // quebrado), o laco abaixo percorria as ~200 pautas pendentes tentando uma
+  // a uma ate o job estourar os 25 min do workflow e ser cancelado — e cada
+  // volta ainda marcava a pauta como reprovada. Tres tombos seguidos ja
+  // provam que o problema nao e da pauta.
+  const MAX_FALHAS_SEGUIDAS = 3;
+  let falhasSeguidas = 0;
 
   // Pauta sem cobertura de catalogo e PULADA (status registrado) e a fila
   // segue pra proxima: melhor a execucao publicar a pauta seguinte do que
@@ -644,9 +671,25 @@ async function main() {
       const { body, intro, check } = await generate(pauta, corpus, cover.models);
 
       if (!check.ok) {
-        console.log(`   REPROVADO: ${check.problems.join('; ')}`);
-        if (!DRY) { markStatus(queue, pauta.slug, 'reprovado', { problems: check.problems }); saveQueue(queue); }
+        // Reprovacao na 1a tentativa nao descarta a pauta: o texto e gerado de
+        // novo a cada execucao, e uma regressao passageira do modelo chegou a
+        // queimar pautas boas em definitivo. So vira "reprovado" na 2a.
+        const attempts = (pauta.attempts || 0) + 1;
+        const definitivo = attempts >= 2;
+        console.log(`   REPROVADO (tentativa ${attempts}${definitivo ? ', descartada' : ', volta pra fila'}): ${check.problems.join('; ')}`);
+        if (!DRY) {
+          markStatus(queue, pauta.slug, definitivo ? 'reprovado' : 'pending', {
+            problems: check.problems,
+            attempts,
+          });
+          saveQueue(queue);
+        }
         skipped++;
+        falhasSeguidas++;
+        if (falhasSeguidas >= MAX_FALHAS_SEGUIDAS) {
+          console.log(`\n  Abortando: ${falhasSeguidas} reprovacoes seguidas indicam problema geral, nao da pauta.`);
+          break;
+        }
         continue;
       }
 
@@ -671,9 +714,15 @@ async function main() {
         saveQueue(queue);
       }
       published++;
+      falhasSeguidas = 0;
     } catch (err) {
       console.log(`   ERRO: ${err.message}`);
       skipped++;
+      falhasSeguidas++;
+      if (falhasSeguidas >= MAX_FALHAS_SEGUIDAS) {
+        console.log(`\n  Abortando: ${falhasSeguidas} erros seguidos (provavel falha de API, nao das pautas).`);
+        break;
+      }
     }
   }
 

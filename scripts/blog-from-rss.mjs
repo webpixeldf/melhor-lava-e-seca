@@ -25,7 +25,7 @@ const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
 
 const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY;
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-chat';
+const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
 const AMZ_TAG = process.env.AMAZON_PARTNER_TAG || 'melhorlavaeseca-20';
 
 const PREVIEW = process.argv.includes('--preview');

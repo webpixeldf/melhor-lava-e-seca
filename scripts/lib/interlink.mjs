@@ -43,6 +43,27 @@ const MAX_LINKS = 15;
 const MIN_LINKS = 10;
 
 /**
+ * Quantos links internos o portao de qualidade exige, dado o tamanho do
+ * acervo. Fica aqui (e nao no validador) porque o gerador precisa do MESMO
+ * numero pra dimensionar o "Leia tambem" — quando os dois calculavam separado,
+ * o bloco saia com 5 itens fixos e o portao pedia 8, reprovando artigo bom.
+ */
+export function linkTargetFor(corpusSize = 0) {
+  return Math.min(10, 1 + Math.floor(corpusSize * 0.6));
+}
+
+/**
+ * Conta links internos no markdown final: `](/...)`, exceto ancoras soltas.
+ *
+ * O relatorio de addInternalLinks so enxerga o que ELE inseriu, e o "Leia
+ * tambem" entra depois. Contar no corpo montado e a unica forma de o portao
+ * ver o artigo como ele vai pro ar.
+ */
+export function countInternalLinks(md = '') {
+  return (md.match(/\]\(\/[^)]*\)/g) || []).length;
+}
+
+/**
  * Ancoras naturais pra home, da mais especifica pra mais generica.
  *
  * NENHUMA e a keyword crua "melhor lava e seca": ancora de correspondencia
@@ -203,7 +224,7 @@ export function addInternalLinks(body, pauta, corpus = []) {
  * Secao "Leia tambem" no fim do artigo. So entra destino com relacao real:
  * artigos que compartilham termo com a pauta atual, mais a home.
  */
-export function buildLeiaTambem(pauta, corpus = []) {
+export function buildLeiaTambem(pauta, corpus = [], wanted = 5) {
   const stop = new Set(['lava', 'seca', 'e', 'a', 'o', 'de', 'da', 'do', 'para', 'com', 'em', 'qual']);
   const mine = new Set(
     pauta.keyword.toLowerCase().split(/\s+/).filter((w) => w.length > 2 && !stop.has(w))
@@ -221,7 +242,11 @@ export function buildLeiaTambem(pauta, corpus = []) {
   // Primeiro os que compartilham termo; se sobrar espaco, completa com os mais
   // recentes. Diferente do link inline, aqui a ancora e o TITULO do artigo —
   // ela descreve o destino por definicao, entao nunca fica sem sentido.
-  const escolhidos = scored.slice(0, 5);
+  //
+  // A quantidade e adaptativa: pauta de "como fazer"/erro nao contem a keyword
+  // de nenhum ranking, entao o link inline nao acha onde encaixar e o artigo
+  // chegava no portao com 1 link so. Aqui o bloco cobre a diferenca.
+  const escolhidos = scored.slice(0, Math.max(5, Math.min(wanted, scored.length)));
 
   const lines = ['## Leia também', ''];
   for (const c of escolhidos) lines.push(`- [${c.title}](/blog/${c.slug}/)`);

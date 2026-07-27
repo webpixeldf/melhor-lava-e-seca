@@ -687,11 +687,8 @@
         "especificações lava e seca lg 11 kg",
         "preço lava e seca lg 11 kg"
       ],
-      "status": "reprovado",
-      "publishedAt": null,
-      "problems": [
-        "links internos insuficientes: 2, esperado 7"
-      ]
+      "status": "pending",
+      "publishedAt": null
     },
     {
       "keyword": "lava e seca lg vc2 14kg é boa",
@@ -788,11 +785,8 @@
         "especificações samsung lava e seca wd11m",
         "preço samsung lava e seca wd11m"
       ],
-      "status": "reprovado",
-      "publishedAt": null,
-      "problems": [
-        "links internos insuficientes: 3, esperado 7"
-      ]
+      "status": "pending",
+      "publishedAt": null
     },
     {
       "keyword": "lava e seca barata é boa",
@@ -840,11 +834,8 @@
         "dicas de secagem",
         "mitos da lava e seca"
       ],
-      "status": "reprovado",
-      "publishedAt": null,
-      "problems": [
-        "links internos insuficientes: 1, esperado 7"
-      ]
+      "status": "pending",
+      "publishedAt": null
     },
     {
       "keyword": "lava e seca gasta muita energia",
@@ -866,11 +857,8 @@
         "comparativo consumo",
         "economizar energia"
       ],
-      "status": "reprovado",
-      "publishedAt": null,
-      "problems": [
-        "links internos insuficientes: 1, esperado 7"
-      ]
+      "status": "pending",
+      "publishedAt": null
     },
     {
       "keyword": "lava e seca tcl é boa",
