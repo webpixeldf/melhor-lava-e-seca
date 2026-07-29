@@ -1111,7 +1111,14 @@
         "maquina lava e seca pequena garantia"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave",
+        "secao cortada no meio da frase: \"... ciclo de seca funciona de verdade para o seu dia a dia. Vou\""
+      ],
+      "attempts": 1
     },
     {
       "keyword": "valor lava e seca preço",
@@ -1234,14 +1241,15 @@
         "secadora industrial",
         "alta produtividade"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
-        "nenhum H2/H3 contem a palavra-chave"
+        "nenhum H2/H3 contem a palavra-chave",
+        "secao cortada no meio da frase: \"...capacidade buscar e o que observar na secagem — sem firula e\""
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca samsung é boa",
