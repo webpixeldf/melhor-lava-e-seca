@@ -1235,7 +1235,13 @@
         "alta produtividade"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca samsung é boa",
