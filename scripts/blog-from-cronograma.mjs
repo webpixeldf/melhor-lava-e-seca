@@ -33,7 +33,7 @@ import {
   linkTargetFor,
   countInternalLinks,
 } from './lib/interlink.mjs';
-import { fetchBlogCover } from './lib/unsplash.mjs';
+import { fetchBlogCover, imageQueryFor } from './lib/unsplash.mjs';
 import { fixAccents } from './lib/accents.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -697,7 +697,7 @@ async function main() {
       const imgWeb = `/images/blog/${pauta.slug}.webp`;
       if (!DRY) {
         try {
-          await fetchBlogCover(pauta.keyword, path.join(IMG_DIR, `${pauta.slug}.webp`));
+          await fetchBlogCover(imageQueryFor(pauta), path.join(IMG_DIR, `${pauta.slug}.webp`));
         } catch { console.log('   (capa nao baixada, seguindo sem imagem nova)'); }
       }
 

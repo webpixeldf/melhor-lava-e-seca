@@ -91,7 +91,15 @@ jobs:
             console.log(pub.length ? pub[pub.length-1].title : 'novo artigo');
           ")
 
-          git commit -m "blog: ${TITULO}"
+          # Execucao que so mexeu no status da fila (pauta reprovada, tentativa
+          # registrada) nao publicou nada — commitar com o titulo do ultimo
+          # artigo publicado faz parecer que ele saiu 4 vezes, foi o que
+          # aconteceu entre 28 e 29/07/2026.
+          if git diff --cached --name-only | grep -q '^src/content/blog/.*\.md$'; then
+            git commit -m "blog: ${TITULO}"
+          else
+            git commit -m "fila: atualiza status das pautas (nenhum artigo novo)"
+          fi
 
           # npm ci (postinstall) e npm run build regeneram favicons e o
           # og-default a partir da marca. Entre maquinas o sharp/libvips gera

@@ -10,7 +10,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config();
 import matter from 'gray-matter';
-import { fetchBlogCover } from './lib/unsplash.mjs';
+import { fetchBlogCover, imageQueryFor } from './lib/unsplash.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -30,8 +30,10 @@ const QUERIES = {
 
 function pickQuery(slug, tags) {
   if (QUERIES[slug]) return QUERIES[slug];
-  const keyword = (tags && tags[0]) || 'laundry';
-  return `${keyword} laundry`;
+  // A tag vem em portugues ("melhor lava e seca eco bubble") e ia crua pra
+  // busca, que e em ingles — dai as capas de vulcao e de escultura. O tema
+  // traduzido resolve; ver imageQueryFor em lib/unsplash.mjs.
+  return imageQueryFor({ keyword: (tags && tags[0]) || slug.replace(/-/g, ' ') });
 }
 
 async function main() {
