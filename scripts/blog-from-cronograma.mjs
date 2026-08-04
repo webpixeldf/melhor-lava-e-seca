@@ -33,13 +33,20 @@ import {
   linkTargetFor,
   countInternalLinks,
 } from './lib/interlink.mjs';
-import { fetchBlogCover, imageQueryFor } from './lib/unsplash.mjs';
+import {
+  fetchBlogCover,
+  imageQueryFor,
+  carregarUsadas,
+  salvarUsadas,
+} from './lib/unsplash.mjs';
 import { fixAccents } from './lib/accents.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
+// Fotos ja usadas como capa, pra nao repetir a mesma imagem entre artigos.
+const USADAS_FILE = path.join(ROOT, 'scripts', 'data', 'capas-usadas.json');
 
 const KEY = process.env.DEEPSEEK_API_KEY;
 const MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
@@ -250,7 +257,17 @@ async function ask(messages, maxTokens = 4096) {
       const r = await fetch('https://api.deepseek.com/chat/completions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
-        body: JSON.stringify({ model: MODEL, temperature: 0.9, max_tokens: maxTokens, messages }),
+        body: JSON.stringify({
+          model: MODEL,
+          temperature: 0.9,
+          max_tokens: maxTokens,
+          // Sem isto o v4 raciocina antes de responder: o raciocinio consome o
+          // orcamento de tokens e `content` volta VAZIO. Foi o que derrubou a
+          // publicacao entre 31/07 e 03/08/2026 — "resposta vazia" em todas as
+          // tentativas. Medido: no padrao, content=0 chars e reasoning=1252.
+          reasoning_effort: 'none',
+          messages,
+        }),
       });
       if (!r.ok) throw new Error(`DeepSeek ${r.status}: ${(await r.text()).slice(0, 200)}`);
       const data = await r.json();
@@ -547,7 +564,9 @@ function buildFrontmatter(pauta, description, image, iso) {
     `tags: [${kws.slice(0, 4).map(q).join(', ')}]`,
     `author: "Marcelo França"`,
     `keywords: [${kws.map(q).join(', ')}]`,
-    `image: ${q(image)}`,
+    // Sem capa baixada, o campo nao entra: apontar pra arquivo inexistente
+    // rende imagem quebrada no artigo e no card da listagem.
+    ...(image ? [`image: ${q(image)}`] : []),
     '---',
   ].join('\n');
 }
@@ -697,12 +716,23 @@ async function main() {
       const imgWeb = `/images/blog/${pauta.slug}.webp`;
       if (!DRY) {
         try {
-          await fetchBlogCover(imageQueryFor(pauta), path.join(IMG_DIR, `${pauta.slug}.webp`));
+          const usadas = carregarUsadas(USADAS_FILE);
+          const capa = await fetchBlogCover(imageQueryFor(pauta), path.join(IMG_DIR, `${pauta.slug}.webp`), { usadas });
+          if (capa?.photo?.id) {
+            usadas[capa.photo.id] = pauta.slug;
+            salvarUsadas(USADAS_FILE, usadas);
+          }
         } catch { console.log('   (capa nao baixada, seguindo sem imagem nova)'); }
       }
 
+      // Se a capa falhou, o frontmatter NAO pode apontar pro arquivo: o
+      // template renderiza a tag e o leitor ve imagem quebrada — foi o que
+      // aconteceu em "lava e seca separadas" (30/07/2026). Sem o campo, o
+      // template simplesmente nao mostra imagem.
+      const temCapa = DRY || fs.existsSync(path.join(IMG_DIR, `${pauta.slug}.webp`));
+
       const description = await metaDescription(pauta, intro);
-      const md = buildFrontmatter(pauta, description, imgWeb, iso) + '\n\n' + body + '\n';
+      const md = buildFrontmatter(pauta, description, temCapa ? imgWeb : null, iso) + '\n\n' + body + '\n';
 
       if (DRY) {
         console.log('   [dry-run] nao gravado');

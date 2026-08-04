@@ -152,6 +152,8 @@ async function main() {
       model: DEEPSEEK_MODEL,
       temperature: 0.85,
       max_tokens: 4096,
+      // v4 raciocina por padrao e devolve content vazio; ver blog-from-cronograma.mjs
+      reasoning_effort: 'none',
       messages: [
         { role: 'system', content: SYSTEM },
         { role: 'user', content: USER },

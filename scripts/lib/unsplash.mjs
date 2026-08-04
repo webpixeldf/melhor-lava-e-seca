@@ -34,15 +34,48 @@ const TEMAS = [
   [/beb[êe]|crian[çc]a|fralda/, 'baby clothes laundry'],
 ];
 
-export function imageQueryFor({ keyword = '', intent = '' } = {}) {
+// Variacoes de cena pro caso geral. Sem elas quase toda pauta caia na mesma
+// query, a Unsplash devolvia os mesmos 3 resultados no topo e 6 artigos
+// terminaram com a MESMA capa — o que contradiz "avaliamos 23 maquinas" na
+// cara do leitor. A escolha e estavel por slug: reprocessar nao troca a capa.
+const CENAS = [
+  'laundry room washing machine',
+  'washing machine laundry room home',
+  'modern laundry room interior',
+  'washer and dryer home laundry',
+  'laundry basket washing machine home',
+  'utility room washing machine',
+];
+
+function hashTexto(s = '') {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 100000;
+  return h;
+}
+
+export function imageQueryFor({ keyword = '', intent = '', slug = '' } = {}) {
   const k = keyword.toLowerCase();
   for (const [re, query] of TEMAS) {
     if (re.test(k)) return query;
   }
-  // Ranking/comparativo pedem a maquina em cena de casa; o resto, lavanderia.
-  return intent === 'ranking' || intent === 'comparativo'
-    ? 'washing machine laundry room home'
-    : 'laundry room washing machine';
+  return CENAS[hashTexto(slug || keyword) % CENAS.length];
+}
+
+/**
+ * Registro das fotos ja usadas (id do Unsplash -> slug). Serve pra nao repetir
+ * capa entre artigos: sem isso a aleatoriedade dentro do top 5 colide sempre.
+ */
+export function carregarUsadas(file) {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+export function salvarUsadas(file, mapa) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, JSON.stringify(mapa, null, 2) + '\n');
 }
 
 // Rede de seguranca: mesmo com query em ingles, o Unsplash as vezes devolve
@@ -95,31 +128,35 @@ export async function searchUnsplash(query, { perPage = 10, orientation = 'lands
  * Busca + baixa + redimensiona para 1200x630 webp.
  * Salva em destPath. Retorna { photo, destPath, saved }.
  */
-export async function fetchBlogCover(query, destPath, { fallbackQueries = [] } = {}) {
+export async function fetchBlogCover(query, destPath, { fallbackQueries = [], usadas = {} } = {}) {
   const queries = [query, ...fallbackQueries, 'washing machine', 'laundry room'];
+  const jaUsada = (p) => Object.prototype.hasOwnProperty.call(usadas, p.id);
   let photos = [];
+  let reserva = [];
   let chosenQuery = '';
 
   for (const q of queries) {
-    const achadas = (await searchUnsplash(q, { perPage: 10 })).filter((p) => !fotoSuspeita(p));
+    // per_page 30 e nao 10: com pool curto, as poucas fotos do topo se repetem
+    // entre artigos mesmo sorteando.
+    const achadas = (await searchUnsplash(q, { perPage: 30 })).filter((p) => !fotoSuspeita(p));
     const boas = achadas.filter(fotoRelevante);
-    if (boas.length > 0) {
-      photos = boas;
+    // Inedita primeiro; foto ja usada em outro artigo so como ultimo recurso.
+    const ineditas = boas.filter((p) => !jaUsada(p));
+    if (ineditas.length > 0) {
+      photos = ineditas;
       chosenQuery = q;
       break;
     }
-    // Sem nenhuma foto que fale do aparelho, tenta a query seguinte antes de
-    // se contentar com o que sobrou.
-    if (achadas.length && !photos.length) photos = achadas;
+    if (!reserva.length) reserva = boas.length ? boas : achadas;
   }
+  if (!photos.length) photos = reserva;
   if (!chosenQuery) chosenQuery = queries[queries.length - 1];
 
   if (photos.length === 0) {
     throw new Error(`Nenhuma imagem encontrada para: ${queries.join(' | ')}`);
   }
 
-  // escolhe com randomizacao dos top 5 pra variar
-  const pool = photos.slice(0, 5);
+  const pool = photos.slice(0, 12);
   const photo = pool[Math.floor(Math.random() * pool.length)];
 
   // Pega a maior disponivel (full) e redimensiona localmente
