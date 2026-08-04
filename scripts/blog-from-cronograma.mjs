@@ -50,6 +50,12 @@ const USADAS_FILE = path.join(ROOT, 'scripts', 'data', 'capas-usadas.json');
 
 const KEY = process.env.DEEPSEEK_API_KEY;
 const MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
+// Endereco do provedor em variavel, nao no codigo: DeepSeek e OpenAI falam o
+// mesmo formato, entao trocar de fornecedor vira configuracao. A DeepSeek NAO
+// publica versao datada (o /models so lista deepseek-v4-flash e -pro), entao
+// nao da pra fixar versao — o identificador muda de comportamento sozinho,
+// como em 25/07 e 31/07/2026. Dai a verificacao de modelo no arranque.
+const BASE_URL = (process.env.LLM_BASE_URL || 'https://api.deepseek.com').replace(/\/$/, '');
 
 const argv = process.argv.slice(2);
 const has = (f) => argv.includes(f);
@@ -254,7 +260,7 @@ REGRAS:
 async function ask(messages, maxTokens = 4096) {
   for (let attempt = 1; attempt <= 5; attempt++) {
     try {
-      const r = await fetch('https://api.deepseek.com/chat/completions', {
+      const r = await fetch(`${BASE_URL}/chat/completions`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
         body: JSON.stringify({
@@ -269,10 +275,21 @@ async function ask(messages, maxTokens = 4096) {
           messages,
         }),
       });
-      if (!r.ok) throw new Error(`DeepSeek ${r.status}: ${(await r.text()).slice(0, 200)}`);
+      if (!r.ok) throw new Error(`LLM ${r.status}: ${(await r.text()).slice(0, 200)}`);
       const data = await r.json();
-      const c = data.choices?.[0]?.message?.content?.trim();
-      if (!c) throw new Error('resposta vazia');
+      const msg = data.choices?.[0]?.message || {};
+      const c = msg.content?.trim();
+      if (!c) {
+        // Diagnostico explicito em vez de "resposta vazia": se veio raciocinio
+        // no lugar do texto, o modelo voltou a raciocinar por padrao e o
+        // reasoning_effort deixou de ser respeitado. Sem essa mensagem o log
+        // nao diz o motivo e a investigacao recomeca do zero.
+        throw new Error(
+          msg.reasoning_content
+            ? `modelo devolveu raciocinio (${msg.reasoning_content.length} chars) e texto vazio — reasoning_effort ignorado?`
+            : 'resposta vazia'
+        );
+      }
       return c;
     } catch (err) {
       if (attempt === 5) throw err;
@@ -646,7 +663,32 @@ async function generate(pauta, corpus, models = []) {
   return { body, intro, check, report };
 }
 
+/**
+ * Confere, antes de gerar, se o modelo configurado ainda existe e se responde
+ * com TEXTO. As duas paradas do blog teriam sido pegas aqui em segundos:
+ * em 25/07 o identificador foi aposentado, em 31/07 o modelo passou a devolver
+ * so raciocinio. Sem isso a execucao descobre o problema pauta por pauta.
+ */
+async function conferirModelo() {
+  try {
+    const r = await fetch(`${BASE_URL}/models`, { headers: { Authorization: `Bearer ${KEY}` } });
+    if (r.ok) {
+      const ids = ((await r.json()).data || []).map((m) => m.id);
+      if (ids.length && !ids.includes(MODEL)) {
+        throw new Error(`modelo "${MODEL}" nao existe mais. Disponiveis: ${ids.join(', ')}`);
+      }
+    }
+  } catch (err) {
+    if (/nao existe mais/.test(err.message)) throw err;
+    console.log(`   (nao deu pra listar modelos: ${err.message})`);
+  }
+
+  const teste = await ask([{ role: 'user', content: 'Responda apenas: ok' }], 50);
+  console.log(`   modelo ${MODEL} respondendo ("${teste.slice(0, 20)}")`);
+}
+
 async function main() {
+  await conferirModelo();
   const queue = loadQueue();
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   fs.mkdirSync(IMG_DIR, { recursive: true });
@@ -660,8 +702,17 @@ async function main() {
   // a uma ate o job estourar os 25 min do workflow e ser cancelado — e cada
   // volta ainda marcava a pauta como reprovada. Tres tombos seguidos ja
   // provam que o problema nao e da pauta.
-  const MAX_FALHAS_SEGUIDAS = 3;
-  let falhasSeguidas = 0;
+  // Dois limites diferentes de proposito. Erro de API e sistemico: 3 tombos
+  // ja provam que o provedor esta fora, e insistir so queima os 25 min do job.
+  // Reprovacao no portao e por pauta — o texto e gerado de novo a cada
+  // tentativa e a pauta seguinte pode passar tranquilamente. Com o limite
+  // unico de 3, uma sequencia azarada de reprovacoes fazia a execucao terminar
+  // sem publicar nada, e era isso que derrubava a media de 3 artigos por dia.
+  const MAX_ERROS_API = 3;
+  const MAX_REPROVACOES = 6;
+  let errosApi = 0;
+  let reprovacoes = 0;
+  let abortouPorErroDeApi = false;
 
   // Pauta sem cobertura de catalogo e PULADA (status registrado) e a fila
   // segue pra proxima: melhor a execucao publicar a pauta seguinte do que
@@ -704,9 +755,9 @@ async function main() {
           saveQueue(queue);
         }
         skipped++;
-        falhasSeguidas++;
-        if (falhasSeguidas >= MAX_FALHAS_SEGUIDAS) {
-          console.log(`\n  Abortando: ${falhasSeguidas} reprovacoes seguidas indicam problema geral, nao da pauta.`);
+        reprovacoes++;
+        if (reprovacoes >= MAX_REPROVACOES) {
+          console.log(`\n  Abortando: ${reprovacoes} reprovacoes seguidas indicam problema geral, nao da pauta.`);
           break;
         }
         continue;
@@ -744,19 +795,29 @@ async function main() {
         saveQueue(queue);
       }
       published++;
-      falhasSeguidas = 0;
+      errosApi = 0;
+      reprovacoes = 0;
     } catch (err) {
       console.log(`   ERRO: ${err.message}`);
       skipped++;
-      falhasSeguidas++;
-      if (falhasSeguidas >= MAX_FALHAS_SEGUIDAS) {
-        console.log(`\n  Abortando: ${falhasSeguidas} erros seguidos (provavel falha de API, nao das pautas).`);
+      errosApi++;
+      if (errosApi >= MAX_ERROS_API) {
+        console.log(`\n  Abortando: ${errosApi} erros seguidos (provavel falha de API, nao das pautas).`);
+        abortouPorErroDeApi = true;
         break;
       }
     }
   }
 
   console.log(`\nPublicados: ${published} | Pulados: ${skipped}`);
+
+  // Sair com sucesso quando a API esta fora esconde a quebra: o workflow fica
+  // verde, ninguem recebe aviso e o blog passou 4 dias parado (31/07 a 03/08)
+  // sem ninguem perceber. Falha de API derruba a execucao de proposito, pro
+  // GitHub notificar. Reprovacao no portao nao: aquilo e rotina editorial.
+  if (abortouPorErroDeApi && published === 0) {
+    throw new Error('nenhum artigo publicado: a API do modelo falhou em todas as tentativas');
+  }
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+main().catch((e) => { console.error(e.message || e); process.exit(1); });
