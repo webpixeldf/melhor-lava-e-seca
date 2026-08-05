@@ -1493,7 +1493,11 @@
         "causas do vazamento"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2084 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor amaciante para lava e seca",
@@ -1671,8 +1675,8 @@
         "manutenção Samsung",
         "reset Samsung"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-05T14:30:07-03:00"
     },
     {
       "keyword": "erro hot lava e seca samsung",
