@@ -1699,7 +1699,11 @@
         "erro de aquecimento"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2045 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "erro oe na lava e seca lg",
@@ -1722,7 +1726,11 @@
         "assistência LG"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.53%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "filtro de drenagem lava e seca samsung",
@@ -1745,7 +1753,12 @@
         "drenagem"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2079 palavras, alvo 1500",
+        "keyword stuffing: densidade 2.69%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "funcao desodorizar lava e seca midea",
@@ -1768,7 +1781,13 @@
         "custo-benefício"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca 11kg philco 16 programas pls11c é boa",
@@ -1817,7 +1836,11 @@
         "custo-benefício"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.44%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca nao esta secando",
@@ -1840,7 +1863,13 @@
         "manutenção"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor produto para lava e seca",
