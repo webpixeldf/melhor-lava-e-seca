@@ -1492,8 +1492,8 @@
         "troca de vedação",
         "causas do vazamento"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-05T18:48:47-03:00",
       "problems": [
         "inflado: 2084 palavras, alvo 1500"
       ],
