@@ -1698,12 +1698,12 @@
         "manutenção",
         "erro de aquecimento"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2045 palavras, alvo 1500"
+        "inflado: 2053 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "erro oe na lava e seca lg",
@@ -1725,12 +1725,12 @@
         "limpar filtro",
         "assistência LG"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.53%"
+        "keyword stuffing: densidade 2.80%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "filtro de drenagem lava e seca samsung",
@@ -1752,13 +1752,13 @@
         "filtro entupido",
         "drenagem"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2079 palavras, alvo 1500",
-        "keyword stuffing: densidade 2.69%"
+        "inflado: 2126 palavras, alvo 1500",
+        "keyword stuffing: densidade 2.63%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "funcao desodorizar lava e seca midea",
@@ -1780,14 +1780,14 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
         "nenhum H2/H3 contem a palavra-chave"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca 11kg philco 16 programas pls11c é boa",
@@ -1835,12 +1835,12 @@
         "comparativo",
         "custo-benefício"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "palavra-chave sub-utilizada: densidade 0.44%"
+        "palavra-chave sub-utilizada: densidade 0.43%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca nao esta secando",
@@ -1862,14 +1862,14 @@
         "secagem automática",
         "manutenção"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
         "nenhum H2/H3 contem a palavra-chave"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "melhor produto para lava e seca",
