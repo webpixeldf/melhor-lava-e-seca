@@ -1970,12 +1970,12 @@
         "tambor balançando",
         "peça original"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.52%"
+        "inflado: 2208 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "como calibrar a lava e seca samsung",
@@ -2020,8 +2020,8 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-07T18:02:02-03:00"
     },
     {
       "keyword": "como calibrar lava e seca samsung ecobubble",
