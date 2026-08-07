@@ -1944,7 +1944,11 @@
         "peça original"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2115 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "amortecedor lava e seca samsung original",
@@ -1967,7 +1971,11 @@
         "peça original"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.52%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como calibrar a lava e seca samsung",
@@ -1989,8 +1997,8 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-07T01:40:24-03:00"
     },
     {
       "keyword": "como calibrar lava e seca lg",
