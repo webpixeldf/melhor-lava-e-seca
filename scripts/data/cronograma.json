@@ -2186,7 +2186,11 @@
         "funções do painel"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2820 palavras, alvo 2000"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como instalar lava e seca midea",
@@ -2208,8 +2212,8 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-09T23:05:12-03:00"
     },
     {
       "keyword": "como interromper a secagem da lava e seca midea",
