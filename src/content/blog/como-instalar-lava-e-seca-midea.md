@@ -11,7 +11,7 @@ image: "/images/blog/como-instalar-lava-e-seca-midea.webp"
 
 Você acabou de receber sua lava e seca Midea, abriu a caixa, e aí bate aquela dúvida: será que eu mesmo instalo ou chamo um técnico? Calma, essa é uma das perguntas que mais recebo aqui no blog, e a resposta é mais simples do que parece. Na maioria dos casos, você consegue resolver sozinho em poucos passos, sem precisar gastar com mão de obra.
 
-Neste guia, vou te mostrar exatamente como instalar lava e seca Midea do zero, desde a escolha do local ideal até a primeira lavagem. Também vou resolver os imprevistos mais comuns, como mangueira que vaza, máquina que vibra demais ou o famoso erro de código no painel. São soluções práticas, que qualquer pessoa consegue aplicar em casa, mesmo sem experiência.
+Neste guia, vou te mostrar exatamente [como instalar lava e seca](/blog/como-instalar-lava-e-seca/) Midea do zero, desde a escolha do local ideal até a primeira lavagem. Também vou resolver os imprevistos mais comuns, como mangueira que vaza, máquina que vibra demais ou o famoso erro de código no painel. São soluções práticas, que qualquer pessoa consegue aplicar em casa, mesmo sem experiência.
 
 ## Como instalar lava e seca Midea: o que causa
 
