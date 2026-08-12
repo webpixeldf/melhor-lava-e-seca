@@ -2356,16 +2356,16 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2754 palavras, alvo 2000",
+        "inflado: 2806 palavras, alvo 2000",
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
         "nenhum H2/H3 contem a palavra-chave",
         "secao com acentuacao faltando: \"## Leia também\n\n- [Como limpar lava e seca LG: G...\""
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "como resetar lava e seca lg",
@@ -2411,7 +2411,11 @@
         "funções do painel"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "secao com acentuacao faltando: \"## Leia também\n\n- [Como resetar lava e seca LG: ...\""
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como secar roupa na lava e seca lg",
@@ -2433,8 +2437,8 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-12T13:41:44-03:00"
     },
     {
       "keyword": "como so centrifugar na maquina lava e seca samsung",
