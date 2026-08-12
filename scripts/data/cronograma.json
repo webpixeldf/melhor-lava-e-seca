@@ -2410,8 +2410,8 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-12T18:06:07-03:00",
       "problems": [
         "secao com acentuacao faltando: \"## Leia também\n\n- [Como resetar lava e seca LG: ...\""
       ],
