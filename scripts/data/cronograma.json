@@ -2563,7 +2563,14 @@
         "manual Samsung"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2752 palavras, alvo 2000",
+        "palavra-chave sub-utilizada: densidade 0.00%",
+        "palavra-chave nao aparece no texto",
+        "nenhum H2/H3 contem a palavra-chave"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como usar o dispenser da lava e seca samsung",
@@ -2586,7 +2593,11 @@
         "lavagem eficiente"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.65%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "comparar lava e seca",
@@ -2608,8 +2619,8 @@
         "custo-benefício",
         "melhores marcas"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-13T23:25:15-03:00"
     },
     {
       "keyword": "e21 lava e seca midea é boa",
