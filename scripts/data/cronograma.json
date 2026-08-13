@@ -2460,14 +2460,14 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
         "nenhum H2/H3 contem a palavra-chave"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "como usar a lava e seca midea",
@@ -2513,7 +2513,11 @@
         "funções do painel"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2755 palavras, alvo 2000"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como usar lava e seca lg 14kg",
@@ -2535,8 +2539,8 @@
         "manual LG 14kg",
         "funções LG"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-13T13:42:25-03:00"
     },
     {
       "keyword": "como usar maquina lava e seca samsung",
