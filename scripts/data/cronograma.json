@@ -2562,15 +2562,15 @@
         "lavagem rápida",
         "manual Samsung"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2752 palavras, alvo 2000",
+        "inflado: 2750 palavras, alvo 2000",
         "palavra-chave sub-utilizada: densidade 0.00%",
         "palavra-chave nao aparece no texto",
         "nenhum H2/H3 contem a palavra-chave"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "como usar o dispenser da lava e seca samsung",
@@ -2592,12 +2592,12 @@
         "manutenção do dispenser",
         "lavagem eficiente"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.65%"
+        "inflado: 2830 palavras, alvo 2000"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "comparar lava e seca",
@@ -2642,8 +2642,8 @@
         "reset Midea",
         "drenagem"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-14T13:38:03-03:00"
     },
     {
       "keyword": "erro 10 lava e seca midea",
