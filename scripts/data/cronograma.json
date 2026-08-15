@@ -2715,14 +2715,13 @@
         "reset Samsung",
         "manutenção"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2048 palavras, alvo 1500",
-        "keyword stuffing: densidade 2.73%",
-        "secao com acentuacao faltando: \"## Leia também\n\n- [Erro HC2 lava e seca Samsung:...\""
+        "inflado: 2099 palavras, alvo 1500",
+        "keyword stuffing: densidade 3.67%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "erro 50 lava e seca midea",
@@ -2767,8 +2766,8 @@
         "manutenção Samsung",
         "erro de espuma"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-15T17:35:00-03:00"
     },
     {
       "keyword": "erro ddc lava e seca samsung",
