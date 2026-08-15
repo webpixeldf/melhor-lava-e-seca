@@ -2688,8 +2688,8 @@
         "assistência LG",
         "reset LG"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-15T12:55:53-03:00",
       "problems": [
         "inflado: 2186 palavras, alvo 1500"
       ],
