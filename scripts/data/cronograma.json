@@ -2835,12 +2835,12 @@
         "erro de porta",
         "interruptor"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2080 palavras, alvo 1500"
+        "inflado: 2076 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "erro e3 lava e seca electrolux",
@@ -2885,8 +2885,8 @@
         "diagnóstico",
         "suporte"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-16T22:55:25-03:00"
     },
     {
       "keyword": "erro h3 lava e seca electrolux",
