@@ -2932,7 +2932,11 @@
         "assistência"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2073 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "erro lc lava e seca samsung",
@@ -2955,7 +2959,11 @@
         "água no piso"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2188 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "erro le lava e seca samsung",
@@ -2977,8 +2985,8 @@
         "detector de água",
         "reparo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-17T17:44:37-03:00"
     },
     {
       "keyword": "erro oc lava e seca samsung",
