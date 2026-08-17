@@ -2931,8 +2931,8 @@
         "manutenção",
         "assistência"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-17T22:57:15-03:00",
       "problems": [
         "inflado: 2073 palavras, alvo 1500"
       ],
