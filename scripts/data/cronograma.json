@@ -2958,12 +2958,12 @@
         "detector de vazamento",
         "água no piso"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "inflado: 2188 palavras, alvo 1500"
+        "inflado: 2061 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "erro le lava e seca samsung",
@@ -3009,7 +3009,11 @@
         "drenagem"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "inflado: 2107 palavras, alvo 1500"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "erro oe lava e seca samsung",
@@ -3031,8 +3035,8 @@
         "manutenção Samsung",
         "assistência"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-18T13:06:33-03:00"
     },
     {
       "keyword": "erro oe lg lava e seca",
