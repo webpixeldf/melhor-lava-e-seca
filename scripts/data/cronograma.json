@@ -2672,7 +2672,9 @@
         "assistência técnica"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-14T18:05:59-03:00"
+      "publishedAt": "2026-08-14T18:05:59-03:00",
+      "rewrittenAt": "2026-08-18T17:42:06-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro 1e lava e seca lg",
@@ -3014,8 +3016,8 @@
         "água em excesso",
         "drenagem"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-18T17:41:17-03:00",
       "problems": [
         "inflado: 2107 palavras, alvo 1500"
       ],
