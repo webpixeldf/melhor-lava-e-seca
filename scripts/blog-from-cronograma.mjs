@@ -25,7 +25,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config();
 
-import { loadQueue, saveQueue, markStatus, buildOutline } from './lib/cronograma.mjs';
+import { loadQueue, saveQueue, markStatus, buildOutline, escolherTemplate } from './lib/cronograma.mjs';
 import {
   addInternalLinks,
   buildLeiaTambem,
@@ -63,6 +63,12 @@ const val = (f, d) => { const i = argv.indexOf(f); return i > -1 ? argv[i + 1] :
 const DRY = has('--dry-run');
 const COUNT = parseInt(val('--count', '1'), 10);
 const ONLY = val('--slug', null);
+// Regeracao de artigo JA publicado. Os 57 textos anteriores a 04/08/2026
+// sairam com template errado (tutorial sem passo a passo) e cliche; nenhum
+// deles se conserta com regex. Rodando 1 por execucao junto com o artigo
+// novo, o acervo se refaz em ~3 semanas sem rajada de API. Com --count N
+// da pra fazer em lote quando houver pressa.
+const REWRITE = has('--rewrite');
 
 if (!KEY) { console.error('DEEPSEEK_API_KEY nao definida em .env.local'); process.exit(1); }
 
@@ -625,6 +631,24 @@ function metaAceitavel(d, pauta) {
  * Monta com frases INTEIRAS da introducao — cortar no meio da frase e o que
  * gerava aquele "..." no fim do snippet.
  */
+/**
+ * Corte de emergencia da meta description: para na ultima palavra que cabe,
+ * descarta palavra funcional pendurada no fim e fecha com ponto. Sem isto a
+ * descricao saia truncada no meio da ideia ("...serve na sua prima de"), que e
+ * o texto que aparece embaixo do titulo no Google.
+ */
+const PENDURADAS = new Set(['de','da','do','das','dos','e','ou','que','para','com','em','na','no','nas','nos','a','o','as','os','um','uma','se','por','ao','aos','pra','mas','como','sua','seu','minha','meu']);
+
+function cortarLimpo(texto, max) {
+  let t = texto.slice(0, max).replace(/\s+\S*$/, '').trim();
+  let palavras = t.split(/\s+/);
+  while (palavras.length > 1 && PENDURADAS.has(palavras[palavras.length - 1].toLowerCase().replace(/[^a-z\u00e0-\u00fc]/g, ''))) {
+    palavras.pop();
+  }
+  t = palavras.join(' ').replace(/[,;:\s-]+$/, '');
+  return /[.!?]$/.test(t) ? t : t + '.';
+}
+
 function metaFallback(pauta, intro) {
   const base = intro.replace(/\s+/g, ' ').replace(/[#*_]/g, '').trim();
 
@@ -637,7 +661,7 @@ function metaFallback(pauta, intro) {
   // capitalizada, e nao como rotulo solto grudado na frente.
   const abertura = `${capitalizar(pauta.keyword)}: `;
   const resto = frasesAte(base, META_MAX - abertura.length);
-  d = resto ? abertura + resto : abertura + base.slice(0, META_MAX - abertura.length).replace(/\s+\S*$/, '');
+  d = resto ? abertura + resto : abertura + cortarLimpo(base, META_MAX - abertura.length);
   return d.replace(/"/g, "'");
 }
 
@@ -826,11 +850,84 @@ async function conferirModelo() {
   console.log(`   modelo ${MODEL} respondendo ("${teste.slice(0, 20)}")`);
 }
 
+/**
+ * Diagnostico de um artigo ja publicado: cliche e ausencia de passo a passo
+ * sao os dois defeitos que so a regeracao resolve. Quanto maior a nota, pior.
+ */
+function notaDeDefeito(md, intent) {
+  const cliches = acharCliches(md).length;
+  const passos = (md.match(/^[ ]*[0-9]+[.)][ ]+\S/gm) || []).length;
+  const semPassos = ENSINA.has(intent) && passos < 4;
+  return cliches * 2 + (semPassos ? 5 : 0);
+}
+
+/** Escolhe o proximo artigo publicado a regerar: o mais defeituoso primeiro. */
+function proximoParaRegerar(queue, jaTentados) {
+  const candidatos = [];
+  for (const pauta of queue.items) {
+    if (pauta.status !== 'publicado' || jaTentados.has(pauta.slug)) continue;
+    const file = path.join(BLOG_DIR, pauta.slug + '.md');
+    if (!fs.existsSync(file)) continue;
+    const md = fs.readFileSync(file, 'utf8');
+    const nota = notaDeDefeito(md, escolherTemplate(pauta));
+    if (nota > 0) candidatos.push({ pauta, nota, file, md });
+  }
+  candidatos.sort((a, b) => b.nota - a.nota);
+  return candidatos[0] || null;
+}
+
+/**
+ * Regenera um artigo publicado no lugar. Preserva slug, capa e a data de
+ * PUBLICACAO — so marca `updated`, que e o campo que o sitemap usa como
+ * lastmod. Assim o Google rebusca sem que o artigo finja ser novo nem embaralhe
+ * a ordem da listagem.
+ */
+async function regerarUm(queue, jaTentados) {
+  const alvo = proximoParaRegerar(queue, jaTentados);
+  if (!alvo) { console.log('  Nenhum artigo publicado precisa de regeracao.'); return false; }
+  jaTentados.add(alvo.pauta.slug);
+
+  const catalog = loadCatalog();
+  const cover = checkCoverage(alvo.pauta, catalog);
+  console.log(`\n  REGERANDO "${alvo.pauta.title}" (nota de defeito ${alvo.nota})`);
+
+  const corpus = readCorpus();
+  const { body, intro, check } = await generate(alvo.pauta, corpus, cover.models || []);
+  if (!check.ok) {
+    console.log(`   REPROVADO na regeracao, artigo antigo mantido: ${check.problems.join('; ')}`);
+    return false;
+  }
+
+  const original = alvo.md;
+  const dataPub = (original.match(/^date:\s*"([^"]+)"/m) || [])[1] || new Date().toISOString();
+  const imagem = (original.match(/^image:\s*"([^"]+)"/m) || [])[1] || null;
+  const agora = new Date().toISOString().replace(/\.\d\d\dZ$/, '-03:00');
+
+  const description = await metaDescription(alvo.pauta, intro);
+  let fm = buildFrontmatter(alvo.pauta, description, imagem, dataPub);
+  fm = fm.replace(/\n---$/, `\nupdated: "${agora}"\n---`);
+
+  fs.writeFileSync(alvo.file, fm + '\n\n' + body + '\n', 'utf8');
+  console.log(`   REGERADO | ${check.words} palavras | ${check.problems.length} problema(s)`);
+  return true;
+}
+
 async function main() {
   await conferirModelo();
   const queue = loadQueue();
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   fs.mkdirSync(IMG_DIR, { recursive: true });
+
+  if (REWRITE) {
+    const jaTentados = new Set();
+    let feitos = 0;
+    for (let i = 0; i < COUNT; i++) {
+      if (await regerarUm(queue, jaTentados)) feitos++;
+    }
+    console.log(`
+Regerados: ${feitos} de ${COUNT} tentativa(s)`);
+    return;
+  }
 
   const catalog = loadCatalog();
   let published = 0, skipped = 0;

@@ -28,7 +28,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 25   # artigo de 3.500 palavras faz ~11 chamadas de API
+    timeout-minutes: 40   # agora sao DOIS artigos por execucao (novo + regeracao)
 
     steps:
       - name: Checkout
@@ -58,6 +58,20 @@ jobs:
           AMAZON_PARTNER_TAG: melhorlavaeseca-20
           SITE_URL: https://melhorlavaeseca.com
         run: node scripts/blog-from-cronograma.mjs --count 1
+
+      # Os 57 artigos anteriores a 04/08/2026 sairam com template errado
+      # (tutorial sem passo a passo) e cliche. Regerar 1 por execucao refaz o
+      # acervo em ~3 semanas sem rajada de API. Nunca derruba a publicacao do
+      # artigo novo: se falhar, segue o jogo.
+      - name: Regenera um artigo antigo
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-v4-flash
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          AMAZON_PARTNER_TAG: melhorlavaeseca-20
+          SITE_URL: https://melhorlavaeseca.com
+        run: node scripts/blog-from-cronograma.mjs --rewrite --count 1
 
       - name: Valida o build antes de publicar
         # Artigo que quebra o build derrubaria o deploy do site inteiro.
@@ -95,8 +109,12 @@ jobs:
           # registrada) nao publicou nada — commitar com o titulo do ultimo
           # artigo publicado faz parecer que ele saiu 4 vezes, foi o que
           # aconteceu entre 28 e 29/07/2026.
-          if git diff --cached --name-only | grep -q '^src/content/blog/.*\.md$'; then
+          # Arquivo ADICIONADO = artigo novo. Só modificado = regeracao de artigo
+          # antigo, que nao pode ser anunciada como publicacao nova.
+          if git diff --cached --name-only --diff-filter=A | grep -q '^src/content/blog/.*\.md$'; then
             git commit -m "blog: ${TITULO}"
+          elif git diff --cached --name-only | grep -q '^src/content/blog/.*\.md$'; then
+            git commit -m "blog: regenera artigo antigo no padrao novo"
           else
             git commit -m "fila: atualiza status das pautas (nenhum artigo novo)"
           fi
