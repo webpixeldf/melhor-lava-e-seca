@@ -75,7 +75,7 @@ COMO VOCE ESCREVE:
 - Primeira pessoa, tom de conversa, como quem explica pra um amigo. Pode usar expressao coloquial brasileira sem exagero.
 - Frases de tamanho variado. Alterne periodo curto e longo: texto com todas as frases do mesmo tamanho soa robotico.
 - PARAGRAFO CURTO, regra critica: 2 ou 3 frases, entre 180 e 320 caracteres.
-  NUNCA passe de 420 caracteres. A maioria le no celular, e bloco grande de
+  NUNCA passe de 340 caracteres. A maioria le no celular, e bloco grande de
   texto faz o leitor desistir. Na duvida, quebre em dois. Paragrafo de uma
   frase so, isolado, tambem funciona bem e cria respiro.
 - Concreto sempre: exemplo e situacao real. Numero exato, SO quando ele veio na lista de modelos fornecida. Se voce nao tem o numero, seja concreto pelo cenario ("um edredom de casal precisa de duas levas pra secar") — nunca invente valor.
@@ -195,6 +195,9 @@ function themesFrom(pauta) {
 // Intencoes que citam modelo especifico e portanto precisam do catalogo real.
 const NEEDS_CATALOG = new Set(['ranking', 'review', 'comparativo']);
 
+// Intencoes que prometem ensinar e portanto precisam de passo a passo real.
+const ENSINA = new Set(['guia', 'informativo']);
+
 function sectionPrompt(pauta, section, index, total, written, catalogo) {
   const secundarias = themesFrom(pauta);
   return `ARTIGO: "${pauta.title}"${catalogo}
@@ -211,13 +214,31 @@ Voce esta escrevendo a secao ${index + 1} de ${total}.
 TITULO DA SECAO (use exatamente este, como H2):
 ## ${section.h2}
 
-O QUE ESTA SECAO DEVE COBRIR:
+${section.steps ? `FORMATO OBRIGATORIO DESTA SECAO — LISTA NUMERADA:
+Esta secao NAO pode ser texto corrido. Ela e um procedimento e sai assim:
+
+1. **Verbo no imperativo abrindo o passo.** Uma ou duas frases dizendo
+   exatamente o que fazer e o que observar depois de fazer.
+2. **Proximo passo.** Idem.
+
+Regras: no minimo 5 passos, numerados com "1. ", "2. " no inicio da linha,
+na ordem em que a pessoa executa. Cada passo diz QUAL ajuste, QUAL programa,
+QUAL limite — "escolha o programa certo" nao e passo, "selecione o ciclo
+sinteticos, que trabalha abaixo de 60 graus" e passo. Antes da lista, no
+maximo um paragrafo curto de contexto. Depois dela, nada.
+
+` : ''}O QUE ESTA SECAO DEVE COBRIR:
 ${section.guide}
 
 TAMANHO: entre ${Math.round(section.words * 0.85)} e ${section.words} palavras. Nao ultrapasse o limite superior — texto inflado para bater tamanho fica repetitivo e o leitor abandona.
 
-${written.length ? `SECOES JA ESCRITAS (NAO repita esse conteudo, nao reintroduza o assunto):
-${written.map((w) => '- ' + w).join('\n')}` : 'Esta e a primeira secao do corpo.'}
+${written.length ? `O QUE JA FOI DITO NO ARTIGO (nao repita nem reintroduza nada disso;
+se um ponto ja apareceu, siga em frente em vez de reformular):
+${written.map((w) => '- ' + w.h2 + ' | ja cobriu: ' + w.resumo).join('\n')}
+
+Se depois de descontar tudo isso a secao nao tiver conteudo NOVO suficiente
+pro tamanho pedido, escreva MENOS. Texto curto e novo vale mais do que texto
+no tamanho cheio repetindo o que ja foi dito.` : 'Esta e a primeira secao do corpo.'}
 
 REGRAS DESTA SECAO:
 - REPETICAO DA PALAVRA-CHAVE: a expressao exata "${pauta.keyword}" pode
@@ -317,7 +338,24 @@ function clean(md) {
  * meio. Instrucao no prompt ajuda mas nao garante: o modelo escapa. Como a
  * maioria le no celular, bloco grande e o que mais faz abandonar a pagina.
  */
-const PARA_MAX = 420;
+// 340 e nao 420: o prompt pede 180-320 caracteres, mas o divisor so agia
+// acima de 420, entao a faixa 320-420 passava batido — 25% dos paragrafos
+// publicados ficaram acima do alvo e a redatora apontou "paragrafos grandes".
+const PARA_MAX = 340;
+
+/**
+ * Resumo do que a secao ja disse, pra alimentar o prompt da proxima.
+ * Primeira frase de cada paragrafo: e ali que o assunto e anunciado.
+ */
+function resumirSecao(md) {
+  return md
+    .split('\n\n')
+    .map((b) => b.trim())
+    .filter((b) => b && !/^[#|>\-*`]/.test(b))
+    .map((b) => (b.match(/^[^.!?]+[.!?]/) || [b])[0].trim())
+    .join(' ')
+    .slice(0, 400);
+}
 
 function splitLongParagraphs(md) {
   const out = [];
@@ -404,6 +442,15 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
   const kwInHeading = headings.some((h) => h.toLowerCase().includes(kw));
   if (!kwInHeading) problems.push('nenhum H2/H3 contem a palavra-chave');
 
+  // Pauta de guia/informativo promete ensinar. Sem lista numerada, o texto
+  // vira dissertacao sobre o assunto — foi a queixa da redatora, "os tutoriais
+  // so enrolam e nao ensinam nada". Exigir os passos e a unica checagem
+  // objetiva possivel: ou existe procedimento, ou nao existe.
+  if (ENSINA.has(pauta.intent)) {
+    const passos = (body.match(/^\s*\d+[.)]\s+\S/gm) || []).length;
+    if (passos < 4) problems.push(`tutorial sem passo a passo: ${passos} passos numerados, esperado 4`);
+  }
+
   if (!linkReport.home) problems.push('sem link para a home com ancora da palavra-chave');
 
   // A meta de 10-15 links so e alcancavel quando ja existe acervo pra apontar.
@@ -414,9 +461,23 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
   }
 
   // Paragrafo gigante = leitura ruim no mobile. O divisor automatico mira 420,
-  // entao 500 aqui e so rede de seguranca pro que escapou.
-  const longP = body.split('\n\n').filter((p) => !/^[#|>\-*`]/.test(p.trim()) && p.length > 500);
-  if (longP.length) problems.push(`${longP.length} paragrafo(s) acima de 500 caracteres`);
+  // entao o portao aqui e so rede de seguranca pro que escapou.
+  // Bloco de lista numerada nao e paragrafo: o item e que precisa ser curto.
+  // O divisor automatico ja pula listas, e o portao contava o bloco inteiro —
+  // um passo a passo bem escrito era reprovado por "paragrafo gigante".
+  const blocos = body.split('\n\n').map((b) => b.trim()).filter(Boolean);
+  // Passo numerado pode ser um pouco mais longo que paragrafo corrido: ele
+  // carrega a instrucao e o que observar depois de executar.
+  const MAX_PROSA = PARA_MAX + 80;
+  const MAX_PASSO = PARA_MAX + 160;
+  const longP = [];
+  for (const b of blocos) {
+    const ehLista = /^\d+[.)]\s/.test(b);
+    const partes = ehLista ? b.split('\n').map((l) => l.trim()) : [b];
+    const limite = ehLista ? MAX_PASSO : MAX_PROSA;
+    for (const t of partes) if (!/^[#|>\-*`]/.test(t) && t.length > limite) longP.push(t);
+  }
+  if (longP.length) problems.push(`${longP.length} trecho(s) longo(s) demais (limite ${MAX_PROSA} em texto, ${MAX_PASSO} em passo)`);
 
   // Rede de seguranca: se alguma secao ainda escapou truncada, nao publica.
   for (const bloco of body.split(/\n(?=## )/)) {
@@ -641,7 +702,10 @@ async function generate(pauta, corpus, models = []) {
     }
 
     parts.push(md);
-    written.push(s.h2);
+    // Antes ia so o TITULO da secao pro prompt seguinte: o modelo era mandado
+    // "nao repita" sem saber o que havia sido dito, e repetia. Agora vai a
+    // frase de abertura de cada paragrafo, que e onde o assunto e anunciado.
+    written.push({ h2: s.h2, resumo: resumirSecao(md) });
     console.log(`${countWords(md)}p`);
   }
 

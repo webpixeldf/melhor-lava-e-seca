@@ -97,10 +97,24 @@ const OUTLINES = {
     // repetir em todas viraria stuffing.
     { h2: '{kw}: o que causa', weight: 20, kw: true, guide: 'Explique as causas mais comuns, da mais provável para a menos provável. Seja técnico mas acessível.' },
     { h2: 'Como identificar o que está acontecendo', weight: 16, guide: 'Sinais e sintomas que ajudam a diagnosticar, e como testar cada hipótese em casa.' },
-    { h2: '{kw}: como resolver passo a passo', weight: 28, kw: true, guide: 'Passo a passo numerado e prático, do mais simples ao mais complexo. Use H3 para agrupar por tipo de solução.' },
+    { h2: '{kw}: como resolver passo a passo', weight: 28, kw: true, steps: true, guide: 'Passo a passo numerado e prático, do mais simples ao mais complexo. Use H3 para agrupar por tipo de solução.' },
     { h2: 'Quando chamar a assistência técnica', weight: 12, guide: 'Deixe claro o limite entre o que dá pra resolver sozinho e o que exige técnico, e o risco de insistir.' },
     { h2: 'Como evitar que aconteça de novo', weight: 16, guide: 'Rotina de prevenção e manutenção concreta, com frequência recomendada.' },
     { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+  ],
+  // Separado de 'guia' em 04/08/2026. O template de guia e de DEFEITO ("o que
+  // causa", "como identificar o que esta acontecendo", "como evitar que
+  // aconteca de novo") e estava sendo aplicado a pauta de PROCEDIMENTO ("como
+  // instalar", "como calibrar"). Como instalacao nao tem causa nem reincidencia,
+  // o modelo preenchia as secoes com enchimento — a queixa de que os tutoriais
+  // enrolam e nao ensinam nada vinha daqui.
+  tutorial: [
+    { h2: '{kw}: o que voce vai precisar', weight: 14, kw: true, guide: 'Lista do que a pessoa precisa ter em maos ANTES de comecar: ferramentas, pecas, espaco, tomada, ponto de agua, quantas pessoas. Em bullets. Sem introducao ao assunto.' },
+    { h2: '{kw}: passo a passo', weight: 34, kw: true, steps: true, guide: 'O procedimento completo, do inicio ao fim, na ordem exata de execucao.' },
+    { h2: 'Como saber se deu certo', weight: 14, guide: 'Os sinais concretos de que o procedimento funcionou, e o teste que a pessoa faz pra confirmar. Nada de repetir os passos.' },
+    { h2: 'Se nao funcionar', weight: 16, guide: 'Os problemas mais comuns depois de executar, cada um com a verificacao correspondente. Conteudo novo, nao os passos invertidos.' },
+    { h2: 'Erros que estragam o resultado', weight: 14, guide: 'O que a pessoa faz por conta propria e compromete o resultado, com a consequencia pratica de cada um.' },
+    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta. Nenhuma respondida repetindo secao anterior.' },
   ],
   comparativo: [
     { h2: 'Visão geral de cada opção', weight: 20, guide: 'Apresente cada lado da comparação com H3, explicando a proposta e o público de cada um.' },
@@ -110,21 +124,47 @@ const OUTLINES = {
     { h2: 'Veredito', weight: 12, guide: 'Conclusão objetiva sobre qual escolher e em que situação.' },
     { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
   ],
+  // Reescrito em 04/08/2026. O template anterior tinha TRES secoes pedindo a
+  // mesma coisa por outro nome ("o que e e por que importa", "como funciona na
+  // pratica", "o que observar antes de decidir") mais "dicas praticas" e
+  // "erros comuns", que se sobrepunham. O modelo obedecia e dizia a mesma
+  // coisa cinco vezes — foi a queixa da redatora: "enrola e nao ensina nada".
+  // Agora cada secao tem um angulo que as outras nao podem cobrir.
   informativo: [
-    { h2: '{kw}: o que é e por que importa', weight: 16, kw: true, guide: 'Explique o conceito com clareza e contextualize dentro do universo de lava e seca.' },
-    { h2: 'Como funciona na prática', weight: 22, guide: 'Detalhe o funcionamento, o que acontece em cada etapa e o que isso significa no dia a dia.' },
-    { h2: '{kw}: o que observar antes de decidir', weight: 22, kw: true, guide: 'Aspectos decisivos, com H3 por tópico, sempre ligando ao impacto real pro leitor.' },
-    { h2: 'Dicas práticas que funcionam', weight: 18, guide: 'Recomendações acionáveis que a pessoa consegue aplicar hoje mesmo.' },
-    { h2: 'Erros comuns que custam caro', weight: 14, guide: 'O que a maioria faz errado e qual a consequência.' },
-    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas. H3 para cada pergunta.' },
+    { h2: '{kw}: a resposta direta', weight: 12, kw: true, guide: 'Responda a duvida do titulo LOGO no primeiro paragrafo, em uma frase. Depois explique em no maximo dois paragrafos por que a resposta e essa. Nada de introduzir o assunto ou definir termos: quem chegou aqui ja sabe do que se trata.' },
+    { h2: 'Por que isso acontece', weight: 20, guide: 'O mecanismo tecnico, causa por causa, da mais comum para a mais rara. Explique o COMO funciona, nao o que fazer — a acao vem na proxima secao e nao pode ser antecipada aqui.' },
+    { h2: 'O que fazer, na ordem', weight: 28, steps: true, guide: 'Passo a passo NUMERADO (1., 2., 3., ...), com no minimo 4 passos. Cada passo comeca com verbo no imperativo e diz exatamente o que ajustar: qual programa, qual regulagem, qual limite de carga, o que observar depois. Nada de conselho vago tipo "escolha o programa certo" — diga QUAL programa e em que situacao.' },
+    { h2: 'Quando a regra muda', weight: 16, guide: 'Excecoes e casos-limite em que a orientacao anterior NAO vale: tipo de tecido, capacidade da maquina, clima, peca especifica. Conteudo que nao apareceu em nenhuma secao anterior.' },
+    { h2: 'O que nao fazer', weight: 16, guide: 'Erros concretos e a consequencia de cada um. Nao repita as recomendacoes ja dadas invertidas: traga o que a pessoa faz por conta propria e piora a situacao.' },
+    { h2: 'Perguntas frequentes', weight: 8, guide: 'De 4 a 5 perguntas reais com respostas curtas e diretas. H3 para cada pergunta. Nenhuma pode ser respondida repetindo secao anterior.' },
   ],
 };
 
+/**
+ * A planilha marca como "guia" tanto pauta de defeito ("erro OE", "nao esta
+ * secando") quanto de procedimento ("como instalar", "como calibrar"), mas os
+ * dois pedem estruturas opostas: defeito tem causa e reincidencia, instalacao
+ * nao tem nem uma nem outra. Aqui a pauta de procedimento e desviada pro
+ * template de tutorial.
+ */
+const SINTOMA = /erro|n[aã]o (seca|liga|centrifuga|enche|funciona)|vazand|barulh|travad|quebr|encolhe|cheiro|mofo|fuma[cç]|desliga sozinha/i;
+
+export function escolherTemplate(pauta) {
+  if (pauta.intent === 'guia' && /^como\s/i.test(pauta.keyword) && !SINTOMA.test(pauta.keyword)) {
+    return 'tutorial';
+  }
+  return pauta.intent;
+}
+
 /** Monta o outline com a keyword aplicada e o alvo de palavras por secao. */
 export function buildOutline(pauta) {
-  const base = OUTLINES[pauta.intent] || OUTLINES.informativo;
+  const base = OUTLINES[escolherTemplate(pauta)] || OUTLINES.informativo;
   const introWords = 160;
-  const bodyWords = Math.max(pauta.targetWords - introWords, 400);
+  // Fator 0.8: o modelo estoura em ~25% a cota que recebe, entao pedir o
+  // tamanho cheio entrega artigo inflado e o portao reprova por enchimento
+  // (medido em 04/08/2026: alvo 1500, saida 2049). Pedindo 80% a soma cai
+  // perto do alvo real, e texto no tamanho certo foi o que a redatora pediu.
+  const bodyWords = Math.max(Math.round((pauta.targetWords - introWords) * 0.8), 400);
   const totalWeight = base.reduce((s, x) => s + x.weight, 0);
 
   // A keyword abre o H2 na forma "{kw}: ...", entao entra capitalizada e com
@@ -134,6 +174,7 @@ export function buildOutline(pauta) {
   return base.map((s) => ({
     h2: s.h2.replace(/\{kw\}/g, kwCap),
     guide: s.guide,
+    steps: !!s.steps,
     words: Math.round((s.weight / totalWeight) * bodyWords),
   }));
 }
