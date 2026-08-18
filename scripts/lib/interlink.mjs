@@ -248,9 +248,19 @@ export function buildLeiaTambem(pauta, corpus = [], wanted = 5) {
   // chegava no portao com 1 link so. Aqui o bloco cobre a diferenca.
   const escolhidos = scored.slice(0, Math.max(5, Math.min(wanted, scored.length)));
 
-  const lines = ['## Leia também', ''];
+  // O H2 fixo aparecia identico nos 59 artigos, junto com a mesma ancora de
+  // fechamento — assinatura de gerador. Varia de forma estavel por slug.
+  const titulos = ['Leia também', 'Para ir mais fundo', 'Outros guias que ajudam', 'Continue por aqui', 'Relacionados'];
+  const fechos = [
+    'Ranking das melhores lava e seca do mercado',
+    'Comparativo completo das lava e seca de 2026',
+    'As lava e seca mais bem avaliadas, lado a lado',
+    'Nossa seleção de lava e seca por faixa de uso',
+  ];
+  const h = hashSlug(pauta.slug);
+  const lines = ['## ' + titulos[h % titulos.length], ''];
   for (const c of escolhidos) lines.push(`- [${c.title}](/blog/${c.slug}/)`);
-  lines.push(`- [Ranking das melhores lava e seca do mercado](/)`);
+  lines.push(`- [${fechos[h % fechos.length]}](/)`);
   return lines.join('\n');
 }
 

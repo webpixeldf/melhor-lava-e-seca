@@ -83,7 +83,14 @@ COMO VOCE ESCREVE:
 O QUE VOCE NUNCA FAZ:
 - Nunca copie nem parafraseie texto de outro site. Escreva do zero, com seu proprio angulo.
 - Nunca repita a palavra-chave de forma mecanica. Ela deve aparecer naturalmente; se a frase ficar estranha, use sinonimo ou pronome.
-- Nunca use enchimento: "vale ressaltar que", "e importante destacar", "em um mundo cada vez mais", "sem duvida alguma".
+- Nunca use estas formulas, medidas como vicio recorrente no proprio blog:
+  "a boa noticia e que", "neste guia vou te mostrar", "o segredo esta em",
+  "vale ressaltar/destacar que", "e importante destacar", "nao e a toa que",
+  "em suma", "dito isso", "por fim", "afinal de contas", "receita para
+  desastre", "e ai que mora o perigo", "desempenha um papel crucial",
+  "no fim das contas", "a verdade e que", "em um mundo cada vez mais".
+- Nao abra dois paragrafos seguidos com a mesma palavra, e nao abra o texto
+  com "Voce": os 59 artigos ja publicados abrem assim e fica evidente.
 - Nunca abra secao com definicao de dicionario.
 - Nunca escreva conclusao generica tipo "espero ter ajudado" ou "em suma".
 - Nunca cite preco em reais. Diga para consultar o preco atualizado.
@@ -256,6 +263,27 @@ REGRAS DESTA SECAO:
 - Responda SOMENTE com o markdown da secao.`;
 }
 
+/**
+ * Modos de abertura da introducao, sorteados de forma estavel por slug.
+ * Sem isto TODOS os 59 artigos publicados abriam com "Voce coloca a roupa...",
+ * "Voce acabou de lavar...", "Voce ja passou por isso..." — a mesma jogada em
+ * todo texto e o sinal mais visivel de conteudo gerado em serie.
+ */
+const ABERTURA = [
+  '- ABERTURA: comece pelo CUSTO do problema — o que a pessoa perde (tempo, dinheiro, a peca de roupa) por nao saber isso. Nada de "voce".',
+  '- ABERTURA: comece por uma crenca comum que esta ERRADA, e corrija na frase seguinte. Nao comece com "voce".',
+  '- ABERTURA: comece respondendo a pergunta do titulo em UMA frase seca, e so depois contextualize. Nao comece com "voce".',
+  '- ABERTURA: comece por uma cena concreta de casa, em terceira pessoa ou primeira do singular. Nao comece a primeira frase com "voce".',
+  '- ABERTURA: comece pela duvida exata que leva a pessoa a pesquisar isso, formulada como ela pensaria. Nao comece com "voce".',
+  '- ABERTURA: comece por um contraste ("parece X, mas na pratica e Y"). Nao comece com "voce".',
+];
+
+function hashTxt(s = '') {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 100000;
+  return h;
+}
+
 function introPrompt(pauta) {
   return `ARTIGO: "${pauta.title}"
 PALAVRA-CHAVE PRINCIPAL: "${pauta.keyword}"
@@ -263,7 +291,7 @@ PALAVRA-CHAVE PRINCIPAL: "${pauta.keyword}"
 Escreva APENAS a introducao do artigo, entre 120 e 180 palavras.
 
 REGRAS:
-- Comece com uma situacao concreta ou uma pergunta real de quem pesquisa esse termo. Nunca com definicao.
+${ABERTURA[hashTxt(pauta.slug || pauta.keyword) % ABERTURA.length]}
 - A palavra-chave "${pauta.keyword}" deve aparecer no primeiro paragrafo, de forma natural.
 - Ja adiante o que o leitor vai encontrar no texto, respondendo rapidamente a intencao da busca.
 - Sem H1, sem H2, sem frontmatter, sem lista. Apenas 2 ou 3 paragrafos corridos.
@@ -404,6 +432,40 @@ const countWords = (s) => s.replace(/[#*_`>[\]()-]/g, ' ').split(/\s+/).filter(B
  * artificial": e melhor pular a pauta e registrar o motivo do que publicar
  * texto fraco — foi exatamente isso que gerou a limpeza dos 93 artigos.
  */
+/**
+ * Cliches medidos no proprio acervo, nao lista generica da internet: cada um
+ * destes foi contado nos 59 artigos publicados. "a boa noticia e que" aparecia
+ * em 26 artigos, "neste guia vou te mostrar" em 28, "o segredo esta em" se
+ * repetia duas vezes no MESMO texto. Pedir no prompt nao basta — o modelo
+ * concorda e usa assim mesmo, entao vira reprovacao no portao.
+ */
+const CLICHES = [
+  /a boa not[ií]cia [eé] que/gi,
+  /neste guia vou te mostrar/gi,
+  /vou te mostrar (o que|como)/gi,
+  /o segredo est[aá] em/gi,
+  /vale (ressaltar|destacar|lembrar) que/gi,
+  /[ée] (importante|fundamental) (destacar|ressaltar|lembrar)/gi,
+  /n[aã]o [eé] [aà] toa que/gi,
+  /em um mundo cada vez mais/gi,
+  /(em suma|dito isso|por fim,|afinal de contas)/gi,
+  /receita para (o )?desastre/gi,
+  /[eé] a[ií] que mora o perigo/gi,
+  /desempenha um papel (crucial|fundamental|importante)/gi,
+  /pois bem,/gi,
+  /espero (ter ajudado|que este)/gi,
+  /(fica a dica|no fim das contas|a verdade [eé] que)/gi,
+];
+
+function acharCliches(texto) {
+  const achados = [];
+  for (const re of CLICHES) {
+    const m = texto.match(re);
+    if (m) achados.push(`"${m[0].toLowerCase()}"${m.length > 1 ? ` (${m.length}x)` : ''}`);
+  }
+  return achados;
+}
+
 function validate(body, pauta, linkReport, corpusSize = 0) {
   const problems = [];
   const words = countWords(body);
@@ -429,7 +491,13 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
     if (n >= 3) problems.push(`secundaria colada literalmente ${n}x: "${sec}"`);
   }
 
-  const occurrences = (body.toLowerCase().match(new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+  // A planilha entrega keyword SEM acento ("funcao desodorizar lava e seca")
+  // e o texto escreve com acento ("função"), entao a contagem literal dava
+  // zero e o artigo era reprovado por "palavra-chave nao aparece no texto"
+  // mesmo falando dela o tempo todo. Compara sem diacritico dos dois lados.
+  const semAcento = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const kwRe = new RegExp(semAcento(kw).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+  const occurrences = (semAcento(body).match(kwRe) || []).length;
   const density = (occurrences * kw.split(/\s+/).length) / words * 100;
   // Faixa saudavel: 0,8% a 1,5%. Acima vira stuffing; muito abaixo, o Google
   // pode nao entender sobre o que a pagina e.
@@ -439,7 +507,7 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
 
   const headings = body.split('\n').filter((l) => /^#{2,3}\s/.test(l));
   if (headings.length < 4) problems.push(`poucos subtitulos: ${headings.length}`);
-  const kwInHeading = headings.some((h) => h.toLowerCase().includes(kw));
+  const kwInHeading = headings.some((h) => semAcento(h).includes(semAcento(kw)));
   if (!kwInHeading) problems.push('nenhum H2/H3 contem a palavra-chave');
 
   // Pauta de guia/informativo promete ensinar. Sem lista numerada, o texto
@@ -450,6 +518,9 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
     const passos = (body.match(/^\s*\d+[.)]\s+\S/gm) || []).length;
     if (passos < 4) problems.push(`tutorial sem passo a passo: ${passos} passos numerados, esperado 4`);
   }
+
+  const cliches = acharCliches(body);
+  if (cliches.length >= 2) problems.push(`cliche de IA: ${cliches.join(', ')}`);
 
   if (!linkReport.home) problems.push('sem link para a home com ancora da palavra-chave');
 
@@ -503,6 +574,10 @@ function validate(body, pauta, linkReport, corpusSize = 0) {
   // whitelist de accents.mjs nao cobriu tudo. Texto normal em portugues tem
   // ~2-4% de caracteres acentuados; abaixo de 0,25% e falha sistemica.
   for (const bloco of body.split(/\n(?=## )/)) {
+    // O bloco final de links e montado por codigo a partir de titulos de
+    // outros artigos: nao passou pelo modelo, entao nao diz nada sobre a
+    // acentuacao dele. Sem isto, variar o H2 do bloco quebrava o portao.
+    if (/^##\s/.test(bloco) && /^\s*-\s*\[/m.test(bloco) && !/[.!?]\s/.test(bloco)) continue;
     const texto = bloco.replace(/\|[^\n]*\|/g, '');
     if (texto.length < 400) continue;
     const acentuados = (texto.match(/[áàâãéêíóôõúç]/gi) || []).length;

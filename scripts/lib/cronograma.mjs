@@ -156,6 +156,76 @@ export function escolherTemplate(pauta) {
   return pauta.intent;
 }
 
+/**
+ * Variacoes de subtitulo. Sem isto o mesmo H2 literal aparecia em dezenas de
+ * artigos ("Quando chamar a assistencia tecnica" em 32 de 59, "Como evitar que
+ * aconteca de novo" em 27), o que denuncia gerador automatico tanto pro leitor
+ * quanto pro buscador. A escolha e estavel por slug: o artigo nao muda de
+ * subtitulo a cada reprocessamento, mas dois artigos vizinhos nao coincidem.
+ */
+const VARIANTES = {
+  'Quando chamar a assistência técnica': [
+    'Quando chamar a assistência técnica',
+    'A hora de parar e chamar um técnico',
+    'O que não dá pra resolver em casa',
+    'Até onde vale tentar sozinho',
+  ],
+  'Como evitar que aconteça de novo': [
+    'Como evitar que aconteça de novo',
+    'O que fazer pra não repetir o problema',
+    'Prevenção: a rotina que resolve',
+    'Como não passar por isso outra vez',
+  ],
+  'Como identificar o que está acontecendo': [
+    'Como identificar o que está acontecendo',
+    'Como descobrir a origem do problema',
+    'O diagnóstico, sinal por sinal',
+    'Onde procurar antes de mexer em nada',
+  ],
+  'Perguntas frequentes': [
+    'Perguntas frequentes',
+    'Dúvidas que sempre aparecem',
+    'O que mais perguntam sobre isso',
+    'Perguntas rápidas',
+  ],
+  'Erros comuns na hora de comprar': [
+    'Erros comuns na hora de comprar',
+    'As armadilhas da hora da compra',
+    'O que faz gente boa comprar errado',
+    'Onde a maioria escorrega na escolha',
+  ],
+  'Qual escolher para cada perfil': [
+    'Qual escolher para cada perfil',
+    'A escolha certa para cada casa',
+    'Qual combina com a sua rotina',
+    'Recomendação por tipo de uso',
+  ],
+  'Comparativo lado a lado': [
+    'Comparativo lado a lado',
+    'As opções frente a frente',
+    'Tudo comparado numa tabela',
+    'Como elas se comparam',
+  ],
+  'Como escolhemos as melhores opções': [
+    'Como escolhemos as melhores opções',
+    'O critério por trás desta lista',
+    'Como montamos este ranking',
+    'O que pesou na avaliação',
+  ],
+};
+
+function hashSlugTxt(s = '') {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 100000;
+  return h;
+}
+
+export function variarH2(h2, slug) {
+  const opcoes = VARIANTES[h2];
+  if (!opcoes) return h2;
+  return opcoes[hashSlugTxt(slug) % opcoes.length];
+}
+
 /** Monta o outline com a keyword aplicada e o alvo de palavras por secao. */
 export function buildOutline(pauta) {
   const base = OUTLINES[escolherTemplate(pauta)] || OUTLINES.informativo;
@@ -172,7 +242,7 @@ export function buildOutline(pauta) {
   const kwCap = displayKeyword(pauta.keyword);
 
   return base.map((s) => ({
-    h2: s.h2.replace(/\{kw\}/g, kwCap),
+    h2: variarH2(s.h2.replace(/\{kw\}/g, kwCap), pauta.slug || pauta.keyword),
     guide: s.guide,
     steps: !!s.steps,
     words: Math.round((s.weight / totalWeight) * bodyWords),
