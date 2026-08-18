@@ -1948,7 +1948,9 @@
       "problems": [
         "inflado: 2115 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 1,
+      "rewrittenAt": "2026-08-18T14:58:08-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "amortecedor lava e seca samsung original",
@@ -2620,7 +2622,11 @@
         "melhores marcas"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-13T23:25:15-03:00"
+      "publishedAt": "2026-08-13T23:25:15-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "tutorial sem passo a passo: 0 passos numerados, esperado 4"
+      ]
     },
     {
       "keyword": "e21 lava e seca midea é boa",

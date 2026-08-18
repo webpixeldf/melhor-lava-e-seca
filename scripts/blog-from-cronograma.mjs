@@ -472,6 +472,28 @@ function acharCliches(texto) {
   return achados;
 }
 
+/**
+ * Remove por codigo os cliches mecanicos, em vez de reprovar o artigo inteiro
+ * por causa deles. No lote de 04/08/2026, 2 das 5 reprovacoes foram so por
+ * "a boa not[ií]cia [eé] que" e "vou te mostrar" — o modelo ignora a proibicao do
+ * prompt, mas as duas formulas aparecem em posicao previsivel e saem sem
+ * estragar a frase. O que sobrar ainda cai no portao.
+ */
+function limparCliches(md) {
+  let out = md;
+  out = out.replace(/\s*[—-]?\s*\be a boa not[ií]cia [eé] que,?\s*/gi, '. ');
+  out = out.replace(/\bA boa not[ií]cia [eé] que,?\s*/gi, '');
+  out = out.replace(/\bNeste guia,?\s*vou te mostrar\b/gi, 'Aqui você vai ver');
+  out = out.replace(/\bvou te mostrar\b/gi, 'você vai ver');
+  out = out.replace(/\bNo fim das contas,?\s*/gi, '');
+  // As substituicoes acima podem deixar ".." ou minuscula abrindo frase.
+  out = out.replace(/\.\s*\./g, '.');
+  out = out.replace(/([.!?]\s+)([a-zà-ü])/g, (m, a, c) => a + c.toUpperCase());
+  // Cliche removido no comeco do paragrafo deixa a frase em minuscula.
+  out = out.replace(/(^|\n\n)([a-zà-ü])/g, (m, a, c) => a + c.toUpperCase());
+  return out;
+}
+
 function validate(body, pauta, linkReport, corpusSize = 0) {
   const problems = [];
   const words = countWords(body);
@@ -820,6 +842,7 @@ async function generate(pauta, corpus, models = []) {
   // O portao precisa contar o corpo MONTADO, senao ignora o bloco acima.
   report.count = countInternalLinks(body);
 
+  body = limparCliches(body);
   const check = validate(body, pauta, report, corpus.length);
   console.log(`   -> ${check.words} palavras | densidade ${check.density.toFixed(2)}% | ${report.count} links | ${check.headings} subtitulos`);
 
@@ -869,7 +892,14 @@ function proximoParaRegerar(queue, jaTentados) {
     const file = path.join(BLOG_DIR, pauta.slug + '.md');
     if (!fs.existsSync(file)) continue;
     const md = fs.readFileSync(file, 'utf8');
-    const nota = notaDeDefeito(md, escolherTemplate(pauta));
+    let nota = notaDeDefeito(md, escolherTemplate(pauta));
+    // Artigo reprovado na regeracao mantinha a mesma nota e era reescolhido na
+    // execucao seguinte, pra sempre — um texto que o modelo nao consegue
+    // acertar travaria a fila e os outros 45 nunca chegariam a vez. Cada
+    // fracasso rebaixa a prioridade; ao terceiro, sai da fila.
+    const fracassos = pauta.rewriteFails || 0;
+    if (fracassos >= 3) continue;
+    nota -= fracassos * 3;
     if (nota > 0) candidatos.push({ pauta, nota, file, md });
   }
   candidatos.sort((a, b) => b.nota - a.nota);
@@ -895,6 +925,11 @@ async function regerarUm(queue, jaTentados) {
   const { body, intro, check } = await generate(alvo.pauta, corpus, cover.models || []);
   if (!check.ok) {
     console.log(`   REPROVADO na regeracao, artigo antigo mantido: ${check.problems.join('; ')}`);
+    markStatus(queue, alvo.pauta.slug, 'publicado', {
+      rewriteFails: (alvo.pauta.rewriteFails || 0) + 1,
+      rewriteProblems: check.problems,
+    });
+    saveQueue(queue);
     return false;
   }
 
@@ -909,6 +944,8 @@ async function regerarUm(queue, jaTentados) {
 
   fs.writeFileSync(alvo.file, fm + '\n\n' + body + '\n', 'utf8');
   console.log(`   REGERADO | ${check.words} palavras | ${check.problems.length} problema(s)`);
+  markStatus(queue, alvo.pauta.slug, 'publicado', { rewrittenAt: agora, rewriteFails: 0 });
+  saveQueue(queue);
   return true;
 }
 

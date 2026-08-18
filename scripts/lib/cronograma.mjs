@@ -153,6 +153,12 @@ export function escolherTemplate(pauta) {
   if (pauta.intent === 'guia' && /^como\s/i.test(pauta.keyword) && !SINTOMA.test(pauta.keyword)) {
     return 'tutorial';
   }
+  // "comparar lava e seca" estava caindo no template informativo, que exige
+  // passo a passo — mas comparacao nao tem procedimento, entao a regeracao era
+  // reprovada por "tutorial sem passo a passo" e o artigo nunca melhorava.
+  if (pauta.intent === 'informativo' && /^compara\S*\s|\bvs\b|\bversus\b/i.test(pauta.keyword)) {
+    return 'comparativo';
+  }
   return pauta.intent;
 }
 
