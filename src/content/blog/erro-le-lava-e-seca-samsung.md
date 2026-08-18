@@ -37,7 +37,9 @@ Outra situação real: a máquina inclinada ou com o nível desregulado faz a á
 
 ### Como confirmar a origem
 
-Se a mensagem apareceu do nada, desligue a máquina, puxe a tomada e espere uns cinco minutos. Depois, incline o aparelho pra trás e veja se tem água na bandeja da base. Se tiver, o vazamento é físico — e aí o caminho é abrir o painel lateral ou acionar um técnico. Se estiver seca, o problema pode ser eletrônico, e um simples reset resolve.
+Se a mensagem apareceu do nada, desligue a máquina, puxe a tomada e espere uns cinco minutos. Depois, incline o aparelho pra trás e veja se tem água na bandeja da base. Se tiver, o vazamento é físico — e aí o caminho é abrir o painel lateral ou acionar um técnico.
+
+Se estiver seca, o problema pode ser eletrônico, e um simples reset resolve.
 
 ### Como identificar o que está acontecendo
 
@@ -87,7 +89,7 @@ Se você fez tudo isso e o código persiste, o problema é interno. Pode ser a c
 
 Fica o alerta: não deixe a máquina secando com o erro ativo. Água na base, com componentes elétricos próximos, é risco de curto. Desliga, esvazia e resolve antes de usar de novo.
 
-## Quando chamar a assistência técnica
+## A hora de parar e chamar um técnico
 
 Tem coisa que a gente resolve em casa, mas tem hora que é melhor parar e ligar pra um técnico. Se você já limpou o filtro, checou a mangueira e o erro continua aparecendo, insista? Não.
 
@@ -105,7 +107,7 @@ Opte por uma assistência técnica autorizada Samsung. Eles têm a peça origina
 
 Técnico bom não resolve só o sintoma — ele acha a origem do vazamento. E isso faz toda a diferença pra quem quer a máquina funcionando por anos.
 
-## Como evitar que aconteça de novo
+## O que fazer pra não repetir o problema
 
 ### Crie uma rotina simples de cuidados
 
@@ -121,7 +123,7 @@ Bolso de calça e fronha são os vilões clássicos. Antes de jogar a roupa, dá
 
 **E não exagere na carga.** Encher até o limite máximo todo dia desgasta a estrutura interna mais rápido. Sobra pro sistema de drenagem, que é justamente onde esse tipo de falha começa. Deixar um espaço pra roupa se movimentar ajuda a máquina a trabalhar sem forçar.
 
-## Perguntas frequentes
+## Dúvidas que sempre aparecem
 
 ### Posso continuar usando a máquina com o erro LE?
 
@@ -141,15 +143,12 @@ Não, outras marcas têm códigos parecidos para vazamento. Mas a nomenclatura e
 
 Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) ajuda a fechar a escolha.
 
-## Leia também
+## Outros guias que ajudam
 
+- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
 - [Erro ddc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-ddc-lava-e-seca-samsung/)
 - [Erro 5ud lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-5ud-lava-e-seca-samsung/)
 - [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
+- [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
 - [Erro H3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-h3-lava-e-seca-electrolux/)
-- [Erro F5 E3 lava e seca Brastemp: Guia Completo e Soluções](/blog/erro-f5-e3-lava-e-seca-brastemp/)
-- [Erro E3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-e3-lava-e-seca-electrolux/)
-- [Erro DE1 lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-de1-lava-e-seca-lg/)
-- [Erro 1e lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-1e-lava-e-seca-lg/)
-- [Erro 50 lava e seca Midea: Guia Completo e Como Resolver](/blog/erro-50-lava-e-seca-midea/)
-- [Ranking das melhores lava e seca do mercado](/)
+- [As lava e seca mais bem avaliadas, lado a lado](/)

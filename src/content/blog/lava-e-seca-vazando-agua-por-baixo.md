@@ -11,7 +11,9 @@ image: "/images/blog/lava-e-seca-vazando-agua-por-baixo.webp"
 
 Você tira a roupa da máquina, vai pegar o cesto e sente a poça no chão da área de serviço. A lava e seca vazando água por baixo é daqueles problemas que aparecem sem aviso e, se você não agir rápido, pode até estragar o piso ou danificar o motor. Eu já perdi uma noite de sono com isso e sei exatamente o desespero que dá.
 
-Na maioria dos casos, o motivo está em coisas simples: mangueira mal encaixada, resíduo acumulado no filtro ou um problema na borracha da porta. Mas também pode ser algo mais sério, como a bomba de drenagem ou o pressostato. Neste guia, vou te mostrar como investigar cada um desses pontos, o que você mesmo resolve em casa e quando vale chamar um técnico. Sem precisar sair comprando peça nova às cegas.
+Na maioria dos casos, o motivo está em coisas simples: mangueira mal encaixada, resíduo acumulado no filtro ou um problema na borracha da porta. Mas também pode ser algo mais sério, como a bomba de drenagem ou o pressostato.
+
+Neste guia, vou te mostrar como investigar cada um desses pontos, o que você mesmo resolve em casa e quando vale chamar um técnico. Sem precisar sair comprando peça nova às cegas.
 
 ## Lava e seca vazando água por baixo: o que é e por que importa
 
@@ -19,13 +21,17 @@ Você acabou de terminar um ciclo, abre a porta e nota um filete de água escorr
 
 ### O problema que começa discreto
 
-A água que aparece embaixo da máquina não é um defeito estético. Ela indica que algo no circuito interno — mangueira, retentor ou bomba — perdeu a estanqueidade. Quando o vazamento é pequeno, você talvez sequer note de imediato. O chão fica úmido, você passa o rodinho e siga a vida. Até que um dia a poça vira uma pequena enchente na área de serviço.
+A água que aparece embaixo da máquina não é um defeito estético. Ela indica que algo no circuito interno — mangueira, retentor ou bomba — perdeu a estanqueidade. Quando o vazamento é pequeno, você talvez sequer note de imediato.
+
+O chão fica úmido, você passa o rodinho e siga a vida. Até que um dia a poça vira uma pequena enchente na área de serviço.
 
 Deixar isso de lado pode custar caro. Água acumulada atinge componentes elétricos e eletrônicos, danifica o piso e pode até causar mofo na parede ao lado. Além do risco de danificar o motor, que já sofre com a umidade constante.
 
 ### Por que isso importa tanto
 
-A lava e seca é um eletrodoméstico complexo, com dupla função. Ela lava e depois seca as roupas no mesmo tambor. Isso significa mais partes móveis, mais conexões e, consequentemente, mais pontos potenciais de falha. Entender o que causa o problema é o primeiro passo para resolver — ou, pelo menos, para saber quando chamar um técnico e quando dá pra resolver em casa.
+A lava e seca é um eletrodoméstico complexo, com dupla função. Ela lava e depois seca as roupas no mesmo tambor. Isso significa mais partes móveis, mais conexões e, consequentemente, mais pontos potenciais de falha.
+
+Entender o que causa o problema é o primeiro passo para resolver — ou, pelo menos, para saber quando chamar um técnico e quando dá pra resolver em casa.
 
 Neste guia, vou mostrar os culpados mais comuns e o que você pode fazer sem precisar desmontar a máquina inteira.
 
@@ -99,7 +105,7 @@ Excesso de espuma não é só desperdício. Ela se acumula e força a bomba de d
 
 Tem também quem aperta a mangueira de entrada com alicate. Parece seguro, mas esmaga a rosca e a vedação interna. Depois de alguns ciclos, o filete de água aparece. Trocar essa peça não é caro; o problema é descobrir que o piso de madeira já inchou.
 
-## Perguntas frequentes
+## O que mais perguntam sobre isso
 
 ### A lava e seca pode estragar se eu ignorar o vazamento?
 
@@ -123,15 +129,12 @@ Em uso comum, ela aguenta alguns anos, mas sabão em excesso e produtos com clor
 
 Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhores lava e seca do mercado](/).
 
-## Leia também
+## Relacionados
 
-- [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
-- [Lava e seca Samsung bespoke é boa: Review Completo 2026](/blog/lava-e-seca-samsung-bespoke-e-boa/)
-- [Lava e seca Electrolux perfect care é boa: Review Completo](/blog/lava-e-seca-electrolux-perfect-care-e-boa/)
-- [Lava e seca Samsung é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-samsung-e-boa/)
-- [Lava e seca separadas: Guia Completo e Dicas Práticas 2026](/blog/lava-e-seca-separadas/)
-- [Lava e seca gasta muita energia: Guia Prático e Dicas 2026](/blog/lava-e-seca-gasta-muita-energia/)
-- [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
-- [Lava e seca LG 11 kg é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-lg-11-kg-e-boa/)
-- [Samsung lava e seca WD11M é boa: Review e Prós e Contras](/blog/samsung-lava-e-seca-wd11m-e-boa/)
-- [Ranking das melhores lava e seca do mercado](/)
+- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
+- [Erro le lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-le-lava-e-seca-samsung/)
+- [Erro H3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-h3-lava-e-seca-electrolux/)
+- [Erro F5 E3 lava e seca Brastemp: Guia Completo e Soluções](/blog/erro-f5-e3-lava-e-seca-brastemp/)
+- [Erro E3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-e3-lava-e-seca-electrolux/)
+- [Comparativo completo das lava e seca de 2026](/)

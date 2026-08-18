@@ -21,7 +21,9 @@ Antes de sair apertando botão em pânico, vale entender o que tá acontecendo. 
 
 ### O sensor de peso tá desregulado?
 
-A ecobubble usa um sensor que mede a carga pra dosar água e tempo de lavagem. Quando ele falha, a máquina pode encher demais, lavar menos ou travar no meio do ciclo. As causas mais comuns? Roupa acumulada num lado só do cesto, ou uma peça pesada (tipo edredom) que desequilibra tudo. Isso confunde o sensor e, sem perceber, você acha que precisa recalibrar quando o problema é só distribuição de roupa.
+A ecobubble usa um sensor que mede a carga pra dosar água e tempo de lavagem. Quando ele falha, a máquina pode encher demais, lavar menos ou travar no meio do ciclo. As causas mais comuns? Roupa acumulada num lado só do cesto, ou uma peça pesada (tipo edredom) que desequilibra tudo.
+
+Isso confunde o sensor e, sem perceber, você acha que precisa recalibrar quando o problema é só distribuição de roupa.
 
 Outro vilão frequente é o nível da máquina. Se ela tá desnivelada, o sensor lê errado. Coloca um nível de bolha em cima do painel e ajusta os pés — muita gente resolve por aí, sem nem mexer em calibração.
 
@@ -35,7 +37,9 @@ A limpeza do filtro e do dispenser a cada duas semanas resolve. E olha: muita ge
 
 Sabe quando a máquina treme, anda e para no meio da centrifugação? Isso acontece quando o cesto entende que a carga tá desequilibrada. Tecidos pesados num lado e leves no outro confundem o sistema a ponto dele reduzir a rotação sozinho.
 
-Nesses casos, o manual do fabricante recomenda reorganizar a roupa e tentar de novo. Se o problema persistir mesmo com a carga bem distribuída, aí sim pode ser o sensor de velocidade com defeito. Mas antes de pensar nisso, confere se não tem um sutiã de arame preso entre o cesto e o tambor — já vi cliente quase comprar máquina nova por causa disso.
+Nesses casos, o manual do fabricante recomenda reorganizar a roupa e tentar de novo. Se o problema persistir mesmo com a carga bem distribuída, aí sim pode ser o sensor de velocidade com defeito.
+
+Mas antes de pensar nisso, confere se não tem um sutiã de arame preso entre o cesto e o tambor — já vi cliente quase comprar máquina nova por causa disso.
 
 ## Como identificar o que está acontecendo
 
@@ -73,7 +77,9 @@ Então faça isso: retire o dispenser, lave em água corrente e seque bem antes 
 
 Se a sua máquina está enchendo água demais ou de menos, o sensor de peso pode estar dessincronizado. A maioria dos modelos Samsung ecobubble tem um modo de serviço escondido que permite recalibrar esse sensor sem precisar de técnico.
 
-Segure os botões de **Temperatura** e **Centrifugação** ao mesmo tempo por uns 3 segundos até o display mostrar um código. Cada modelo usa uma combinação diferente, então confira o manual do fabricante pra achar a sua. No modo de serviço, procure pela opção de teste de balança e siga as instruções da tela. Anote os valores atuais antes de alterar qualquer coisa — se errar, é só voltar ao número antigo.
+Segure os botões de **Temperatura** e **Centrifugação** ao mesmo tempo por uns 3 segundos até o display mostrar um código. Cada modelo usa uma combinação diferente, então confira o manual do fabricante pra achar a sua.
+
+No modo de serviço, procure pela opção de teste de balança e siga as instruções da tela. Anote os valores atuais antes de alterar qualquer coisa — se errar, é só voltar ao número antigo.
 
 ### Ciclo de secagem desregulado: ajuste fino manual
 
@@ -89,7 +95,9 @@ Nesse caso, limpe a borracha de vedação com um pano úmido e remova qualquer o
 
 ### Lavagem delicada e o teste final
 
-Depois desses ajustes, faça um ciclo completo com a lavagem delicada, de preferência com a máquina vazia ou com pouca roupa. Esse programa usa menos água e gira mais devagar, sendo perfeito pra observar se os sensores estão lendo direitinho. Fique de olho no tempo do ciclo: se ele está estável e terminando quando deveria, a calibragem deu certo.
+Depois desses ajustes, faça um ciclo completo com a lavagem delicada, de preferência com a máquina vazia ou com pouca roupa. Esse programa usa menos água e gira mais devagar, sendo perfeito pra observar se os sensores estão lendo direitinho.
+
+Fique de olho no tempo do ciclo: se ele está estável e terminando quando deveria, a calibragem deu certo.
 
 Se o erro persistir, anote o código que aparece no display e leve essa informação pro suporte técnico. Isso economiza um tempo enorme na hora do diagnóstico e evita que o técnico tenha que adivinhar o que está acontecendo. A boa notícia: na maioria dos casos, esses passos simples resolvem sem precisar desmontar nada.
 
@@ -103,7 +111,9 @@ Tentar resolver problemas eletrônicos internos com gambiarras pode queimar a pl
 
 Barulho de batida forte na centrifugação, acompanhado de vibração que desloca a máquina do lugar, é sintoma de amortecedores gastos. Isso não tem regulagem — só troca de peça. E se o dispenser de sabão entope com frequência, mesmo com a manutenção de limpeza, pode ser obstrução na mangueira interna, que fica atrás do gabinete.
 
-A regra é simples: você resolve a parte de sensor e sensibilidade, mas a parte física e elétrica é com técnico. Insistir num defeito mecânico repetindo o processo de calibração só mascara o problema e pode danificar o sistema de suspensão. Se o aparelho está na garantia, acionar o suporte oficial é o caminho mais seguro — e lembre-se de ter o número de série em mãos antes de ligar.
+A regra é simples: você resolve a parte de sensor e sensibilidade, mas a parte física e elétrica é com técnico. Insistir num defeito mecânico repetindo o processo de calibração só mascara o problema e pode danificar o sistema de suspensão.
+
+Se o aparelho está na garantia, acionar o suporte oficial é o caminho mais seguro — e lembre-se de ter o número de série em mãos antes de ligar.
 
 ## Como evitar que aconteça de novo
 
@@ -149,15 +159,12 @@ Uma vez por ano tá de bom tamanho, ou quando a máquina começar a pular na cen
 
 Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhores lava e seca do mercado](/).
 
-## Leia também
+## Relacionados
 
+- [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
 - [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
-- [Como calibrar lava e seca LG: Causas e Como Resolver 2026](/blog/como-calibrar-lava-e-seca-lg/)
-- [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
-- [Lava e seca Samsung bespoke é boa: Review Completo 2026](/blog/lava-e-seca-samsung-bespoke-e-boa/)
-- [Lava e seca Samsung é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-samsung-e-boa/)
-- [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
-- [Samsung lava e seca WD11M é boa: Review e Prós e Contras](/blog/samsung-lava-e-seca-wd11m-e-boa/)
-- [Melhor lava e seca Samsung 11kg e 13kg: Ranking Completo](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
-- [Melhor lava e seca Samsung: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-samsung/)
-- [Ranking das melhores lava e seca do mercado](/)
+- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
+- [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
+- [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
+- [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
+- [Nossa seleção de lava e seca por faixa de uso](/)

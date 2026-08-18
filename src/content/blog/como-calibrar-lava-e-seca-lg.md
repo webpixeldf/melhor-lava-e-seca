@@ -9,7 +9,9 @@ keywords: ["como calibrar lava e seca lg", "calibrar lava e seca lg", "painel da
 image: "/images/blog/como-calibrar-lava-e-seca-lg.webp"
 ---
 
-Você liga a lava e seca, o ciclo termina, e o erro aparece na tela: algo como “recalibração do sensor”. Ou pior: a máquina pesa a roupa errado, usa água demais ou seca menos do que deveria. Isso acontece mais do que se imagina, e quase sempre a solução está em um procedimento simples que você mesmo pode fazer em casa — sem precisar chamar técnico.
+Você liga a lava e seca, o ciclo termina, e o erro aparece na tela: algo como “recalibração do sensor”. Ou pior: a máquina pesa a roupa errado, usa água demais ou seca menos do que deveria.
+
+Isso acontece mais do que se imagina, e quase sempre a solução está em um procedimento simples que você mesmo pode fazer em casa — sem precisar chamar técnico.
 
 Se você está procurando **como calibrar lava e seca LG**, saiba que na maioria dos casos o problema não é defeito de fábrica, mas sim a falta de uma referência inicial do equipamento. A calibragem reajusta os sensores de peso e desequilíbrio, que são essenciais para o funcionamento correto do ciclo de lavagem e secagem.
 
@@ -17,7 +19,9 @@ Neste artigo, vou te mostrar as causas mais comuns para esse erro, o passo a pas
 
 ## Como calibrar lava e seca LG: o que causa
 
-Antes de pensar em consertar, vale entender por que a máquina perde o ajuste fino. Na maioria das vezes, o problema não é a sua lavadora em si, mas algo que aconteceu durante o uso. O sensor de peso, por exemplo, é sensível: ele calcula a quantidade de roupa pra dosar água e tempo de lavagem. Se você coloca um edredom pesado de um lado só do cesto, o sensor lê errado e o ciclo desanda.
+Antes de pensar em consertar, vale entender por que a máquina perde o ajuste fino. Na maioria das vezes, o problema não é a sua lavadora em si, mas algo que aconteceu durante o uso. O sensor de peso, por exemplo, é sensível: ele calcula a quantidade de roupa pra dosar água e tempo de lavagem.
+
+Se você coloca um edredom pesado de um lado só do cesto, o sensor lê errado e o ciclo desanda.
 
 ### O erro mais comum: engenharia do usuário
 
@@ -33,23 +37,33 @@ Nesses casos, o ajuste é mais profundo. O manual do fabricante costuma trazer u
 
 ### Detalhes que muita gente ignora
 
-O dispenser de sabão também influencia. Se o compartimento está entupido, a máquina não recebe o produto na hora certa e o ciclo muda o comportamento. E o filtro? Se nunca foi limpo, a água não escoa bem e a máquina entende que precisa de mais tempo. Olha, já vi caso de cliente que gastou com técnico e o problema era só o filtro cheio de fiapo.
+O dispenser de sabão também influencia. Se o compartimento está entupido, a máquina não recebe o produto na hora certa e o ciclo muda o comportamento. E o filtro? Se nunca foi limpo, a água não escoa bem e a máquina entende que precisa de mais tempo.
 
-Por fim, o desgaste natural. Uma máquina com anos de uso tem sensor menos preciso. Não é defeito exato, é física. A borracha da porta pode estar ressecada, interferindo no sensor de travamento. Fique atento: se a sua lava e seca demora pra engatar a trava, esse é um sinal clássico de que a calibração vai precisar de uma atenção especial. Cada caso tem um caminho, mas entender a causa já te tira da escuridão.
+Olha, já vi caso de cliente que gastou com técnico e o problema era só o filtro cheio de fiapo.
 
-## Como identificar o que está acontecendo
+Por fim, o desgaste natural. Uma máquina com anos de uso tem sensor menos preciso. Não é defeito exato, é física. A borracha da porta pode estar ressecada, interferindo no sensor de travamento. Fique atento: se a sua lava e seca demora pra engatar a trava, esse é um sinal clássico de que a calibração vai precisar de uma atenção especial.
 
-Antes de sair apertando botão e desmontando o painel, para e observa o que a máquina está tentando te dizer. A maioria dos problemas de calibração tem pelo menos um sinal claro: um barulho diferente na centrifugação, um ciclo de secagem que nunca termina ou um tambor que gira com esforço. Anota o que você viu e quando começou — isso já resolve metade do diagnóstico.
+Cada caso tem um caminho, mas entender a causa já te tira da escuridão.
+
+## Como descobrir a origem do problema
+
+Antes de sair apertando botão e desmontando o painel, para e observa o que a máquina está tentando te dizer. A maioria dos problemas de calibração tem pelo menos um sinal claro: um barulho diferente na centrifugação, um ciclo de secagem que nunca termina ou um tambor que gira com esforço.
+
+Anota o que você viu e quando começou — isso já resolve metade do diagnóstico.
 
 ### O teste simples do tambor vazio
 
-Desliga o aparelho e gira o tambor com a mão. Ele deve rodar liso, sem arrastar ou fazer um som de "raspando". Se sentir resistência em um ponto específico, o problema pode ser mecânico e não de calibração eletrônica. Outra coisa: balança a máquina de leve. Se ela oscilar como se estivesse solta, o nível está errado — e isso confunde os sensores internos.
+Desliga o aparelho e gira o tambor com a mão. Ele deve rodar liso, sem arrastar ou fazer um som de "raspando". Se sentir resistência em um ponto específico, o problema pode ser mecânico e não de calibração eletrônica.
+
+Outra coisa: balança a máquina de leve. Se ela oscilar como se estivesse solta, o nível está errado — e isso confunde os sensores internos.
 
 Um detalhe que pouca gente nota: a roupa dentro do tambor influencia o teste. Tenta com o equipamento totalmente vazio, inclusive sem edredom ou toalha esquecida. Aí o resultado é confiável, porque a máquina interpreta o peso e a distribuição de qualquer objeto ali dentro.
 
 ### O que o painel conta (e o que ele esconde)
 
-Quando o painel pisca um código de erro, não é só um capricho eletrônico. O manual do fabricante traz a lista desses códigos — e, na maioria das vezes, ele aponta direto pra causa: problema na trava da porta, falha no sensor de temperatura ou no dispenser entupido. Essa é a hora de conferir se o sabão em pó comum não está obstruindo o compartimento.
+Quando o painel pisca um código de erro, não é só um capricho eletrônico. O manual do fabricante traz a lista desses códigos — e, na maioria das vezes, ele aponta direto pra causa: problema na trava da porta, falha no sensor de temperatura ou no dispenser entupido.
+
+Essa é a hora de conferir se o sabão em pó comum não está obstruindo o compartimento.
 
 Também repara no ritmo dos programas de lavagem. Se ela até inicia o ciclo de secagem, mas para no meio sem motivo, o sensor de umidade pode estar descalibrado. A centrifugação que treme demais, por outro lado, costuma ser instalação — pés desnivelados ou uma lavagem delicada com pouca roupa num tambor grande.
 
@@ -89,7 +103,7 @@ A trava da porta também engana. Se a porta não fecha perfeitamente, a lava e s
 
 Se nenhum desses passos resolver, o problema é de hardware — placa eletrônica ou sensor físico. Aí não tem calibração que dê jeito. Chama um técnico autorizado LG. E anota: a calibração de fábrica via painel pode variar de modelo pra modelo, então sempre confere no manual antes de tentar qualquer combinação de botão por conta própria.
 
-## Quando chamar a assistência técnica
+## A hora de parar e chamar um técnico
 
 ### O limite do "faça você mesmo"
 
@@ -101,9 +115,11 @@ Por outro lado, se o problema é só desalinhamento do tambor ou falta de nivela
 
 Se você já fez a calibragem, verificou os programas de lavagem, testou a centrifugação e o erro persiste, pare. Principalmente se a trava da porta não responde ou o ciclo de secagem esquenta demais. Isso pode indicar problema elétrico ou na placa — coisa que só quem tem equipamento adequado resolve.
 
-Outro sinal claro: vazamento perto do dispenser ou cheiro de queimado. Nesse caso, desligue a máquina da tomada na hora. Não tem como calibrar lava e seca LG quando o problema é físico, não eletrônico. E lembra que abrir o aparelho sem autorização costuma anular a garantia. Então, na dúvida, chama um técnico credenciado. Economiza dor de cabeça e protege seu bolso.
+Outro sinal claro: vazamento perto do dispenser ou cheiro de queimado. Nesse caso, desligue a máquina da tomada na hora. Não tem como calibrar lava e seca LG quando o problema é físico, não eletrônico.
 
-## Como evitar que aconteça de novo
+E lembra que abrir o aparelho sem autorização costuma anular a garantia. Então, na dúvida, chama um técnico credenciado. Economiza dor de cabeça e protege seu bolso.
+
+## O que fazer pra não repetir o problema
 
 Depois de resolver o problema, o segredo é não deixar a calibração bagunçar de novo. Na maioria dos casos, o desalinhamento vem de hábitos simples do dia a dia — e ajustar isso custa menos trabalho do que repetir o procedimento inteiro.
 
@@ -125,7 +141,7 @@ Fica atento a barulho de batida na centrifugação e a roupa saindo mais úmida 
 
 Por fim, a trava da porta e o sensor de nivelamento merecem checagem a cada seis meses. Nivelador desregulado faz a base balançar e a calibração não segura por muito tempo. Com essa rotina, a necessidade de repetir o processo cai drasticamente — e sua máquina trabalha em silêncio por muito mais tempo.
 
-## Perguntas frequentes
+## Dúvidas que sempre aparecem
 
 ### Calibrar a máquina resolve o erro de peso?
 
@@ -149,15 +165,12 @@ Sim, e é essencial. Transportar a máquina desalinha os componentes internos. R
 
 Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resume o que compensa em cada faixa.
 
-## Leia também
+## Para ir mais fundo
 
+- [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
+- [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
 - [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
-- [Amortecedor lava e seca Midea: Guia Prático e Dicas 2026](/blog/amortecedor-lava-e-seca-midea/)
-- [Lava e seca vazando água por baixo: Guia Completo e Dicas](/blog/lava-e-seca-vazando-agua-por-baixo/)
-- [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
-- [Lava e seca Samsung bespoke é boa: Review Completo 2026](/blog/lava-e-seca-samsung-bespoke-e-boa/)
-- [Lava e seca Electrolux perfect care é boa: Review Completo](/blog/lava-e-seca-electrolux-perfect-care-e-boa/)
-- [Lava e seca Samsung é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-samsung-e-boa/)
-- [Lava e seca separadas: Guia Completo e Dicas Práticas 2026](/blog/lava-e-seca-separadas/)
-- [Lava e seca gasta muita energia: Guia Prático e Dicas 2026](/blog/lava-e-seca-gasta-muita-energia/)
+- [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
+- [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
+- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
 - [Ranking das melhores lava e seca do mercado](/)

@@ -17,13 +17,19 @@ Também vou desmistificar aquela história de que toda lava e seca estraga a rou
 
 ## Lava e seca encolhe roupa: o que é e por que importa
 
-Você já ouviu aquela história de que usar a função de secagem estraga as peças? Não é lenda, mas também não é regra. Quando a lava e seca encolhe roupa, o motivo quase sempre está na combinação errada de temperatura, tempo e tipo de tecido. A máquina não tem culpa sozinha — o problema é que muita gente liga o ciclo de secagem sem olhar a etiqueta.
+Você já ouviu aquela história de que usar a função de secagem estraga as peças? Não é lenda, mas também não é regra. Quando a lava e seca encolhe roupa, o motivo quase sempre está na combinação errada de temperatura, tempo e tipo de tecido.
 
-O encolhimento acontece porque o calor excessivo faz as fibras se contraírem, principalmente em materiais como algodão, linho e viscose. A centrifugação forte também puxa as fibras, e a secagem automática, se não for bem ajustada, pode passar do ponto. Por isso, entender como esse processo funciona é o primeiro passo para não perder aquela camisa favorita.
+A máquina não tem culpa sozinha — o problema é que muita gente liga o ciclo de secagem sem olhar a etiqueta.
+
+O encolhimento acontece porque o calor excessivo faz as fibras se contraírem, principalmente em materiais como algodão, linho e viscose. A centrifugação forte também puxa as fibras, e a secagem automática, se não for bem ajustada, pode passar do ponto.
+
+Por isso, entender como esse processo funciona é o primeiro passo para não perder aquela camisa favorita.
 
 ### Os fatores que causam encolhimento na secagem
 
-Cada tecido reage de um jeito. Um edredom de casal, por exemplo, precisa de duas levas pra secar — e se você enfiar tudo de uma vez, a máquina trabalha forçada e aquece demais. Já peças delicadas, como sutiãs e blusas de lã, exigem um programa mais suave. A maioria das lava e seca tem um ciclo específico para algodão, que costuma ser mais quente, e outro para tecidos finos, com temperatura baixa.
+Cada tecido reage de um jeito. Um edredom de casal, por exemplo, precisa de duas levas pra secar — e se você enfiar tudo de uma vez, a máquina trabalha forçada e aquece demais. Já peças delicadas, como sutiãs e blusas de lã, exigem um programa mais suave.
+
+A maioria das lava e seca tem um ciclo específico para algodão, que costuma ser mais quente, e outro para tecidos finos, com temperatura baixa.
 
 Saber ler os símbolos de lavagem na etiqueta também faz diferença. Se o ícone de secagem vier riscado, melhor pendurar no varal. A boa notícia é que, com um mínimo de atenção, dá pra usar a secadora sem medo. O segredo está em escolher o programa certo e não exagerar na carga.
 
@@ -37,7 +43,9 @@ O tambor gira, joga água, ensaboa, enxágua e centrifuga. Quando a água para d
 
 ### Por que a temperatura de secagem encolhe a roupa
 
-O calor excessivo é o principal vilão. Fibras naturais, como algodão e linho, se contraem quando expostas a temperaturas acima de 60 °C por muito tempo. A máquina não faz isso por maldade — ela precisa de calor para evaporar a água mais rápido. Mas se você joga uma camisa 100% algodão num programa padrão de secagem, ela pode encolher um ou dois números.
+O calor excessivo é o principal vilão. Fibras naturais, como algodão e linho, se contraem quando expostas a temperaturas acima de 60 °C por muito tempo. A máquina não faz isso por maldade — ela precisa de calor para evaporar a água mais rápido.
+
+Mas se você joga uma camisa 100% algodão num programa padrão de secagem, ela pode encolher um ou dois números.
 
 Tecidos sintéticos, como poliéster, já reagem diferente: tendem a derreter ou deformar se o calor for alto demais. Por isso que os programas têm sensores de umidade: eles param assim que a roupa atinge o nível seco escolhido, evitando cozinhar as fibras por tempo extra.
 
@@ -91,7 +99,9 @@ Já um X sobre o símbolo proíbe a secagem mecânica. Guarde essa informação 
 
 ### Aposte no programa certo para cada tipo de tecido
 
-A sua lavadora tem programas específicos por um motivo. O ciclo "delicados" usa temperaturas baixas e movimentação suave, ideal para roupas finas. Já o "algodão" pode secar em temperatura mais alta, mas mesmo assim vale reduzir se não for necessário. Sempre que possível, escolha a opção "secagem delicada" ou "baixa temperatura". Isso reduz drasticamente o risco de encolhimento.
+A sua lavadora tem programas específicos por um motivo. O ciclo "delicados" usa temperaturas baixas e movimentação suave, ideal para roupas finas. Já o "algodão" pode secar em temperatura mais alta, mas mesmo assim vale reduzir se não for necessário.
+
+Sempre que possível, escolha a opção "secagem delicada" ou "baixa temperatura". Isso reduz drasticamente o risco de encolhimento.
 
 ### Não encha o tambor até o limite
 
@@ -123,7 +133,9 @@ Aquele símbolo de lavagem com um pontinho indica a temperatura máxima. Muita g
 
 ### Usar o ciclo errado no painel
 
-Programa de algodão é feito pra resistir a calor alto e tempo longo. Tecido delicado ou sintético sofre nessa configuração. Sempre que possível, escolha o programa específico pra secagem – se a máquina tiver um ciclo “delicado” ou “à mão”, use ele. A temperatura mais baixa e o movimento mais suave fazem toda a diferença pra não danificar as fibras.
+Programa de algodão é feito pra resistir a calor alto e tempo longo. Tecido delicado ou sintético sofre nessa configuração. Sempre que possível, escolha o programa específico pra secagem – se a máquina tiver um ciclo “delicado” ou “à mão”, use ele.
+
+A temperatura mais baixa e o movimento mais suave fazem toda a diferença pra não danificar as fibras.
 
 No fim das contas, o aparelho funciona bem – o problema é a gente achar que todas as roupas aguentam o mesmo tratamento. Um minuto lendo a etiqueta e ajustando a carga evita muita frustração.
 
@@ -151,13 +163,12 @@ Sim, desde que você use o programa certo. Esse sensor desliga a secagem no pont
 
 Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhores lava e seca do mercado](/).
 
-## Leia também
+## Relacionados
 
-- [Melhor lava e seca frontal: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-frontal/)
-- [Melhor lava e seca eco bubble: Ranking Completo e Análise](/blog/melhor-lava-e-seca-eco-bubble/)
-- [Melhor mini lava e seca: Ranking Completo e Análise 2026](/blog/melhor-mini-lava-e-seca/)
-- [Lava e seca WD13T é boa: Review Completo e Prós e Contras](/blog/lava-e-seca-wd13t-e-boa/)
-- [Melhor lava e seca inverter: Ranking Completo e Análise](/blog/melhor-lava-e-seca-inverter/)
-- [Melhor lava e seca Samsung 11kg e 13kg: Ranking Completo](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
-- [Melhor lava e seca Samsung: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-samsung/)
-- [Ranking das melhores lava e seca do mercado](/)
+- [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
+- [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
+- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
+- [Erro le lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-le-lava-e-seca-samsung/)
+- [Erro H3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-h3-lava-e-seca-electrolux/)
+- [Nossa seleção de lava e seca por faixa de uso](/)

@@ -19,7 +19,9 @@ Neste guia, vou te mostrar as causas mais comuns para a centrifugação falhar e
 
 Quando a lava e seca LG não centrifuga, a primeira coisa que vem à cabeça é que o motor queimou. Mas calma, na maioria dos casos o problema é bem mais simples. Antes de pensar em conserto, vale entender o que está travando o ciclo.
 
-O motivo mais comum é o desbalanceamento da carga. A máquina tem um sistema que detecta quando a roupa se amontoou de um lado só do cesto. Se isso acontece, ela tenta redistribuir a água e a roupa, mas se não consegue, simplesmente pula a etapa da centrifugação. Edredons e capas de sofá, por exemplo, são campeões em causar esse transtorno.
+O motivo mais comum é o desbalanceamento da carga. A máquina tem um sistema que detecta quando a roupa se amontoou de um lado só do cesto. Se isso acontece, ela tenta redistribuir a água e a roupa, mas se não consegue, simplesmente pula a etapa da centrifugação.
+
+Edredons e capas de sofá, por exemplo, são campeões em causar esse transtorno.
 
 ### O filtro e a mangueira podem estar atrapalhando
 
@@ -104,13 +106,15 @@ Com o filtro limpo e a mangueira desobstruída, a água sai rápido e o ciclo de
 
 Se passou por esses passos e o problema persiste, pode ser motor ou placa eletrônica. Nesse caso, não tem jeito — assistência técnica autorizada resolve.
 
-## Quando chamar a assistência técnica
+## Até onde vale tentar sozinho
 
 ### O risco de insistir no "jeitinho"
 
 Tem uma linha tênue entre o reparo caseiro e o estrago que sai caro. Se a máquina não centrifuga e o problema persiste depois de você verificar a mangueira, o filtro e o nível de espuma, é hora de parar. Insistir com o painel travado ou forçar a porta pode danificar a trava eletrônica — e aí o conserto vira outro.
 
-Sintoma clássico de que você precisa de um técnico? O alarme sonoro que não para, ou o código de erro que pisca no visor mesmo após o ciclo ser cancelado. Também vale chamar ajuda se o tambor gira com esforço visível ou se você ouve um estalo vindo da parte de baixo. Isso costuma indicar problema no motor ou na correia, coisa que exige ferramenta específica e conhecimento do manual do fabricante.
+Sintoma clássico de que você precisa de um técnico? O alarme sonoro que não para, ou o código de erro que pisca no visor mesmo após o ciclo ser cancelado. Também vale chamar ajuda se o tambor gira com esforço visível ou se você ouve um estalo vindo da parte de baixo.
+
+Isso costuma indicar problema no motor ou na correia, coisa que exige ferramenta específica e conhecimento do manual do fabricante.
 
 ### O que o técnico resolve (e o que você não deve tentar)
 
@@ -118,7 +122,7 @@ Troca de rolamento, substituição da placa eletrônica e reparo no motor são s
 
 Uma coisa é resolver como centrifugar na lava e seca LG ajustando o programa ou limpando o dispenser. Outra, bem diferente, é mexer no que tem alta tensão. Quando a dúvida envolve segurança, o técnico deixa de ser opção e vira obrigação. Seu bolso agradece no longo prazo — confia.
 
-## Como evitar que aconteça de novo
+## Como não passar por isso outra vez
 
 Depois de resolver o problema, a ideia é não passar por isso de novo. A boa notícia: na maioria dos casos, dá pra evitar com uma rotina simples de manutenção.
 
@@ -138,7 +142,7 @@ Encher demais é o erro mais comum. Um edredom de casal, por exemplo, precisa de
 
 Duas vezes por ano, rode um ciclo de limpeza com a máquina vazia, usando um produto específico pra lavadora. Isso remove resíduos de sabão e mantém o tambor equilibrado. Com essa rotina, a pergunta sobre como centrifugar na lava e seca LG deixa de ser dor de cabeça — vira só um lembrete de quando você precisa trocar o filtro ou ajustar a carga.
 
-## Perguntas frequentes
+## Perguntas rápidas
 
 ### Por que a máquina para no meio da centrifugação?
 
@@ -162,15 +166,12 @@ Os princípios são parecidos, mas cada painel tem suas particularidades. O manu
 
 Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) ajuda a fechar a escolha.
 
-## Leia também
+## Para ir mais fundo
 
-- [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
-- [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
-- [Como calibrar lava e seca LG: Causas e Como Resolver 2026](/blog/como-calibrar-lava-e-seca-lg/)
-- [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
-- [Amortecedor lava e seca Midea: Guia Prático e Dicas 2026](/blog/amortecedor-lava-e-seca-midea/)
-- [Lava e seca vazando água por baixo: Guia Completo e Dicas](/blog/lava-e-seca-vazando-agua-por-baixo/)
-- [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
-- [Lava e seca Samsung bespoke é boa: Review Completo 2026](/blog/lava-e-seca-samsung-bespoke-e-boa/)
-- [Lava e seca Electrolux perfect care é boa: Review Completo](/blog/lava-e-seca-electrolux-perfect-care-e-boa/)
-- [Ranking das melhores lava e seca do mercado](/)
+- [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
+- [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
+- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
+- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
+- [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
+- [Como resetar lava e seca LG: Causas e Como Resolver 2026](/blog/como-resetar-lava-e-seca-lg/)
+- [As lava e seca mais bem avaliadas, lado a lado](/)
