@@ -515,7 +515,11 @@
         "capacidade ideal"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-19T23:52:26-03:00"
+      "publishedAt": "2026-07-19T23:52:26-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "palavra-chave sub-utilizada: densidade 0.43%"
+      ]
     },
     {
       "keyword": "melhor lava e seca inverter",
@@ -3091,8 +3095,8 @@
         "diagnóstico LG",
         "suporte"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-19T13:05:51-03:00"
     },
     {
       "keyword": "erro tcl lava e seca lg",
