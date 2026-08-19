@@ -1680,7 +1680,9 @@
         "reset Samsung"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-05T14:30:07-03:00"
+      "publishedAt": "2026-08-05T14:30:07-03:00",
+      "rewrittenAt": "2026-08-19T17:38:52-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro hot lava e seca samsung",
@@ -3118,8 +3120,8 @@
         "tambor limpo",
         "lembrete de limpeza"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-19T17:38:12-03:00"
     },
     {
       "keyword": "erro u6 lava e seca samsung",
