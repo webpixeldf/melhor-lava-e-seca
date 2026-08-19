@@ -2829,7 +2829,11 @@
         "fechadura eletrônica"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-16T12:57:41-03:00"
+      "publishedAt": "2026-08-16T12:57:41-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "keyword stuffing: densidade 2.72%"
+      ]
     },
     {
       "keyword": "erro de2 lava e seca lg",
@@ -3144,7 +3148,11 @@
         "suporte"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.65%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "erro ue lg lava e seca",
@@ -3167,7 +3175,11 @@
         "erro de centrifugação"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "funções lava e seca samsung",
@@ -3189,8 +3201,8 @@
         "painel Samsung",
         "programas Samsung"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-19T22:58:44-03:00"
     },
     {
       "keyword": "garantia midea lava e seca",
