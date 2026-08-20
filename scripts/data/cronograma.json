@@ -2960,7 +2960,11 @@
       "problems": [
         "inflado: 2073 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 1,
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "tutorial sem passo a passo: 0 passos numerados, esperado 4"
+      ]
     },
     {
       "keyword": "erro lc lava e seca samsung",
@@ -3251,8 +3255,8 @@
         "opiniões",
         "assistência"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-20T23:00:42-03:00"
     },
     {
       "keyword": "hisense lava e seca 11kg",
