@@ -2883,7 +2883,9 @@
         "suporte"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-16T17:34:23-03:00"
+      "publishedAt": "2026-08-16T17:34:23-03:00",
+      "rewrittenAt": "2026-08-20T13:09:15-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro f5 e3 lava e seca brastemp",
@@ -3147,12 +3149,12 @@
         "manutenção",
         "suporte"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.65%"
+        "keyword stuffing: densidade 2.70%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "erro ue lg lava e seca",
@@ -3174,8 +3176,8 @@
         "suporte LG",
         "erro de centrifugação"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-20T13:08:34-03:00",
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
