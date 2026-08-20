@@ -2908,7 +2908,9 @@
         "suporte"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-16T22:55:25-03:00"
+      "publishedAt": "2026-08-16T22:55:25-03:00",
+      "rewrittenAt": "2026-08-20T17:44:50-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro h3 lava e seca electrolux",
@@ -3226,8 +3228,8 @@
         "manual Midea",
         "SAC Midea"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-20T17:44:11-03:00"
     },
     {
       "keyword": "hisense 13kg lava e seca",
