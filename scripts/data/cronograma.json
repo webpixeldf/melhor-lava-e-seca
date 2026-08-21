@@ -3014,7 +3014,9 @@
         "reparo"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-17T17:44:37-03:00"
+      "publishedAt": "2026-08-17T17:44:37-03:00",
+      "rewrittenAt": "2026-08-21T13:07:32-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro oc lava e seca samsung",
@@ -3278,8 +3280,8 @@
         "assistência",
         "preço"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-21T13:06:48-03:00"
     },
     {
       "keyword": "hisense maquina lava e seca",
