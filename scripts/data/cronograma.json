@@ -2225,7 +2225,11 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-09T23:05:12-03:00"
+      "publishedAt": "2026-08-09T23:05:12-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"vale lembrar que\", \"a verdade é que\""
+      ]
     },
     {
       "keyword": "como interromper a secagem da lava e seca midea",
@@ -3331,7 +3335,11 @@
         "primeira instalação"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca 11kg branca midea master clean conectada mfm01d110wb/wkbr04-127v",
@@ -3354,7 +3362,11 @@
         "review"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "cliche de IA: \"vale lembrar que\", \"por fim,\""
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca 11kg branca slim conectada midea branco",
@@ -3376,8 +3388,8 @@
         "preço",
         "HealthGuard"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-21T22:58:58-03:00"
     },
     {
       "keyword": "lava e seca 11kg branca slim healthguard conectada midea",
