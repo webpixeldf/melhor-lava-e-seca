@@ -790,7 +790,11 @@
         "preço samsung lava e seca wd11m"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-27T23:48:54-03:00"
+      "publishedAt": "2026-07-27T23:48:54-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ]
     },
     {
       "keyword": "lava e seca barata é boa",
@@ -3303,8 +3307,8 @@
         "reviews",
         "comparação"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-21T17:43:44-03:00"
     },
     {
       "keyword": "instalação lava e seca midea",
