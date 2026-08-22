@@ -2454,7 +2454,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-12T13:41:44-03:00"
+      "publishedAt": "2026-08-12T13:41:44-03:00",
+      "rewrittenAt": "2026-08-22T12:59:16-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como so centrifugar na maquina lava e seca samsung",
@@ -3334,12 +3336,12 @@
         "conexão hidráulica",
         "primeira instalação"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca 11kg branca midea master clean conectada mfm01d110wb/wkbr04-127v",
@@ -3361,8 +3363,8 @@
         "preço",
         "review"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-22T12:58:28-03:00",
       "problems": [
         "cliche de IA: \"vale lembrar que\", \"por fim,\""
       ],
