@@ -3076,7 +3076,9 @@
         "assistência"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-18T13:06:33-03:00"
+      "publishedAt": "2026-08-18T13:06:33-03:00",
+      "rewrittenAt": "2026-08-22T17:35:27-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro oe lg lava e seca",
@@ -3413,8 +3415,8 @@
         "preço",
         "conectividade"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-22T17:34:46-03:00"
     },
     {
       "keyword": "lava e seca 11kg midea healthguard titanium conectada",
