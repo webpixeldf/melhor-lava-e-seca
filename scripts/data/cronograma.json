@@ -2717,7 +2717,11 @@
       "problems": [
         "inflado: 2186 palavras, alvo 1500"
       ],
-      "attempts": 1
+      "attempts": 1,
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "keyword stuffing: densidade 2.72%"
+      ]
     },
     {
       "keyword": "erro 4c na lava e seca samsung",
@@ -3438,8 +3442,8 @@
         "conectividade",
         "vapor"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-22T22:55:42-03:00"
     },
     {
       "keyword": "lava e seca 12 kg electrolux",
