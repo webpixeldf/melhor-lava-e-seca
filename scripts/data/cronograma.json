@@ -211,7 +211,9 @@
         "lava e seca hisense garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-22T18:22:14-03:00"
+      "publishedAt": "2026-07-22T18:22:14-03:00",
+      "rewrittenAt": "2026-08-23T22:56:35-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "melhor lava e seca 13kg",
@@ -3515,8 +3517,8 @@
         "esterilização",
         "ficha técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-23T22:55:27-03:00"
     },
     {
       "keyword": "lava e seca 13kg electrolux",
