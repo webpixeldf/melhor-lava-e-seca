@@ -137,7 +137,9 @@
         "lava e seca samsung 11kg e 13kg garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-23T00:00:58-03:00"
+      "publishedAt": "2026-07-23T00:00:58-03:00",
+      "rewrittenAt": "2026-08-23T17:34:45-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "lava e seca samsung wd11m review",
@@ -3490,8 +3492,8 @@
         "preço",
         "dimensões"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-23T17:33:42-03:00"
     },
     {
       "keyword": "lava e seca 13kg branca midea healthguard conectada",
