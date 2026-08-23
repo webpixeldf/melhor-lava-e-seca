@@ -2772,7 +2772,9 @@
         "suporte Midea"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-14T22:58:06-03:00"
+      "publishedAt": "2026-08-14T22:58:06-03:00",
+      "rewrittenAt": "2026-08-23T12:59:46-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "erro 5ud lava e seca samsung",
@@ -3465,8 +3467,8 @@
         "review",
         "preço"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-23T12:59:08-03:00"
     },
     {
       "keyword": "lava e seca 12kg electrolux abertura superior lst12",
