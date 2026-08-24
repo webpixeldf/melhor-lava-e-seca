@@ -520,10 +520,11 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-07-19T23:52:26-03:00",
-      "rewriteFails": 1,
+      "rewriteFails": 0,
       "rewriteProblems": [
         "palavra-chave sub-utilizada: densidade 0.43%"
-      ]
+      ],
+      "rewrittenAt": "2026-08-24T13:10:50-03:00"
     },
     {
       "keyword": "melhor lava e seca inverter",
@@ -3540,8 +3541,8 @@
         "preço",
         "ficha técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-24T13:09:59-03:00"
     },
     {
       "keyword": "lava e seca 60 minutos",
