@@ -776,7 +776,9 @@
         "mini lava e seca garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-23T23:36:02-03:00"
+      "publishedAt": "2026-07-23T23:36:02-03:00",
+      "rewrittenAt": "2026-08-24T23:01:01-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "samsung lava e seca wd11m é boa",
@@ -3592,7 +3594,11 @@
         "assistência"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "cliche de IA: \"vale lembrar que\", \"por fim,\""
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca agua quente e fria",
@@ -3614,8 +3620,8 @@
         "roupas delicadas",
         "instalação"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-24T22:59:45-03:00"
     },
     {
       "keyword": "lava e seca altura e dimensões",
