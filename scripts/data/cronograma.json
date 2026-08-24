@@ -547,7 +547,11 @@
         "lava e seca inverter garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-23T14:31:27-03:00"
+      "publishedAt": "2026-07-23T14:31:27-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "palavra-chave sub-utilizada: densidade 0.44%"
+      ]
     },
     {
       "keyword": "melhor lava e seca preta",
@@ -3564,8 +3568,8 @@
         "programa 60 min",
         "economia de tempo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-24T17:45:36-03:00"
     },
     {
       "keyword": "lava e seca 8 kg samsung",
