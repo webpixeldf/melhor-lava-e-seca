@@ -1294,7 +1294,9 @@
         "custo-benefício"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-04T14:36:55-03:00"
+      "publishedAt": "2026-08-04T14:36:55-03:00",
+      "rewrittenAt": "2026-08-25T17:45:56-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "lava e seca separadas",
@@ -3647,8 +3649,8 @@
         "instalação",
         "dimensões padrão"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-25T17:44:58-03:00"
     },
     {
       "keyword": "lava e seca estraga roupa?",
