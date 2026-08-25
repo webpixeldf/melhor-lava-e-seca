@@ -1081,7 +1081,11 @@
         "lava e seca frontal garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-26T13:52:07-03:00"
+      "publishedAt": "2026-07-26T13:52:07-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"por fim,\", \"a verdade é que\""
+      ]
     },
     {
       "keyword": "melhor maquina lava e seca inox",
@@ -3593,8 +3597,8 @@
         "capacidade",
         "assistência"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-25T13:07:37-03:00",
       "problems": [
         "cliche de IA: \"vale lembrar que\", \"por fim,\""
       ],
