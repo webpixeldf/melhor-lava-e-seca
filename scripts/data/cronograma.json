@@ -1420,7 +1420,11 @@
         "custo-benefício"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-04T18:50:55-03:00"
+      "publishedAt": "2026-08-04T18:50:55-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "keyword stuffing: densidade 3.22%"
+      ]
     },
     {
       "keyword": "lava e seca eos é boa",
@@ -3672,8 +3676,8 @@
         "lã",
         "algodão"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-25T23:00:02-03:00"
     },
     {
       "keyword": "lava e seca heat pump",
