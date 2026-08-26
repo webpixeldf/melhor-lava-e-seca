@@ -1,0 +1,26 @@
+# Cache na borda da Cloudflare.
+#
+# Por que este arquivo existe: o Pages servia TUDO com max-age=0 e
+# must-revalidate, e o HTML aparecia como cf-cache-status: DYNAMIC — ou seja,
+# nao cacheado. Cada visita de celular pagava a ida completa ate a origem, e o
+# LCP mobile medido em campo era de 4,65s contra 0,89s no desktop.
+#
+# Os arquivos abaixo de /_next/static/ tem hash no nome (webpack-35761d54.js):
+# quando o conteudo muda, o nome muda. Entao podem ser imutaveis de verdade —
+# antes revalidavam a cada 4 horas sem necessidade.
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=604800
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML: o navegador nao guarda (max-age=0), mas a borda guarda por 1 hora e
+# ainda serve a versao velha enquanto busca a nova. Publicacao nova aparece
+# assim que o deploy da Cloudflare invalida o cache; no pior caso, 1 hora.
+# Se algum dia um artigo novo demorar a aparecer, e AQUI que se mexe.
+/*
+  Cache-Control: public, max-age=0, s-maxage=3600, stale-while-revalidate=86400
