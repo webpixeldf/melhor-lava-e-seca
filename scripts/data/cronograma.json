@@ -2031,7 +2031,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-07T01:40:24-03:00"
+      "publishedAt": "2026-08-07T01:40:24-03:00",
+      "rewrittenAt": "2026-08-26T13:13:10-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como calibrar lava e seca lg",
@@ -3699,8 +3701,8 @@
         "consumo",
         "tecnologia Heat Pump"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-26T13:12:30-03:00"
     },
     {
       "keyword": "lava e seca hisense 11 kg",
