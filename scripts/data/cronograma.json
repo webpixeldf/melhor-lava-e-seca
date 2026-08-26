@@ -2079,7 +2079,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-07T23:16:18-03:00"
+      "publishedAt": "2026-08-07T23:16:18-03:00",
+      "rewrittenAt": "2026-08-26T19:18:36-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como calibrar lava e seca samsung wd11t",
@@ -3724,8 +3726,8 @@
         "capacidade",
         "comparação"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-26T19:17:51-03:00"
     },
     {
       "keyword": "lava e seca lg cv5012pc4",
