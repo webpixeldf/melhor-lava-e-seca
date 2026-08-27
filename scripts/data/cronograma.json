@@ -2104,7 +2104,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-08T13:09:52-03:00"
+      "publishedAt": "2026-08-08T13:09:52-03:00",
+      "rewrittenAt": "2026-08-27T03:33:49-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como centrifugar na lava e seca lg",
@@ -3749,8 +3751,8 @@
         "review",
         "preço"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-27T03:33:08-03:00"
     },
     {
       "keyword": "lava e seca lg direct drive",

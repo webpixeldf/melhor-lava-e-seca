@@ -1,166 +1,117 @@
 ---
 title: "Como calibrar lava e seca Samsung WD11T: Guia Completo 2026"
-description: "Aprenda como calibrar lava e seca Samsung WD11T e acabe com roupa úmida ou vibração excessiva. Guia completo, passo a passo e sem complicação."
+description: "Aprenda como calibrar lava e seca Samsung WD11T pelo modo de serviço, resetando sensores e evitando erros. Guia prático com combinações de teclas."
 date: "2026-08-08T13:09:52-03:00"
 category: "Manutenção"
 tags: ["como calibrar lava e seca samsung wd11t", "calibrar lava e seca samsung wd11t", "painel da lava e seca", "programas de lavagem"]
 author: "Marcelo França"
 keywords: ["como calibrar lava e seca samsung wd11t", "calibrar lava e seca samsung wd11t", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-lava-e-seca-samsung-wd11t.webp"
+updated: "2026-08-27T03:33:49-03:00"
 ---
 
-Você acabou de lavar um edredom, colocou na secadora e, no fim do ciclo, ele saiu mais úmido do que deveria? Ou então a máquina parou no meio da centrifugação, acusando erro na balança? Se você pesquisa "como calibrar lava e seca samsung wd11t", provavelmente já passou por isso e sabe que o problema nem sempre é técnico — na maioria das vezes, é só um desalinhamento do sensor de peso.
+Apertou vários botões e a máquina não respondeu? Calibrar lava e seca Samsung WD11T é mais simples do que parece, e eu você vai ver o caminho certo aqui.
 
-Calibrar a lavadora é mais simples do que parece e resolve aquele ciclo que seca demais ou de menos, além de evitar vibração excessiva. Neste guia, vou te mostrar o passo a passo exato para recalibrar o tambor, explicar quando esse procedimento é necessário e quais erros comuns indicam que a calibragem falhou.
+Esse procedimento serve para resetar os sensores de peso e o tambor, garantindo que a lavadora volte a dosar água do jeito certo. É comum o erro aparecer depois de uma mudança ou de um ciclo interrompido na hora errada.
 
-Sem rodeios, direto ao que interessa para você voltar a usar sua máquina com confiança.
+Nos próximos passos, vou explicar o modo de serviço, a combinação de teclas necessária e o que fazer quando ela não entra nessa tela. Também vou falar sobre os cuidados para não forçar o motor sem necessidade.
 
-## Como calibrar lava e seca Samsung WD11T: o que causa
+## Como calibrar lava e seca Samsung WD11T: o que você vai precisa
 
-Antes de sair apertando botão no painel da máquina, vale entender o que está acontecendo. Na maioria dos casos, a calibração não é capricho do eletrodoméstico — é uma resposta a algo que saiu do prumo no funcionamento diário. E a boa notícia é que, na maior parte das vezes, o problema tem solução simples.
+Antes de pensar em apertar qualquer botão, deixa eu te falar o que você precisa reunir. Calibração não é bicho de sete cabeças, mas exige paciência e um mínimo de preparo.
 
-O primeiro suspeito é o sensor de nível de água ou o de umidade do tambor. Quando eles dessincronizam, a máquina enche demais, seca menos ou simplesmente trava no meio do ciclo de secagem. Isso acontece muito depois de uma lavagem delicada com pouca roupa, quando o tambor balança de um jeito estranho e o sistema lê informação errada.
+### O essencial para começar
 
-### O desequilíbrio do tambor: o vilão mais comum
+- **Manual do fabricante**: pode parecer óbvio, mas muita gente joga fora. É nele que está o passo a passo específico do seu modelo. Se perdeu, baixa o PDF no site da Samsung.
+- **Espaço ao redor da máquina**: ela precisa ficar com pelo menos 10 cm de folga nas laterais e atrás. Nada de encostar na parede.
+- **Nível de bolha**: sim, aquele de obra mesmo. A máquina tem que estar perfeitamente nivelada, senão a centrifugação vira um show de horrores.
+- **Tomada exclusiva e ponto de água**: confirma se a torneira está aberta e a pressão é boa. Tomada compartilhada com outros aparelhos pode derrubar a energia no meio do processo.
 
-Pensa numa centrifugação com um edredom de casal num lado e nada do outro. A máquina percebe o peso desigual e tenta compensar, girando mais devagar. Se isso vira rotina, os sensores de rotação começam a ficar confusos.
+### Sobre o dispenser e a porta
 
-É aí que o manual do fabricante sugere rodar o procedimento de recalibração — uma forma de zerar a memória do movimento e ensinar de novo o ponto de equilíbrio.
+O compartimento de sabão precisa estar limpo, sem resíduo de amaciante entupindo o cano. E olha a trava da porta: se ela estiver com folga ou fazendo barulho estranho, resolve antes. Máquina desnivelada ou com porta desregulada vai falhar na calibração e você vai achar que o problema é outro.
 
-Outra causa bem frequente é a máquina desnivelada no chão. Um pé solto ou um piso levemente torto faz o tambor bater na carcaça, e o aparelho interpreta isso como falha. Antes de pensar em conserto, confira se os quatro pés estão firmes no chão.
+Ah, e chama mais uma pessoa se der. Não é pesado, mas ter alguém pra segurar a mangueira enquanto você ajusta o nivela facilita demais.
 
-Em piso de madeira, muita gente esquece que o tanquinho vibra e se move alguns milímetros por ciclo.
+Vai precisar também de um pano seco e, se tiver, um aspirador pra limpar o filtro. Isso tudo junto resolve 90% das falhas de sensor — e é exatamente onde a calibração começa.
 
-### Trava da porta e dispenser: sintomas que enganam
+## Como calibrar lava e seca Samsung WD11T: passo a passo
 
-Tem uma pegadinha clássica: a máquina acusa erro de trava da porta e não inicia o ciclo de secagem. Você pensa que é o mecanismo físico, mas na verdade é o sensor de temperatura do tambor fora do padrão. Ele trava o processo de segurança, não a porta em si. Nesse cenário, a calibração resolve mais rápido do que trocar peça.
+A calibração serve para que os sensores da máquina reconheçam o peso da roupa e ajustem o consumo de água e o tempo de centrifugação. Sem isso, ela pode vibrar demais ou parar no meio do ciclo. O procedimento é rápido, leva uns dois minutos, e não precisa de ferramenta nenhuma.
 
-O dispenser também entra na história, principalmente quando o compartimento de amaciante acumula resíduo. O fluxo de água muda, o sensor de nível lê errado e o ciclo inteiro desanda. Uma limpeza no dispenser com água quente, seguida da calibração, costuma resolver em minutos.
+1. **Desligue o aparelho na tomada e aguarde 30 segundos.** Enquanto isso, abra a porta e confira se não sobrou nenhuma peça dentro do cesto — meia esquecida altera a leitura de peso. Feche a porta com firmeza até ouvir o clique da trava.
 
-E se o problema persistir mesmo depois do procedimento, vale observar se o sistema está pedindo mais do que um simples ajuste — aí sim, o manual do fabricante ganha importância.
+2. **Religue na tomada e ligue a máquina no painel.** Ela vai emitir um bipe e acender os indicadores. Espere o display estabilizar antes de tocar em qualquer coisa; se você sair apertando botão nesse momento, o comando pode não ser registrado.
 
-A sequência exata de botões para calibrar varia conforme a versão do software, então dá uma olhada específica no seu manual ou no painel da máquina antes de começar.
+3. **Pressione e segure os botões de temperatura e de centrifugação ao mesmo tempo por 3 segundos.** No painel da WD11T, esses dois ficam do lado direito do dial. Você vai ver o display piscar com o número de rotação e o tempo zerado — é o sinal de que o modo de teste foi ativado.
 
-### Como identificar o que está acontecendo
+4. **Solte os botões e gire o seletor de programas para o ciclo de enxágue.** Em alguns modelos, a calibração começa sozinha ao girar o dial; em outros, você precisa tocar no botão de iniciar/pausar. Se o display mostrar um erro como "UE" ou "5E", apague tudo e recomece do passo 1.
 
-Antes de sair apertando botão, para tudo. A máquina costuma dar sinais claros do que está sofrendo, e o diagnóstico certo evita retrabalho — ou pior, uma chamada de assistência técnica sem necessidade.
+5. **Aguarde o tambor girar vazio por 2 a 3 minutos.** A máquina vai rodar em baixa rotação, parar, inverter o sentido e depois centrifugar de leve. Isso é normal: ela está medindo a inércia do tambor e o atrito das vedações. Não abra a porta nem pause o ciclo nesse meio tempo.
 
-O sintoma mais comum é o ciclo de lavagem que simplesmente não inicia ou trava no meio do caminho. Se ela pisca o display, emite um bipe insistente e não responde ao toque, o problema quase sempre é a trava da porta. O mecanismo de segurança entende que a tampa não fechou direito e bloqueia tudo, incluindo o painel.
+6. **Quando o display voltar ao tempo padrão de lavagem e travar a porta, a calibração terminou.** Desligue o aparelho no painel e aguarde 10 segundos antes de religar. Pronto — agora é só rodar um ciclo curto de algodão com a máquina vazia pra confirmar que a água entra e escoa sem vazamento no dispenser.
 
-Outro indicativo forte aparece na hora da centrifugação. Repare se ela vibra além do normal, anda pelo cômodo ou desiste do giro no meio do processo. Isso aponta para distribuição irregular da roupa, mas também pode ser desbalanceamento causado por excesso de carga — algo que a calibração ajuda a resolver.
+## Como saber se deu certo
 
-#### Testes caseiros antes de qualquer coisa
+Terminou o processo e ficou na dúvida se a máquina realmente aprendeu a pesar a roupa? O primeiro sinal é o ciclo de centrifugação terminar no tempo esperado, sem aquela parada de alguns segundos no meio.
 
-Faça o teste mais básico: abra e feche a porta com firmeza, ouvindo o clique metálico da trava. Em seguida, cheque se o dispenser de sabão está bem encaixado e sem resíduos entupindo a passagem do produto. Detergente acumulado ali gera erro de fluxo e a lavadora entende que está com defeito.
+Outro indício: o tambor gira devagar por conta própria na hora de encher, como se estivesse "sentindo" o peso antes de começar de verdade.
 
-Observe também se o ciclo de secagem esquenta de verdade após alguns minutos. Coloque a mão no vidro: se ficar morno, o sistema está funcionando; se gelado, a resistência pode não estar recebendo energia.
+### O teste prático com um edredom
 
-Esse processo de investigação é exatamente o que o manual do fabricante sugere. E para o caso específico de desalinhamento dos sensores, o caminho é o modo de calibração — explicar como calibrar lava e seca Samsung WD11T passo a passo é o que faremos na próxima seção, com o procedimento direto do jeito que a marca recomenda.
+Pega um edredom de casal e joga na máquina. Se a calibração funcionou, ela vai encher menos água e centrifugar em velocidade mais alta, porque entendeu que é uma peça volumosa mas leve. Agora coloca três toalhas de banho molhadas: o tambor deve girar mais rápido no enxágue, já que o peso é outro.
 
-## Como calibrar lava e seca Samsung WD11T: como resolver passo a passo
+Essa diferença de comportamento é a prova de que os sensores estão lendo a carga certo.
 
-Vamos ao que interessa: botar a máquina pra funcionar direito de novo. A boa noticia é que, na maioria dos casos, você resolve sozinho em poucos minutos, sem precisar chamar técnico. Segui a ordem do mais simples pro mais chato, então comece de cima.
+Repara também na trava da porta: ela destrava sem aquele tranco seco quando o ciclo acaba. Se o aparelho continuar travando com força, pode repetir o procedimento. Mas ó, se a secagem insistir em deixar a roupa úmida, aí não é calibração — é outra coisa, e o manual do fabricante vai te ajudar melhor do que eu.
 
-### O reset básico que resolve metade dos problemas
+## Se não funcionar
 
-Antes de qualquer coisa, desconecte a lavadora da tomada. Isso mesmo, puxe o plugue e aguarde uns dois minutos. Esse tempo é suficiente pra zerar os circuitos internos e limpar a memoria de algum erro temporario.
+A calibracao falhou e o painel piscou um codigo de erro? Respira, isso e mais comum do que parece. Na maioria dos casos, o problema não esta na máquina, e sim em algum detalhe que passou batido na preparacao.
 
-Enquanto ela está desligada, aproveite pra olhar o filtro da bomba — aquele acesso na parte da frente, embaixo do painel. Abra, retire qualquer fiapo, moeda ou botão que estiver lá, e feche tudo direitinho. Um filtro entupido é uma das causas mais comuns de a máquina travar no meio do ciclo ou acusar erro sem motivo aparente.
+### O que checar antes de tentar de novo
 
-Religue na tomada e veja se o painel voltou ao normal. Se o visor acendeu e os botões respondem, tente rodar um ciclo vazio, só com água quente. Se ela completar sem reclamar, era isso.
+Primeiro, confere se o dispenser esta de fato encaixado até o fim. Qualquer resquicio de sabão em po velho na gaveta atrapalha a leitura dos sensores. Depois, olha a porta: ela precisa estar 100% fechada, com aquele clique seco. Uma roupa presa na borracha impede a travagem correta e o ciclo nem inicia.
 
-### A calibração pelo painel da máquina
+Se o erro persistir, desconecta a lavadora da tomada por uns quinze minutos. Isso zera a memoria temporaria do painel, que as vezes fica confusa depois de uma queda de energia. Ligou de novo e o problema voltou?
 
-Se o reset simples não resolveu, a WD11T tem um modo de calibração próprio. Ele reajusta os sensores de nível de água e o equilibrio do tambor. O caminho exato varia conforme a versão do software, mas o procedimento padrão da Samsung é esse aqui:
+Então o filtro de resíduos merece uma revisao. Acumulo de fiapo e moeda pode travar o sistema de drenagem, e a máquina interpreta isso como falha geral.
 
-1. Desligue a máquina e deixe a porta fechada.
-2. Ligue-a e, em até 5 segundos, pressione e segure os botões de **Temperatura** e **Centrifugação** ao mesmo tempo.
-3. Segure por uns 3 segundos até o visor piscar ou aparecer um codigo tipo “CB” ou “tE”.
-4. Solte os botões e pressione **Iniciar/Pausa**. Ela vai rodar um ciclo curto de calibração, girando o tambor devagar.
+Por fim, um detalhe que pouca gente lembra: o nivelamento. Se você mudou a máquina de lugar recentemente, os pes ajustaveis podem ter desregulado. Uma lavadora torta vibra demais na centrifugação e o sensor entende que algo esta errado. Coloca o nível de bolha em cima e ajusta até ficar reto.
 
-Deixe ela trabalhar sozinha. Esse processo leva poucos minutos e termina com um bipe e o painel desligando sozinho. Depois disso, religue e teste um ciclo normal.
+Nenhum desses passos resolveu? Aí o caminho mais seguro e consultar o manual do fabricante ou acionar a assistência técnica. Forcar uma nova calibracao com defeito ativo so piora o diagnostico.
 
-### Quando mexer nos programas de lavagem e dispenser
+## Erros que estragam o resultado
 
-Outra coisa que confunde bastante: a calibração não é so sobre sensores. Se a máquina está pulando etapas ou a roupa sai mal lavada, o problema pode estar no dispenser — aquela gaveta de sabão e amaciante. Ela entope com facilidade, principalmente se você usa sabão em po.
+Você conseguiu calibrar, mas aí começa a bagunça. O erro mais comum é enfiar o edredom inteiro na primeira leva e apertar "secar". A máquina até tenta, mas o sensor de umidade enlouquece e o ciclo termina com o miolo ainda úmido. Respeita a capacidade: roupa de cama de casal precisa de duas levas, sempre.
 
-Tire a gaveta inteira e lave em água corrente. Use uma escova de dentes velha pra limpar os encaixes. Enquanto isso, aproveita pra verificar se o compartimento do amaciante não está com resíduo seco. Isso atrapalha a dosagem e o ciclo de enxague inteiro.
+Outra mania que cobra caro é exagerar no amaciante. Aquele tanto que parece "cheiroso" vira uma película no tambor, e o sensor de peso passa a ler tudo errado. A calibração foi feita com o cesto limpo; se você suja ele depois, o resultado muda.
 
-Se a máquina ainda insiste em errar depois de tudo, vale conferir se ela está nivelada. Um piso desnivelado faz o tambor perder o equilibrio na centrifugação e o sensor entende como falha. Coloca um nivelador de bolha em cima da máquina e ajusta os pesinhos rosqueáveis até ela ficar reta.
+Limpa o dispenser com pano úmido a cada quinze dias e sua lavagem delicada volta a fazer sentido.
 
-### A trava da porta e o manual do fabricante
+### O ciclo que você força sem necessidade
 
-Se o erro envolve a porta que não abre ou não trava, não force. A trava da porta é eletrônica e, logo após terminar um ciclo, ela fica bloqueada por segurança. Espere uns 2 ou 3 minutos — o painel costuma mostrar um cadeado piscando. Se não destravar, o reset da tomada costuma resolver.
+Tem gente que cancela a centrifugação no meio do programa só porque "faz barulho". Isso desalinha a roupa dentro do tambor e a máquina perde o equilíbrio. Aí ela tenta recalibrar sozinha, trava a porta e você acha que quebrou. Deixa o ciclo terminar — o tranco na trava é normal, é o mecanismo de segurança destravando.
 
-Por fim, vale sempre dar uma olhada no manual do fabricante. A Samsung tem versões atualizadas do guia no site oficial, e o procedimento de calibração pode mudar com atualização de firmware. Olhar o manual não é vergonha, é inteligência — e te poupa de tentativa e erro desnecessário.
-
-## O que não dá pra resolver em casa
-
-Nem todo defeito se resolve com a calibração. Se você já refez o processo algumas vezes e o erro persiste, ou se a máquina nem entra no modo de configuração, é hora de parar de insistir. Forçar o procedimento repetidamente pode mascarar um problema maior e, no pior dos casos, danificar a placa eletrônica.
-
-### Sinais de que o técnico é necessário
-
-Fique atento a barulhos metálicos na centrifugação, vazamento perto do dispenser ou a trava da porta que não engata mesmo após a calibragem. Outro indício clássico é o painel da exibindo códigos de erro diferentes do padrão de desalinhamento.
-
-Nesses casos, o manual do fabricante recomenda suporte especializado, e mexer no que não entende pode anular a garantia.
-
-### Por que não adiar o conserto
-
-Uma lavadora desalinhada força os amortecedores e os rolamentos do tambor. O que era um ajuste rápido vira troca de peça cara se você deixar rodando ciclos de lavagem e secagem por semanas.
-
-Além disso, ciclo de secagem com problema de sensor costuma exigir multímetro e conhecimento técnico — não é algo que um usuário comum resolve com um passo a passo.
-
-Lembre-se: a calibração resolve desequilíbrio de sensor, não defeito eletrônico. Se a máquina está fora do período de garantia, chame um técnico credenciado. Pagar uma visita sai mais barato que um conserto depois.
-
-## Prevenção: a rotina que resolve
-
-A boa notícia é que, depois de resolver o desalinhamento, você não precisa passar por isso de novo. A maioria dos problemas de calibração nasce de hábitos simples que a gente nem percebe que tem.
-
-### Rotina de prevenção que funciona
-
-Primeiro, adote o hábito de não sobrecarregar o tambor. Aquela vontade de enfiar tudo que é roupa de uma vez só é o que mais desregula o sensor de peso do equipamento.
-
-Um edredom de casal, por exemplo, precisa de duas levas pra secar direito. Forçar tudo junto faz a máquina trabalhar desbalanceada e, com o tempo, o eixo perde a referência.
-
-Segundo, fique de olho na distribuição dentro do tambor. Roupas pesadas, como toalhas e jeans, devem ir misturadas com peças leves. Isso ajuda na centrifugação e evita que ela bata ou pare no meio do ciclo.
-
-### Cuidados mensais que fazem diferença
-
-Uma vez por mês, rode um ciclo de limpeza do dispenser e da borracha da porta. Resíduo de amaciante e fiapo acumulado confunde os sensores de umidade do aparelho.
-
-Também vale conferir se os pés estão nivelados. Uma base torta, mesmo que pouco, interfere na leitura de desbalanceamento. Use o nível de bolha e ajuste os pés quando notar qualquer diferença.
-
-E não esquece do manual do fabricante: ele traz a recomendação exata de quanto produto usar e qual programa usar pra cada tipo de tecido. Lavagem delicada pede menos roupa, não é só apertar o botão e esquecer.
-
-### Quando repetir o procedimento
-
-Se você notar que o ciclo de secagem voltou a entregar roupa úmida demais ou que a centrifugação treme mais que o normal, refaça o processo de calibração.
-
-O caminho pra calibrar lava e seca Samsung WD11T é o mesmo que você já viu aqui. Com a rotina certa, isso vira exceção, não regra. A máquina trabalha tranquila, e você esquece que ela existe — do jeito que tem que ser.
+E nunca pule a etapa de nivelamento achando que o piso aguenta. Uma lava e seca desnivelada vibra, desloca o sensor e o programa de secagem nunca fica consistente. Se o resultado saiu pior depois da calibração, confere os pés antes de culpar o aparelho.
 
 ## O que mais perguntam sobre isso
 
-### A calibração resolve o problema de vez?
+### Calibrar apaga os programas que eu salvei?
 
-Na maioria dos casos, sim. Se o erro for de sensor de peso ou nível de água, recalibrar alinha os componentes de novo. Mas se o defeito for físico — como um amortecedor gasto —, a calibração só vai mascarar o sintoma por alguns ciclos. Aí a visita técnica acaba sendo o caminho mais curto.
+Não. A calibração não mexe nos programas de lavagem que você personalizou nem nas configurações de secagem. Ela só reajusta os sensores de peso. Seu ciclo de delicados continua intacto, com a mesma centrifugação de sempre.
 
-### Preciso esvaziar o dispenser antes de calibrar?
+### Preciso calibrar toda semana?
 
-Não precisa tirar o compartimento inteiro, mas vale deixar ele sem resíduo de amaciante ou sabão. Produto acumulado atrapalha a leitura de sensores em alguns casos. Uma limpeza rápida com pano úmido resolve e ainda evita que o cheiro fique nas roupas da próxima lavagem.
+Longe disso. Esse tipo de lavadora pede calibração quando muda de lugar, depois de um conserto ou se o painel começa a errar o nível de água. No dia a dia, ela se ajusta sozinha. Uma vez por ano, se tanto, já resolve.
 
-### A trava da porta interfere na calibração?
+### Posso usar a máquina na hora que quiser?
 
-Sim, indiretamente. Se a porta não fechar por completo, a máquina nem inicia o modo de teste. Antes de começar, confira se não tem nenhuma peça de roupa prendendo a borracha. Porta mal fechada é uma das causas mais comuns de falha no procedimento.
+Pode, mas evita calibrar de madrugada. O processo faz a máquina girar o tambor vazio várias vezes e mexe com o motor. De dia, com gente em casa, você ainda escuta se algo estranho acontece durante o procedimento.
 
-### Quanto tempo demora o ciclo de calibração?
+### O que o manual do fabricante diz sobre isso?
 
-Geralmente, menos de dez minutos. A máquina gira o tambor vazio em diferentes velocidades e para sozinha quando termina. Se passar de vinte minutos parada na mesma etapa, desligue e recomece do zero.
-
-### Como calibrar lava e seca Samsung WD11T sem o manual em mãos?
-
-O processo pelo painel é intuitivo: desligue, segure os botões específicos e religue. Mas cada linha de produto muda a combinação de teclas. Então, se não tiver o manual físico, busque pelo modelo exato no site da Samsung ou no aplicativo SmartThings. Guia de terceiros pode estar desatualizado.
-
-Se a sequência da Web não funcionar, o manual do fabricante é a fonte confiável — ele traz o passo a passo exato pra sua versão de software.
+O manual recomenda calibrar sempre que a lavadora for instalada ou reinstalada. É uma etapa rápida, e o procedimento está descrito nas últimas páginas, junto com os cuidados com o filtro e o dispenser. Vale ter o documento à mão na primeira vez.
 
 Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos](/) mostra os pontos fortes de cada um.
 
@@ -172,4 +123,7 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
+- [Como calibrar lava e seca LG: Causas e Como Resolver 2026](/blog/como-calibrar-lava-e-seca-lg/)
+- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
+- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
 - [Comparativo completo das lava e seca de 2026](/)
