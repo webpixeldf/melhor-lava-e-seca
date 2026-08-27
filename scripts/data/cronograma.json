@@ -2152,7 +2152,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-08T23:02:17-03:00"
+      "publishedAt": "2026-08-08T23:02:17-03:00",
+      "rewrittenAt": "2026-08-27T22:14:02-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como destravar a lava e seca samsung",
@@ -3774,8 +3776,8 @@
         "Steam",
         "ThinQ"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-27T22:13:19-03:00"
     },
     {
       "keyword": "lava e seca lg não liga",
