@@ -79,7 +79,7 @@ O cesto de 10,1 kg comporta bastante roupa para uma família de três ou quatro 
 
 A bomba de drenagem funciona de forma silenciosa e consistente, e o filtro de drenagem é fácil de alcançar. Isso facilita a manutenção: você limpa em dois minutos e evita aquele erro E21 que travou a máquina de muita gente. A assistência da Midea no Brasil é bem distribuída, o que dá tranquilidade se algo der problema.
 
-Outro ponto forte é a praticidade do painel. Os programas são poucos e diretos, sem ficar navegando em menu confuso. Ela não é a lava e seca mais barata do mercado, mas entrega o que promete sem frescura — e a pergunta "e21 lava e seca midea é boa" faz sentido quando você vê o custo-benefício no longo prazo.
+Outro ponto forte é a praticidade do painel. Os programas são poucos e diretos, sem ficar navegando em menu confuso. Ela não é a [lava e seca mais barata do mercado](/blog/lava-e-seca-mais-barata-do-mercado/), mas entrega o que promete sem frescura — e a pergunta "e21 lava e seca midea é boa" faz sentido quando você vê o custo-benefício no longo prazo.
 
 ## Pontos negativos
 

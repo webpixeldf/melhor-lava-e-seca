@@ -2283,7 +2283,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-10T18:02:29-03:00"
+      "publishedAt": "2026-08-10T18:02:29-03:00",
+      "rewrittenAt": "2026-08-28T06:21:01-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como lavar o prensado e secar rápido",
@@ -3801,12 +3803,12 @@
         "alimentação elétrica",
         "defeito na placa"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.91%"
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca lg preta",
@@ -3852,7 +3854,11 @@
         "comparativo"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca mais barata do mercado",
@@ -3874,8 +3880,8 @@
         "desconto",
         "menor preço"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-28T06:20:24-03:00"
     },
     {
       "keyword": "lava e seca midea como usar",
