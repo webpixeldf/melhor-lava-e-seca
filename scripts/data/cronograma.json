@@ -2308,7 +2308,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-10T23:16:47-03:00"
+      "publishedAt": "2026-08-10T23:16:47-03:00",
+      "rewrittenAt": "2026-08-28T22:15:23-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como lavar o tambor da lava e seca samsung",
@@ -3853,8 +3855,8 @@
         "modelos grandes",
         "comparativo"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-28T22:14:38-03:00",
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
