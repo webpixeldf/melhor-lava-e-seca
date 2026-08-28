@@ -2181,7 +2181,9 @@
       "problems": [
         "inflado: 3100 palavras, alvo 2000"
       ],
-      "attempts": 1
+      "attempts": 1,
+      "rewrittenAt": "2026-08-28T01:31:35-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como destravar a porta da lava e seca lg",
@@ -3800,7 +3802,11 @@
         "defeito na placa"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.91%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca lg preta",
@@ -3822,8 +3828,8 @@
         "preço LG preta",
         "ficha técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-28T01:30:40-03:00"
     },
     {
       "keyword": "lava e seca maior capacidade",
