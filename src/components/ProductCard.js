@@ -68,7 +68,8 @@ export default function ProductCard({ product }) {
           <div className="rating-line">
             <Stars value={product.rating} />
             <span className="score-pill">{product.rating.toFixed(1)}</span>
-            <span>{product.reviewsCount.toLocaleString('pt-BR')} avaliações</span>
+            {/* ver comentario em app/page.js: reviewsCount e estimado */}
+            <span>nossa nota</span>
           </div>
 
           <p className="product-headline">{product.headline}</p>

@@ -54,9 +54,12 @@ export default async function HomePage() {
           </div>
 
           <p className="hero-disclosure" style={{ marginBottom: '0.75rem' }}>
+            {/* Nao citamos numero de avaliacoes: o campo reviewsCount do catalogo
+                e estimado, nao vem da Amazon nem de usuarios do site. Dizer
+                "2.847 avaliacoes de compradores" sugeria prova social que nao
+                existe. A nota fica, declarada como avaliacao editorial nossa. */}
             <strong>Nº 1 do ranking:</strong> {winner.name} — nota{' '}
-            {winner.rating.toFixed(1)} com{' '}
-            {winner.reviewsCount.toLocaleString('pt-BR')} avaliações de compradores.
+            {winner.rating.toFixed(1)} na nossa avaliação.
           </p>
 
           <p className="hero-disclosure">
