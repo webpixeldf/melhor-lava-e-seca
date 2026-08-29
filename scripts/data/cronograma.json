@@ -2547,7 +2547,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-12T23:22:24-03:00"
+      "publishedAt": "2026-08-12T23:22:24-03:00",
+      "rewrittenAt": "2026-08-29T16:43:32-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como usar lava e seca lg 12kg",
@@ -4222,7 +4224,11 @@
         "Samsung silenciosa"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.45%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor sabão líquido para lava e seca",
@@ -4244,8 +4250,8 @@
         "amaciante",
         "rendimento"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-29T16:42:40-03:00"
     },
     {
       "keyword": "melhores marca de lava e seca",
