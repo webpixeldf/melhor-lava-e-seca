@@ -1,197 +1,145 @@
 ---
 title: "Como limpar lava e seca LG: Guia Completo e Como Resolver"
-description: "Como limpar lava e seca lg: Sabe quando você abre a máquina depois de um ciclo e sente aquele cheiro de mofo, ou repara que a borracha da porta está com"
+description: "Aprenda como limpar lava e seca LG e acabe com mau cheiro, borra de sabão e erros no display com um passo a passo prático, sem precisar de técnico."
 date: "2026-08-11T18:07:43-03:00"
 category: "Manutenção"
 tags: ["como limpar lava e seca lg", "limpar lava e seca lg", "painel da lava e seca", "programas de lavagem"]
 author: "Marcelo França"
 keywords: ["como limpar lava e seca lg", "limpar lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-limpar-lava-e-seca-lg.webp"
+updated: "2026-08-29T00:59:19-03:00"
 ---
 
-Sabe quando você abre a máquina depois de um ciclo e sente aquele cheiro de mofo, ou repara que a borracha da porta está com manchas escuras? É nesse momento que a gente percebe que não basta só lavar as roupas — a máquina também precisa de atenção.
+Mau cheiro na roupa, borra de sabão no tambor, ciclo que nunca termina. É isso que a gente colhe quando a máquina nunca vê uma limpeza de verdade — e o pior: a peça que você ia vestir pro trabalho acaba indo pra máquina de novo, não pro seu corpo.
 
-Se você veio atrás de **como limpar lava e seca LG**, o primeiro passo é entender que isso vai muito além de passar um pano no tambor.
+Manutenção atrasada vira roupa estragada e tempo perdido, sem falar no dinheiro jogado fora com produtos que só mascaram o problema.
 
-O problema é que, com o tempo, sabão, amaciante e fiapos se acumulam em cantos que você nem imagina. A boa notícia? Dá pra resolver isso em casa, sem precisar de técnico, seguindo um passo a passo simples e usando produtos que você já tem na despensa.
+Dá pra reverter esse quadro com um passo a passo simples. Aqui você vai ver como limpar lava e seca LG do jeito certo, desde o borrachão até o filtro de fiapos, e ainda te dou o caminho pra resolver os erros mais comuns que aparecem no display. Sem mistério e sem precisar chamar técnico pra toda hora.
 
-Neste guia, vou te mostrar o caminho completo: desde a limpeza da borracha e do filtro até o ciclo de autolimpeza que a própria LG oferece. Também vou falar dos erros mais comuns que causam mau cheiro e como evitar que eles voltem a aparecer. Bora colocar a mão na massa?
+## Como limpar lava e seca LG: o que você vai precisar
 
-## Como limpar lava e seca LG: o que causa
+Antes de meter a mão na massa, separa o material. Nada de começar e descobrir no meio do processo que faltou item — isso so prolonga o serviço.
 
-A máquina começa a soltar aquele cheiro de mofo, ou você nota resíduo de sabão
-nas roupas mesmo depois do ciclo. Na maioria das vezes, o problema não é a
-qualidade do eletrodoméstico — é o acúmulo de sujeira em pontos que a gente
-esquece.
+### Checklist do necessário
 
-O primeiro vilão é o dispenser. A gaveta de sabão fica úmida o tempo todo, e
-qualquer resto de amaciante vira um banquete para fungos. Se você abre a gaveta
-e vê aquela película escura, é sinal de que o produto não está sendo
-completamente drenado — e isso suja a roupa no meio do ciclo.
+- Pano de microfibra limpo (um seco e outro levemente umedecido)
+- Escova de cerdas macias ou escova de dentes velha para os cantos
+- Detergente neutro ou sabão de coco em pasta
+- Balde com água morna
+- Bicarbonato de sodio (opcional, ajuda em manchas teimosas)
+- Luvas de borracha para proteger as mãos
+- Espaço ao redor da máquina: ela precisa ser afastada da parede pra você alcancar a mangueira e o filtro
+- Acesso fácil a tomada e ao registro de água — desliga tudo antes de começar
 
-Tem também a borracha da porta. A trava da porta precisa vedar perfeitamente,
-mas essa vedação cria um ambiente escuro e úmido. Fiapos, fios de cabelo e
-restos de tecido se acumulam ali, principalmente se você lava roupa de cama ou
-toalha com frequência.
+O processo todo leva algo entre 40 minutos e uma hora, dependendo do estado da sua máquina. Se tiver alguem pra ajudar a puxar o eletrodomestico, ótimo; sozinho também da, mas vai com calma pra não forcar as costas.
 
-Muita gente puxa a borracha só quando o cheiro já está
-forte, mas o ideal é inspecionar a cada duas semanas.
+Uma dica: deixa o manual do fabricante por perto. Cada modelo tem particularidade no acesso ao filtro e ao dispenser, e o folheto tira dúvida na hora sem você precisar adivinhar.
 
-### O que mais causa mau cheiro na lavadora
+Também vale conferir se a garantia cobre a limpeza ou se chamar um técnico sai mais em conta — as vezes o que você quer resolver com pano e água e caso de assistência.
 
-O filtro de fiapos é outro ponto crítico, especialmente em modelos com ciclo
-de secagem. Durante a secagem, os fiapos se desprendem e ficam retidos ali.
-Se você nunca limpou esse filtro, o ar quente circula sobre matéria orgânica
-em decomposição — e o resultado é exatamente o que você está imaginando.
+## Como limpar lava e seca LG: passo a passo
 
-A centrifugação também tem seu papel. Quando o cesto não gira em alta rotação,
-a umidade residual fica maior e as bactérias encontram o ambiente perfeito.
-Roupas que ficam horas esquecidas dentro do tambor aceleram o processo: o
-tecido abafado cria um microclima que nenhum enxágue extra resolve.
+O processo é mais simples do que parece, e você não precisa desmontar nada. Siga a ordem certa que o resultado aparece — e o cheiro de mofo vai embora de vez.
 
-Por fim, o painel da máquina passa despercebido. Os botões acumulam gordura
-das mãos, e essa sujeira migra para as roupas quando você toca nelas depois
-de operar a lavadora. Não é o culpado mais óbvio, mas faz diferença.
+1. **Limpe o dispenser de sabão e amaciante.** Puxe a gaveta até o fim e veja se tem um clipe ou botão de liberação na parte de trás. Enxágue em água corrente na pia e use uma escovinha de dentes velha para tirar o acúmulo de produto. Enquanto ela seca, aproveita pra limpar o compartimento vazio com um pano úmido.
 
-A boa notícia? A maioria desses problemas se resolve em uma tarde de
-manutenção caseira. Só precisa saber o passo a passo certo — e é exatamente
-isso que você vai ver nas próximas seções. Mas antes, vale entender quando
-chamar um técnico e como evitar que o problema volte.
+2. **Passe um pano na borracha da porta.** Abra o tambor e puxe a borracha com cuidado — ela é sanfonada e esconde umidade. Use um pano com água morna e detergente neutro, ou vinagre diluído, e seque bem. Ali costuma ficar fiapo, fio de cabelo e às vezes até moeda esquecida no bolso.
 
-## Como identificar o que está acontecendo
+3. **Selecione o ciclo de limpeza do tambor.** A maioria das lava e seca LG tem um programa específico, que pode se chamar "Limpeza do Cesto" ou "Higienizar". Se o seu modelo não tiver, escolha o ciclo algodão com água quente, sem roupa e sem produto. Deixe rodar vazio até o fim — isso lava por dentro o que você não alcança na mão.
 
-Antes de sair desmontando meio mundo, vale a pena parar e observar a máquina trabalhando. A maioria dos problemas não é defeito técnico de fábrica, e sim acúmulo de sujeira em pontos específicos. Mas como saber se o problema é resíduo ou falha de verdade?
+4. **Limpe o filtro de fiapos da secagem.** Ele fica na parte de baixo da máquina, atrás de uma tampinha, ou dentro do tambor, dependendo do modelo. Abra, retire o fiapo acumulado e passe na água corrente. Um filtro entupido é a causa mais comum de roupa saindo úmida demais e de ciclo de secagem demorando mais que o normal.
 
-Primeiro, preste atenção no cheiro. Se aquele odor de mofo aparece quando o ciclo termina ou na hora de abrir a porta, o vilão quase sempre é o acúmulo de umidade na borracha e no cesto.
+5. **Verifique a mangueira de drenagem no ralo.** Desconecte a mangueira do ponto de esgoto e confira se não tem obstrução. Se encontrar algo, você consegue empurrar com um arame ou limpar com água pressurizada. Isso evita que a água fique parada no sistema e gere aquele odor que volta mesmo depois de limpar tudo.
 
-Já se o problema é roupa saindo com manchas claras ou com aquele aspecto de sabão em pó não dissolvido, o suspeito é o dispenser entupido ou o excesso de produto.
+6. **Deixe a porta entreaberta ao final.** Depois do ciclo de limpeza, tire o excesso de umidade com um pano seco e deixe a porta encostada, não totalmente fechada. Isso vale pra todo mundo que usa esse tipo de lavadora — a vedação é boa demais e, fechada, ela não respira.
 
-### Testes rápidos que você faz em casa
+### Como saber se deu certo
 
-Comece pelo teste mais simples: rode um ciclo de lavagem vazio, com água quente e um pouco de vinagre branco. Se a água sair turva ou com pedaços de sujeira, confirma que a limpeza interna estava em dia de atraso.
+Terminou o processo? Então respira e olha o resultado antes de sair usando a máquina de novo. O primeiro sinal de que tudo funcionou é visual: o dispenser sem resíduo de sabão, a borracha da porta sem mancha escura e o tambor com cheiro neutro, não de mofo.
 
-Outra verificação importante é a trava da porta. Feche a tampa e veja se ela encaixa com firmeza, sem folga. Uma borracha ressecada ou com dobra impede o fechamento correto, e a máquina nem inicia o ciclo.
+Se você usou vinagre ou bicarbonato, aquele odor levemente ácido some depois do enxágue final — isso é normal e indica que a limpeza agiu.
 
-Olhe também o filtro da mangueira de entrada, geralmente na parte de trás — se estiver com resíduos, a lavagem perde pressão e a roupa sai mal enxaguada.
+O teste prático é melhor ainda. Pega um pano branco, umedece e passa no fundo do tambor e na dobra da borracha. Se sair sujo, a limpeza não alcançou tudo; repete só a parte que falhou. Outro teste infalível: coloca um ciclo curto de lavagem vazio, com um pouquinho de vinagre no cesto.
 
-No painel da, fique atento aos códigos de erro no visor. Cada um tem um significado específico, e o manual do fabricante explica melhor do que qualquer achismo. Anota o código, consulta o manual e vê se a solução não é algo simples como limpar o filtro da bomba ou destravar a mangueira de drenagem.
+Se no final a porta abrir sem trava presa e o painel responder normal aos toques, pode comemorar.
 
-Se a lavagem delicada ou a centrifugação deixou de funcionar direito, o problema pode ser excesso de espuma. Isso acontece quando a gente usa sabão demais — a máquina interpreta como sobrecarga e reduz a rotação.
+Ah, e repara no cheiro depois do primeiro ciclo de secagem. Se sair aquele aroma de roupa passada, sem mistura de umidade, o conjunto inteiro está limpo. Caso contrário, o acúmulo pode estar no duto — aí vale consultar o manual pra ver se o filtro de fiapos da sua versão é acessível por baixo da tampa.
 
-Repetiu o ciclo com menos produto? Já resolveu. Observar esse comportamento antes de chamar um técnico economiza tempo e dinheiro, e muitas vezes é a resposta para entender como limpar lava e seca lg na prática.
+Resolver isso agora evita o ciclo de secagem demorar o dobro no futuro.
 
-## Como limpar lava e seca LG: como resolver passo a passo
+## Se não funcionar
 
-### Comece pelo simples: o filtro de fiapos
+Nem sempre a primeira limpeza resolve tudo. Se o cheiro voltou ou sobrou resíduo, o problema pode estar num ponto específico que você não alcancou. Vamos olhar os casos mais comuns.
 
-O filtro de fiapos é o primeiro lugar pra olhar. Ele fica na abertura do tambor ou na parte frontal, dependendo do modelo. Se o ciclo de secagem demora demais ou as roupas saem úmidas, a causa quase sempre é ele entupido.
+### O cheiro persiste após a limpeza
 
-Retire o filtro, lave com água corrente e uma escova macia. Sabe aquela camada cinzenta que fica na superfície? É resíduo de amaciante e fiapo acumulado. Ela bloqueia a passagem do ar quente. Seque bem antes de encaixar de volta — umidade presa ali vira mofo rápido.
+Isso quase sempre aponta para o mesmo suspeito: o dispenser de sabão. Quando o compartimento fica muito tempo com produto acumulado, forma uma camada dura que o ciclo de autolimpeza não remove sozinho.
 
-### ### Limpeza do dispenser e da borracha
+Tira o gaveteiro e deixa ele de molho em água quente com detergente por uns 30 minutos. Depois, usa uma escova de dentes velha pra alcancar os cantinhos.
 
-O dispenser de sabão acumula aquele limo escuro se você usa amaciante toda lavagem. Ele é removível na maioria dos modelos: puxe pra frente e aperte a trava da porta do compartimento. Deixe de molho em água morna com detergente neutro por uns 20 minutos.
+Outra possibilidade e o filtro da bomba de drenagem. Mesmo seguindo os passos anteriores, e ali que fica retido fiapo, moeda e até fio dental. Se você não verificou esse ponto, corre la agora.
 
-A borracha da porta merece atenção especial. Passe um pano úmido no vinco inteiro, principalmente na parte de baixo. É ali que restos de fio e moedas se escondem. Se notar mancha preta, use uma solução de água com vinagre e deixe agir por alguns minutos antes de enxugar.
+### A porta não abre depois do ciclo
 
-### Programa de autolimpeza e ciclo quente
+Isso pode ser normal, sabia? A trava da porta fica bloqueada enquanto a temperatura interna não baixar. Alguns modelos demoram alguns minutos depois que o programa termina. Se passou bastante tempo e continua travada, pode ser problema eletrônico no mecanismo — nesse caso, não force.
 
-A maioria das lava e seca LG tem um ciclo de limpeza do tambor. Procure no painel da máquina por "Limpeza do Cesto" ou "Tubo Clean". Rode esse programa vazio, sem roupa, com um pouco de alvejante ou desinfetante próprio pro tambor.
+Chama um técnico autorizado e evita danificar a borracha de vedacao.
 
-Depois disso, escolha um programa de lavagem quente com centrifugação máxima. Isso ajuda a secar o interior e elimina bactérias que o ciclo frio não alcança. Faça isso a cada 15 lavagens, ou pelo menos uma vez por mês se você usa muito a função de secagem.
+### O painel não responde
 
-### ### Padrão de uso que evita sujeira
+Quando o painel da máquina fica "morto", o motivo comum e a falta de reset. Desliga o aparelho da tomada, espera uns 10 minutos e liga de novo. Esse procedimento resolve a maioria dos travamentos simples do software.
 
-Não adianta limpar profundamente toda semana se o uso diário contribui pro acúmulo. Deixe a porta aberta depois de cada lavagem pra circular ar. Se a lavanderia não tem janela, um ventilador ligado por 30 minutos resolve.
+Se você fez tudo certinho e o problema continua, vale consultar o manual do fabricante. Muitas vezes, o que parece defeito e so uma configuração específica que precisa ser ajustada.
 
-Sobre o manual do fabricante: ele indica a frequência certa de limpeza pro seu modelo específico. Vale dar uma olhada, mas a regra geral é simples — se o ciclo de secagem ficou demorado ou o tambor cheira mal após a centrifugação, é hora de higienizar.
+## Erros que estragam o resultado
 
-### ### Quando chamar assistência técnica
+Você já viu o passo a passo certo, mas muita gente faz coisa por conta própria e acaba com uma máquina pior do que antes. O primeiro clássico é exagerar no sabão. Mais espuma não limpa mais: ela se acumula no cesto, gruda nas roupas e deixa aquele cheiro de mofo que você tava tentando matar.
 
-Se depois de tudo isso a máquina ainda apresenta erro no painel, para no meio da lavagem delicada ou a porta não destrava, o problema é interno. Pode ser sensor, resistência do secador ou até placa eletrônica. Não tente abrir o gabinete por conta própria.
+A consequência prática é ter que refazer o ciclo de limpeza em dobro.
 
-Chame um técnico autorizado LG. O atendimento identifica o defeito na hora, e a garantia cobre a maioria dos casos se o aparelho estiver dentro do período. Nesse cenário, o problema não é sujeira, e sim componente elétrico — limpeza nenhuma resolve.
+### Encher demais e esquecer da trava da porta
 
-## Quando chamar a assistência técnica
+Outro erro comum é lotar o tambor até a tampa. O equipamento precisa de espaço pra centrifugação funcionar direito. Roupa amassada, mal lavada e ciclo que não termina: tudo culpa do excesso.
 
-Nem todo problema da sua lavadora pede um técnico. Na verdade, a maioria das situações de sujeira acumulada ou odor se resolve com os passos que já mostrei aqui. Mas existe uma linha clara entre o que é manutenção de rotina e o que é defeito de verdade.
+E quando o ciclo trava no meio, tem gente que força a porta. A trava existe por segurança — puxar com força só quebra o mecanismo, e aí o conserto custa caro.
 
-### Fique atento a esses sinais
+Tem também quem ignore os programas de lavagem e use um só pra tudo. Tecido delicado na lavagem pesada encolhe, desbota e perde a forma. O ciclo de secagem tem a mesma lógica: edredom no modo rápido sai úmido e mofado.
 
-Se a máquina está com vazamento de água por baixo, fazendo barulho metálico na centrifugação ou simplesmente não liga, pare tudo. Insistir em usar o aparelho nessas condições pode danificar a placa eletrônica, o motor ou até causar um curto-circuito. Não vale o risco.
-
-Outro caso clássico: a trava da porta não destrava após o fim do ciclo. Isso pode ser uma borracha ressecada, mas também pode ser o mecanismo de travamento queimado. Mexer com força nessa hora só piora.
-
-### O que o técnico resolve melhor
-
-Quando a água não escoa mesmo depois de você limpar o filtro e a mangueira, o problema pode estar na bomba de drenagem. Ou quando o ciclo de secagem esquenta demais ou não esquenta nada. Essas são intervenções que exigem abrir o painel e testar componentes com multímetro.
-
-Ah, e o sensor que controla a lavagem delicada e os programas automáticos também é sensível. Se ele falhar, a máquina pode parar no meio do ciclo ou não centrifugar direito. Aí não adianta limpar o dispenser de novo — é componente eletrônico.
-
-### A regra de ouro
-
-Se o manual do fabricante não cobre aquela situação e você já tentou resolver sem sucesso, chame um profissional credenciado. E antes de qualquer coisa, desligue a máquina da tomada.
-
-Como limpar lava e seca LG em casa resolve a parte de higiene, mas eletrônica é outra história. Quando a dúvida for técnica, melhor gastar com o técnico do que com um aparelho novo.
-
-## Como evitar que aconteça de novo
-
-### A rotina de prevenção que vale ouro
-
-Depois de passar pelo trabalho de limpar tudo, o que você menos quer é repetir essa saga em algumas semanas. A boa notícia? Com uma rotina simples, você evita 90% dos problemas de mau cheiro, mofo e resíduos na máquina.
-
-O segredo está em criar o hábito, não em gastar horas no fim de semana. Cinco minutos por mês já fazem uma diferença absurda. E o melhor: você não precisa de produto caro nem de serviço técnico para manter tudo funcionando bem.
-
-### Mantenha a porta e a borracha sempre secas
-
-Esse é o passo mais simples e o mais ignorado. Após cada lavagem, deixe a porta entreaberta por algumas horas. A umidade que fica presa dentro do tambor é o que mais contribui para o aparecimento de bolor e odores.
-
-Passe um pano seco na borracha de vedação — aquela dobra que fica na abertura — e remova qualquer fiapo ou fio solto que tenha se acumulado. Isso leva menos de um minuto e protege a vedação contra ressecamento e rachaduras.
-
-### Limpe o dispenser com frequência
-
-O compartimento de sabão e amaciante acumula resíduo mesmo com o ciclo de limpeza automático. Retire o dispenser (a maioria encaixa e solta com um leve puxão) e enxágue em água corrente uma vez por mês.
-
-Atenção especial para o amaciante: ele deixa uma película grudenta que vira criadouro de fungo. Esfregue com uma escovinha ou esponja macia. Se a peça for removível, deixe de molho em água morna com um pouco de vinagre por 20 minutos.
-
-### Aposte no ciclo de autolimpeza mensalmente
-
-Sua máquina tem um programa de limpeza do tambor? Use-o uma vez por mês, de preferência com a máquina vazia e um produto específico para limpeza de lavadoras. Se não tiver o produto, duas colheres de bicarbonato na gaveta de sabão resolvem bem.
-
-Nesse ciclo, a água atinge temperatura alta e elimina bactérias que se formam nos cantinhos. Vale também aproveitar para limpar o filtro da bomba — o manual do fabricante mostra onde fica e como abrir. Faça isso a cada três meses, principalmente se a máquina fica em área úmida.
-
-### Fique de olho nos pequenos sinais
-
-Quando perceber que o ciclo de secagem está demorando mais que o normal ou que a roupa sai com cheiro de mofo, não ignore. Esses são os primeiros avisos de que algo precisa de atenção.
-
-Adotar essa rotina não é um bicho de sete cabeças. E quando você menos espera, já virou hábito — sua lava e seca agradece, e suas roupas também.
+Respeitar o que cada programa foi feito pra fazer é meio caminho andado. No fim, limpar a máquina é importante, mas evitar esses deslizes diários faz sua lava e seca durar muito mais.
 
 ## Perguntas frequentes
 
 ### Com que frequência devo limpar a lava e seca?
 
-O ideal é fazer uma limpeza básica do cesto e do dispenser a cada quinze dias se você usa a máquina diariamente. A limpeza profunda, com o ciclo de autolimpeza ou com vinagre, pode ser mensal. Isso evita que o odor de mofo apareça e mantém a borracha da trava da porta sempre em bom estado.
+O ideal é fazer uma limpeza mais pesada a cada três meses. Se você mora em região com água muito dura ou usa a máquina diariamente, reduz para dois meses. O ciclo de limpeza com produto específico pode ser mensal, principalmente se você sente aquele cheiro de mofo.
 
-### Posso usar água sanitária para limpar o cesto?
+### A porta fica travada depois do ciclo, é normal?
 
-Pode, mas com cuidado. A água sanitária é agressiva e, em excesso, danifica as peças plásticas e a vedação da porta. Prefira produtos específicos para lavadora ou uma solução de água com vinagre branco, que já resolve a maioria dos casos sem agredir o equipamento.
+Sim, completamente normal. A trava da porta libera alguns minutos após o término do programa, quando a temperatura interna baixa. Se ficar travada por horas, o problema pode estar no sensor de temperatura — aí vale chamar a assistência técnica.
 
-### O que fazer quando o ciclo de secagem não seca direito?
+### Posso usar água sanitária para limpar o dispenser?
 
-Primeiro, verifique se você não sobrecarregou o tambor. Um edredom de casal, por exemplo, precisa de duas levas para secar por completo. Depois, cheque se o filtro de fiapos está limpo e se o dreno não está entupido. Se o problema persistir, o sensor de umidade pode estar com defeito e aí é caso de assistência técnica.
+Evite. A água sanitária corrói a borracha e os canais de plástico do dispenser com o tempo. Prefira vinagre branco ou produtos específicos para lavadoras. Na dúvida, o manual do fabricante sempre traz a recomendação certa para o seu modelo.
 
-### A máquina acusa erro e não abre a porta. O que faço?
+### Por que a máquina fica com cheiro de queimado na primeira secagem?
 
-Isso geralmente acontece com a máquina quente ou com água ainda no tambor. Espere alguns minutos até o sistema destravar sozinho. Se a trava da porta continuar presa, desligue a máquina da tomada, aguarde uns dez minutos e religue. Nunca force a porta, você pode quebrar o mecanismo.
+É o cheiro de poeira acumulada no resistor de aquecimento. Rode um ciclo de secagem vazio, com a máquina sem roupas, para eliminar o resíduo. Se o cheiro persistir no segundo uso, desligue e chame um técnico — pode ser algo preso no duto de ar.
+
+### O ciclo de limpeza substitui a limpeza manual?
+
+Não. O ciclo automático limpa o tambor por dentro, mas não alcança o filtro nem o dispenser. A limpeza manual desses componentes é o que evita o acúmulo de fiapos e resíduos de sabão. Pense no ciclo como um complemento, não um atalho.
 
 Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos](/) mostra os pontos fortes de cada um.
 
 ## Outros guias que ajudam
 
+- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
 - [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
 - [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
 - [Como resetar lava e seca LG: Causas e Como Resolver 2026](/blog/como-resetar-lava-e-seca-lg/)
+- [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
+- [Como lavar o prensado e secar rápido: Guia Completo 2026](/blog/como-lavar-o-prensado-e-secar-rapido/)
 - [Comparativo completo das lava e seca de 2026](/)

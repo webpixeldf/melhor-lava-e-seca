@@ -2385,7 +2385,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-11T18:07:43-03:00"
+      "publishedAt": "2026-08-11T18:07:43-03:00",
+      "rewrittenAt": "2026-08-29T00:59:19-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como limpar maquina lava e seca samsung",
@@ -3905,8 +3907,8 @@
         "centrifugação",
         "funções"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-29T00:58:36-03:00"
     },
     {
       "keyword": "lava e seca midea fazendo barulho ao centrifugar",
