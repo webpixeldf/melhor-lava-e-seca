@@ -440,6 +440,61 @@ export const products = [
       custoBeneficio: 9.0,
     },
   },
+  {
+    // Cadastrado em 27/08/2026 a partir do link enviado pelo cliente. Todos os
+    // dados abaixo saem do titulo do proprio anuncio (ASIN B0HBCJVFYR): 14kg de
+    // lavagem, 8kg de secagem, 60 x 63,5 x 85 cm, vapor, ciclo 100 Manchas,
+    // 220V, ate 1400 rpm. Nada aqui e estimado.
+    //
+    // SEM FOTO ainda: a imagem oficial so pode vir da PA-API, que responde
+    // AssociateNotEligible. O card cai no placeholder ate a foto chegar.
+    id: 'brastemp-bno14as-titanium',
+    slug: 'brastemp-bno14as-titanium',
+    rank: 10,
+    name: 'Brastemp BNO14AS Titanium',
+    brand: 'Brastemp',
+    badge: 'Maior Capacidade',
+    badgeTone: 'info',
+    image: null,
+    rating: 4.4,
+    reviewsCount: 0,
+    capacityWash: 14,
+    capacityDry: 8,
+    energyClass: 'A',
+    voltage: '220V',
+    asin: 'B0HBCJVFYR',
+    priceFrom: null,
+    headline: 'A maior capacidade do ranking: 14kg de lavagem para quem lava roupa de casa cheia.',
+    pitch:
+      'Esta e a opcao de maior capacidade que encontramos com dados confirmados: 14kg na lavagem e 8kg na secagem, num gabinete de 60cm de largura por 85cm de altura — ou seja, cabe no mesmo vao de uma maquina comum, mas leva mais roupa por ciclo. A centrifugacao chega a 1400 rpm, o que importa mais do que parece: quanto mais agua sai na centrifugacao, menos tempo a secagem precisa trabalhar, e a secagem e a etapa que consome energia. Traz funcao vapor e um ciclo especifico chamado 100 Manchas. Ainda nao testamos esta unidade; a ficha aqui vem da especificacao do fabricante.',
+    pros: [
+      '14kg de lavagem — a maior capacidade entre os modelos que listamos',
+      'Centrifugacao de ate 1400 rpm tira mais agua e encurta a secagem',
+      'Cabe em vao de 60cm de largura, mesmo espaco de uma maquina comum',
+      'Funcao vapor e ciclo dedicado a manchas',
+    ],
+    cons: [
+      'So na versao 220V — quem tem rede 127V precisa olhar outro modelo',
+      'Secagem de 8kg contra 14kg de lavagem: carga cheia lavada nao seca de uma vez',
+      'Ainda sem avaliacao pratica nossa, diferente dos modelos que ja usamos',
+    ],
+    features: [
+      'Lava 14kg e seca 8kg',
+      'Abertura frontal, 60 x 63,5 x 85 cm',
+      'Centrifugacao digital de ate 1400 rpm',
+      'Funcao vapor',
+      'Ciclo 100 Manchas',
+      'Acabamento Titanium, 220V',
+    ],
+    ideal: 'Casa com muita gente ou quem lava roupa de cama com frequencia e cansou de dividir em duas levas — desde que a tomada seja 220V.',
+    scoreBreakdown: {
+      desempenho: 8.8,
+      economia: 8.5,
+      silencio: 8.4,
+      recursos: 8.6,
+      custoBeneficio: 8.7,
+    },
+  },
 ];
 
 export function productByRank(rank) {

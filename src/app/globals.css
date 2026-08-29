@@ -924,6 +924,22 @@ blockquote p:last-child {
   overflow: hidden;
 }
 
+/* Card de produto ainda sem foto oficial: ocupa o mesmo espaco da imagem
+   pra nao deslocar o layout, e mostra a marca em vez de icone quebrado. */
+.product-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 340 / 280;
+  background: linear-gradient(135deg, #f2f4f8, #e6eaf2);
+  color: #5a6b85;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
 .product-image::before {
   content: '';
   position: absolute;

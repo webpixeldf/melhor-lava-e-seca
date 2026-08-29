@@ -52,13 +52,23 @@ export default function ProductCard({ product }) {
           title={anchor}
           aria-label={anchor}
         >
-          <Image
-            src={product.image}
-            alt={imageAlt(anchor, product.name)}
-            width={340}
-            height={280}
-            loading="lazy"
-          />
+          {/* Produto recem-cadastrado pode nao ter foto ainda: a imagem oficial
+              so pode vir da PA-API da Amazon, que exige conta elegivel. Sem
+              guarda, o card renderizava <img> apontando pra arquivo inexistente
+              e o leitor via icone de imagem quebrada. */}
+          {product.image ? (
+            <Image
+              src={product.image}
+              alt={imageAlt(anchor, product.name)}
+              width={340}
+              height={280}
+              loading="lazy"
+            />
+          ) : (
+            <div className="product-image-placeholder" aria-hidden="true">
+              <span>{product.brand}</span>
+            </div>
+          )}
         </Link>
 
         <div className="product-info">
