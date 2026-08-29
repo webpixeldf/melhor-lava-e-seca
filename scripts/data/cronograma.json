@@ -2441,7 +2441,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-11T23:24:42-03:00"
+      "publishedAt": "2026-08-11T23:24:42-03:00",
+      "rewrittenAt": "2026-08-29T03:52:42-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como resetar lava e seca samsung wd11",
@@ -3931,7 +3933,11 @@
         "centrifugação"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.94%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca não centrifuga",
@@ -3953,8 +3959,8 @@
         "manutenção",
         "drenagem"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-29T03:52:00-03:00"
     },
     {
       "keyword": "lava e seca ou maquina de lavar",
