@@ -2599,7 +2599,9 @@
         "funções LG"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-13T13:42:25-03:00"
+      "publishedAt": "2026-08-13T13:42:25-03:00",
+      "rewrittenAt": "2026-08-29T19:46:28-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como usar maquina lava e seca samsung",
@@ -4223,12 +4225,12 @@
         "LG silenciosa",
         "Samsung silenciosa"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "palavra-chave sub-utilizada: densidade 0.45%"
+        "palavra-chave sub-utilizada: densidade 0.30%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "melhor sabão líquido para lava e seca",
@@ -4273,8 +4275,8 @@
         "Consul",
         "comparativo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-29T19:45:43-03:00"
     },
     {
       "keyword": "pes para maquina lava e seca",
