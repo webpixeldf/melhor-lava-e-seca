@@ -25,6 +25,40 @@ export function nextPending(data, n = 1) {
   return data.items.filter((i) => i.status === 'pending').slice(0, n);
 }
 
+/**
+ * Prioridade editorial da pauta.
+ *
+ * A fila vinha ordenada so por volume de busca, e o resultado apareceu no
+ * Search Console de 26/08/2026: o site ranqueia na posicao 8 para consulta de
+ * PROBLEMA ("erro hc2", "como calibrar") e na posicao 32 para consulta
+ * COMERCIAL ("melhor lava e seca", "custo beneficio"). Ou seja, ganhamos
+ * tráfego de quem ja comprou e quebrou, e perdemos quem esta decidindo a
+ * compra — que e quem paga comissao de afiliado.
+ *
+ * Pauta comercial passa na frente mesmo com volume menor: 90 buscas de quem
+ * quer comprar valem mais que 3.000 de quem quer consertar.
+ */
+const COMERCIAL = /melhor|qual a melhor|qual e a melhor|custo.?benef|vale a pena|comparativ|melhores|marca|mais barata|econom|ranking|comprar/i;
+const PROBLEMA = /\berro\b|calibr|balance|destrav|resetar|nao (seca|liga|centrifuga|funciona)|vazand|barulh|travad|codigo|garantia/i;
+
+export function prioridade(pauta) {
+  const kw = pauta.keyword || '';
+  const volume = pauta.volume || 0;
+  // log10 pra volume nao dominar: a diferenca entre 90 e 3.000 buscas nao
+  // justifica publicar 30 artigos de conserto antes de um de compra.
+  const base = Math.log10(volume + 10);
+  if (PROBLEMA.test(kw)) return base;
+  if (COMERCIAL.test(kw)) return base * 3;
+  return base * 1.5;
+}
+
+/** Pautas pendentes, da mais valiosa para a menos. */
+export function pendentesPorPrioridade(data) {
+  return data.items
+    .filter((i) => i.status === 'pending')
+    .sort((a, b) => prioridade(b) - prioridade(a));
+}
+
 export function markStatus(data, slug, status, extra = {}) {
   const item = data.items.find((i) => i.slug === slug);
   if (!item) return;

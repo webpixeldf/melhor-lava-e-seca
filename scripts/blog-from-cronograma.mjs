@@ -25,7 +25,14 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config();
 
-import { loadQueue, saveQueue, markStatus, buildOutline, escolherTemplate } from './lib/cronograma.mjs';
+import {
+  loadQueue,
+  saveQueue,
+  markStatus,
+  buildOutline,
+  escolherTemplate,
+  pendentesPorPrioridade,
+} from './lib/cronograma.mjs';
 import {
   addInternalLinks,
   buildLeiaTambem,
@@ -993,7 +1000,7 @@ Regerados: ${feitos} de ${COUNT} tentativa(s)`);
   while (published < COUNT) {
     const pauta = ONLY
       ? queue.items.find((i) => i.slug === ONLY && !tried.has(i.slug))
-      : queue.items.find((i) => i.status === 'pending' && !tried.has(i.slug));
+      : pendentesPorPrioridade(queue).find((i) => !tried.has(i.slug));
     if (!pauta) {
       if (!tried.size) console.log(ONLY ? `Pauta "${ONLY}" nao encontrada.` : 'Nada pendente na fila.');
       break;
