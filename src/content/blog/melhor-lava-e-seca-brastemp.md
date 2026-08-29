@@ -105,7 +105,7 @@ Pra te ajudar a decidir, montei uma tabela que compara os modelos lado a lado. E
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 | 7 | Turbo | Ciclo Turbo de 15 min | Quem tem pressa no dia a dia |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 | 7 | Digital Inverter | Ecobubble (bolhas que limpam melhor) | Quem lava roupa delicada |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11 | 7 | Digital Inverter | Ecobubble + design compacto | Quem quer tecnologia num preço mais acessivel |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10.1 | 6 | Inverter | Storm Wash (jatos potentes) | Quem quer bom custo-benefício e 10kg |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10.1 | 6 | Inverter | Storm Wash (jatos potentes) | Quem quer bom custo-benefício e 10kg |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11 | 7 | Inverter | Controle pelo celular | Quem gosta de smart home |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10 | 6.5 | Inverter | Ciclo Antibolinha | Quem não abre mão da confianca Brastemp |
 

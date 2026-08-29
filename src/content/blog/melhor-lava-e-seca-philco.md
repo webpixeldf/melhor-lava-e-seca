@@ -113,7 +113,7 @@ Depois de conhecer os modelos, bota a mão na massa e compara. Nessa tabela, col
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 | 7 | Convencional | Turbo Ciclone | Orçamento enxuto |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 | 7 | Inverter | Ecobubble (bolhas ativas) | Lavagem delicada e eficiente |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11 | 7 | Inverter | Ecobubble + Digital Inverter | Mesma tecnologia, versão anterior |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10.1 | 6 | Convencional | Storm Wash (jato potente) | Apartamento com espaço limitado |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10.1 | 6 | Convencional | Storm Wash (jato potente) | Apartamento com espaço limitado |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11 | 7 | Inverter | Smart WiFi | Conectividade pesada |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10 | 6.5 | Inverter | Inverter + 12 programas | Marca confiável e silêncio |
 

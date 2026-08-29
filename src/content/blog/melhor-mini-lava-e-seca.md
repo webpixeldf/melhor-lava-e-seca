@@ -88,7 +88,7 @@ Abaixo, montei um comparativo direto com os principais dados de cada lavadora. U
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 kg | 7 kg | Convencional | Ciclo Turbo para lavagem rápida | Quem precisa de agilidade no dia a dia |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 kg | 7 kg | Inverter | Tecnologia Ecobubble | Lavagem eficiente em água fria |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11 kg | 7 kg | Inverter | Ecobubble com porta convencional | Mesma tecnologia sem o extra da AddWash |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10,1 kg | 6 kg | Inverter | Storm Wash com jatos potentes | Apartamentos pequenos, cargas moderadas |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10,1 kg | 6 kg | Inverter | Storm Wash com jatos potentes | Apartamentos pequenos, cargas moderadas |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11 kg | 7 kg | Inverter | Controle por app | Quem gosta de monitorar tudo pelo celular |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10 kg | 6,5 kg | Inverter | Compacta com boa eficiência | Espaço reduzido sem abrir mão de inverter |
 

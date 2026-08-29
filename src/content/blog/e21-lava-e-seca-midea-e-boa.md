@@ -31,7 +31,7 @@ Claro que, por ser uma lava e seca de "entrada", ela tem limitações — e é j
 
 ### Capacidade que resolve o dia a dia
 
-Vamos ser diretos: o [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) lava 10,1 kg e seca 6 kg. Na prática, isso significa que você coloca uma boa quantidade de roupa no ciclo de lavagem e ainda consegue tirar aquela leva menor já seca ou quase seca, sem depender do varal.
+Vamos ser diretos: o [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) lava 10,1 kg e seca 6 kg. Na prática, isso significa que você coloca uma boa quantidade de roupa no ciclo de lavagem e ainda consegue tirar aquela leva menor já seca ou quase seca, sem depender do varal.
 
 No quesito motor, a Midea usa motor de acionamento direto. Vantagem? Menos peças girando, menos atrito, menos barulho e mais eficiência. Quem mora em apartamento sabe o quanto isso importa às 22h, né?
 

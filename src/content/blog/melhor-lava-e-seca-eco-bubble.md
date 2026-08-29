@@ -79,7 +79,7 @@ Pra facilitar sua escolha, montei uma tabela com os principais modelos disponív
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11kg / 7kg | Turbo | Ciclo Turbo de 40 min | Correria do dia a dia |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11kg / 7kg | Digital Inverter | Ecobubble (lava a frio) | Quem quer lavar sem desgastar |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11kg / 7kg | Inverter | Ecobubble + autolimpeza | Quem busca praticidade |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10,1kg / 6kg | Inverter | Ciclo Storm Wash (15 min) | Solteiros ou casais |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10,1kg / 6kg | Inverter | Ciclo Storm Wash (15 min) | Solteiros ou casais |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11kg / 7kg | Inverter | Smart Wi-Fi + vapor | Quem quer controle total |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10kg / 6,5kg | Inverter | Vapor + secagem com sensor | Quem já confia na marca |
 

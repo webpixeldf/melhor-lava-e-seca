@@ -109,7 +109,7 @@ Colocar os modelos lado a lado ajuda a enxergar as diferenças reais. Muita gent
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 kg / 7 kg | Convencional com escova | Turbo Ciclone (jatos que penetram o tecido mais rápido) | Quem busca custo-benefício e ciclo rápido |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 kg / 7 kg | Digital Inverter | Ecobubble (bolhas dissolvem sabão em pó em água fria) | Quem lava muito com água fria e quer economia |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11 kg / 7 kg | Digital Inverter | Ecobubble + autolimpeza | Quem quer tecnologia Ecobubble com manutenção facilitada |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10,1 kg / 6 kg | Inverter | Storm Wash (jatos que simulam chuva) | Apartamentos com espaço reduzido ou casal sem filhos |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10,1 kg / 6 kg | Inverter | Storm Wash (jatos que simulam chuva) | Apartamentos com espaço reduzido ou casal sem filhos |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11 kg / 7 kg | Inverter | Controle por Wi-Fi e Smart Dry | Quem quer smart home com bom custo-benefício |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10 kg / 6,5 kg | Inverter | Vapor (higieniza sem encolher) | Quem tem bebê em casa ou pele sensível |
 

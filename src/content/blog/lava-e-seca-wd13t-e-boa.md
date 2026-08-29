@@ -121,7 +121,7 @@ Se a sua realidade é lavar pouca roupa por vez — uma pessoa que mora sozinha 
 
 Modelos como a [Samsung WD11M AddWash](/#samsung-wd11m-addwash) ou a [LG VC4 AI Direct Drive](/#lg-vc4-ai-direct-drive) entregam bem pra quem lava em menor volume.
 
-Outro ponto: orçamento apertado. A WD13T está num patamar de preço mais alto. Se o custo inicial for um impeditivo, vale olhar para a [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) ou a [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter).
+Outro ponto: orçamento apertado. A WD13T está num patamar de preço mais alto. Se o custo inicial for um impeditivo, vale olhar para a [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) ou a [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter).
 
 Elas secam menos quilos, mas lavam bem e custam consideravelmente menos. A economia na conta de luz também aparece, já que a WD13T gasta um pouco mais numa secagem completa por conta do tambor maior.
 

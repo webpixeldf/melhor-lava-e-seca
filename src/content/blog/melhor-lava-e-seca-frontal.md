@@ -111,7 +111,7 @@ Montei uma tabela pra você comparar os principais modelos de uma vez. Assim fic
 | [Electrolux LSP11 Turbo](/#electrolux-lsp11-turbo) | 11 kg | 7 kg | Inverter | Ciclo Turbo de 37 minutos | Rotina corrida, precisa de agilidade |
 | [Samsung Ecobubble Digital Inverter](/#samsung-ecobubble-digital-inverter) | 11 kg | 7 kg | Inverter | Ecobubble (lava com bolhas a frio) | Quem quer lavar bem sem gastar água quente |
 | [Samsung WD11A Ecobubble](/#samsung-wd11a-ecobubble) | 11 kg | 7 kg | Inverter | Mesma tecnologia Ecobubble, versão mais enxuta | Custo-benefício com bom desempenho |
-| [Midea MF200D Storm Wash](/#midea-mf200d-storm-wash) | 10,1 kg | 6 kg | Inverter | Storm Wash (jatos potentes) | Apartamento com espaço limitado |
+| [Midea MF200D Storm Wash](/#midea-mf200d-healthguard) | 10,1 kg | 6 kg | Inverter | Storm Wash (jatos potentes) | Apartamento com espaço limitado |
 | [Hisense WD3S11 Smart](/#hisense-wd3s11-smart) | 11 kg | 7 kg | Inverter | Controle por app e sensor automático | Quem busca tecnologia sem pagar tanto |
 | [Brastemp BNQ10AB Inverter](/#brastemp-bnq10-inverter) | 10 kg | 6,5 kg | Inverter | Programas especiais (alergia, esportes) | Quem tem roupas delicadas ou sensibilidade |
 

@@ -508,7 +508,7 @@ export default async function HomePage() {
                 precisa ser honesta. Motor Inverter, vapor, boa nota de
                 consumidor, sem invencionice que encarece à toa.
               </div>
-              <a href="#midea-mf200d-storm-wash" className="pick-name">Midea MF200D →</a>
+              <a href="#midea-mf200d-healthguard" className="pick-name">Midea MF200D →</a>
             </div>
 
             <div className="profile-card">
@@ -623,7 +623,7 @@ export default async function HomePage() {
             </li>
             <li>
               <strong>Mais barata que vale a pena:</strong>{' '}
-              <a href="#midea-mf200d-storm-wash">Midea MF200D</a> — a primeira
+              <a href="#midea-mf200d-healthguard">Midea MF200D</a> — a primeira
               lava e seca honesta pra quem está com o orçamento no limite mas
               não quer comprar dor de cabeça.
             </li>
