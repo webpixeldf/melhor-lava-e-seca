@@ -2708,7 +2708,11 @@
         "drenagem"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-14T13:38:03-03:00"
+      "publishedAt": "2026-08-14T13:38:03-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"vale lembrar que\", \"por fim,\""
+      ]
     },
     {
       "keyword": "erro 10 lava e seca midea",
@@ -5181,8 +5185,8 @@
         "lavagem delicada",
         "manutenção"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-30T00:40:31-03:00"
     },
     {
       "keyword": "lava e seca separada é melhor",
