@@ -802,10 +802,11 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-07-27T23:48:54-03:00",
-      "rewriteFails": 1,
+      "rewriteFails": 0,
       "rewriteProblems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
-      ]
+      ],
+      "rewrittenAt": "2026-08-31T00:52:49-03:00"
     },
     {
       "keyword": "lava e seca barata é boa",
@@ -5303,7 +5304,11 @@
         "assistência técnica"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "palavra-chave sub-utilizada: densidade 0.43%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor lava seca e dobra",
@@ -5326,7 +5331,11 @@
         "assistência técnica"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "cliche de IA: \"por fim,\", \"a verdade é que\""
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor maquina lava e seca abertura superior",
@@ -5348,8 +5357,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-08-31T00:51:54-03:00"
     },
     {
       "keyword": "mop flat lava e seca menalux",
