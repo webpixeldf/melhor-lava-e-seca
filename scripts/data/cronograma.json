@@ -2258,10 +2258,11 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-08-09T23:05:12-03:00",
-      "rewriteFails": 1,
+      "rewriteFails": 0,
       "rewriteProblems": [
         "cliche de IA: \"vale lembrar que\", \"a verdade é que\""
-      ]
+      ],
+      "rewrittenAt": "2026-08-31T19:09:38-03:00"
     },
     {
       "keyword": "como interromper a secagem da lava e seca midea",
@@ -5303,12 +5304,12 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "palavra-chave sub-utilizada: densidade 0.43%"
+        "palavra-chave sub-utilizada: densidade 0.21%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "melhor lava seca e dobra",
@@ -5330,8 +5331,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-08-31T19:08:52-03:00",
       "problems": [
         "cliche de IA: \"por fim,\", \"a verdade é que\""
       ],
