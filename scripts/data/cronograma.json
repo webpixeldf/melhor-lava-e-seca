@@ -120,7 +120,9 @@
         "lava e seca electrolux garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-21T14:19:13-03:00"
+      "publishedAt": "2026-07-21T14:19:13-03:00",
+      "rewrittenAt": "2026-09-01T16:35:29-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "melhor lava e seca samsung 11kg e 13kg",
@@ -5804,8 +5806,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-01T16:34:19-03:00"
     },
     {
       "keyword": "peças lava e seca lg porto alegre onde comprar",
