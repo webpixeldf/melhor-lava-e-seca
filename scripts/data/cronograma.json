@@ -93,7 +93,11 @@
         "lava e seca brastemp garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-20T23:37:34-03:00"
+      "publishedAt": "2026-07-20T23:37:34-03:00",
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "20 frases repetidas literalmente"
+      ]
     },
     {
       "keyword": "melhor lava e seca electrolux",
@@ -5777,8 +5781,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-01T01:24:13-03:00"
     },
     {
       "keyword": "melhor maquina lava e seca cinza",
