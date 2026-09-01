@@ -122,7 +122,10 @@
       "status": "publicado",
       "publishedAt": "2026-07-21T14:19:13-03:00",
       "rewrittenAt": "2026-09-01T16:35:29-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"vale destacar que\", \"por fim,\""
+      ]
     },
     {
       "keyword": "melhor lava e seca samsung 11kg e 13kg",
@@ -4003,7 +4006,11 @@
         "diferenças"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "nenhum H2/H3 contem a palavra-chave"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca philco e boa",
@@ -4098,7 +4105,11 @@
         "limpeza do filtro"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.95%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "lava e seca samsung preço",
@@ -4120,8 +4131,8 @@
         "Amazon",
         "comparativo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-01T19:58:09-03:00"
     },
     {
       "keyword": "limpar lava e seca",
@@ -5830,7 +5841,11 @@
         "assistência técnica"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "pode colocar sabao em po na lava e seca",
