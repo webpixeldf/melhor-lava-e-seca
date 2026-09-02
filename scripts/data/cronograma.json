@@ -149,7 +149,7 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-07-23T00:00:58-03:00",
-      "rewrittenAt": "2026-08-23T17:34:45-03:00",
+      "rewrittenAt": "2026-09-02T00:32:09-03:00",
       "rewriteFails": 0
     },
     {
@@ -5840,8 +5840,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-09-02T00:30:57-03:00",
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
