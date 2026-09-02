@@ -14,7 +14,7 @@ Mau cheiro na roupa, borra de sabão no tambor, ciclo que nunca termina. É isso
 
 Manutenção atrasada vira roupa estragada e tempo perdido, sem falar no dinheiro jogado fora com produtos que só mascaram o problema.
 
-Dá pra reverter esse quadro com um passo a passo simples. Aqui você vai ver como limpar lava e seca LG do jeito certo, desde o borrachão até o filtro de fiapos, e ainda te dou o caminho pra resolver os erros mais comuns que aparecem no display. Sem mistério e sem precisar chamar técnico pra toda hora.
+Dá pra reverter esse quadro com um passo a passo simples. Aqui você vai ver como [limpar lava e seca](/blog/limpar-lava-e-seca/) LG do jeito certo, desde o borrachão até o filtro de fiapos, e ainda te dou o caminho pra resolver os erros mais comuns que aparecem no display. Sem mistério e sem precisar chamar técnico pra toda hora.
 
 ## Como limpar lava e seca LG: o que você vai precisar
 

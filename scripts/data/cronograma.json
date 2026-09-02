@@ -227,7 +227,10 @@
       "status": "publicado",
       "publishedAt": "2026-07-22T18:22:14-03:00",
       "rewrittenAt": "2026-08-23T22:56:35-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"por fim,\", \"a verdade é que\""
+      ]
     },
     {
       "keyword": "melhor lava e seca 13kg",
@@ -4157,8 +4160,8 @@
         "produtos de limpeza",
         "mofo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-02T19:47:50-03:00"
     },
     {
       "keyword": "limpeza do tambor lava e seca samsung",
