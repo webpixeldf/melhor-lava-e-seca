@@ -150,7 +150,10 @@
       "status": "publicado",
       "publishedAt": "2026-07-23T00:00:58-03:00",
       "rewrittenAt": "2026-09-02T00:32:09-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"vale lembrar que\", \"por fim,\""
+      ]
     },
     {
       "keyword": "lava e seca samsung wd11m review",
@@ -4005,12 +4008,12 @@
         "capacidade",
         "diferenças"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
         "nenhum H2/H3 contem a palavra-chave"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "lava e seca philco e boa",
@@ -4104,8 +4107,8 @@
         "assistência Samsung",
         "limpeza do filtro"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-09-02T16:31:25-03:00",
       "problems": [
         "keyword stuffing: densidade 2.95%"
       ],
