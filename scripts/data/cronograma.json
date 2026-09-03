@@ -797,7 +797,11 @@
       "status": "publicado",
       "publishedAt": "2026-07-23T23:36:02-03:00",
       "rewrittenAt": "2026-08-24T23:01:01-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"por fim,\", \"a verdade é que\"",
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ]
     },
     {
       "keyword": "samsung lava e seca wd11m é boa",
@@ -4185,12 +4189,12 @@
         "detergente",
         "mofo"
       ],
-      "status": "pending",
+      "status": "reprovado",
       "publishedAt": null,
       "problems": [
-        "keyword stuffing: densidade 2.81%"
+        "keyword stuffing: densidade 2.64%"
       ],
-      "attempts": 1
+      "attempts": 2
     },
     {
       "keyword": "melhor lava e seca consul",
@@ -4360,8 +4364,8 @@
         "amaciante",
         "EcoBubble"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-03T16:22:16-03:00"
     },
     {
       "keyword": "aplicativo midea lava e seca como usar",
