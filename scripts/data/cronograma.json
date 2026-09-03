@@ -718,7 +718,9 @@
         "preço lava e seca lg 11 kg"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-28T14:36:56-03:00"
+      "publishedAt": "2026-07-28T14:36:56-03:00",
+      "rewrittenAt": "2026-09-03T00:38:50-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "lava e seca lg vc2 14kg é boa",
@@ -4184,7 +4186,11 @@
         "mofo"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "keyword stuffing: densidade 2.81%"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "melhor lava e seca consul",
@@ -4331,8 +4337,8 @@
         "ruído",
         "estabilidade"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-03T00:38:01-03:00"
     },
     {
       "keyword": "qual sabão usar na lava e seca samsung",
