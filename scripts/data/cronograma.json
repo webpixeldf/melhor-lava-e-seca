@@ -1082,7 +1082,9 @@
         "lava e seca eco bubble garantia"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-24T14:17:35-03:00"
+      "publishedAt": "2026-07-24T14:17:35-03:00",
+      "rewrittenAt": "2026-09-03T19:50:32-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "melhor lava e seca frontal",
@@ -4387,8 +4389,8 @@
         "pareamento",
         "smartphone"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-03T19:49:28-03:00"
     },
     {
       "keyword": "armário para embutir lava e seca",
