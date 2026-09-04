@@ -1351,7 +1351,9 @@
         "custo-benefício"
       ],
       "status": "publicado",
-      "publishedAt": "2026-07-30T14:37:50-03:00"
+      "publishedAt": "2026-07-30T14:37:50-03:00",
+      "rewrittenAt": "2026-09-04T19:34:18-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "melhor lava e seca pequena 6kg",
@@ -4464,8 +4466,8 @@
         "lavagem",
         "manual"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-04T19:33:36-03:00"
     },
     {
       "keyword": "como destravar a maquina lava e seca samsung",
