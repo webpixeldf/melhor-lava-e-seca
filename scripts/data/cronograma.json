@@ -1084,7 +1084,10 @@
       "status": "publicado",
       "publishedAt": "2026-07-24T14:17:35-03:00",
       "rewrittenAt": "2026-09-03T19:50:32-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "cliche de IA: \"por fim,\" (2x), \"a verdade é que\""
+      ]
     },
     {
       "keyword": "melhor lava e seca frontal",
@@ -4412,8 +4415,8 @@
         "dimensões",
         "acabamento"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-04T00:26:18-03:00"
     },
     {
       "keyword": "como deixar a roupa cheirosa na lava e seca",
