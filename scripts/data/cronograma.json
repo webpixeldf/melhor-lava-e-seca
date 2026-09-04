@@ -1325,7 +1325,10 @@
       "status": "publicado",
       "publishedAt": "2026-08-04T14:36:55-03:00",
       "rewrittenAt": "2026-08-25T17:45:56-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 1,
+      "rewriteProblems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ]
     },
     {
       "keyword": "lava e seca separadas",
@@ -4438,8 +4441,8 @@
         "cheiro agradável",
         "higienização"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-04T16:17:27-03:00"
     },
     {
       "keyword": "como deixar roupa de molho na lava e seca lg",
