@@ -7,6 +7,7 @@ tags: ["garantia midea lava e seca", "garantia de fábrica", "assistência Midea
 author: "Marcelo França"
 keywords: ["garantia midea lava e seca", "garantia de fábrica", "assistência Midea", "rede autorizada", "prazo de garantia", "garantia estendida"]
 image: "/images/blog/garantia-midea-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A garantia Midea lava e seca cobre defeitos de fabricação por um período que varia conforme o modelo, mas o prazo padrão é de 12 meses. Se você está pesquisando antes de comprar ou já tem uma máquina em casa, vale entender exatamente o que está coberto, o que anula a garantia e como acionar o suporte sem dor de cabeça.

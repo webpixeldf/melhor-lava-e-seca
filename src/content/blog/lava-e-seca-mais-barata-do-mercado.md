@@ -7,6 +7,7 @@ tags: ["lava e seca mais barata do mercado", "lava e seca barata", "promoção",
 author: "Marcelo França"
 keywords: ["lava e seca mais barata do mercado", "lava e seca barata", "promoção", "ofertas", "custo-benefício", "Magazine Luiza"]
 image: "/images/blog/lava-e-seca-mais-barata-do-mercado.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Será que dá pra encontrar uma lava e seca mais barata do mercado sem abrir mão do básico? Essa é a dúvida que martela quando a gente vê os preços das máquinas completas e pensa: "será que vou precisar vender um rim?

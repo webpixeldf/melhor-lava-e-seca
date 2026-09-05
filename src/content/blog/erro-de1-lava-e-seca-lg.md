@@ -7,7 +7,7 @@ tags: ["erro de1 lava e seca lg", "código DE1", "trava da porta", "sensor da po
 author: "Marcelo França"
 keywords: ["erro de1 lava e seca lg", "código DE1", "trava da porta", "sensor da porta", "porta não fecha", "interruptor da porta"]
 image: "/images/blog/erro-de1-lava-e-seca-lg.webp"
-updated: "2026-08-30T16:38:48-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A máquina para no meio do ciclo, o display pisca e aparece aquela combinação enigmática: DE1. Na hora, vem aquele aperto no peito — será que queimou a placa? Será que é caro consertar?

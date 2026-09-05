@@ -7,6 +7,7 @@ tags: ["erro ue lg lava e seca", "código UE LG", "carga desbalanceada", "redist
 author: "Marcelo França"
 keywords: ["erro ue lg lava e seca", "código UE LG", "carga desbalanceada", "redistribuir roupas", "centrifugação", "excesso de roupas"]
 image: "/images/blog/erro-ue-lg-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece um problema raro, mas na prática é uma das buscas mais comuns entre donos de lava e seca da LG. O temido “erro ue” surge do nada, a máquina para no meio do ciclo e você fica sem saber se é algo simples ou se precisa chamar um técnico.

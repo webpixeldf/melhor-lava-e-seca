@@ -7,6 +7,7 @@ tags: ["lava e seca 12 kg electrolux", "Electrolux 12kg", "Perfect Care", "Sensi
 author: "Marcelo França"
 keywords: ["lava e seca 12 kg electrolux", "Electrolux 12kg", "Perfect Care", "SensiCare", "Vapor Care", "AutoSense"]
 image: "/images/blog/lava-e-seca-12-kg-electrolux.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Caberá um edredom de casal? E a roupa de cama inteira de uma vez? Quem pesquisa lava e seca 12 kg Electrolux geralmente está exatamente nessa dúvida, entre querer o conforto de não depender de varal e o receio de o tambor não dar conta do volume da família.

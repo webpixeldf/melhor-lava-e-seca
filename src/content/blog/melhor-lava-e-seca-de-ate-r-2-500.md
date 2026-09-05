@@ -7,6 +7,7 @@ tags: ["melhor lava e seca de até r$ 2.500", "capacidade", "consumo de energia"
 author: "Marcelo França"
 keywords: ["melhor lava e seca de até r$ 2.500", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/melhor-lava-e-seca-de-ate-r-2-500.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Escolher a máquina errada nessa faixa de preço é caro em dose dupla. Primeiro, você desembolsa um valor considerável. Depois, descobre que a secagem não dá conta do edredom ou que a roupa sai amassada demais — e aí o gasto vira retrabalho, tempo perdido e, no pior cenário, peça de roupa estragada.

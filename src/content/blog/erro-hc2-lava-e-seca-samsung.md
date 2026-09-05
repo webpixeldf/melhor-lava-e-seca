@@ -7,7 +7,7 @@ tags: ["erro hc2 lava e seca samsung", "código HC2", "erro de aquecimento", "re
 author: "Marcelo França"
 keywords: ["erro hc2 lava e seca samsung", "código HC2", "erro de aquecimento", "resistência da secagem", "sensor de temperatura", "termistor"]
 image: "/images/blog/erro-hc2-lava-e-seca-samsung.webp"
-updated: "2026-08-19T17:38:52-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sábado de manhã, a cesta de roupa de cama transbordando e a máquina piscando o temido HC2 no visor. Eu já passei por isso: o ciclo para no meio, a porta tranca e fica aquela sensação de que o dia foi por água abaixo.

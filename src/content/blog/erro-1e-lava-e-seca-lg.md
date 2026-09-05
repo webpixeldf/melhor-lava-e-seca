@@ -7,6 +7,7 @@ tags: ["erro 1e lava e seca lg", "código 1E LG", "entrada de água", "válvula 
 author: "Marcelo França"
 keywords: ["erro 1e lava e seca lg", "código 1E LG", "entrada de água", "válvula de entrada", "pressão da água", "filtro da mangueira"]
 image: "/images/blog/erro-1e-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você coloca a roupa na lava e seca, seleciona o ciclo e, de repente, o painel pisca aquela mensagem que ninguém merece: “1e”. O coração até dá uma acelerada, né? Se você está vendo isso agora, respira, porque na maioria dos casos não é o fim do mundo e, principalmente, não é a morte do seu eletrodoméstico.

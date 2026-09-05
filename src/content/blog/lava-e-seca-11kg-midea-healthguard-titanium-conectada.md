@@ -7,6 +7,7 @@ tags: ["lava e seca 11kg midea healthguard titanium conectada", "HealthGuard Tit
 author: "Marcelo França"
 keywords: ["lava e seca 11kg midea healthguard titanium conectada", "HealthGuard Titanium", "Wi-Fi", "esterilização", "programas", "ficha técnica"]
 image: "/images/blog/lava-e-seca-11kg-midea-healthguard-titanium-conectada.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sim, a lava e seca 11kg Midea HealthGuard Titanium Conectada entrega exatamente o que promete: lavar e secar um volume generoso de roupas sem você precisar esticar nada no varal. 

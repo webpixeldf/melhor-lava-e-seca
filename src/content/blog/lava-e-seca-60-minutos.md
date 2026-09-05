@@ -7,6 +7,7 @@ tags: ["lava e seca 60 minutos", "ciclo rápido", "lavagem rápida", "secagem r�
 author: "Marcelo França"
 keywords: ["lava e seca 60 minutos", "ciclo rápido", "lavagem rápida", "secagem rápida", "programa expresso", "roupas pouco sujas"]
 image: "/images/blog/lava-e-seca-60-minutos.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sim, dá para lavar e secar uma carga completa em 60 minutos — mas o resultado depende de como você usa a máquina. A lava e seca 60 minutos é uma realidade nos modelos mais modernos, que combinam ciclos rápidos com tecnologias que aceleram a secagem sem sacrificar as roupas.

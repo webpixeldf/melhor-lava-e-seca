@@ -7,6 +7,7 @@ tags: ["erro oe lg lava e seca", "código OE LG", "bomba de drenagem", "água pa
 author: "Marcelo França"
 keywords: ["erro oe lg lava e seca", "código OE LG", "bomba de drenagem", "água parada", "mangueira de drenagem", "filtro LG"]
 image: "/images/blog/erro-oe-lg-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que o "OE" no painel é o fim da máquina, que o motor queimou e o conserto vai custar uma fortuna. Na real, esse código quase nunca é defeito grave: ele só indica que a água não está saindo do tambor no tempo certo.

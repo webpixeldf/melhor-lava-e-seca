@@ -7,7 +7,7 @@ tags: ["amortecedor lava e seca midea", "vibração excessiva", "barulho ao cent
 author: "Marcelo França"
 keywords: ["amortecedor lava e seca midea", "vibração excessiva", "barulho ao centrifugar", "suspensão do tambor", "troca do amortecedor", "peças Midea"]
 image: "/images/blog/amortecedor-lava-e-seca-midea.webp"
-updated: "2026-08-18T14:58:08-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 “Será que é o amortecedor da lava e seca Midea que estragou?”. Essa é a pergunta que martela na cabeça quando a máquina começa a bater durante o ciclo de centrifugação, fazendo um barulho de socos na parede ou pulando de um lado pro outro.

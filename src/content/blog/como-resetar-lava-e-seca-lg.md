@@ -7,7 +7,7 @@ tags: ["como resetar lava e seca lg", "resetar lava e seca lg", "painel da lava 
 author: "Marcelo França"
 keywords: ["como resetar lava e seca lg", "resetar lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-resetar-lava-e-seca-lg.webp"
-updated: "2026-08-29T03:52:42-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece que o problema é o fim do mundo, mas na prática quase sempre tem solução simples. Quando a lava e seca LG trava, pisca um erro estranho ou simplesmente ignora o botão de ligar, o desespero bate — principalmente com um cesto cheio de roupa molhada esperando.

@@ -7,6 +7,7 @@ tags: ["lava e seca 12kg electrolux abertura superior lst12", "LST12", "abertura
 author: "Marcelo França"
 keywords: ["lava e seca 12kg electrolux abertura superior lst12", "LST12", "abertura superior", "Electrolux LST12", "ficha técnica", "programas"]
 image: "/images/blog/lava-e-seca-12kg-electrolux-abertura-superior-lst12.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Aquela cena clássica: o edredom de casal não cabe na máquina antiga, você passa a tarde inteira alternando entre ciclos e torce para tudo secar antes da noite. Ou então a pilha de roupa de cama acumulada porque a secadora não dá conta.

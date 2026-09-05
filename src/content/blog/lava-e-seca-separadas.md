@@ -7,7 +7,7 @@ tags: ["lava e seca separadas", "capacidade", "consumo de energia", "inverter"]
 author: "Marcelo França"
 keywords: ["lava e seca separadas", "capacidade", "consumo de energia", "inverter", "programas de lavagem", "ciclo de secagem"]
 image: "/images/blog/lava-e-seca-separadas.webp"
-updated: "2026-09-04T19:34:18-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Será que compensa ter lava e seca separadas, ou é melhor um aparelho que faz tudo? Essa dúvida aparece quando a máquina atual começa a dar defeito, ou quando a gente muda de casa e percebe que o espaço do tanque virou um coringa.

@@ -7,7 +7,7 @@ tags: ["como calibrar lava e seca samsung ecobubble", "calibrar lava e seca sams
 author: "Marcelo França"
 keywords: ["como calibrar lava e seca samsung ecobubble", "calibrar lava e seca samsung ecobubble", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-lava-e-seca-samsung-ecobubble.webp"
-updated: "2026-08-26T19:18:36-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sua máquina começa a secar demais a roupa ou para no meio do ciclo com aquela roupa quase seca, mas não completamente? Antes de chamar a assistência técnica, vale tentar um procedimento simples que resolve boa parte desses problemas: a calibração dos sensores.

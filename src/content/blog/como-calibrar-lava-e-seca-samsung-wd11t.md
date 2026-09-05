@@ -7,7 +7,7 @@ tags: ["como calibrar lava e seca samsung wd11t", "calibrar lava e seca samsung 
 author: "Marcelo França"
 keywords: ["como calibrar lava e seca samsung wd11t", "calibrar lava e seca samsung wd11t", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-lava-e-seca-samsung-wd11t.webp"
-updated: "2026-08-27T03:33:49-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Apertou vários botões e a máquina não respondeu? Calibrar lava e seca Samsung WD11T é mais simples do que parece, e eu você vai ver o caminho certo aqui.

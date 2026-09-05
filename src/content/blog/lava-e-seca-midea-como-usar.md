@@ -7,6 +7,7 @@ tags: ["lava e seca midea como usar", "painel Midea", "programas Midea", "ciclo 
 author: "Marcelo França"
 keywords: ["lava e seca midea como usar", "painel Midea", "programas Midea", "ciclo de lavagem", "ciclo de secagem", "dispenser Midea"]
 image: "/images/blog/lava-e-seca-midea-como-usar.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A Marina passou a tarde inteira separando roupa de cama no quarto. Ela tinha acabado de comprar uma lavadora nova, e a ansiedade pra testar era grande — até que o painel piscou um erro que ela nunca tinha visto. Foi aí que ela percebeu: de nada adianta ter o eletrodoméstico dos sonhos se a gente não sabe operar cada função direito.

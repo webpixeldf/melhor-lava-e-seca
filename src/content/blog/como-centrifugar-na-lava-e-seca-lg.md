@@ -7,6 +7,7 @@ tags: ["como centrifugar na lava e seca lg", "centrifugar na lava e seca lg", "p
 author: "Marcelo França"
 keywords: ["como centrifugar na lava e seca lg", "centrifugar na lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-centrifugar-na-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você colocou a roupa na lava e seca LG, escolheu o ciclo e, na hora de tirar, pegou as peças ensopadas, pingando água. Frustrante, né? Quem já passou por isso sabe que o problema não é a máquina em si, mas algum detalhe que passou batido na configuração.

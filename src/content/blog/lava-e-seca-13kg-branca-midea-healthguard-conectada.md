@@ -7,6 +7,7 @@ tags: ["lava e seca 13kg branca midea healthguard conectada", "Midea 13kg", "Hea
 author: "Marcelo França"
 keywords: ["lava e seca 13kg branca midea healthguard conectada", "Midea 13kg", "HealthGuard", "conectada", "Wi-Fi", "programas"]
 image: "/images/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Jogar uma toalha de banho na máquina e descobrir, horas depois, que ela saiu úmida e com cheiro de mofo é daquelas cenas que testam a paciência. Ou pior: encarar três levas de roupa de cama porque o equipamento não deu conta do edredom de casal.

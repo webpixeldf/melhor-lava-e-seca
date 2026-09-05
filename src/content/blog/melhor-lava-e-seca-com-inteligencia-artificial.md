@@ -7,6 +7,7 @@ tags: ["melhor lava e seca com inteligência artificial", "SmartThings", "AI Con
 author: "Marcelo França"
 keywords: ["melhor lava e seca com inteligência artificial", "SmartThings", "AI Control", "Wi-Fi", "inteligência artificial", "automação"]
 image: "/images/blog/melhor-lava-e-seca-com-inteligencia-artificial.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece marketing, mas na prática já virou necessidade. As lava e secas com inteligência artificial deixaram de ser promessa de futuro e agora resolvem um problema real: tirar a roupa da máquina já seca e sem amassados, sem você precisar ficar escolhendo programa no painel. É a máquina que aprende com o seu uso.

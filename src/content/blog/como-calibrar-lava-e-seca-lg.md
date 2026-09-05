@@ -7,6 +7,7 @@ tags: ["como calibrar lava e seca lg", "calibrar lava e seca lg", "painel da lav
 author: "Marcelo França"
 keywords: ["como calibrar lava e seca lg", "calibrar lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você liga a lava e seca, o ciclo termina, e o erro aparece na tela: algo como “recalibração do sensor”. Ou pior: a máquina pesa a roupa errado, usa água demais ou seca menos do que deveria.

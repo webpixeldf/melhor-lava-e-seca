@@ -7,6 +7,7 @@ tags: ["lava e seca não centrifuga", "roupa encharcada", "bomba de drenagem", "
 author: "Marcelo França"
 keywords: ["lava e seca não centrifuga", "roupa encharcada", "bomba de drenagem", "filtro entupido", "excesso de carga", "balanceamento"]
 image: "/images/blog/lava-e-seca-nao-centrifuga.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem gente que jura que máquina que lava e seca não centrifuga é defeito de fábrica. Na maioria dos casos, não é bem assim.

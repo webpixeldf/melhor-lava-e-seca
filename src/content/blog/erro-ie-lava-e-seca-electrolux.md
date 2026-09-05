@@ -7,7 +7,7 @@ tags: ["erro ie lava e seca electrolux", "código IE", "entrada de água", "mang
 author: "Marcelo França"
 keywords: ["erro ie lava e seca electrolux", "código IE", "entrada de água", "mangueira", "válvula de entrada", "pressão da água"]
 image: "/images/blog/erro-ie-lava-e-seca-electrolux.webp"
-updated: "2026-08-30T19:51:34-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Lá pelas nove da noite, com a cesta de roupa na mão, apertei o botão da lava e seca e a máquina simplesmente travou no painel, piscando as letras "IE". Aquele código pequeno no display foi suficiente pra transformar a rotina num quebra-cabeça.

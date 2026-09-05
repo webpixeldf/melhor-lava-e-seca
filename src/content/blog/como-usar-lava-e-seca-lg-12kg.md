@@ -7,6 +7,7 @@ tags: ["como usar lava e seca lg 12kg", "usar lava e seca lg 12kg", "painel da l
 author: "Marcelo França"
 keywords: ["como usar lava e seca lg 12kg", "usar lava e seca lg 12kg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-usar-lava-e-seca-lg-12kg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você acabou de instalar ou recebeu sua lava e seca LG 12kg e agora bate aquela dúvida: será que estou usando do jeito certo? É normal se sentir perdido com tantos painéis, ciclos e funções, principalmente quando o objetivo é secar um edredom sem ele sair amassado ou demorar horas.

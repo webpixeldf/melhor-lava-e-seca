@@ -7,7 +7,7 @@ tags: ["erro le lava e seca samsung", "código LE", "vazamento interno", "sensor
 author: "Marcelo França"
 keywords: ["erro le lava e seca samsung", "código LE", "vazamento interno", "sensor de vazamento", "água na base", "mangueira furada"]
 image: "/images/blog/erro-le-lava-e-seca-samsung.webp"
-updated: "2026-08-21T13:07:32-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que o erro LE na lava e seca Samsung é o fim do mundo, sinal de que a máquina morreu e vai precisar de um conserto caro. Mas não é bem assim.

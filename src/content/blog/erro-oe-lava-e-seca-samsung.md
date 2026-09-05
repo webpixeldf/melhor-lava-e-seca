@@ -7,7 +7,7 @@ tags: ["erro oe lava e seca samsung", "código OE Samsung", "bomba de drenagem",
 author: "Marcelo França"
 keywords: ["erro oe lava e seca samsung", "código OE Samsung", "bomba de drenagem", "filtro de drenagem", "mangueira de saída", "água não escoa"]
 image: "/images/blog/erro-oe-lava-e-seca-samsung.webp"
-updated: "2026-08-22T17:35:27-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem coisa mais irritante do que a lava e seca parar no meio do ciclo? Aquele monte de roupa molhada esperando, o tempo que você perde, e ainda o risco de a roupa amassar ou criar aquele cheiro de mofo se ficar muito tempo parada.

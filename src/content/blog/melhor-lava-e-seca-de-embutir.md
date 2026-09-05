@@ -7,6 +7,7 @@ tags: ["melhor lava e seca de embutir", "capacidade", "consumo de energia", "pro
 author: "Marcelo França"
 keywords: ["melhor lava e seca de embutir", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/melhor-lava-e-seca-de-embutir.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Qual é a melhor lava e seca de embutir? Depende do espaço que você tem no armário e do quanto está disposto a pagar por uma máquina que some da vista.

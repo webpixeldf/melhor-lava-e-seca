@@ -7,7 +7,7 @@ tags: ["lava e seca gasta muita energia", "consumo de energia", "selo Procel", "
 author: "Marcelo França"
 keywords: ["lava e seca gasta muita energia", "consumo de energia", "selo Procel", "lava e seca econômica", "gasto por ciclo", "inverter economiza"]
 image: "/images/blog/lava-e-seca-gasta-muita-energia.webp"
-updated: "2026-08-18T14:52:46-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem uma fama que persegue esse tipo de máquina: “lava e seca gasta muita energia”. Será que é verdade? Depende inteiramente de como você usa o equipamento, da tecnologia dele e do que compara com ela.

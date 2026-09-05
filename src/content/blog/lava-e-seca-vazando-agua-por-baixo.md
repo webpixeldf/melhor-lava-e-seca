@@ -7,7 +7,7 @@ tags: ["lava e seca vazando água por baixo", "vazamento", "mangueira", "retento
 author: "Marcelo França"
 keywords: ["lava e seca vazando água por baixo", "vazamento", "mangueira", "retentor", "vedação da porta", "bomba de drenagem"]
 image: "/images/blog/lava-e-seca-vazando-agua-por-baixo.webp"
-updated: "2026-08-18T14:53:29-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Pode ser o dreno entupido, a borracha da porta ressecada ou até um simples excesso de espuma. O problema de lava e seca vazando água por baixo assusta, mas raramente significa que a máquina morreu. Na maioria dos casos, é uma manutenção simples que resolve com pouca ferramenta e meia hora de paciência.

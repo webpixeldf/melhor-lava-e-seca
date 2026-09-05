@@ -7,6 +7,7 @@ tags: ["melhor maquina lava e seca abertura superior", "capacidade", "consumo de
 author: "Marcelo França"
 keywords: ["melhor maquina lava e seca abertura superior", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/melhor-maquina-lava-e-seca-abertura-superior.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A casa fica pequena quando a máquina de lavar ocupa a área útil. Num apartamento de dois quartos, cada centímetro do lavandário vale ouro, e a solução que muita gente encontra é a lava e seca com abertura superior.

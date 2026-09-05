@@ -7,6 +7,7 @@ tags: ["lava e seca lg direct drive", "motor Direct Drive", "AI DD", "inverter L
 author: "Marcelo França"
 keywords: ["lava e seca lg direct drive", "motor Direct Drive", "AI DD", "inverter LG", "menor ruído", "menor vibração"]
 image: "/images/blog/lava-e-seca-lg-direct-drive.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A lava e seca LG direct drive é uma das compras mais inteligentes que você pode fazer para a sua casa. Ela junta duas funções em um só eletrodoméstico, economizando espaço e tempo no dia a dia, e o motor de acionamento direto é o grande diferencial: menos barulho, menos vibração e mais durabilidade.

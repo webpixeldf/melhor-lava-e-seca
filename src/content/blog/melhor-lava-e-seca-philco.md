@@ -7,6 +7,7 @@ tags: ["melhor lava e seca philco", "lava e seca philco custo-benefício", "lava
 author: "Marcelo França"
 keywords: ["melhor lava e seca philco", "lava e seca philco custo-benefício", "lava e seca philco inverter", "lava e seca philco silenciosa", "lava e seca philco econômica", "lava e seca philco comparativo"]
 image: "/images/blog/melhor-lava-e-seca-philco.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você já passou a tarde inteira comparando fichas técnicas de lava e seca e no fim ficou na mesma dúvida? Pois é, eu sei bem como é. A Philco tem vários modelos que parecem iguais na prateleira, mas na hora de lavar e secar de verdade a história é outra.

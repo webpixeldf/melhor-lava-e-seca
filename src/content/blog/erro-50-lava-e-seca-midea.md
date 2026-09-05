@@ -7,7 +7,7 @@ tags: ["erro 50 lava e seca midea", "código erro 50", "placa eletrônica", "fal
 author: "Marcelo França"
 keywords: ["erro 50 lava e seca midea", "código erro 50", "placa eletrônica", "falha eletrônica", "manutenção Midea", "assistência técnica"]
 image: "/images/blog/erro-50-lava-e-seca-midea.webp"
-updated: "2026-08-23T12:59:46-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece um problema complicado, mas na prática o erro 50 lava e seca Midea é um dos mais comuns e, na maioria dos casos, tem solução simples em casa. Esse código costuma aparecer quando a máquina interrompe o ciclo no meio, geralmente por conta de um entupimento no sistema de drenagem ou um problema na mangueira de saída de água.

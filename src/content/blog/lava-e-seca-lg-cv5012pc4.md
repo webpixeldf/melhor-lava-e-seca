@@ -7,6 +7,7 @@ tags: ["lava e seca lg cv5012pc4", "LG CV5012PC4", "AI DD", "ThinQ"]
 author: "Marcelo França"
 keywords: ["lava e seca lg cv5012pc4", "LG CV5012PC4", "AI DD", "ThinQ", "Direct Drive", "Steam"]
 image: "/images/blog/lava-e-seca-lg-cv5012pc4.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Errar o ciclo da lava e seca custa caro. Não estou falando só da conta de luz, que já pesa, mas daquele edredom que encolheu, da camisa que saiu amassada como se tivesse dormido dentro da máquina e de horas perdidas tentando entender qual botão apertar.

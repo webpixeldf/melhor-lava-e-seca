@@ -7,6 +7,7 @@ tags: ["lava e seca altura e dimensões", "largura", "profundidade", "altura"]
 author: "Marcelo França"
 keywords: ["lava e seca altura e dimensões", "largura", "profundidade", "altura", "espaço para instalação", "medidas da lava e seca"]
 image: "/images/blog/lava-e-seca-altura-e-dimensoes.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que qualquer lava e seca serve em qualquer cantinho da casa. Basta medir a largura e a profundidade, empurrar pro lugar e pronto — mas não é bem assim que funciona.

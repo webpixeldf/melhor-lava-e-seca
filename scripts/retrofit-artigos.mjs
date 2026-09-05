@@ -115,8 +115,22 @@ for (const art of corpus) {
     paraRegerar.push({ slug: art.slug, cliches: achados, passos });
   }
 
-  const final = frontmatter + PP + corpo + NL;
-  if (!DRY) fs.writeFileSync(file, final, 'utf8');
+  let fm = frontmatter;
+  const mudou = (frontmatter + PP + corpo + NL) !== raw;
+
+  // Sem carimbar `updated`, o sitemap continua publicando a data original e o
+  // Google nao recebe sinal nenhum de que a pagina mudou — foi o que aconteceu
+  // com a redistribuicao de links internos de 05/09/2026: 112 artigos alterados
+  // e lastmod intacto. O campo so entra quando o conteudo REALMENTE mudou.
+  if (mudou) {
+    const agora = new Date().toISOString().replace(/\.\d\d\dZ$/, '-03:00');
+    fm = /^updated:/m.test(fm)
+      ? fm.replace(/^updated:.*$/m, `updated: "${agora}"`)
+      : fm.replace(/\n---$/, `\nupdated: "${agora}"\n---`);
+  }
+
+  const final = fm + PP + corpo + NL;
+  if (!DRY && mudou) fs.writeFileSync(file, final, 'utf8');
   tocados++;
 }
 

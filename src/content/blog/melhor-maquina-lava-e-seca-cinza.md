@@ -6,6 +6,7 @@ category: "Comparativo"
 tags: ["melhor maquina lava e seca cinza", "capacidade", "consumo de energia", "programas de lavagem"]
 author: "Marcelo França"
 keywords: ["melhor maquina lava e seca cinza", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A melhor máquina lava e seca cinza é aquela que casa com o seu espaço, a sua rotina e o tamanho da sua família — não existe um modelo único que sirva pra todo mundo.

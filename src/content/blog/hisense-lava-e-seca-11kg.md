@@ -7,6 +7,7 @@ tags: ["hisense lava e seca 11kg", "Hisense 11kg inverter", "programas Hisense",
 author: "Marcelo França"
 keywords: ["hisense lava e seca 11kg", "Hisense 11kg inverter", "programas Hisense", "capacidade", "consumo", "ficha técnica"]
 image: "/images/blog/hisense-lava-e-seca-11kg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Será que uma lava e seca de 11kg dá conta de uma família grande sem virar um tormento? Essa é a dúvida que quase todo mundo tem antes de comprar, principalmente quando o espaço em casa é apertado e a máquina precisa substituir o varal.

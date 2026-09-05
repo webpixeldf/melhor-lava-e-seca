@@ -7,6 +7,7 @@ tags: ["melhor sabão líquido para lava e seca", "OMO líquido", "Ariel líquid
 author: "Marcelo França"
 keywords: ["melhor sabão líquido para lava e seca", "OMO líquido", "Ariel líquido", "Brilhante líquido", "detergente HE", "roupas delicadas"]
 image: "/images/blog/melhor-sabao-liquido-para-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que qualquer sabão serve numa lava e seca. É exatamente aí que mora o erro — e olha que esse equívoco custa caro na hora de secar as roupas.

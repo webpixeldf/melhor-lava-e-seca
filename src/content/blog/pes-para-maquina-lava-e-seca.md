@@ -7,6 +7,7 @@ tags: ["pes para maquina lava e seca", "base antivibração", "pés niveladores"
 author: "Marcelo França"
 keywords: ["pes para maquina lava e seca", "base antivibração", "pés niveladores", "calço de borracha", "vibração", "nivelamento"]
 image: "/images/blog/pes-para-maquina-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A máquina lava e seca começou a tremer na centrífuga, fazendo aquele barulho de trator, e você já pensou: será que ela vai pular da lavanderia? A culpa quase nunca é do eletrodoméstico em si — na maioria das vezes, o problema está nos pés para máquina lava e seca, que saíram do lugar ou perderam a função de amortecer.

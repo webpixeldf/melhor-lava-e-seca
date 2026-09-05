@@ -7,6 +7,7 @@ tags: ["e21 lava e seca midea é boa", "erro E21 Midea", "bomba de drenagem", "�
 author: "Marcelo França"
 keywords: ["e21 lava e seca midea é boa", "erro E21 Midea", "bomba de drenagem", "água não escoa", "filtro de drenagem", "mangueira de saída"]
 image: "/images/blog/e21-lava-e-seca-midea-e-boa.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você está aí, naquela pesquisa infinita entre “lava e seca” e “lava e seca”, e de repente aparece o E21 da Midea. A dúvida que não quer calar: afinal, e21 lava e seca midea é boa ou é só mais uma promessa de marketing? Eu entendo, porque já perdi horas lendo review que não dizia nada e fiquei com mais perguntas do que respostas.

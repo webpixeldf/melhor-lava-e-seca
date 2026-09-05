@@ -7,7 +7,7 @@ tags: ["como limpar lava e seca lg", "limpar lava e seca lg", "painel da lava e 
 author: "Marcelo França"
 keywords: ["como limpar lava e seca lg", "limpar lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-limpar-lava-e-seca-lg.webp"
-updated: "2026-08-29T00:59:19-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Mau cheiro na roupa, borra de sabão no tambor, ciclo que nunca termina. É isso que a gente colhe quando a máquina nunca vê uma limpeza de verdade — e o pior: a peça que você ia vestir pro trabalho acaba indo pra máquina de novo, não pro seu corpo.

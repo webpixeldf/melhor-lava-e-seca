@@ -7,7 +7,7 @@ tags: ["como instalar lava e seca midea", "instalar lava e seca midea", "painel 
 author: "Marcelo França"
 keywords: ["como instalar lava e seca midea", "instalar lava e seca midea", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-instalar-lava-e-seca-midea.webp"
-updated: "2026-08-31T19:09:38-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 “Comprei uma lava e seca Midea e agora? Instalo eu mesmo ou chamo um técnico?” — essa é a pergunta que passa na cabeça de todo mundo quando o caminhão da entrega some na esquina. Se você está lendo isso, provavelmente está encarando a caixa no chão da sala, com o manual na mão e um pouco de receio de fazer besteira.

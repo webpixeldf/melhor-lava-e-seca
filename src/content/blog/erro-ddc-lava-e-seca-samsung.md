@@ -7,7 +7,7 @@ tags: ["erro ddc lava e seca samsung", "código DDC", "porta aberta", "trava da 
 author: "Marcelo França"
 keywords: ["erro ddc lava e seca samsung", "código DDC", "porta aberta", "trava da porta", "sensor da porta", "fechamento da porta"]
 image: "/images/blog/erro-ddc-lava-e-seca-samsung.webp"
-updated: "2026-08-18T14:50:33-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece um defeito raro de placa, mas na prática é um dos avisos mais comuns em lava e seca da Samsung. O erro ddc lava e seca samsung indica que o tambor não está girando como deveria — e isso quase sempre tem explicação simples, longe de um problema caro.

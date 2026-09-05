@@ -7,6 +7,7 @@ tags: ["lava e seca agua quente e fria", "entrada dupla de água", "lavagem quen
 author: "Marcelo França"
 keywords: ["lava e seca agua quente e fria", "entrada dupla de água", "lavagem quente", "lavagem fria", "temperatura da água", "higienização"]
 image: "/images/blog/lava-e-seca-agua-quente-e-fria.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sim, uma lava e seca água quente e fria serve para praticamente tudo no dia a dia. A diferença está em como cada ciclo usa a temperatura para agir na roupa: a água quente dissolve melhor a gordura e ajuda na higienização, enquanto a fria protege tecidos delicados e evita que as cores desbotem.

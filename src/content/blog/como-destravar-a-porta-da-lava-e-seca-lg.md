@@ -7,6 +7,7 @@ tags: ["como destravar a porta da lava e seca lg", "destravar a porta da lava e 
 author: "Marcelo França"
 keywords: ["como destravar a porta da lava e seca lg", "destravar a porta da lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-destravar-a-porta-da-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você colocou a roupa pra secar, foi fazer outra coisa e quando voltou a máquina estava parada com a porta travada. A tela acusa que o ciclo terminou, mas a porta não abre de jeito nenhum. Eu sei, esse é um dos momentos mais irritantes — parece que a lava e seca resolveu fazer greve.

@@ -7,7 +7,7 @@ tags: ["como calibrar a lava e seca samsung", "calibrar a lava e seca samsung", 
 author: "Marcelo França"
 keywords: ["como calibrar a lava e seca samsung", "calibrar a lava e seca samsung", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-a-lava-e-seca-samsung.webp"
-updated: "2026-08-26T13:13:10-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 “Será que minha lava e seca Samsung está pesando errado?”. Essa é a dúvida que aparece quando a roupa sai mais úmida que o normal ou o ciclo termina antes da hora. O sensor interno se desregula com o tempo, e a máquina passa a trabalhar com base em informações erradas.

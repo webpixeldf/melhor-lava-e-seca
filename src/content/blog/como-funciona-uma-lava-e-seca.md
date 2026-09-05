@@ -7,6 +7,7 @@ tags: ["como funciona uma lava e seca", "lavagem", "secagem", "condensação"]
 author: "Marcelo França"
 keywords: ["como funciona uma lava e seca", "lavagem", "secagem", "condensação", "Heat Pump", "centrifugação"]
 image: "/images/blog/como-funciona-uma-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Uma lava e seca funciona como uma máquina 2 em 1: ela lava a roupa como uma lavadora comum e, na sequência, seca o mesmo tambor, sem precisar transferir nada.

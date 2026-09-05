@@ -7,6 +7,7 @@ tags: ["erro oc lava e seca samsung", "código OC", "excesso de água", "sensor 
 author: "Marcelo França"
 keywords: ["erro oc lava e seca samsung", "código OC", "excesso de água", "sensor de nível", "transbordamento", "válvula de entrada"]
 image: "/images/blog/erro-oc-lava-e-seca-samsung.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 O erro OC na lava e seca Samsung é um problema de drenagem: a máquina para o ciclo porque a água não está saindo rápido o suficiente.

@@ -7,6 +7,7 @@ tags: ["como instalar lava e seca", "instalar lava e seca", "painel da lava e se
 author: "Marcelo França"
 keywords: ["como instalar lava e seca", "instalar lava e seca", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-instalar-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Você acabou de encostar a máquina na parede, ligou na tomada e apertou o botão. Aí veio o primeiro erro, ou pior, a mangueira soltou e fez um pequeno lago na área de serviço. Calma, isso é mais comum do que parece.

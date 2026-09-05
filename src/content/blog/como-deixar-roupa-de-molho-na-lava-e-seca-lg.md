@@ -7,6 +7,7 @@ tags: ["como deixar roupa de molho na lava e seca lg", "pré-lavagem", "molho", 
 author: "Marcelo França"
 keywords: ["como deixar roupa de molho na lava e seca lg", "pré-lavagem", "molho", "programas LG", "AI DD", "ciclo delicado"]
 image: "/images/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Aquele molho de roupa branca com água sanitária, ou a peça manchada que precisa ficar de remolho antes da lavagem… aí você abre o painel da sua lava e seca LG e não acha um botãozinho escrito “molho”. Dá um desespero, né? O recurso existe — só que ele está escondido dentro de outra função.

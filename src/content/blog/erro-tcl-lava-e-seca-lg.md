@@ -7,6 +7,7 @@ tags: ["erro tcl lava e seca lg", "código TCL", "limpeza do tambor", "ciclo de 
 author: "Marcelo França"
 keywords: ["erro tcl lava e seca lg", "código TCL", "limpeza do tambor", "ciclo de limpeza", "higienização do tambor", "manutenção preventiva"]
 image: "/images/blog/erro-tcl-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Lavar roupa e descobrir a máquina travada no meio do ciclo é um dos piores sustos domésticos. Além do tempo perdido, vem a preocupação com a roupa que estraga, o gasto com um técnico desnecessário e a correria para achar uma lavanderia de última hora. A boa notícia?

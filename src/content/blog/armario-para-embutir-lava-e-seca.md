@@ -7,6 +7,7 @@ tags: ["armário para embutir lava e seca", "nicho", "marcenaria", "medidas"]
 author: "Marcelo França"
 keywords: ["armário para embutir lava e seca", "nicho", "marcenaria", "medidas", "ventilação", "lavanderia planejada"]
 image: "/images/blog/armario-para-embutir-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece simples: é só comprar a máquina lava e seca, medir o espaço e encaixar um armário em volta. Mas na prática, embutir esse eletrodoméstico exige planejamento que vai muito além da fita métrica.

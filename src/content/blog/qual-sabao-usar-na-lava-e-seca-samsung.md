@@ -7,6 +7,7 @@ tags: ["qual sabão usar na lava e seca samsung", "sabão líquido", "detergente
 author: "Marcelo França"
 keywords: ["qual sabão usar na lava e seca samsung", "sabão líquido", "detergente HE", "sabão em pó", "dosagem", "dispenser"]
 image: "/images/blog/qual-sabao-usar-na-lava-e-seca-samsung.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece uma dúvida simples de resolver na prateleira do mercado, mas na prática é onde muita gente se perde. Cada marca tem sua recomendação, e na Samsung não é diferente — usar o produto errado pode deixar resíduos no tambor, mau cheiro ou até encurtar a vida da máquina.

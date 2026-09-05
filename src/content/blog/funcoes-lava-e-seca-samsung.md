@@ -7,6 +7,7 @@ tags: ["funções lava e seca samsung", "EcoBubble", "AI Control", "SmartThings"
 author: "Marcelo França"
 keywords: ["funções lava e seca samsung", "EcoBubble", "AI Control", "SmartThings", "Vapor de Higiene", "lavagem rápida"]
 image: "/images/blog/funcoes-lava-e-seca-samsung.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 As funções lava e seca Samsung vão muito além do ciclo automático que seca a roupa de um jeito padrão. E são exatamente esses recursos que separam uma máquina comum de uma que realmente simplifica sua rotina.

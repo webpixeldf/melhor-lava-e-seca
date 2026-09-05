@@ -7,7 +7,7 @@ tags: ["erro h3 lava e seca electrolux", "código H3", "aquecimento", "resistên
 author: "Marcelo França"
 keywords: ["erro h3 lava e seca electrolux", "código H3", "aquecimento", "resistência elétrica", "sensor de temperatura", "termistor"]
 image: "/images/blog/erro-h3-lava-e-seca-electrolux.webp"
-updated: "2026-08-18T14:51:13-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 O erro H3 na lava e seca Electrolux indica um problema no aquecimento da água.

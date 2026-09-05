@@ -7,6 +7,7 @@ tags: ["hisense 13kg lava e seca", "Hisense 13kg inverter", "capacidade de secag
 author: "Marcelo França"
 keywords: ["hisense 13kg lava e seca", "Hisense 13kg inverter", "capacidade de secagem", "programas Hisense", "consumo de energia", "ficha técnica"]
 image: "/images/blog/hisense-13kg-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Será que um lava e seca de 13kg realmente seca um edredom de casal ou só amassa a roupa e deixa tudo úmido? Essa é a dúvida que quase todo mundo tem antes de comprar uma máquina assim, e com a hisense 13kg lava e seca não é diferente.

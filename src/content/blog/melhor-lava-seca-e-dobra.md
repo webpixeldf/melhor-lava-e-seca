@@ -7,6 +7,7 @@ tags: ["melhor lava seca e dobra", "capacidade", "consumo de energia", "programa
 author: "Marcelo França"
 keywords: ["melhor lava seca e dobra", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/melhor-lava-seca-e-dobra.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A pergunta que não sai da cabeça é sempre a mesma: será que existe uma máquina que lava, seca e ainda dobra a roupa? A promessa parece boa demais pra ser verdade, e no meio de tanta propaganda, fica impossível saber qual modelo entrega isso de verdade ou qual só usa o nome “dobra” no manual de marketing.

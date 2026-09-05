@@ -7,7 +7,7 @@ tags: ["lava e seca roupas", "como lavar roupas", "programas de lavagem", "secag
 author: "Marcelo França"
 keywords: ["lava e seca roupas", "como lavar roupas", "programas de lavagem", "secagem automática", "tipos de tecido", "lavar edredom"]
 image: "/images/blog/lava-e-seca-roupas.webp"
-updated: "2026-08-24T13:10:50-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Trocar uma máquina de lavar simples por uma lava e seca roupas parece um luxo desnecessário até você somar o tempo perdido com varal, o valor gasto na lavanderia e aquela roupa de cama que mofou no varal num dia de chuva.

@@ -7,6 +7,7 @@ tags: ["lava e seca heat pump", "bomba de calor", "secagem por bomba de calor", 
 author: "Marcelo França"
 keywords: ["lava e seca heat pump", "bomba de calor", "secagem por bomba de calor", "economia de energia", "condensação", "eficiência energética"]
 image: "/images/blog/lava-e-seca-heat-pump.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Aquela cena clássica de domingo à noite: o edredom de casal não secou na máquina antiga, o varal improvisado na sala vira cenário de guerra e o sono chega antes da roupa. Troquei a minha por uma lava e seca heat pump há um ano e nunca mais revivi esse filme de terror doméstico.

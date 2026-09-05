@@ -7,6 +7,7 @@ tags: ["lava e seca separada é melhor", "capacidade", "consumo de energia", "pr
 author: "Marcelo França"
 keywords: ["lava e seca separada é melhor", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/lava-e-seca-separada-e-melhor.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A máquina acabou de terminar o ciclo e, como sempre, a briga começa: tirar a roupa na hora para não amassar ou deixar lá dentro e rezar para o mau cheiro não tomar conta. Quem vive com lavadora e secadora no mesmo tambor conhece esse dilema de perto, afinal, o equipamento faz um monte de coisa, mas raramente faz tudo bem feito.

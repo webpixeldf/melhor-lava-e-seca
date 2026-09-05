@@ -7,7 +7,7 @@ tags: ["erro 5ud lava e seca samsung", "código 5UD", "excesso de espuma", "dete
 author: "Marcelo França"
 keywords: ["erro 5ud lava e seca samsung", "código 5UD", "excesso de espuma", "detergente em excesso", "sabão HE", "enxágue extra"]
 image: "/images/blog/erro-5ud-lava-e-seca-samsung.webp"
-updated: "2026-08-18T22:57:47-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 O erro 5ud na lava e seca Samsung indica falha no sensor de umidade,. Na maioria dos casos, dá para resolver em casa. Esse código costuma aparecer quando a máquina não consegue detectar o nível de secagem das roupas, travando o ciclo no meio.

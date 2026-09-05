@@ -7,7 +7,7 @@ tags: ["lava e seca encolhe roupa", "roupa encolhe na secagem", "como evitar enc
 author: "Marcelo França"
 keywords: ["lava e seca encolhe roupa", "roupa encolhe na secagem", "como evitar encolher roupas", "tecidos delicados", "temperatura de secagem", "programa delicado"]
 image: "/images/blog/lava-e-seca-encolhe-roupa.webp"
-updated: "2026-08-18T14:36:01-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem coisa mais frustrante do que tirar aquela blusa nova da máquina e descobrir que ela servia em você e agora serve na sua prima de 12 anos? A gente economiza, pesquisa, escolhe o tecido certo — e um ciclo errado leva tudo por água abaixo. Fora o tempo perdido tentando “esticar” a peça do jeito que dá, quase sempre sem sucesso.

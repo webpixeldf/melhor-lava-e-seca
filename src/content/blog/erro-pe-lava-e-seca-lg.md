@@ -7,6 +7,7 @@ tags: ["erro pe lava e seca lg", "código PE", "sensor de nível de água", "pre
 author: "Marcelo França"
 keywords: ["erro pe lava e seca lg", "código PE", "sensor de nível de água", "pressostato", "placa eletrônica", "manutenção LG"]
 image: "/images/blog/erro-pe-lava-e-seca-lg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem coisa mais frustrante do que colocar a roupa pra lavar, esperar a máquina terminar o ciclo e, na hora de tirar a peça, encontrar ela ensopada e cheirando mal? Esse é o custo real de ignorar o erro pe lava e seca lg: o tempo perdido, o dinheiro gasto com novo sabão e amaciante para refazer a lavagem, e a peça querida que pode até mofar se ficar esquecida no cesto.

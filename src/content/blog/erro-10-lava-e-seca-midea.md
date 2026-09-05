@@ -7,7 +7,7 @@ tags: ["erro 10 lava e seca midea", "código erro 10", "entrada de água", "mang
 author: "Marcelo França"
 keywords: ["erro 10 lava e seca midea", "código erro 10", "entrada de água", "mangueira de entrada", "pressão da água", "válvula de entrada"]
 image: "/images/blog/erro-10-lava-e-seca-midea.webp"
-updated: "2026-08-18T17:42:06-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A Midea parou no meio do ciclo, o display piscando "Erro 10", e aquela roupa que você precisava pra amanhã ficou presa no tambor. Sei bem como é essa sensação, porque já atendi muita gente com o mesmo problema. Na maioria dos casos, não é um defeito grave, mas diagnosticar sozinho poupa tempo e evita chamar um técnico sem necessidade.

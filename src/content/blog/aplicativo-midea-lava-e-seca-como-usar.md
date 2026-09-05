@@ -7,6 +7,7 @@ tags: ["aplicativo midea lava e seca como usar", "MSmartHome", "Wi-Fi Midea", "c
 author: "Marcelo França"
 keywords: ["aplicativo midea lava e seca como usar", "MSmartHome", "Wi-Fi Midea", "conectar aplicativo", "controle remoto", "programação"]
 image: "/images/blog/aplicativo-midea-lava-e-seca-como-usar.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Instalar o app no celular é só o começo. A parte que ninguém te conta é que, sem alguns ajustes básicos, você acaba usando a função de lavar e secar do jeito errado: roupa saindo úmida, ciclo que não termina ou até aquela peça que encolheu sem motivo. Isso custa tempo, energia e, no pior cenário, uma blusa cara no lixo.

@@ -7,6 +7,7 @@ tags: ["limpar lava e seca", "limpeza do tambor", "filtro de drenagem", "dispens
 author: "Marcelo França"
 keywords: ["limpar lava e seca", "limpeza do tambor", "filtro de drenagem", "dispenser", "borracha da porta", "cheiro ruim"]
 image: "/images/blog/limpar-lava-e-seca.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que limpar lava e seca se resume a passar um pano úmido na borracha da porta de tempos em tempos. Só que o problema mora bem mais fundo: o sabão residual, o fiapo e até o calcário se acumulam no cesto e nas mangueiras, e é isso que causa aquele cheiro de mofo que insiste em voltar.

@@ -7,6 +7,7 @@ tags: ["peças lava e seca lg porto alegre onde comprar", "capacidade", "consumo
 author: "Marcelo França"
 keywords: ["peças lava e seca lg porto alegre onde comprar", "capacidade", "consumo de energia", "programas de lavagem", "ciclo de secagem", "centrifugação"]
 image: "/images/blog/pecas-lava-e-seca-lg-porto-alegre-onde-comprar.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Trocar a borracha da porta ou a trava da lavadora em Porto Alegre sai caro quando a gente compra no lugar errado. Além do valor da peça, tem o tempo parado, a roupa acumulando e, em alguns casos, o risco de comprar uma peça incompatível que danifica o equipamento de vez.

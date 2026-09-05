@@ -7,7 +7,7 @@ tags: ["como interromper a secagem da lava e seca midea", "interromper a secagem
 author: "Marcelo França"
 keywords: ["como interromper a secagem da lava e seca midea", "interromper a secagem da lava e seca midea", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-interromper-a-secagem-da-lava-e-seca-midea.webp"
-updated: "2026-08-28T06:21:01-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem gente que acha que, depois de apertar o botão de pausa na lava e seca Midea, a máquina para na hora e abre a porta na sequência. Não é bem assim. O modelo de funcionamento dela é mais esperto (e mais seguro) do que isso: interromper o ciclo não é a mesma coisa que liberar a porta na mesma hora — existe uma lógica de segurança que impede a abertura com o tambor girando ou com calor interno.

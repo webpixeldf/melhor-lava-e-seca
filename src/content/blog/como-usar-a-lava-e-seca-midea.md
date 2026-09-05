@@ -7,7 +7,7 @@ tags: ["como usar a lava e seca midea", "usar a lava e seca midea", "painel da l
 author: "Marcelo França"
 keywords: ["como usar a lava e seca midea", "usar a lava e seca midea", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-usar-a-lava-e-seca-midea.webp"
-updated: "2026-08-29T16:43:32-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acha que lavar e secar na mesma máquina é só apertar um botão e torcer pro ciclo não virar uma bagunça. Na real, o segredo não está na mágica, e sim em escolher o programa certo pra cada tipo de roupa e, principalmente, respeitar a capacidade de secagem.

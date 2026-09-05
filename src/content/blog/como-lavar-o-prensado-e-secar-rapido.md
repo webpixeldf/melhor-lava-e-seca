@@ -7,7 +7,7 @@ tags: ["como lavar o prensado e secar rápido", "lavar o prensado e secar rápid
 author: "Marcelo França"
 keywords: ["como lavar o prensado e secar rápido", "lavar o prensado e secar rápido", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-lavar-o-prensado-e-secar-rapido.webp"
-updated: "2026-08-28T22:15:23-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A mesa da cozinha virou um campo de batalha. Eu tinha acabado de tirar aquele tijolo escuro do plástico, e o cheiro forte já tomava o apartamento inteiro. Minha sogra ia chegar em três horas, e eu precisava resolver aquilo sem deixar rastro.

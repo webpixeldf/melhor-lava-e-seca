@@ -7,6 +7,7 @@ tags: ["lava e seca samsung não está drenando a água", "bomba de drenagem", "
 author: "Marcelo França"
 keywords: ["lava e seca samsung não está drenando a água", "bomba de drenagem", "filtro de drenagem", "mangueira de saída", "erro OE", "água parada"]
 image: "/images/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sua lava e seca Samsung não está drenando a água, e sim, isso tem conserto. Na maioria dos casos, o problema está num filtro entupido, na mangueira torcida ou numa bomba de drenagem que travou — e não num defeito grave da máquina.

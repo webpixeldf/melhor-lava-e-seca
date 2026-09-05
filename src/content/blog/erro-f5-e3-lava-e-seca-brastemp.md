@@ -7,7 +7,7 @@ tags: ["erro f5 e3 lava e seca brastemp", "código F5 E3", "trava da porta", "fe
 author: "Marcelo França"
 keywords: ["erro f5 e3 lava e seca brastemp", "código F5 E3", "trava da porta", "fechadura Brastemp", "sensor da porta", "manutenção Brastemp"]
 image: "/images/blog/erro-f5-e3-lava-e-seca-brastemp.webp"
-updated: "2026-08-20T17:44:50-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 A máquina para no meio do ciclo, a roupa fica encharcada e você perde a tarde inteira tentando entender o que houve. Se a tela acusa erro f5 e3 lava e seca Brastemp, o prejuízo vai além do tempo: cada tentativa de novo ciclo gasta mais água, mais energia e, no caso de roupas delicadas, pode até danificar o tecido.

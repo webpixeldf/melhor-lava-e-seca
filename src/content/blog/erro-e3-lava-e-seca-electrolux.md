@@ -7,7 +7,7 @@ tags: ["erro e3 lava e seca electrolux", "código E3", "sensor de nível", "exce
 author: "Marcelo França"
 keywords: ["erro e3 lava e seca electrolux", "código E3", "sensor de nível", "excesso de água", "placa eletrônica", "manutenção Electrolux"]
 image: "/images/blog/erro-e3-lava-e-seca-electrolux.webp"
-updated: "2026-08-20T13:09:15-03:00"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Muita gente acredita que o erro E3 na lava e seca é sentença de morte para o aparelho, ou que só um técnico caro resolve. Mas a verdade é bem diferente: na maioria das vezes, o problema está em algo simples, como um filtro entupido ou uma mangueira torcida.

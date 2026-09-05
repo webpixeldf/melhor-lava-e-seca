@@ -7,6 +7,7 @@ tags: ["lava e seca hisense 11 kg", "Hisense 11kg inverter", "programas", "consu
 author: "Marcelo França"
 keywords: ["lava e seca hisense 11 kg", "Hisense 11kg inverter", "programas", "consumo", "ficha técnica", "review"]
 image: "/images/blog/lava-e-seca-hisense-11-kg.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Tem uma ideia que muita gente carrega por aí: que lava e seca é só pra quem tem grana sobrando e espaço de sobra. Na real, é o contrário. A lava e seca Hisense 11 kg nasceu exatamente pra resolver a vida de quem mora em apartamento pequeno e não quer depender de varal ou de lavanderia paga.

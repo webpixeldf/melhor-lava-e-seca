@@ -7,6 +7,7 @@ tags: ["lava e seca 11kg branca slim conectada midea branco", "Midea Slim", "con
 author: "Marcelo França"
 keywords: ["lava e seca 11kg branca slim conectada midea branco", "Midea Slim", "conectada", "Wi-Fi", "11kg", "programas"]
 image: "/images/blog/lava-e-seca-11kg-branca-slim-conectada-midea-branco.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Sim, essa máquina existe e é uma das opções mais interessantes pra quem mora em apartamento pequeno. A lava e seca 11kg branca slim conectada Midea branco resolve o problema de quem não tem área de serviço, porque lava e seca no mesmo ciclo, sem precisar esticar roupa no varal.

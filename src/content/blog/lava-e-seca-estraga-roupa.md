@@ -7,6 +7,7 @@ tags: ["lava e seca estraga roupa?", "roupa encolhe", "roupas delicadas", "tempe
 author: "Marcelo França"
 keywords: ["lava e seca estraga roupa?", "roupa encolhe", "roupas delicadas", "temperatura da secagem", "símbolos de lavagem", "secagem automática"]
 image: "/images/blog/lava-e-seca-estraga-roupa.webp"
+updated: "2026-09-05T09:12:11-03:00"
 ---
 
 Parece que a máquina vai transformar sua camiseta favorita em pano de chão, mas na prática o problema quase nunca está no equipamento. A dúvida “lava e seca estraga roupa?” assombra todo mundo que está de olho nesse eletrodoméstico, e a resposta honesta é: depende muito mais de como você usa do que da máquina em si.
