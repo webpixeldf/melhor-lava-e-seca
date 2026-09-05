@@ -1533,7 +1533,9 @@
         "custo-benefício"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-04T23:40:17-03:00"
+      "publishedAt": "2026-08-04T23:40:17-03:00",
+      "rewrittenAt": "2026-09-05T00:23:25-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "lava e seca vazando água por baixo",
@@ -4581,8 +4583,8 @@
         "funcionamento",
         "ciclo completo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-05T00:22:37-03:00"
     },
     {
       "keyword": "como instalar lava e seca em apartamento",
