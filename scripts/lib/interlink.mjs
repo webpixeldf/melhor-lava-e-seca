@@ -232,12 +232,23 @@ export function buildLeiaTambem(pauta, corpus = [], wanted = 5) {
 
   const outros = corpus.filter((c) => c.slug !== pauta.slug);
 
+  // Peso comercial. Medido em 05/09/2026: o acervo mandava 394 links internos
+  // pra artigo de conserto e so 61 pra artigo de compra — o proprio site
+  // ensinando ao Google que o assunto e consertar maquina, e nao escolher uma.
+  // Como as pautas de conserto sao maioria (42% contra 14%), a selecao por
+  // termo compartilhado naturalmente as favorecia. O bonus abaixo inverte o
+  // fluxo: os muitos artigos de conserto passam a apontar para os poucos
+  // comerciais, que sao os que precisam de forca pra sair da pagina 3.
+  const COMERCIAL_ALVO = /melhor|comparativ|comparar|custo.?benef|vale a pena|melhores|ou-samsung|vs-/i;
+
   const scored = outros
     .map((c) => {
       const theirs = c.keyword.toLowerCase().split(/\s+/).filter((w) => !stop.has(w));
-      return { ...c, shared: theirs.filter((w) => mine.has(w)).length };
+      const shared = theirs.filter((w) => mine.has(w)).length;
+      const bonus = COMERCIAL_ALVO.test(c.slug) || COMERCIAL_ALVO.test(c.keyword) ? 0.75 : 0;
+      return { ...c, shared, peso: shared + bonus };
     })
-    .sort((a, b) => b.shared - a.shared || String(b.date).localeCompare(String(a.date)));
+    .sort((a, b) => b.peso - a.peso || String(b.date).localeCompare(String(a.date)));
 
   // Primeiro os que compartilham termo; se sobrar espaco, completa com os mais
   // recentes. Diferente do link inline, aqui a ancora e o TITULO do artigo —

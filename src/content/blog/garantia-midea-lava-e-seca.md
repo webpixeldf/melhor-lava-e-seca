@@ -103,13 +103,10 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 
 ## Leia também
 
-- [Erro 50 lava e seca Midea: Guia Completo e Como Resolver](/blog/erro-50-lava-e-seca-midea/)
-- [Erro 10 lava e seca Midea: Guia Completo e Como Resolver](/blog/erro-10-lava-e-seca-midea/)
-- [E21 lava e seca Midea é boa: Review, Prós e Contras 2026](/blog/e21-lava-e-seca-midea-e-boa/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
-- [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)
-- [Como instalar lava e seca Midea: Guia Completo e Soluções](/blog/como-instalar-lava-e-seca-midea/)
-- [Amortecedor lava e seca Midea: Guia Prático e Dicas 2026](/blog/amortecedor-lava-e-seca-midea/)
-- [Erro ue LG lava e seca: Causas, Soluções e Guia Completo](/blog/erro-ue-lg-lava-e-seca/)
-- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
+- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
+- [Lava e seca 11kg Midea healthguard titanium conectada](/blog/lava-e-seca-11kg-midea-healthguard-titanium-conectada/)
+- [Lava e seca 11kg branca slim healthguard conectada Midea](/blog/lava-e-seca-11kg-branca-slim-healthguard-conectada-midea/)
+- [Lava e seca 11kg branca Midea master clean conectada mfm01d110wb/wkbr04-127v](/blog/lava-e-seca-11kg-branca-midea-master-clean-conectada-mfm01d110wb-wkbr04-127v/)
+- [Lava e seca 11kg branca slim conectada Midea branco](/blog/lava-e-seca-11kg-branca-slim-conectada-midea-branco/)
 - [Comparativo completo das lava e seca de 2026](/)

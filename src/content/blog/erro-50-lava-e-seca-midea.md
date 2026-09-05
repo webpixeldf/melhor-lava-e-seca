@@ -118,12 +118,9 @@ Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resu
 ## Outros guias que ajudam
 
 - [Erro 10 lava e seca Midea: Guia Completo e Como Resolver](/blog/erro-10-lava-e-seca-midea/)
+- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
 - [Lava e seca 11kg Midea healthguard titanium conectada](/blog/lava-e-seca-11kg-midea-healthguard-titanium-conectada/)
 - [Lava e seca 11kg branca slim healthguard conectada Midea](/blog/lava-e-seca-11kg-branca-slim-healthguard-conectada-midea/)
 - [Lava e seca 11kg branca Midea master clean conectada mfm01d110wb/wkbr04-127v](/blog/lava-e-seca-11kg-branca-midea-master-clean-conectada-mfm01d110wb-wkbr04-127v/)
-- [Lava e seca 11kg branca slim conectada Midea branco](/blog/lava-e-seca-11kg-branca-slim-conectada-midea-branco/)
-- [Garantia Midea lava e seca: Guia Completo com Dicas 2026](/blog/garantia-midea-lava-e-seca/)
-- [Erro ue LG lava e seca: Causas, Soluções e Guia Completo](/blog/erro-ue-lg-lava-e-seca/)
-- [Erro TCL lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-tcl-lava-e-seca-lg/)
-- [Erro pe lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-pe-lava-e-seca-lg/)
 - [Ranking das melhores lava e seca do mercado](/)

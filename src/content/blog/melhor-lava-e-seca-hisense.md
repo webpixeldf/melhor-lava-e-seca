@@ -218,9 +218,6 @@ Ainda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking co
 
 ## Leia também
 
-- [Hisense maquina lava e seca: Guia Completo com Dicas 2026](/blog/hisense-maquina-lava-e-seca/)
-- [Hisense lava e seca 11kg: Guia Completo e Dicas Práticas](/blog/hisense-lava-e-seca-11kg/)
-- [Hisense 13kg lava e seca: Guia Completo e Dicas Práticas](/blog/hisense-13kg-lava-e-seca/)
 - [Melhor lava e seca frontal: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-frontal/)
 - [Melhor lava e seca eco bubble: Ranking Completo e Análise](/blog/melhor-lava-e-seca-eco-bubble/)
 - [Melhor mini lava e seca: Ranking Completo e Análise 2026](/blog/melhor-mini-lava-e-seca/)

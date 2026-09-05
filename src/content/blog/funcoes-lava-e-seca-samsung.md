@@ -123,13 +123,10 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 ## Relacionados
 
+- [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
+- [Melhor lava e seca Samsung 11kg e 13kg: Ranking Completo](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
+- [Melhor lava e seca Samsung: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-samsung/)
+- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
 - [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
 - [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
-- [Erro le lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-le-lava-e-seca-samsung/)
-- [Erro ddc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-ddc-lava-e-seca-samsung/)
-- [Erro 5ud lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-5ud-lava-e-seca-samsung/)
-- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
-- [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
-- [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
-- [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

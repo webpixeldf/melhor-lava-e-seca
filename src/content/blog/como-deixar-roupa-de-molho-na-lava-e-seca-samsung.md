@@ -123,7 +123,4 @@ Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resu
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
 - [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
 - [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
-- [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
-- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
-- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
 - [As lava e seca mais bem avaliadas, lado a lado](/)

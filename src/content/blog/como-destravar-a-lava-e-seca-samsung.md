@@ -103,7 +103,9 @@ Limpeza se faz com pano úmido e detergente neutro, nunca com química pesada.
 
 ### Encher demais e ignorar o dispenser
 
-Encher o tambor até a boca parece economia de tempo, mas compromete os programas de lavagem. A roupa não tem espaço pra se movimentar, a lavagem delicada vira uma massagem agressiva, e a centrifugação trava no meio do ciclo. Outro detalhe: a gaveta do dispenser entupida de amaciante velho impede a água de passar, e o sistema de segurança entende isso como falha — e trava tudo de novo.
+Encher o tambor até a boca parece economia de tempo, mas compromete os programas de lavagem. A roupa não tem espaço pra se movimentar, a lavagem delicada vira uma massagem agressiva, e a centrifugação trava no meio do ciclo.
+
+Outro detalhe: a gaveta do dispenser entupida de amaciante velho impede a água de passar, e o sistema de segurança entende isso como falha — e trava tudo de novo.
 
 Vale revisar esse hábito antes de tentar destravar a lava e seca Samsung de novo.
 
@@ -143,7 +145,4 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
 - [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
 - [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
-- [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
-- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
-- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
 - [Comparativo completo das lava e seca de 2026](/)

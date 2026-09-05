@@ -139,7 +139,4 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
 - [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
-- [Como resetar lava e seca LG: Causas e Como Resolver 2026](/blog/como-resetar-lava-e-seca-lg/)
-- [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
-- [Como lavar o prensado e secar rápido: Guia Completo 2026](/blog/como-lavar-o-prensado-e-secar-rapido/)
 - [Comparativo completo das lava e seca de 2026](/)

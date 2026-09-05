@@ -130,7 +130,4 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
-- [Como calibrar lava e seca LG: Causas e Como Resolver 2026](/blog/como-calibrar-lava-e-seca-lg/)
-- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
-- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
 - [Comparativo completo das lava e seca de 2026](/)
