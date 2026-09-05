@@ -2092,7 +2092,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-07T18:02:02-03:00"
+      "publishedAt": "2026-08-07T18:02:02-03:00",
+      "rewrittenAt": "2026-09-05T19:02:32-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como calibrar lava e seca samsung ecobubble",
@@ -4629,8 +4631,8 @@
         "transporte",
         "travas"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-05T19:01:53-03:00"
     },
     {
       "keyword": "como lavar roupa na lava e seca",

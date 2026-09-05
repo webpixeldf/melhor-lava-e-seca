@@ -1,168 +1,132 @@
 ---
 title: "Como calibrar lava e seca LG: Causas e Como Resolver 2026"
-description: "Aprenda como calibrar lava e seca LG e resolver o erro de recalibração do sensor. Passo a passo simples para ajustar o peso e a secagem em casa."
+description: "Descubra como calibrar lava e seca LG e resolva erros de pesagem, trepidação e falhas na secagem em poucos minutos, sem precisar de técnico."
 date: "2026-08-07T18:02:02-03:00"
 category: "Manutenção"
 tags: ["como calibrar lava e seca lg", "calibrar lava e seca lg", "painel da lava e seca", "programas de lavagem"]
 author: "Marcelo França"
 keywords: ["como calibrar lava e seca lg", "calibrar lava e seca lg", "painel da lava e seca", "programas de lavagem", "ciclo de secagem", "lavagem delicada"]
 image: "/images/blog/como-calibrar-lava-e-seca-lg.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-05T19:02:32-03:00"
 ---
 
-Você liga a lava e seca, o ciclo termina, e o erro aparece na tela: algo como “recalibração do sensor”. Ou pior: a máquina pesa a roupa errado, usa água demais ou seca menos do que deveria.
+Muita gente acha que erro de pesagem na lava e seca LG é defeito de fábrica e que só a assistência técnica resolve. Na verdade, na maioria dos casos, o problema é só falta de calibragem do equipamento — e você mesmo consegue resolver em poucos minutos, sem precisar chamar ninguém.
 
-Isso acontece mais do que se imagina, e quase sempre a solução está em um procedimento simples que você mesmo pode fazer em casa — sem precisar chamar técnico.
+Entender como calibrar lava e seca LG não é nenhum bicho de sete cabeças. O processo basicamente reseta os sensores internos que medem o peso da roupa e o equilíbrio do tambor, e é a solução clássica quando a máquina para no meio do ciclo, acusa erro ou centrifuga com trepidação forte.
 
-Se você está procurando **como calibrar lava e seca LG**, saiba que na maioria dos casos o problema não é defeito de fábrica, mas sim a falta de uma referência inicial do equipamento. A calibragem reajusta os sensores de peso e desequilíbrio, que são essenciais para o funcionamento correto do ciclo de lavagem e secagem.
+Neste texto você vai ver as causas mais comuns da descalibragem, o passo a passo certo do procedimento e o que fazer quando a calibragem não resolve. Se a sua máquina está exibindo código de erro no display ou simplesmente não seca direito, fica comigo que a resposta está mais perto do que você imagina.
 
-Neste artigo, vou te mostrar as causas mais comuns para esse erro, o passo a passo direto para resolver e o que fazer quando a calibragem não funciona. Vamos direto ao que interessa, sem enrolação.
+## Como calibrar lava e seca LG: o que você vai precisar
 
-## Como calibrar lava e seca LG: o que causa
+### Ferramentas e itens essenciais
 
-Antes de pensar em consertar, vale entender por que a máquina perde o ajuste fino. Na maioria das vezes, o problema não é a sua lavadora em si, mas algo que aconteceu durante o uso. O sensor de peso, por exemplo, é sensível: ele calcula a quantidade de roupa pra dosar água e tempo de lavagem.
+Antes de mexer em qualquer coisa, separe o básico: uma chave de fenda ou Phillips (depende do modelo), um pano seco e macio, e acesso fácil à tomada e ao registro de água.
 
-Se você coloca um edredom pesado de um lado só do cesto, o sensor lê errado e o ciclo desanda.
+Ter o manual do fabricante em mãos — ou salvo no celular — resolve metade da sua vida, porque cada linha de produto tem um jeitinho próprio de entrar no modo de calibração.
 
-### O erro mais comum: engenharia do usuário
+Outra coisa que muita gente esquece: o espaço ao redor da máquina. Ela precisa ficar afastada da parede uns 10 centímetros para você alcançar a parte traseira sem se contorcer. E confira se o piso está nivelado — um desnível pequeno já atrapalha a leitura dos sensores e faz o painel acusar erro à toa.
 
-Eu sei que parece papo de manual, mas a causa número um é a sobrecarga. O pessoal enfia roupa até o limite físico do tambor e espera que a máquina dê conta. Ela até dá, mas o sensor de peso fica confuso. Resultado: roupa mal lavada, centrifugação fraca ou a máquina para no meio do ciclo.
+### Preparando o ambiente
 
-Outra causa frequente é o desnível do piso. A lava e seca precisa estar perfeitamente nivelada. Se o chão é irregular, o sensor entende que tem mais roupa do que realmente tem.
+Deixe o dispenser vazio, sem resíduo de amaciante, e a porta totalmente livre. Se tiver roupa dentro, tira tudo: o ciclo de calibração funciona com o tambor vazio, e qualquer item atrapalha a medição do contrapeso. Sobre a tomada, use uma exclusiva pra ela — extensão ou benjamin compromete a estabilidade da energia durante o processo.
 
-### Quando o problema é eletrônico
+Vale chamar mais ninguém pra ajudar? Pra maioria dos casos, não. O procedimento é rápido e você resolve sozinho, desde que siga a ordem certa que vou mostrar nas próximas seções.
 
-Às vezes o defeito vem de fábrica ou de uma queda de energia. A placa eletrônica guarda a memória dos ciclos, e um pico de tensão pode corromper esses dados. Aí a máquina age de forma estranha: pula etapas, demora demais no enxágue ou nem abre a trava da porta no fim do ciclo.
+## Como calibrar lava e seca LG: passo a passo
 
-Nesses casos, o ajuste é mais profundo. O manual do fabricante costuma trazer uma sequência de botões pra zerar a memória — geralmente segurando dois ou três deles na hora de ligar. Mas isso varia muito de modelo pra modelo.
+A calibração nada mais é do que o processo de zerar os dados do sensor de peso e do nível de água. Quando a máquina troca de lugar, passa por uma mudança de voltagem ou o cesto sofre um tranco, esses valores se perdem. Resultado: ela enche demais, centrifuga no vazio ou para no meio do ciclo.
 
-### Detalhes que muita gente ignora
+Mas olha, cada modelo tem um caminho diferente no painel. Alguns usam dois botões simultâneos, outros pedem uma combinação com o seletor de programas. O manual do fabricante traz a sequência exata pro seu modelo — e vale ter ele em mãos antes de começar. Vou te passar o procedimento genérico que funciona na maioria das lavadoras LG com display digital:
 
-O dispenser de sabão também influencia. Se o compartimento está entupido, a máquina não recebe o produto na hora certa e o ciclo muda o comportamento. E o filtro? Se nunca foi limpo, a água não escoa bem e a máquina entende que precisa de mais tempo.
+1. **Desligue a máquina e tire o plugue da tomada.** Espere pelo menos 30 segundos. Isso descarrega os capacitores internos e garante que o painel reinicie do zero. Enquanto isso, feche o registro de água e abra o dispenser pra conferir se não sobrou amaciante acumulado — resíduo velho interfere na leitura dos sensores.
 
-Olha, já vi caso de cliente que gastou com técnico e o problema era só o filtro cheio de fiapo.
+2. **Religue o aparelho e selecione o ciclo de lavagem delicada.** Esse programa usa menos água e trabalha com um ritmo de centrifugação mais suave, ideal pra calibração. Não escolha um ciclo pesado como edredom ou toalhas: o sensor de peso precisa ler o tambor com o mínimo de interferência possível, e programas agressivos forçam deslocamentos bruscos.
 
-Por fim, o desgaste natural. Uma máquina com anos de uso tem sensor menos preciso. Não é defeito exato, é física. A borracha da porta pode estar ressecada, interferindo no sensor de travamento. Fique atento: se a sua lava e seca demora pra engatar a trava, esse é um sinal clássico de que a calibração vai precisar de uma atenção especial.
+3. **Esvazie completamente o tambor.** Isso parece óbvio, mas muita gente esquece uma meia ou um lenço no canto. Até um item pequeno faz o sensor de peso entender que existe carga ali dentro. A calibração exige o tambor vazio e a porta totalmente livre — se algo estiver obstruindo a trava da porta, o processo nem inicia.
 
-Cada caso tem um caminho, mas entender a causa já te tira da escuridão.
+4. **Pressione e segure os botões de temperatura e centrifugação ao mesmo tempo.** Mantenha os dois pressionados por cerca de 5 segundos, até o display piscar ou emitir um bipe. Em alguns modelos, o painel mostra "CAL" ou "tESt" na tela. Se nada acontecer, segure por mais alguns segundos — mas não solte antes do sinal.
 
-## Como descobrir a origem do problema
+5. **Aperte o botão de ligar/energia sem soltar os outros dois.** Agora são três botões pressionados juntos. A tela deve acender mostrando uma sequência de números ou barras. Cada modelo apresenta isso de um jeito; o que importa é o display indicar que entrou em modo de serviço. Segure até a confirmação aparecer.
 
-Antes de sair apertando botão e desmontando o painel, para e observa o que a máquina está tentando te dizer. A maioria dos problemas de calibração tem pelo menos um sinal claro: um barulho diferente na centrifugação, um ciclo de secagem que nunca termina ou um tambor que gira com esforço.
+6. **Solte todos os botões e feche a porta da máquina.** O tambor vai começar a girar lentamente, primeiro num sentido, depois no outro. Você vai ouvir cliques e o barulho da água entrando — é normal. Esse movimento lento é o sensor mapeando o peso do cesto vazio e ajustando o nível de água pra cada tipo de programa. Deixe rodando sem interromper.
 
-Anota o que você viu e quando começou — isso já resolve metade do diagnóstico.
+7. **Aguarde o ciclo terminar sozinho.** Pode levar de 5 a 15 minutos, dependendo do modelo. A máquina vai encher, esvaziar e centrifugar algumas vezes. Não abra a porta no meio e não desligue da tomada. Quando terminar, ela desliga sozinha ou mostra o fim de ciclo no display. Pronto: a calibração foi concluída.
 
-### O teste simples do tambor vazio
+8. **Rode um ciclo curto de teste com a máquina vazia.** Escolha o programa algodão rápido ou sintéticos com água fria. Isso confirma que os sensores estão lendo direitinho e que o painel responde aos comandos. Se o ciclo rodar sem erros e a centrifugação acontecer com o tambor equilibrado, pode usar normalmente.
 
-Desliga o aparelho e gira o tambor com a mão. Ele deve rodar liso, sem arrastar ou fazer um som de "raspando". Se sentir resistência em um ponto específico, o problema pode ser mecânico e não de calibração eletrônica.
+## Como saber se deu certo
 
-Outra coisa: balança a máquina de leve. Se ela oscilar como se estivesse solta, o nível está errado — e isso confunde os sensores internos.
+Terminou o procedimento e ficou na dúvida se funcionou? O primeiro sinal aparece na hora: o painel para de piscar e as luzes de erro somem. Se antes ela apitava ou travava no meio do ciclo, esse comportamento já dá uma trégua.
 
-Um detalhe que pouca gente nota: a roupa dentro do tambor influencia o teste. Tenta com o equipamento totalmente vazio, inclusive sem edredom ou toalha esquecida. Aí o resultado é confiável, porque a máquina interpreta o peso e a distribuição de qualquer objeto ali dentro.
+O teste prático é simples. Coloque uma carga pequena, tipo três camisetas, e rode um programa rápido com centrifugação. Preste atenção no movimento do cesto nos primeiros minutos.
 
-### O que o painel conta (e o que ele esconde)
+### O teste que confirma a calibração
 
-Quando o painel pisca um código de erro, não é só um capricho eletrônico. O manual do fabricante traz a lista desses códigos — e, na maioria das vezes, ele aponta direto pra causa: problema na trava da porta, falha no sensor de temperatura ou no dispenser entupido.
+Uma lavadora calibrada pesa a roupa e ajusta a água sozinha — você percebe isso pelo barulho do tambor girando devagar antes de encher. Se ela já parte direto pra torneira aberta sem aquela pausa de leitura, algo ainda está desregulado.
 
-Essa é a hora de conferir se o sabão em pó comum não está obstruindo o compartimento.
+Outro ponto: a trava da porta. Depois de calibrar, ela deve destravar com naturalidade no fim do ciclo, sem você precisar forçar. E o dispenser? Abra depois da lavagem e veja se não sobrou água parada no compartimento do amaciante.
 
-Também repara no ritmo dos programas de lavagem. Se ela até inicia o ciclo de secagem, mas para no meio sem motivo, o sensor de umidade pode estar descalibrado. A centrifugação que treme demais, por outro lado, costuma ser instalação — pés desnivelados ou uma lavagem delicada com pouca roupa num tambor grande.
+Se a máquina completou o programa sem pausas estranhas, a porta abriu macia e a roupa saiu centrifugada do jeito esperado, pode confiar. Caso o erro volte no painel, o caminho é repetir o processo — ou consultar o manual do fabricante pra conferir se o seu modelo pede algum ajuste adicional.
 
-Uma dica prática: roda um programa curto, sem roupa, só com um pouco de água quente. Se a máquina completar tudo sem reclamar, o problema é mais pontual do que você imagina. Se ela repetir o erro, aí sim a calibração manual — o passo a passo que a gente detalha mais adiante — é o caminho.
+### Se a calibração não resolveu
 
-## Como calibrar lava e seca LG: como resolver passo a passo
+Você executou o procedimento completo e a máquina continua agindo estranho? Respira, que ainda tem caminho. Na maioria dos casos, o problema não é a falta de calibração, e sim algum detalhe que passou batido na instalação ou no uso do dia a dia. Vamos por partes.
 
-Calibrar a lava e seca LG não é um bicho de sete cabeças. Na maioria dos casos, o problema se resolve com um procedimento de fábrica que acessa o modo de teste da máquina. Antes de sair apertando botão aleatório, respira fundo e segue a ordem aqui — do mais simples ao mais complexo.
+### Verifique o básico antes de gritar
 
-### Comece pelo básico: desligue e religue
+Comece pelo registro de água. Se ele não abriu totalmente, a lavadora enche devagar e o sensor de peso interpreta errado. O resultado é um ciclo que nunca acerta o nível. Outro ponto clássico: o dispenser com resíduo de amaciante entupindo a passagem. Um pano úmido resolve na hora.
 
-Parece piada, mas é o primeiro passo. Desliga a máquina na tomada, espera uns dois minutos e liga de novo. Esse tempo zera os capacitores e reinicia o software da placa, que às vezes fica com um erro travado na memória.
+A mangueira de entrada também merece uma olhada. Dobrada ou com algum estreitamento, ela reduz a pressão e confunde o sistema. E confira se a tampa ou porta fechou com aquele clique seco — qualquer folga na trava impede o funcionamento certo do programa.
 
-Depois de religar, selecione um programa de lavagem qualquer e veja se o painel responde. Se o display voltou a funcionar normal e a porta destravou, era só um bug passageiro. Se o problema persistir, vamos pro próximo nível.
+### Teste um ciclo específico
 
-### Restauração de fábrica pelo painel
+Rode um programa de lavagem delicada com pouca roupa. Parece contraintuitivo, mas é um bom termômetro. Se mesmo com carga leve a centrifugação treme ou a máquina para no meio, o problema pode ser outro, tipo amortecedor ou o sensor de peso com defeito físico.
 
-Cada modelo tem uma combinação específica de botões pra entrar no modo de calibração. Geralmente, a sequência envolve segurar dois botões ao mesmo tempo por alguns segundos — tipo "Prewash" e "Temperature" — até o display acender tudo.
+Nesse caso, o manual do fabricante indica os códigos de erro que aparecem no painel digital. Anota o código e pesquisa antes de chamar socorro.
 
-Quando a tela mostrar todos os indicadores acesos, solta os botões. A máquina entra num modo de diagnóstico. Nesse estado, ela roda um teste rápido de sensores e recalibra o sensor de nível de água e o equilíbrio do tambor. O ciclo dura uns minutos e ela desliga sozinha.
+### O teste do tambor vazio
 
-Se você não sabe a combinação exata do seu modelo, o manual do fabricante traz essa informação. Não chuta: segurar o botão errado pode iniciar um ciclo de teste que não é o que você quer.
+Aqui vai um truque que pouca gente conhece. Com a máquina desligada, gire o tambor com a mão. Ele deve mover suave, sem rangido ou resistência estranha. Se travar em algum ponto, desconfie de objeto preso entre o tambor e o cesto — um sutiã com arco, um botão solto, qualquer coisa pequena.
 
-### Calibração do sensor de carga
+Isso também explica por que o ciclo de secagem demora mais que o normal.
 
-Aqui o negócio fica um pouco mais específico. A lava e seca LG tem um sensor que mede o peso da roupa pra dosar água e tempo de secagem. Com o tempo, esse sensor pode descalibrar — principalmente se você costuma sobrecarregar o tambor.
+## Erros que estragam o resultado
 
-Pra recalibrar, esvazie completamente a máquina. Com o tambor vazio, selecione o programa de algodão com água fria e deixe rodar uns minutos. Depois cancele o ciclo e desligue. Isso ajuda o software a entender o peso zero como referência. Repete esse processo a cada dois meses se você usa a máquina com frequência.
+Cuidado com a tentação de desmontar o painel ou forçar a trava da porta quando algo sai do esperado. Cada botão, sensor e engrenagem foi projetado pra trabalhar em harmonia, e uma "ajudinha" sua pode desregular o ciclo de secagem inteiro. O resultado prático? Roupa saindo úmida, água no piso e um barulho estranho que antes não existia.
 
-### Verifique o dispenser e a trava da porta
+### O que evitar ao calibrar lava e seca LG
 
-Um erro comum que parece calibração, mas não é: dispenser entupido. Se o sabão não dilui direito, a máquina entende que tem espuma demais e trava o ciclo de secagem. Tira a gaveta, lava na pia com água quente e encaixa de volta.
+Muita gente acha que mais peso no tambor ajuda na calibração. Errado. Se você enfia um edredom de casal ou colchas pesadas nesse processo, o sensor de peso lê um valor fictício. A consequência?
 
-A trava da porta também engana. Se a porta não fecha perfeitamente, a lava e seca não inicia o ciclo nem calibra nada. Checa se não tem roupa presa na borracha ou se a trava não está com sujeira acumulada. Um pano úmido resolve na maioria das vezes.
+A máquina passa a usar água demais ou de menos nos próximos ciclos, e a centrifugação fica fraca, deixando suas roupas encharcadas. O manual do fabricante é claro: tambor vazio, sempre.
 
-### Quando chamar a assistência técnica
+Outro erro clássico é mexer no dispenser durante o procedimento. Se sobra amaciante ou sabão em pó ali, o sistema entende que tem produto e ajusta o enxágue errado. E aquela mania de girar o tambor com a mão enquanto o painel pisca?
 
-Se nenhum desses passos resolver, o problema é de hardware — placa eletrônica ou sensor físico. Aí não tem calibração que dê jeito. Chama um técnico autorizado LG. E anota: a calibração de fábrica via painel pode variar de modelo pra modelo, então sempre confere no manual antes de tentar qualquer combinação de botão por conta própria.
+Pode até parecer inofensiva, mas confunde o sensor de posição — aí a calibração nunca conclui e você volta pra estaca zero.
 
-## A hora de parar e chamar um técnico
-
-### O limite do "faça você mesmo"
-
-Tem hora que a gente precisa admitir: mexer no que não entende pode piorar tudo. Se a máquina está com erro no painel, mas continua travando a porta no meio do ciclo, insistir em forçar a abertura pode danificar o mecanismo de vez. Aí o conserto simples vira troca de peça cara.
-
-Por outro lado, se o problema é só desalinhamento do tambor ou falta de nivelamento, você resolve tranquilo em casa. O manual do fabricante mostra exatamente onde ficam os pés ajustáveis e como usar o nível de bolha. Não precisa de ferramenta especial nem de conhecimento técnico.
-
-### Quando o técnico é a única saída
-
-Se você já fez a calibragem, verificou os programas de lavagem, testou a centrifugação e o erro persiste, pare. Principalmente se a trava da porta não responde ou o ciclo de secagem esquenta demais. Isso pode indicar problema elétrico ou na placa — coisa que só quem tem equipamento adequado resolve.
-
-Outro sinal claro: vazamento perto do dispenser ou cheiro de queimado. Nesse caso, desligue a máquina da tomada na hora. Não tem como calibrar lava e seca LG quando o problema é físico, não eletrônico.
-
-E lembra que abrir o aparelho sem autorização costuma anular a garantia. Então, na dúvida, chama um técnico credenciado. Economiza dor de cabeça e protege seu bolso.
-
-## O que fazer pra não repetir o problema
-
-Depois de resolver o problema, o segredo é não deixar a calibração bagunçar de novo. Na maioria dos casos, o desalinhamento vem de hábitos simples do dia a dia — e ajustar isso custa menos trabalho do que repetir o procedimento inteiro.
-
-### Crie uma rotina de limpeza mensal
-
-Uma vez por mês, tire um tempo pra limpar o dispenser e a borracha da porta. Sabia que resíduo de amaciante e fiapo acumulado confundem os sensores de peso? Pois é. A máquina entende que tem mais roupa do que realmente tem, o tambor gira torto e o erro aparece.
-
-Use um pano úmido com detergente neutro. Nada de produtos abrasivos ou água fervendo, que deformam a vedação e abrem caminho pra vazamento. E aproveita pra conferir se não sobrou moeda ou botão esquecido no bolso — objeto solto dentro do tambor desequilibra a centrifugação e força o sistema a recalcular sozinho.
-
-### Distribua a roupa com critério
-
-Isso aqui evita mais dor de cabeça do que qualquer calibração: não encha o tambor até o talo. Deixa um espaço de pelo menos um palmo entre a última peça e a parte de cima. Roupa de cama e toalha, então, precisam de atenção redobrada — elas absorvem água e formam blocos pesados que pendem pra um lado só.
-
-E nunca lave uma peça única gigante, tipo um edredom de casal, sozinha. Joga duas toalhas junto pra equilibrar a carga. A lavagem delicada, por sinal, pede ainda mais cuidado: peças finas se enrolam e criam bolhas de peso irregular. Se o ciclo de secagem for usado, separe itens de tecido parecido pra umidade sair de forma uniforme.
-
-### Observe os sinais antes que vire problema
-
-Fica atento a barulho de batida na centrifugação e a roupa saindo mais úmida que o normal. Quando isso acontece, a máquina ta avisando que perdeu a referência. Consulta o manual do fabricante pra ver se o modelo tem função de auto-teste — muitos LG permitem rodar um diagnóstico rápido pelo painel da.
-
-Por fim, a trava da porta e o sensor de nivelamento merecem checagem a cada seis meses. Nivelador desregulado faz a base balançar e a calibração não segura por muito tempo. Com essa rotina, a necessidade de repetir o processo cai drasticamente — e sua máquina trabalha em silêncio por muito mais tempo.
+Tem também quem desista no meio e desligue a máquina da tomada pra "resetar". Isso não zera nada; na verdade, corrompe o processo e o erro pode voltar com força total, travando a porta no meio de um programa normal. O caminho certo é deixar ela terminar sozinha. Se a pressa apertar, pausa o ciclo pelo próprio botão, nunca no disjuntor.
 
 ## Dúvidas que sempre aparecem
 
-### Calibrar a máquina resolve o erro de peso?
+### Posso calibrar com roupa dentro do tambor?
 
-Na maioria dos casos, sim. Quando o problema é só a leitura errada do tambor, a recalibração resolve. Mas se houver um componente físico quebrado, como o sensor ou a mola do amortecedor, o erro volta em poucos ciclos.
+Não. O sensor de peso precisa ler o tambor vazio pra funcionar direito. Esvazie tudo, inclusive aquela meia esquecida no canto.
 
-### Preciso esvaziar o dispenser antes de calibrar?
+### A máquina desligou sozinha no meio do processo. E agora?
 
-Não é obrigatório, mas ajuda. Produto acumulado pode criar pressão e confundir a leitura de fluxo de água. Já que você vai mexer na máquina, aproveita e dá uma limpeza no compartimento — resolve dois problemas de uma vez.
+Confira se o ciclo de secagem não estava programado — ele pode interferir. Espere uns minutos, religue na tomada e recomece do início.
 
-### A calibração afeta os programas de lavagem?
+### Preciso do manual do fabricante mesmo?
 
-Não. Ela só reajusta o sensor de peso e o equilíbrio do tambor. Os ciclos de lavagem delicada, centrifugação e secagem continuam funcionando normalmente, com os mesmos tempos e opções de antes.
+Pra maioria dos modelos, sim. A sequência de botões muda de uma linha pra outra, e o manual traz o caminho exato pro seu painel.
 
-### Por que a trava da porta destrava sozinha durante a calibração?
+### Calibrar resolve problema de vibração?
 
-Isso é normal. O tambor gira para encontrar o ponto de equilíbrio, e a porta precisa destravar para permitir o movimento livre. Só se ela ficar destravada após o término é que você deve se preocupar.
+Se o problema for o sensor de peso, ajuda. Se for nivelamento ou pés desregulados, não adianta — você precisa ajustar a base.
 
-### Devo repetir a calibração depois de uma mudança?
+### Com que frequência devo fazer isso?
 
-Sim, e é essencial. Transportar a máquina desalinha os componentes internos. Refazer o processo na nova casa garante que as leituras continuem precisas. Consulte o manual do fabricante para confirmar o passo a passo exato do seu modelo.
+Depois de uma mudança, conserto ou troca da porta. Se o aparelho trabalha normal, mexer sem necessidade só atrasa sua rotina.
 
 Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resume o que compensa em cada faixa.
 
@@ -171,7 +135,10 @@ Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resu
 - [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
 - [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
 - [Como calibrar a lava e seca Samsung: Guia Completo 2026](/blog/como-calibrar-a-lava-e-seca-samsung/)
+- [Como instalar maquina lava e seca Samsung: Guia 2026](/blog/como-instalar-maquina-lava-e-seca-samsung/)
+- [Como instalar lava e seca em apartamento: Guia Completo 2026](/blog/como-instalar-lava-e-seca-em-apartamento/)
 - [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
 - [Como deixar roupa de molho na lava e seca LG: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg/)
 - [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
+- [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
 - [Ranking das melhores lava e seca do mercado](/)
