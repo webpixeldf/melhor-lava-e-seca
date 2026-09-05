@@ -56,7 +56,9 @@ Vou te guiar pelo procedimento exato, do botão liga até a roupa saindo pronta 
 
 7. **Retire a roupa assim que o ciclo terminar.** Deixar a carga parada no tambor por horas amassa e cria cheiro de mofo. Abra a porta, sacuda cada peça e estenda ou dobre na hora. Se algo saiu úmido ainda, pendure por meia hora que resolve.
 
-O detalhe que pouca gente nota: a secagem funciona por condensação. O ar quente passa pela roupa, recolhe a umidade e o vapor vira água que vai pro ralo — por isso não existe saída de ar como nas secadoras dedicadas. Modelos com bomba de calor (heat pump) fazem esse processo gastando menos energia e trabalhando em temperatura mais baixa, o que protege tecidos delicados.
+O detalhe que pouca gente nota: a secagem funciona por condensação. O ar quente passa pela roupa, recolhe a umidade e o vapor vira água que vai pro ralo — por isso não existe saída de ar como nas secadoras dedicadas.
+
+Modelos com bomba de calor (heat pump) fazem esse processo gastando menos energia e trabalhando em temperatura mais baixa, o que protege tecidos delicados.
 
 Na hora de escolher, esse tipo de lavadora compensa se você usa secagem com frequência.
 
@@ -148,7 +150,4 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 - [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
 - [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
-- [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
-- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

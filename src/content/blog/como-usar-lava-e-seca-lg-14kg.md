@@ -29,7 +29,9 @@ Antes de colocar a máquina pra funcionar, dá uma conferida no básico. Isso ev
 - **Espaço e nivelamento**: deixa uns 2 cm de folga nas laterais e uns 10 cm atrás pra mangueira não amassar. O chão precisa ser reto — a base dela tem pés ajustáveis, mas se o piso for muito irregular, vale uma manta ou compensado.
 - **A mangueira de entrada e o dreno**: verifique se a mangueira de água vem com as arruelas de borracha no lugar. E confere se o dreno não está entupido, senão ela vai travar no meio do ciclo.
 
-Sobre o sabão: use sabão líquido ou em pó de alta eficiência (HE), que faz menos espuma. E deixa o cesto vazio de roupas antes da primeira lavagem — roda um ciclo só com água pra limpar resíduos de fábrica. Esse tipo de lavadora também pede tomada com disjuntor próprio, então, se mora em apartamento antigo, vale chamar um eletricista antes.
+Sobre o sabão: use sabão líquido ou em pó de alta eficiência (HE), que faz menos espuma. E deixa o cesto vazio de roupas antes da primeira lavagem — roda um ciclo só com água pra limpar resíduos de fábrica.
+
+Esse tipo de lavadora também pede tomada com disjuntor próprio, então, se mora em apartamento antigo, vale chamar um eletricista antes.
 
 Com isso resolvido, o resto é escolher o programa certo e deixar ela trabalhar.
 
@@ -139,13 +141,10 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 
 ## Relacionados
 
+- [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
 - [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
-- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
-- [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
-- [Como resetar lava e seca LG: Causas e Como Resolver 2026](/blog/como-resetar-lava-e-seca-lg/)
-- [Como limpar lava e seca LG: Guia Completo e Como Resolver](/blog/como-limpar-lava-e-seca-lg/)
-- [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
-- [Como lavar o prensado e secar rápido: Guia Completo 2026](/blog/como-lavar-o-prensado-e-secar-rapido/)
+- [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
+- [Como deixar roupa de molho na lava e seca LG: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

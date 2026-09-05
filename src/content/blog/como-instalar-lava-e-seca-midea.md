@@ -138,12 +138,10 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 ## Leia também
 
+- [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
 - [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)
 - [Como instalar lava e seca: Guia Completo e Como Resolver](/blog/como-instalar-lava-e-seca/)
-- [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
-- [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
-- [Lava e seca 11kg Midea healthguard titanium conectada](/blog/lava-e-seca-11kg-midea-healthguard-titanium-conectada/)
-- [Lava e seca 11kg branca slim healthguard conectada Midea](/blog/lava-e-seca-11kg-branca-slim-healthguard-conectada-midea/)
+- [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

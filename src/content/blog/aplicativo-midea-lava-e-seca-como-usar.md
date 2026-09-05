@@ -128,7 +128,4 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 - [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
 - [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)
 - [Como instalar lava e seca Midea: Guia Completo e Soluções](/blog/como-instalar-lava-e-seca-midea/)
-- [Qual sabão usar na lava e seca Samsung: Ranking Completo](/blog/qual-sabao-usar-na-lava-e-seca-samsung/)
-- [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
-- [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
 - [Comparativo completo das lava e seca de 2026](/)

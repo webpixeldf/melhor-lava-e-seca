@@ -180,7 +180,4 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Lava e seca Samsung é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-samsung-e-boa/)
 - [Samsung lava e seca WD11M é boa: Review e Prós e Contras](/blog/samsung-lava-e-seca-wd11m-e-boa/)
 - [Lava e seca WD13T é boa: Review Completo e Prós e Contras](/blog/lava-e-seca-wd13t-e-boa/)
-- [Pes para maquina lava e seca: Guia Completo e Dicas 2026](/blog/pes-para-maquina-lava-e-seca/)
-- [Limpar lava e seca: Guia Completo com Causas e Soluções](/blog/limpar-lava-e-seca/)
-- [Lava e seca Samsung não está drenando a água: Guia 2026](/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

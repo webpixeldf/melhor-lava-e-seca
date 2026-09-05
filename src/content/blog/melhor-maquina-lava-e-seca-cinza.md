@@ -62,7 +62,9 @@ Como ponto fraco, ela exige um bom espaço livre e costuma ser mais cara que as 
 
 Esse modelo é para quem não quer abrir mão de secar bem. A proposta da Electrolux aqui é o ciclo Turbo, que combina lavagem e secagem com mais eficiência energética. São 11 kg para lavar e 7 kg para secar, uma configuração que já virou padrão entre as boas lava e secas.
 
-O ponto forte é a economia: ela gasta menos energia que várias concorrentes na mesma faixa, principalmente no ciclo de secagem, que costuma ser o vilão da conta de luz nesse tipo de aparelho. O ponto fraco fica por conta do painel, que pode ser um pouco confuso para quem nunca usou uma lava e seca — são muitos programas e nem todos com descrição clara no visor.
+O ponto forte é a economia: ela gasta menos energia que várias concorrentes na mesma faixa, principalmente no ciclo de secagem, que costuma ser o vilão da conta de luz nesse tipo de aparelho.
+
+O ponto fraco fica por conta do painel, que pode ser um pouco confuso para quem nunca usou uma lava e seca — são muitos programas e nem todos com descrição clara no visor.
 
 Depois da primeira semana, você se acostuma.
 
@@ -250,4 +252,5 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
 - [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
 - [Melhor lava e seca com inteligência artificial: Ranking 2026](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
+- [Lava e seca separada é melhor: Ranking Completo e Análise](/blog/lava-e-seca-separada-e-melhor/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

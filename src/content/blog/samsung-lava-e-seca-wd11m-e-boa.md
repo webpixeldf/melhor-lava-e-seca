@@ -175,7 +175,8 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 - [Lava e seca Samsung bespoke é boa: Review Completo 2026](/blog/lava-e-seca-samsung-bespoke-e-boa/)
 - [Lava e seca Samsung é boa: Vale a Pena? Review Completo](/blog/lava-e-seca-samsung-e-boa/)
-- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
-- [Funções lava e seca Samsung: Guia Completo com Dicas 2026](/blog/funcoes-lava-e-seca-samsung/)
-- [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
+- [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
+- [Melhor lava e seca Samsung 11kg e 13kg: Ranking Completo](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
+- [Melhor lava e seca Samsung: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-samsung/)
+- [Qual sabão usar na lava e seca Samsung: Ranking Completo](/blog/qual-sabao-usar-na-lava-e-seca-samsung/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

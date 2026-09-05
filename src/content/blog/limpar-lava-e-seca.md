@@ -142,9 +142,6 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 ## Outros guias que ajudam
 
 - [Como limpar lava e seca LG: Guia Completo e Como Resolver](/blog/como-limpar-lava-e-seca-lg/)
-- [Lava e seca Samsung não está drenando a água: Guia 2026](/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua/)
-- [Peças lava e seca LG porto alegre onde comprar: Guia 2026](/blog/pecas-lava-e-seca-lg-porto-alegre-onde-comprar/)
-- [Lava e seca Samsung preço: Tudo o Que Você Precisa Saber](/blog/lava-e-seca-samsung-preco/)
 - [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
 - [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
 - [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)

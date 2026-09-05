@@ -133,10 +133,10 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 ## Outros guias que ajudam
 
-- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
-- [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
-- [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
-- [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
-- [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
+- [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
+- [Como deixar roupa de molho na lava e seca LG: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg/)
+- [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
+- [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
+- [Limpar lava e seca: Guia Completo com Causas e Soluções](/blog/limpar-lava-e-seca/)
+- [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
 - [Comparativo completo das lava e seca de 2026](/)

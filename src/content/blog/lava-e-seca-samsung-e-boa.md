@@ -185,5 +185,5 @@ Ainda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking co
 - [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
 - [Melhor lava e seca Samsung 11kg e 13kg: Ranking Completo](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
 - [Melhor lava e seca Samsung: Ranking e Guia de Compra 2026](/blog/melhor-lava-e-seca-samsung/)
-- [Lava e seca 8 kg Samsung: Guia Completo e Dicas Práticas](/blog/lava-e-seca-8-kg-samsung/)
+- [Qual sabão usar na lava e seca Samsung: Ranking Completo](/blog/qual-sabao-usar-na-lava-e-seca-samsung/)
 - [Ranking das melhores lava e seca do mercado](/)
