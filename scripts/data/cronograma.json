@@ -2167,7 +2167,9 @@
         "funções do painel"
       ],
       "status": "publicado",
-      "publishedAt": "2026-08-08T17:45:34-03:00"
+      "publishedAt": "2026-08-08T17:45:34-03:00",
+      "rewrittenAt": "2026-09-06T19:09:40-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como deixar roupa de molho na lava e seca samsung",
@@ -4727,8 +4729,8 @@
         "roupas secas",
         "manual"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-06T19:09:04-03:00"
     },
     {
       "keyword": "como so centrifugar na lava e seca samsung",
