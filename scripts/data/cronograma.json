@@ -2143,7 +2143,7 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-08-08T13:09:52-03:00",
-      "rewrittenAt": "2026-08-27T03:33:49-03:00",
+      "rewrittenAt": "2026-09-06T15:25:12-03:00",
       "rewriteFails": 0
     },
     {
@@ -4654,8 +4654,8 @@
         "secagem",
         "manual"
       ],
-      "status": "pending",
-      "publishedAt": null,
+      "status": "publicado",
+      "publishedAt": "2026-09-06T15:24:30-03:00",
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
