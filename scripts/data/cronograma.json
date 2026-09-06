@@ -2118,7 +2118,7 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-08-07T23:16:18-03:00",
-      "rewrittenAt": "2026-08-26T19:18:36-03:00",
+      "rewrittenAt": "2026-09-06T00:13:23-03:00",
       "rewriteFails": 0
     },
     {
@@ -4655,7 +4655,11 @@
         "manual"
       ],
       "status": "pending",
-      "publishedAt": null
+      "publishedAt": null,
+      "problems": [
+        "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
+      ],
+      "attempts": 1
     },
     {
       "keyword": "como limpar maquina lava e seca",
@@ -4677,8 +4681,8 @@
         "manutenção",
         "produtos"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-06T00:12:47-03:00"
     },
     {
       "keyword": "como resetar a lava e seca samsung",
