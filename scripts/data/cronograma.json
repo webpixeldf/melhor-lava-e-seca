@@ -2275,7 +2275,9 @@
       "problems": [
         "inflado: 2820 palavras, alvo 2000"
       ],
-      "attempts": 1
+      "attempts": 1,
+      "rewrittenAt": "2026-09-07T20:34:37-03:00",
+      "rewriteFails": 0
     },
     {
       "keyword": "como instalar lava e seca midea",
@@ -4800,8 +4802,8 @@
         "funções",
         "ciclo"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-07T20:33:57-03:00"
     },
     {
       "keyword": "electrolux lava e seca lse09 é boa",
