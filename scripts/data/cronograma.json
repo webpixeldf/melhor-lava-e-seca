@@ -2247,7 +2247,7 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-08-09T13:13:36-03:00",
-      "rewrittenAt": "2026-09-07T00:20:06-03:00",
+      "rewrittenAt": "2026-09-07T17:44:53-03:00",
       "rewriteFails": 0
     },
     {
@@ -4777,8 +4777,8 @@
         "desmontar máquina",
         "técnico"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-07T17:44:13-03:00"
     },
     {
       "keyword": "como usar lava e seca midea",
