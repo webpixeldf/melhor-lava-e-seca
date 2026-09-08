@@ -4952,8 +4952,9 @@
         "medidas técnicas",
         "ficha técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "draft",
+      "publishedAt": null,
+      "draftedAt": "2026-09-08T19:54:33.304Z"
     },
     {
       "keyword": "lava e seca midea medidas",
