@@ -4928,8 +4928,9 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "draft",
+      "publishedAt": null,
+      "draftedAt": "2026-09-08T16:34:35.193Z"
     },
     {
       "keyword": "lava e seca 11kg medidas",
