@@ -2329,7 +2329,7 @@
       ],
       "status": "publicado",
       "publishedAt": "2026-08-10T18:02:29-03:00",
-      "rewrittenAt": "2026-08-28T06:21:01-03:00",
+      "rewrittenAt": "2026-09-08T00:41:00-03:00",
       "rewriteFails": 0
     },
     {
@@ -4903,8 +4903,8 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "publicado",
+      "publishedAt": "2026-09-08T00:40:23-03:00"
     },
     {
       "keyword": "lava e seca 11kg lava edredom queen",
