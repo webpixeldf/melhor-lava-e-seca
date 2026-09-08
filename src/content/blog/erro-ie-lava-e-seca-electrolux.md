@@ -7,7 +7,7 @@ tags: ["erro ie lava e seca electrolux", "código IE", "entrada de água", "mang
 author: "Marcelo França"
 keywords: ["erro ie lava e seca electrolux", "código IE", "entrada de água", "mangueira", "válvula de entrada", "pressão da água"]
 image: "/images/blog/erro-ie-lava-e-seca-electrolux.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Lá pelas nove da noite, com a cesta de roupa na mão, apertei o botão da lava e seca e a máquina simplesmente travou no painel, piscando as letras "IE". Aquele código pequeno no display foi suficiente pra transformar a rotina num quebra-cabeça.
@@ -86,8 +86,6 @@ Outro sinal de que é hora de desistir: se a lavadora nem sinaliza mais o códig
 
 Chamar um técnico credenciado sai mais barato do que pagar dois consertos depois de uma gambiarra que deu errado.
 
-## O que fazer pra não repetir o problema
-
 ### Um filtro limpo evita 80% das dores de cabeça
 
 A telinha que fica na conexão da mangueira acumula sujeirinha com o tempo — areia, ferrugem do encanamento, aquela água meio amarelada de caixa antiga. O resultado? O fluxo diminui devagar e, quando menos espera, o código aparece de novo.
@@ -95,8 +93,6 @@ A telinha que fica na conexão da mangueira acumula sujeirinha com o tempo — a
 Minha sugestão é criar o hábito de inspecionar esse filtro a cada dois meses. Leva cinco minutos: desrosqueia a mangueira, limpa a telinha com uma escovinha e água corrente. Se você mora em região com água muito calcária, vale reduzir pra uma vez por mês.
 
 Deixar a torneira aberta o tempo todo não é problema. O que complica é a mangueira amassada atrás da máquina ou dobrada no meio do caminho. Confere isso quando for limpar o filtro.
-
-## Dúvidas que sempre aparecem
 
 ### Preciso fechar a torneira quando a máquina não está em uso?
 
@@ -124,8 +120,8 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 
 - [Erro H3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-h3-lava-e-seca-electrolux/)
 - [Erro E3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-e3-lava-e-seca-electrolux/)
-- [Melhor lava e seca Electrolux: Ranking Completo e Análise](/blog/melhor-lava-e-seca-electrolux/)
+- [Lava e seca Electrolux: como avaliar a LSP11](/blog/melhor-lava-e-seca-electrolux/)
 - [Lava e seca 13kg Electrolux: Guia Completo com Dicas 2026](/blog/lava-e-seca-13kg-electrolux/)
-- [Lava e seca 12kg Electrolux abertura superior LST12](/blog/lava-e-seca-12kg-electrolux-abertura-superior-lst12/)
+- [Electrolux LST12: é lavadora ou lava e seca?](/blog/lava-e-seca-12kg-electrolux-abertura-superior-lst12/)
 - [Lava e seca 12 kg Electrolux: Guia Completo e Dicas 2026](/blog/lava-e-seca-12-kg-electrolux/)
 - [Ranking das melhores lava e seca do mercado](/)

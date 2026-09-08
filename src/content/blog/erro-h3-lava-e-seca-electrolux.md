@@ -7,7 +7,7 @@ tags: ["erro h3 lava e seca electrolux", "código H3", "aquecimento", "resistên
 author: "Marcelo França"
 keywords: ["erro h3 lava e seca electrolux", "código H3", "aquecimento", "resistência elétrica", "sensor de temperatura", "termistor"]
 image: "/images/blog/erro-h3-lava-e-seca-electrolux.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 O erro H3 na lava e seca Electrolux indica um problema no aquecimento da água.
@@ -98,8 +98,6 @@ Secar edredom todos os dias na capacidade máxima estressa o sistema de aquecime
 
 A cada três meses, confira se a mangueira não está dobrada nem espremida atrás do móvel. Pouca vazão de água aumenta o tempo de aquecimento e força o sensor. Simples assim: fluxo correto, menos sobrecarga e menos chance do código voltar a aparecer.
 
-## O que mais perguntam sobre isso
-
 ### O erro H3 danifica a roupa?
 
 Não. Ele interrompe o ciclo antes que o aquecimento comece de verdade, então o tecido não corre risco de queimar. O prejuízo fica por conta do tempo perdido e do ciclo que nunca termina.
@@ -126,8 +124,8 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 - [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
 - [Erro E3 lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-e3-lava-e-seca-electrolux/)
-- [Melhor lava e seca Electrolux: Ranking Completo e Análise](/blog/melhor-lava-e-seca-electrolux/)
+- [Lava e seca Electrolux: como avaliar a LSP11](/blog/melhor-lava-e-seca-electrolux/)
 - [Lava e seca 13kg Electrolux: Guia Completo com Dicas 2026](/blog/lava-e-seca-13kg-electrolux/)
-- [Lava e seca 12kg Electrolux abertura superior LST12](/blog/lava-e-seca-12kg-electrolux-abertura-superior-lst12/)
+- [Electrolux LST12: é lavadora ou lava e seca?](/blog/lava-e-seca-12kg-electrolux-abertura-superior-lst12/)
 - [Lava e seca 12 kg Electrolux: Guia Completo e Dicas 2026](/blog/lava-e-seca-12-kg-electrolux/)
 - [Comparativo completo das lava e seca de 2026](/)

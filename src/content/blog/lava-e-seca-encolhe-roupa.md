@@ -7,7 +7,7 @@ tags: ["lava e seca encolhe roupa", "roupa encolhe na secagem", "como evitar enc
 author: "Marcelo França"
 keywords: ["lava e seca encolhe roupa", "roupa encolhe na secagem", "como evitar encolher roupas", "tecidos delicados", "temperatura de secagem", "programa delicado"]
 image: "/images/blog/lava-e-seca-encolhe-roupa.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Tem coisa mais frustrante do que tirar aquela blusa nova da máquina e descobrir que ela servia em você e agora serve na sua prima de 12 anos? A gente economiza, pesquisa, escolhe o tecido certo — e um ciclo errado leva tudo por água abaixo. Fora o tempo perdido tentando “esticar” a peça do jeito que dá, quase sempre sem sucesso.
@@ -82,8 +82,6 @@ Moro em cidade úmida e aprendi na prática: no inverno, a secagem automática p
 
 Duas levas moderadas encolhem menos que uma carga no limite. Edredom de casal, a menos que a sua lava e seca seja de capacidade grande, precisa de duas passadas — e é melhor aceitar isso do que forçar a bucha.
 
-## O que não fazer
-
 ### O erro do ciclo turbo
 
 Eu entendo a tentação: apertar o botão do ciclo rápido porque está atrasado e precisa daquela roupa pra ontem. Só que o modo turbo combina temperatura alta com tambor girando em velocidade máxima — exatamente a receita pra danificar a fibra. O resultado é aquela camisa que chega ao corpo dois números menor.
@@ -105,8 +103,6 @@ Se for secar na sombra, deite a peça sobre uma toalha e vá virando. Leva mais 
 ### O "jeitinho" do amaciante
 
 E o pior erro de todos: achar que um pouco mais de amaciante protege a roupa do encolhimento. Não protege. O amaciante só reveste a fibra com uma camada química que, no calor da secagem, acelera o amassado. O encolhimento vem do calor e da mecânica — química nenhuma segura isso.
-
-## Perguntas frequentes
 
 ### Precisa lavar roupa nova antes de usar na secagem?
 
@@ -132,6 +128,6 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 - [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
 - [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

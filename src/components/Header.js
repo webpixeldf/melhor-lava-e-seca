@@ -22,20 +22,21 @@ export default function Header() {
             priority
           />
           <span className="logo-tag">
-            <small>Reviews e ofertas 2026</small>
+            <small>Comparativos e guias</small>
           </span>
         </Link>
 
         <button
           className="nav-toggle"
-          aria-label="Abrir menu"
+          aria-label={open ? "Fechar menu" : "Abrir menu"}
+          aria-controls="menu-principal"
           aria-expanded={open}
           onClick={() => setOpen((o) => !o)}
         >
           ☰
         </button>
 
-        <nav className={`main-nav ${open ? 'open' : ''}`} aria-label="Menu principal">
+        <nav id="menu-principal" className={`main-nav ${open ? 'open' : ''}`} aria-label="Menu principal">
           {site.nav.map((item) => (
             <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>
               {item.label}

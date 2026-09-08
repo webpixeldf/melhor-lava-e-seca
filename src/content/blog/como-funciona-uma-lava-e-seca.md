@@ -7,7 +7,7 @@ tags: ["como funciona uma lava e seca", "lavagem", "secagem", "condensação"]
 author: "Marcelo França"
 keywords: ["como funciona uma lava e seca", "lavagem", "secagem", "condensação", "Heat Pump", "centrifugação"]
 image: "/images/blog/como-funciona-uma-lava-e-seca.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Uma lava e seca funciona como uma máquina 2 em 1: ela lava a roupa como uma lavadora comum e, na sequência, seca o mesmo tambor, sem precisar transferir nada.
@@ -47,7 +47,7 @@ Vou te guiar pelo procedimento exato, do botão liga até a roupa saindo pronta 
 
 2. **Carregue o tambor sem socar a roupa.** Coloque as peças soltas, uma a uma, e respeite o limite de peso seco indicado no visor. Pra secar bem, a carga precisa de espaço pra girar; tambor cheio demais deixa tudo úmido no final.
 
-3. **Despeje o sabão no compartimento certo e o amaciante no seu.** O sabão vai no reservatório marcado com I ou com o símbolo de floco; o amaciante, na gavetinha da flor. Produto no lugar errado vira espuma em excesso e a roupa sai com manchas brancas.
+3. **Despeje o sabão no compartimento certo e o amaciante no seu.** Identifique lavagem principal, pré-lavagem e amaciante no desenho do manual; os compartimentos não são intercambiáveis. Produto no lugar errado vira espuma em excesso e a roupa sai com manchas brancas.
 
 4. **Selecione o programa combinado — o modo lavar e secar juntos.** No painel, escolha a opção que mostra o cesto com setas circulares ou o nome "lavar e secar". Pra roupa do dia a dia de algodão, o ciclo completo dura algumas horas e você não precisa voltar na máquina.
 
@@ -77,8 +77,6 @@ Tambor parado na posição correta, porta sem vapor escapando e nenhum alarme pi
 
 Se a roupa saiu quente demais a ponto de queimar a mão, fica de olho na próxima lavagem — pode ser excesso de carga. O ideal é o centro da peça ficar só morninho. Roupa de bebê e tecidos delicados nunca devem sair fervendo; se saírem, reduza o volume na próxima vez.
 
-## Se não funcionar
-
 ### A roupa saiu molhada ou com manchas
 
 Isso aparece mais do que se imagina. Na maioria dos casos, o problema não esta na máquina, e sim na carga. Encher demais o tambor impede que a roupa gire livremente, e a água não consegue agir em cada fibra.
@@ -98,8 +96,6 @@ Outra possibilidade e a carga. Um edredom de casal, por exemplo, precisa de duas
 Antes de chamar assistência, confere se os pes estão nivelados. Basta um desnivel de poucos milimetros pra máquina "andar" pela lavanderia na centrifugação.
 
 E um detalhe que pouca gente lembra: na hora de secar, o tambor gira em velocidade menor e por mais tempo. Se sobrou um sutiã com bojo ou um tênis dentro, o impacto ritmico na parede do tambor faz um barulho que assusta. Retire o que não deveria estar ali e rode de novo.
-
-## Erros que estragam o resultado
 
 ### Encher demais o tambor
 
@@ -122,8 +118,6 @@ O resultado é frustrante: você abre a porta, pega a camiseta sequinha e a toal
 ### Deixar o filtro de fiapos pra depois
 
 Esse é o erro que mais aparece em assistência técnica. O filtro entupido bloqueia a passagem de ar na secagem, e a roupa sai praticamente como entrou. O ciclo inteiro foi em vão. Limpar o filtro leva trinta segundos e deveria virar hábito a cada uso.
-
-## Perguntas frequentes
 
 ### A lava e seca estraga roupa mais do que uma lavadora comum?
 
@@ -148,7 +142,7 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 - [Como deixar roupa de molho na lava e seca LG: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg/)
 - [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
-- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca seminova: o que conferir antes de comprar](/blog/lava-e-seca-semi-nova-como-comprar/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

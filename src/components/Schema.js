@@ -54,52 +54,9 @@ export function BreadcrumbSchema({ items }) {
 }
 
 export function ProductSchema({ product }) {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: product.name,
-    image: [`${site.url}${product.image}`],
-    description: product.pitch,
-    brand: {
-      '@type': 'Brand',
-      name: product.brand,
-    },
-    sku: product.asin,
-    mpn: product.asin,
-    // aggregateRating REMOVIDO (19/07/2026): afirmava agregar milhares de
-    // avaliacoes de terceiros ("reviewCount: 2847"), mas os numeros eram
-    // estimados. Dado estruturado inventado e tratado pelo Google como spam
-    // e pode gerar acao manual — risco bem maior que perder o snippet.
-    //
-    // O "review" abaixo continua, e e legitimo: e a avaliacao editorial do
-    // proprio site, com autoria declarada. Nao afirma agregar nada de fora.
-    review: {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: product.rating,
-        bestRating: 5,
-      },
-      author: {
-        '@type': 'Organization',
-        name: site.name,
-      },
-      reviewBody: product.pitch,
-    },
-    // O bloco "offers" foi REMOVIDO de proposito (19/07/2026).
-    //
-    // Ele declarava ao Google quatro coisas que o site nao tem como verificar:
-    // preco fixo vindo de products.js, disponibilidade sempre "InStock",
-    // frete gratis e devolucao gratuita em 30 dias. Preco divergente do que
-    // a Amazon cobra e motivo de penalizacao do resultado rico, alem de
-    // frustrar quem clica esperando aquele valor.
-    //
-    // Nao da pra manter so o "offers" sem preco: Offer sem price e schema
-    // invalido. E o resultado rico continua valendo, porque o "review"
-    // editorial acima, que o Google aceita como sinal, segue presente.
-    //
-    // Quando a PA-API for liberada (hoje retorna AssociateNotEligible, exige
-    // 3 vendas em 180 dias), da pra reintroduzir com preco real e automatico.
+  const data = {'@context':'https://schema.org','@type':'Product',name:product.name,description:product.pitch,brand:{'@type':'Brand',name:product.brand},sku:product.asin,
+    ...(product.model?{mpn:product.model}:{}),
+    ...(product.image?{image:[`${site.url}${product.image}`]}:{}),
   };
   return <JsonLd data={data} />;
 }
@@ -115,7 +72,7 @@ export function ItemListSchema({ products = allProducts, urlBase = site.url }) {
       position: i + 1,
       name: p.name,
       url: `${urlBase}/#${p.slug}`,
-      image: `${site.url}${p.image}`,
+      ...(p.image ? {image: `${site.url}${p.image}`} : {}),
     })),
   };
   return <JsonLd data={data} />;
@@ -155,6 +112,7 @@ export function ArticleSchema({ article }) {
     author: {
       '@type': 'Person',
       name: article.author || site.author,
+      url: `${site.url}/autores/marcelo-franca/`,
     },
     publisher: {
       '@type': 'Organization',
@@ -189,7 +147,7 @@ function JsonLd({ data }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }}
     />
   );
 }

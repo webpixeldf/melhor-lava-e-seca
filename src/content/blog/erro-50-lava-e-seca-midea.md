@@ -7,7 +7,7 @@ tags: ["erro 50 lava e seca midea", "código erro 50", "placa eletrônica", "fal
 author: "Marcelo França"
 keywords: ["erro 50 lava e seca midea", "código erro 50", "placa eletrônica", "falha eletrônica", "manutenção Midea", "assistência técnica"]
 image: "/images/blog/erro-50-lava-e-seca-midea.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Parece um problema complicado, mas na prática o erro 50 lava e seca Midea é um dos mais comuns e, na maioria dos casos, tem solução simples em casa. Esse código costuma aparecer quando a máquina interrompe o ciclo no meio, geralmente por conta de um entupimento no sistema de drenagem ou um problema na mangueira de saída de água.
@@ -69,8 +69,6 @@ Antes de sair procurando peça ou técnico, vale tentar a solução mais simples
 7. **Se nenhum passo resolveu, o defeito é na placa eletrônica.** Pode ser um componente queimado, um trilho rompido ou o processador que travou de vez. Aí não adianta insistir: o reparo exige estação de solda e esquema elétrico.
 8. **Acione a assistência autorizada da Midea e descreva exatamente o que você já testou.** Isso economiza tempo e dinheiro, porque o técnico já chega sabendo que o problema não é sensor nem conexão. Leve o número de série do aparelho anotado, geralmente fica na etiqueta atrás da tampa.
 
-## A hora de parar e chamar um técnico
-
 ### Sinais de que o problema é eletrônico
 
 Se você já fez o reset, conferiu os conectores e o código insiste em voltar, provavelmente estamos falando de algo mais sério. Quando o erro aparece sempre no mesmo ponto do ciclo, ou logo após ligar a máquina, a suspeita recai sobre a placa eletrônica.
@@ -95,8 +93,6 @@ Outro ponto que muita gente ignora: o filtro do desumidificador e o dreno. Acúm
 
 Por fim, se a rede elétrica da sua casa é instável, vale investir num estabilizador ou filtro de linha de qualidade. A oscilação de energia é uma das grandes vilãs das placas eletrônicas — e proteger o aparelho por R$ 100 é mais barato que trocar uma placa depois.
 
-## Dúvidas que sempre aparecem
-
 ### O erro 50 estraga a máquina de vez?
 
 Não necessariamente. Na maioria dos casos, é uma falha de leitura ou contato que não danifica componentes. O risco maior está em insistir com a máquina ligando e desligando várias vezes seguidas, o que pode sobrecarregar a placa.
@@ -119,7 +115,7 @@ Quer encurtar a pesquisa? A [lista com as melhores lava e seca testadas](/) resu
 
 - [Erro 10 lava e seca Midea: Guia Completo e Como Resolver](/blog/erro-10-lava-e-seca-midea/)
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
 - [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
 - [Lava e seca 11kg Midea healthguard titanium conectada](/blog/lava-e-seca-11kg-midea-healthguard-titanium-conectada/)
 - [Lava e seca 11kg branca slim healthguard conectada Midea](/blog/lava-e-seca-11kg-branca-slim-healthguard-conectada-midea/)

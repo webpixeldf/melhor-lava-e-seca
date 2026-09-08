@@ -7,7 +7,7 @@ tags: ["como deixar roupa de molho na lava e seca lg", "pré-lavagem", "molho", 
 author: "Marcelo França"
 keywords: ["como deixar roupa de molho na lava e seca lg", "pré-lavagem", "molho", "programas LG", "AI DD", "ciclo delicado"]
 image: "/images/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Aquele molho de roupa branca com água sanitária, ou a peça manchada que precisa ficar de remolho antes da lavagem… aí você abre o painel da sua lava e seca LG e não acha um botãozinho escrito “molho”. Dá um desespero, né? O recurso existe — só que ele está escondido dentro de outra função.
@@ -50,8 +50,6 @@ O caminho mais direto é usar o recurso de pré-lavagem, que já faz o trabalho 
 
 O processo inteiro, do molho à centrifugação, acontece sem você precisar pausar a máquina no meio. É só organizar a carga, escolher o programa com pré-lavagem e deixar o resto com ela.
 
-## Como saber se deu certo
-
 ### ### Os sinais que a máquina mostra
 
 Quando o ciclo termina, a primeira coisa que você nota é a água do enxágue. Se ela sair turva ou com uma espuminha residual, o molho fez efeito: aquilo era sujeira que ia ficar impregnada no tecido. Roupa de trabalho com mancha de graxa ou colarinho amarelado costuma sair visivelmente mais clara depois do primeiro ciclo com pré-lavagem.
@@ -65,8 +63,6 @@ Quer ter certeza absoluta? Repare na mancha mais difícil antes de colocar a rou
 Para casos extremos, como uniforme de obra ou roupa de academia, vale comparar com uma peça parecida lavada no ciclo normal. A diferença no resultado mostra que o tempo extra de molho fez toda a diferença.
 
 Se ainda restar resíduo, não desanima: repita o processo numa próxima leva. Algumas sujeiras antigas precisam de duas rodadas pra sair por completo.
-
-## Se não funcionar
 
 ### ### A roupa saiu com mancha de sabão?
 
@@ -88,8 +84,6 @@ Se o problema persistir, confira se a borracha da porta está limpa. Detergente 
 
 Esse tipo de lavadora resolve 90% dos casos com ajuste fino de dose e programa. Teste uma leva pequena antes de repetir o processo na carga inteira.
 
-## Erros que estragam o resultado
-
 ### O sabão em excesso não acelera nada
 
 Tem gente que acha que quanto mais detergente, mais limpo sai. Na prática, é o contrário. Excesso de sabão forma uma espuma densa que prende a sujeira no tecido em vez de soltar. A consequência? Sua roupa sai com manchas cinzentas e aquela textura áspera, como se tivesse sido lavada em água dura.
@@ -109,8 +103,6 @@ Camisa de trabalho com graxa dividindo espaço com meia e camiseta leve é pedir
 Assim o ciclo delicado com pré-lavagem concentra o esforço onde precisa — e o resto continua com o programa normal.
 
 O segredo do molho que funciona é respeitar os limites da carga.
-
-## O que mais perguntam sobre isso
 
 ### Posso deixar a roupa de molho a noite inteira?
 
@@ -137,5 +129,5 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 - [Como secar roupa na lava e seca LG: Causas e Soluções 2026](/blog/como-secar-roupa-na-lava-e-seca-lg/)
 - [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca semi nova como comprar: Causas e Soluções 2026](/blog/lava-e-seca-semi-nova-como-comprar/)
+- [Lava e seca seminova: o que conferir antes de comprar](/blog/lava-e-seca-semi-nova-como-comprar/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

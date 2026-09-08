@@ -131,8 +131,6 @@ Também vale a pena dar uma olhada no manual do fabricante para entender os cicl
 
 Agora, quando o cheiro insistir mesmo seguindo essa rotina, aí sim o problema pode ser interno. Nesse caso, vale revisar o que você já fez e considerar se não é hora de apoio profissional. Mas com esses cuidados, a chance de você precisar repetir a limpeza profunda cai drasticamente.
 
-## O que mais perguntam sobre isso
-
 ### Com que frequência devo limpar o tambor?
 
 O ideal é rodar o ciclo de autolimpeza uma vez por mês. Se você mora em região úmida ou usa muito o modo de secagem, pode encurtar esse intervalo para quinzenal. Fica de olho também no cheiro: qualquer odor diferente já é sinal de que a limpeza está atrasada.
@@ -154,9 +152,8 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 ## Continue por aqui
 
 - [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
-- [Como lavar o prensado e secar rápido: Guia Completo 2026](/blog/como-lavar-o-prensado-e-secar-rapido/)
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
-- [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
-- [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
+- [Calibrar Samsung WD11T: manual e preparação](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
+- [Calibrar Samsung Ecobubble: confira o seu modelo](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
 - [Comparativo completo das lava e seca de 2026](/)

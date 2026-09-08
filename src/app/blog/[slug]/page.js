@@ -1,10 +1,13 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getPostBySlug, renderMarkdown } from '@/lib/blog';
+import { getAllSlugs, getPostBySlug, renderMarkdown, getRelatedPosts } from '@/lib/blog';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
 import { buildMetadata } from '@/lib/seo';
 import { site } from '@/lib/site';
-import { blogAnchor, imageAlt } from '@/lib/keywords';
+import { imageSources } from '@/lib/images';
+import { topicFor, manualsFor } from '@/lib/topics';
+import { displayDate, authorPath } from '@/lib/editorial';
+import { products } from '@/content/products';
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -37,7 +40,8 @@ export default async function BlogPost({ params }) {
   if (!post) notFound();
 
   const html = await renderMarkdown(post.content);
-  const anchor = blogAnchor(post);
+  const related = getRelatedPosts(post);
+  const topic = topicFor(post);
 
   return (
     <>
@@ -61,43 +65,42 @@ export default async function BlogPost({ params }) {
           </nav>
 
           <header className="article-header">
-            <span className="tag">{post.category}</span>
+            <Link className="tag" href={`/blog/categoria/${topic.slug}/`}>{topic.name}</Link>
             <h1>{post.title}</h1>
-            <p className="text-muted">
-              <span>{new Date(post.date).toLocaleDateString('pt-BR', {
-                year: 'numeric', month: 'long', day: 'numeric',
-              })}</span>
-              {' · '}
-              <span>{post.readingTime}</span>
-              {' · '}
-              <span>Por {post.author}</span>
-            </p>
+            <p className="text-muted">Publicado em <time dateTime={post.date}>{displayDate(post.date)}</time> · {post.readingTime} · Por <Link href={authorPath}>{post.author}</Link></p>
+            {post.updated !== post.date && <p className="text-muted">Atualizado em <time dateTime={post.updated}>{displayDate(post.updated)}</time></p>}
+            {post.reviewed && <p className="text-muted">Revisão documental: <time dateTime={post.reviewed}>{displayDate(post.reviewed)}</time>. <Link href="/sobre/">Conheça o método editorial</Link>.</p>}
           </header>
 
           {post.image && (
             <div className="container-narrow" style={{ marginBottom: '2rem' }}>
-              <Link href="/" title={anchor} aria-label={anchor}>
+              <figure style={{margin:0}}>
                 <img
                   src={post.image}
-                  alt={imageAlt(anchor, post.title)}
+                  alt={post.imageAlt || ''}
+                  srcSet={imageSources(post.image)}
+                  sizes="(max-width: 800px) 100vw, 800px"
                   width={1200}
                   height={630}
                   style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius)' }}
                 />
-              </Link>
+              <figcaption className="text-muted">Imagem ilustrativa.</figcaption></figure>
             </div>
           )}
 
+          <p className="container-narrow text-muted affiliate-disclosure">Como associado da Amazon, recebemos comissão por compras qualificadas. <Link href="/afiliados/">Entenda os links de afiliado</Link>.</p>
           <div
             className="article-body"
             dangerouslySetInnerHTML={{ __html: html }}
           />
 
-          <aside className="related-home container-narrow">
-            <h3>Ainda não escolheu sua lava e seca?</h3>
-            <p className="mb-2">Veja o ranking atualizado das 9 melhores de 2026.</p>
-            <Link href="/" className="btn btn-primary">Ver o ranking completo →</Link>
+          <aside className="article-references container-narrow">
+            <h2>Manuais e suporte oficial</h2>
+            <p>Procure o código completo na etiqueta do aparelho. As instruções podem mudar entre versões; os canais abaixo ajudam a localizar o manual correspondente.</p>
+            <ul>{manualsFor(post).map(source=><li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></li>)}</ul>
           </aside>
+          {related.length>0&&<aside className="container-narrow related-articles"><h2>Continue pelo assunto</h2><ul>{related.map(p=><li key={p.slug}><Link href={`/blog/${p.slug}/`}>{p.title}</Link></li>)}</ul><Link href={`/blog/categoria/${topic.slug}/`}>Todos os artigos de {topic.name.toLowerCase()}</Link></aside>}
+          <aside className="related-home container-narrow"><h2>Ainda está escolhendo sua lava e seca?</h2><p>Compare os {products.length} modelos do guia e confira o que muda entre eles.</p><Link href="/" className="btn btn-primary">Ver o comparativo →</Link></aside>
         </div>
       </article>
     </>

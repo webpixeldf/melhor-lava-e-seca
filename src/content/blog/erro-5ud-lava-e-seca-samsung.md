@@ -7,7 +7,7 @@ tags: ["erro 5ud lava e seca samsung", "código 5UD", "excesso de espuma", "dete
 author: "Marcelo França"
 keywords: ["erro 5ud lava e seca samsung", "código 5UD", "excesso de espuma", "detergente em excesso", "sabão HE", "enxágue extra"]
 image: "/images/blog/erro-5ud-lava-e-seca-samsung.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 O erro 5ud na lava e seca Samsung indica falha no sensor de umidade,. Na maioria dos casos, dá para resolver em casa. Esse código costuma aparecer quando a máquina não consegue detectar o nível de secagem das roupas, travando o ciclo no meio.
@@ -87,8 +87,6 @@ A cada dez lavagens, uma com ciclo vazio e um copo de vinagre no cesto ajuda a d
 
 A borracha da porta acumula fiapo e resto de sabão. Passe um pano úmido nela a cada duas semanas. Uma vez por mês, rode um ciclo de limpeza com a máquina vazia — sem roupa e sem produto. Isso mantém o sensor limpo e o erro de espuma longe. A rotina inteira leva menos de meia hora por mês.
 
-## O que mais perguntam sobre isso
-
 ### O erro 5ud danifica o motor da máquina?
 
 Não. O código é um alerta de excesso de espuma, não um defeito do motor. Quando o sensor identifica espuma demais, ele interrompe o ciclo pra proteger os componentes. Depois de resolver a causa, a lavadora volta ao normal sem dano permanente.
@@ -110,9 +108,9 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 ## Para ir mais fundo
 
 - [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
-- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro OE na lava e seca Samsung: o que significa](/blog/erro-oe-lava-e-seca-samsung/)
 - [Erro le lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-le-lava-e-seca-samsung/)
 - [Erro ddc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-ddc-lava-e-seca-samsung/)
-- [Erro HC2 lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-hc2-lava-e-seca-samsung/)
-- [Lava e seca LG ou Samsung: Comparativo e Qual Escolher](/blog/lava-e-seca-lg-ou-samsung/)
+- [Erro HC2 na lava e seca Samsung: como proceder](/blog/erro-hc2-lava-e-seca-samsung/)
+- [LG ou Samsung: como comparar sua próxima lava e seca](/blog/lava-e-seca-lg-ou-samsung/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

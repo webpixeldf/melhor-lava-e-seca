@@ -7,7 +7,7 @@ tags: ["pes para maquina lava e seca", "base antivibração", "pés niveladores"
 author: "Marcelo França"
 keywords: ["pes para maquina lava e seca", "base antivibração", "pés niveladores", "calço de borracha", "vibração", "nivelamento"]
 image: "/images/blog/pes-para-maquina-lava-e-seca.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 A máquina lava e seca começou a tremer na centrífuga, fazendo aquele barulho de trator, e você já pensou: será que ela vai pular da lavanderia? A culpa quase nunca é do eletrodoméstico em si — na maioria das vezes, o problema está nos pés para máquina lava e seca, que saíram do lugar ou perderam a função de amortecer.
@@ -64,8 +64,6 @@ Ajustar os pés não é ciência de foguete, mas a ordem dos fatores muda o resu
 
 6. **Por fim, encaixe a base ou o calço definitivo.** Com a máquina nivelada e parada, posicione a base antivibração embaixo dos pés frontais, ou o calço de borracha onde o contato estiver mais rígido. A base precisa ficar inteiramente apoiada no chão — se balançar, recomece do passo três; o nivelamento vem antes do acessório, nunca depois.
 
-## Quando a regra muda
-
 ### O caso do tambor quase vazio
 
 Você reparou que a trepidação piora quando tem pouca roupa dentro? Não é impressão sua. Com o tambor leve, a lavadora tem menos peso para amortecer o movimento — e é aí que ela "anda" pelo cômodo. Uma manta ou um edredom pesado, por outro lado, ajudam a estabilizar o conjunto naturalmente.
@@ -84,8 +82,6 @@ Se o chão do seu lavandário for de madeira ou porcelanato sobre vigas, a vibra
 
 E um detalhe que pouca gente nota: máquina instalada sobre piso desnivelado em mais de um eixo não se resolve só apertando os pés para máquina lava e seca. Você precisa de um nível de bolha e paciência para ajustar os quatro cantos na mesma altura.
 
-## O que não fazer
-
 ### Empilhar borrachas e improvisar
 
 A cena se repete: a máquina treme, e o "jeitinho" aparece. Pedaco de EVA, tapete de banheiro, papelao dobrado. Parece inofensivo, mas na prática vira uma cama elastica. Em vez de absorver a vibração, o material mole deixa o aparelho dançar em cima dele.
@@ -101,8 +97,6 @@ Esse erro independe do pé que você escolher. Os parafusos que fixam o tambor p
 A instalação que a loja promete costuma incluir essa remocao, mas muita gente instala por conta própria e esquece. O manual mostra exatamente onde eles ficam.
 
 E nunca aperte os pes de nivelamento com a máquina já apoiada no chao. Você trava a rosca, mas não consegue girar com precisao. Solte, ajuste a altura e so então trave a contraporca. O processo leva dois minutos e evita que o aparelho fique balançando em diagonal para sempre.
-
-## O que mais perguntam sobre isso
 
 ### Dá para usar a lava e seca sem nenhum tipo de base?
 
@@ -124,10 +118,10 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 
 ## Para ir mais fundo
 
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
 - [Hisense maquina lava e seca: Guia Completo com Dicas 2026](/blog/hisense-maquina-lava-e-seca/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

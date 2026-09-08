@@ -1,13 +1,13 @@
 ---
-title: "Lava e seca semi nova como comprar: Causas e Soluções 2026"
-description: "Aprenda lava e seca semi nova como comprar sem cair em cilada: veja o que checar no aparelho, as causas comuns de defeito e como testar antes de fechar negócio."
+title: "Lava e seca seminova: o que conferir antes de comprar"
+description: "Veja o que conferir em uma lava e seca seminova: identificação do modelo, histórico, teste de funcionamento, transporte e condições da venda."
 date: "2026-08-30T00:40:31-03:00"
 category: "Manutenção"
 tags: ["lava e seca semi nova como comprar", "painel", "programas de lavagem", "ciclo de secagem"]
 author: "Marcelo França"
 keywords: ["lava e seca semi nova como comprar", "painel", "programas de lavagem", "ciclo de secagem", "centrifugação", "dispenser"]
 image: "/images/blog/lava-e-seca-semi-nova-como-comprar.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Parece uma pechincha irresistível, mas na prática pode virar um pesadelo se você não souber onde está pisando. Comprar uma lava e seca semi nova é uma ótima forma de economizar, desde que você trate a compra como uma investigação, não como um impulso.
@@ -108,8 +108,6 @@ Faça um ciclo de limpeza vazio a cada dois meses, com a máquina sem roupa e no
 
 E guarde o manual perto da máquina, não na gaveta da cozinha. Quando um programa falhar, folheie antes de chamar técnico. Boa parte dos "defeitos" é configuração que ninguém leu.
 
-## Perguntas rápidas
-
 ### Vale a pena comprar lava e seca usada em 2026?
 
 Sim, se você fizer a lição de casa antes. O mercado de semi novas está cheio de máquinas com poucos ciclos, vendidas por gente que se mudou ou trocou de ideia. O risco existe, mas uma inspeção caprichada elimina a maioria das surpresas.
@@ -135,5 +133,5 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 - [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
 - [Peças lava e seca LG porto alegre onde comprar: Guia 2026](/blog/pecas-lava-e-seca-lg-porto-alegre-onde-comprar/)
-- [Lava e seca Midea como usar: Causas e Como Resolver 2026](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
 - [Ranking das melhores lava e seca do mercado](/)

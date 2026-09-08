@@ -7,7 +7,7 @@ tags: ["erro f5 e3 lava e seca brastemp", "código F5 E3", "trava da porta", "fe
 author: "Marcelo França"
 keywords: ["erro f5 e3 lava e seca brastemp", "código F5 E3", "trava da porta", "fechadura Brastemp", "sensor da porta", "manutenção Brastemp"]
 image: "/images/blog/erro-f5-e3-lava-e-seca-brastemp.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 A máquina para no meio do ciclo, a roupa fica encharcada e você perde a tarde inteira tentando entender o que houve. Se a tela acusa erro f5 e3 lava e seca Brastemp, o prejuízo vai além do tempo: cada tentativa de novo ciclo gasta mais água, mais energia e, no caso de roupas delicadas, pode até danificar o tecido.
@@ -72,8 +72,6 @@ Insistir nesse cenário é perda de tempo e, pior, pode agravar o defeito. Mexer
 
 Eles têm o equipamento de diagnóstico que identifica se o problema está no sensor, no atuador da trava ou na placa — peças que, na maioria dos casos, nem são vendidas avulsas pro consumidor final.
 
-## Prevenção: a rotina que resolve
-
 ### Um minuto por mês que evita a dor de cabeça
 
 A limpeza da borracha de vedação não é frescura — é o gesto que mais evita o erro f5 e3 lava e seca Brastemp. Uma vez por mês, passe um pano úmido com detergente neutro no vinco inteiro da borracha, onde fiapo e moeda adoram se esconder. Gasta dois minutos e impede que o sensor de porta leia sujeira como obstáculo.
@@ -85,8 +83,6 @@ Parece bobeira, mas muita gente empurra a porta com o joelho e acha que travou. 
 ### De olho no que vai pra máquina
 
 Antes de ligar, dê uma sacudida rápida em cada peça — botão solto, zíper aberto e sutiã com aro são vilões clássicos de porta. Na secadora, um edredom de casal pode exigir duas levas menores em vez de uma sobrecarga. Essa atenção simples reduz bastante a chance de o erro voltar.
-
-## O que mais perguntam sobre isso
 
 ### O erro F5 E3 aparece só na função secar?
 
@@ -104,7 +100,7 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 
 ## Leia também
 
-- [Melhor lava e seca Brastemp: Ranking Completo e Análise](/blog/melhor-lava-e-seca-brastemp/)
+- [Lava e seca Brastemp: BNO11AB ou BNO14AS?](/blog/melhor-lava-e-seca-brastemp/)
 - [Erro ue LG lava e seca: Causas, Soluções e Guia Completo](/blog/erro-ue-lg-lava-e-seca/)
 - [Erro TCL lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-tcl-lava-e-seca-lg/)
 - [Erro pe lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-pe-lava-e-seca-lg/)

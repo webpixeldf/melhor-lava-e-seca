@@ -1,28 +1,12 @@
 import { getAllPosts } from '@/lib/blog';
 import { site } from '@/lib/site';
-
-export default function sitemap() {
-  const base = site.url;
-  const now = new Date().toISOString();
-
-  const staticPages = [
-    { url: `${base}/`, priority: 1.0, changeFrequency: 'daily' },
-    { url: `${base}/sobre/`, priority: 0.6, changeFrequency: 'monthly' },
-    { url: `${base}/contato/`, priority: 0.5, changeFrequency: 'monthly' },
-    { url: `${base}/privacidade/`, priority: 0.3, changeFrequency: 'yearly' },
-    { url: `${base}/termos/`, priority: 0.3, changeFrequency: 'yearly' },
-    { url: `${base}/afiliados/`, priority: 0.5, changeFrequency: 'yearly' },
-    { url: `${base}/blog/`, priority: 0.8, changeFrequency: 'daily' },
-  ].map((item) => ({ ...item, lastModified: now }));
-
-  // lastmod do post e a data real de publicacao/atualizacao, nao a hora do
-  // build: lastmod igual em tudo faz o Google ignorar o campo.
-  const blogPages = getAllPosts().map((post) => ({
-    url: `${base}/blog/${post.slug}/`,
-    priority: 0.7,
-    changeFrequency: 'weekly',
-    lastModified: new Date(post.updated || post.date).toISOString(),
-  }));
-
-  return [...staticPages, ...blogPages];
+import { editorialUpdated, authorPath } from '@/lib/editorial';
+import { topics, topicFor } from '@/lib/topics';
+const latest=(posts)=>posts.reduce((date,p)=>new Date(p.updated||p.date)>new Date(date)?new Date(p.updated||p.date).toISOString():date,editorialUpdated);
+export default function sitemap(){
+ const posts=getAllPosts();
+ const fixed=['/','/sobre/','/contato/','/privacidade/','/termos/','/afiliados/',authorPath].map(path=>({url:site.url+path,lastModified:editorialUpdated}));
+ const listings=Array.from({length:Math.ceil(posts.length/18)},(_,i)=>({url:site.url+(i?`/blog/pagina/${i+1}/`:'/blog/'),lastModified:latest(posts.slice(i*18,(i+1)*18))}));
+ const categories=topics.map(t=>({url:`${site.url}/blog/categoria/${t.slug}/`,lastModified:latest(posts.filter(p=>topicFor(p).slug===t.slug))}));
+ return [...fixed,...listings,...categories,...posts.map(p=>({url:`${site.url}/blog/${p.slug}/`,lastModified:new Date(p.updated||p.date).toISOString()}))];
 }

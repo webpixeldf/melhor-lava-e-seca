@@ -7,7 +7,7 @@ tags: ["lava e seca vazando água por baixo", "vazamento", "mangueira", "retento
 author: "Marcelo França"
 keywords: ["lava e seca vazando água por baixo", "vazamento", "mangueira", "retentor", "vedação da porta", "bomba de drenagem"]
 image: "/images/blog/lava-e-seca-vazando-agua-por-baixo.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Pode ser o dreno entupido, a borracha da porta ressecada ou até um simples excesso de espuma. O problema de lava e seca vazando água por baixo assusta, mas raramente significa que a máquina morreu. Na maioria dos casos, é uma manutenção simples que resolve com pouca ferramenta e meia hora de paciência.
@@ -62,8 +62,6 @@ Encher o tambor até o último centímetro é receita pra forçar a vedação. A
 
 Se mora em região úmida e seca roupa na máquina, o ciclo de secagem também esquenta a borracha — o desgaste acelera, e o que era vazamento pontual vira rotina.
 
-## O que não fazer
-
 ### Não aperte o parafuso da mangueira com forca de campeão
 
 Sei que parece logico: vazou, então aperto mais. So que a conexão da mangueira tem uma rosca plastica, e torque demais trinca o bocal. Ai o problema que era uma gotejinha vira uma fonte. Aperte com a mão e de meio giro com a chave, no máximo.
@@ -75,8 +73,6 @@ Outro erro clássico e usar fita veda-rosca onde não devia. As conexoes moderna
 O desnivelamento forca a borracha da porta de um lado so. Com o tempo, ela perde o elastico e a lava e seca vazando água por baixo passa a ser rotina. Pegue um nível de pedreiro ou o app do celular e regule os pes da base. E também não enfie papelao ou madeira sob um pe so pra nivelar: isso mascara o problema e derruba a estabilidade.
 
 Por último, jamais rode um ciclo novo com a água parada no chao. Além do risco de choque, a água entra no motor pelas aberturas inferiores. Seque tudo antes de qualquer novo ciclo.
-
-## O que mais perguntam sobre isso
 
 ### Quanto custa o conserto?
 
@@ -103,9 +99,9 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 ## Relacionados
 
 - [Lava e seca Samsung não está drenando a água: Guia 2026](/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua/)
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
 - [Comparativo completo das lava e seca de 2026](/)

@@ -2352,10 +2352,12 @@
         "dispenser",
         "funções do painel"
       ],
-      "status": "publicado",
+      "status": "retired",
       "publishedAt": "2026-08-10T23:16:47-03:00",
       "rewrittenAt": "2026-08-28T22:15:23-03:00",
-      "rewriteFails": 0
+      "rewriteFails": 0,
+      "retiredAt": "2026-09-08T00:21:43Z",
+      "retiredReason": "Pauta fora do escopo de lavanderia."
     },
     {
       "keyword": "como lavar o tambor da lava e seca samsung",
@@ -4615,7 +4617,7 @@
         "manual"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-05T15:07:04-03:00"
+      "publishedAt": "2026-09-05T15:07:04Z"
     },
     {
       "keyword": "como instalar maquina lava e seca samsung",
@@ -4638,7 +4640,7 @@
         "travas"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-05T19:01:53-03:00"
+      "publishedAt": "2026-09-05T19:01:53Z"
     },
     {
       "keyword": "como lavar roupa na lava e seca",
@@ -4661,7 +4663,7 @@
         "manual"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-06T15:24:30-03:00",
+      "publishedAt": "2026-09-06T15:24:30Z",
       "problems": [
         "1 trecho(s) longo(s) demais (limite 420 em texto, 500 em passo)"
       ],
@@ -4688,7 +4690,7 @@
         "produtos"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-06T00:12:47-03:00"
+      "publishedAt": "2026-09-06T00:12:47Z"
     },
     {
       "keyword": "como resetar a lava e seca samsung",
@@ -4734,7 +4736,7 @@
         "manual"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-06T19:09:04-03:00"
+      "publishedAt": "2026-09-06T19:09:04Z"
     },
     {
       "keyword": "como so centrifugar na lava e seca samsung",
@@ -4757,7 +4759,7 @@
         "funções"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-07T00:19:30-03:00"
+      "publishedAt": "2026-09-07T00:19:30Z"
     },
     {
       "keyword": "como tirar o tambor da lava e seca samsung",
@@ -4780,7 +4782,7 @@
         "técnico"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-07T17:44:13-03:00"
+      "publishedAt": "2026-09-07T17:44:13Z"
     },
     {
       "keyword": "como usar lava e seca midea",
@@ -4803,7 +4805,7 @@
         "ciclo"
       ],
       "status": "publicado",
-      "publishedAt": "2026-09-07T20:33:57-03:00"
+      "publishedAt": "2026-09-07T20:33:57Z"
     },
     {
       "keyword": "electrolux lava e seca lse09 é boa",

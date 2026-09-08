@@ -1,138 +1,46 @@
-name: Blog — 3 artigos por dia (cronograma editorial)
-
-# Gera 1 artigo por execução, 3 vezes ao dia, a partir da fila em
-# scripts/data/cronograma.json (planilha editorial da consultoria de SEO).
-#
-# Substitui o pipeline antigo de RSS, cujos 93 artigos foram removidos em
-# 19/07/2026 por não agregarem valor.
-#
-# Por que 3 execuções separadas e não uma gerando 3: a cadência de publicação
-# fica mais natural ao longo do dia, cada run é curto, e se uma falhar as
-# outras duas continuam. Cron do GitHub usa UTC (BRT = UTC-3) e pode atrasar
-# alguns minutos na fila.
+name: Blog — rascunhos para revisão editorial
 on:
   schedule:
-    - cron: '10 12 * * *'   # 09:10 BRT
-    - cron: '10 17 * * *'   # 14:10 BRT
-    - cron: '40 22 * * *'   # 19:40 BRT
-  workflow_dispatch: {}     # disparo manual na aba Actions
-
-# Impede que duas execuções mexam na fila ao mesmo tempo e gerem a mesma pauta.
+    - cron: '10 12 * * *'
+    - cron: '10 17 * * *'
+    - cron: '40 22 * * *'
+  workflow_dispatch: {}
 concurrency:
   group: blog-cronograma
   cancel-in-progress: false
-
 permissions:
   contents: write
-
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 40   # agora sao DOIS artigos por execucao (novo + regeracao)
-
+    timeout-minutes: 30
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Gera o próximo artigo da fila
+      - run: npm ci
+      - name: Prepara um rascunho sem alterar artigos publicados
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          # A DeepSeek aposentou "deepseek-chat" em 25/07/2026: a API passou a
-          # responder 400 aceitando so deepseek-v4-pro | deepseek-v4-flash.
-          # O flash e o equivalente direto do antigo; os links internos sao
-          # injetados por codigo (interlink.mjs), entao nao dependem do modelo.
           DEEPSEEK_MODEL: deepseek-v4-flash
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           AMAZON_PARTNER_TAG: melhorlavaeseca-20
           SITE_URL: https://melhorlavaeseca.com
         run: node scripts/blog-from-cronograma.mjs --count 1
-
-      # Os 57 artigos anteriores a 04/08/2026 sairam com template errado
-      # (tutorial sem passo a passo) e cliche. Regerar 1 por execucao refaz o
-      # acervo em ~3 semanas sem rajada de API. Nunca derruba a publicacao do
-      # artigo novo: se falhar, segue o jogo.
-      - name: Regenera um artigo antigo
-        continue-on-error: true
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_MODEL: deepseek-v4-flash
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          AMAZON_PARTNER_TAG: melhorlavaeseca-20
-          SITE_URL: https://melhorlavaeseca.com
-        run: node scripts/blog-from-cronograma.mjs --rewrite --count 1
-
-      - name: Valida o build antes de publicar
-        # Artigo que quebra o build derrubaria o deploy do site inteiro.
-        # Melhor descobrir aqui do que na Cloudflare.
-        run: npm run build
-
-      - name: Commita o artigo novo
+      - name: Valida exportação e SEO
+        run: npm run build && npm run seo:check && npm run test:editorial
+      - name: Salva rascunho e fila
         run: |
-          git config user.name "melhor-lava-e-seca-bot"
-          git config user.email "bot@melhorlavaeseca.com"
-
-          # A linkagem retroativa altera artigos antigos, e o gerador atualiza
-          # o status da pauta na fila. Tudo isso entra no commit.
-          git add src/content/blog public/images/blog scripts/data 2>/dev/null || true
-
-          if git diff --cached --quiet; then
-            echo "Nenhum artigo publicado nesta execucao."
-            echo "Pode ser fila vazia ou artigo reprovado no portao de qualidade."
-            exit 0
-          fi
-
-          # O mais RECENTE por publishedAt, nao o ultimo na ordem do array:
-          # a fila e ordenada por volume de busca, entao o ultimo "publicado"
-          # do array era sempre o mesmo e todo commit saia com titulo errado.
-          TITULO=$(node -e "
-            const fs=require('fs');
-            const q=JSON.parse(fs.readFileSync('scripts/data/cronograma.json','utf8'));
-            const pub=q.items
-              .filter(i=>i.status==='publicado'&&i.publishedAt)
-              .sort((a,b)=>String(a.publishedAt).localeCompare(String(b.publishedAt)));
-            console.log(pub.length ? pub[pub.length-1].title : 'novo artigo');
-          ")
-
-          # Execucao que so mexeu no status da fila (pauta reprovada, tentativa
-          # registrada) nao publicou nada — commitar com o titulo do ultimo
-          # artigo publicado faz parecer que ele saiu 4 vezes, foi o que
-          # aconteceu entre 28 e 29/07/2026.
-          # Arquivo ADICIONADO = artigo novo. Só modificado = regeracao de artigo
-          # antigo, que nao pode ser anunciada como publicacao nova.
-          if git diff --cached --name-only --diff-filter=A | grep -q '^src/content/blog/.*\.md$'; then
-            git commit -m "blog: ${TITULO}"
-          elif git diff --cached --name-only | grep -q '^src/content/blog/.*\.md$'; then
-            git commit -m "blog: regenera artigo antigo no padrao novo"
-          else
-            git commit -m "fila: atualiza status das pautas (nenhum artigo novo)"
-          fi
-
-          # npm ci (postinstall) e npm run build regeneram favicons e o
-          # og-default a partir da marca. Entre maquinas o sharp/libvips gera
-          # bytes um pouco diferentes, entao esses arquivos rastreados ficam
-          # modificados na arvore. Nao entram no commit do artigo (o git add
-          # acima e so de conteudo), e sobrando unstaged travam o rebase com
-          # "cannot pull with rebase: You have unstaged changes". Como sao
-          # apenas artefatos de build, descartamos antes de sincronizar.
-          git checkout -- .
-
-          # Outra execução pode ter publicado nesse meio tempo.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/drafts scripts/data public/images/blog
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "blog: prepara rascunho para revisão editorial"
+          # Resguarda somente artefatos gerados antes da sincronização.
+          git stash push --include-untracked -m "artefatos de build"
           git pull --rebase origin main
           git push
-
-      - name: Notifica Bing/Yandex via IndexNow
-        if: success()
-        continue-on-error: true
-        run: npm run indexnow:latest

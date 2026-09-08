@@ -21,7 +21,7 @@ import { fetchBlogCover } from './lib/unsplash.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const BLOG_DIR = path.join(ROOT, 'src', 'content', 'drafts');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
 
 const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY;
@@ -101,7 +101,7 @@ Note os acentos: manhã, está, várias, três, ciclos, limpeza, tambor, descobr
 }
 
 function buildUserPrompt(topic) {
-  const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
+  const hojeISO = new Date().toISOString();
   return `TÓPICO INSPIRADOR (use apenas como seed de ideia — NÃO traduza, NÃO copie, NÃO parafraseie):
 
 Título original: "${topic.title}"
@@ -395,7 +395,7 @@ async function generateFromTopic(topic) {
   }
 
   // Injeta caminho da imagem e força a data de hoje no frontmatter
-  const hojeISO = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
+  const hojeISO = new Date().toISOString();
 
   // ETAPA 0: limpa wrappers markdown + preâmbulo do DeepSeek
   let finalContent = cleanRawContent(content);
@@ -437,7 +437,7 @@ async function generateFromTopic(topic) {
     fs.writeFileSync(mdPath, finalContent);
   }
 
-  console.log(`✅ Artigo salvo: src/content/blog/${slug}.md`);
+  console.log(`✅ Artigo salvo: src/content/drafts/${slug}.md`);
   console.log(`   Título: ${title}`);
   console.log(`   ${content.length} caracteres, ~${Math.round(content.split(/\s+/).length)} palavras`);
 

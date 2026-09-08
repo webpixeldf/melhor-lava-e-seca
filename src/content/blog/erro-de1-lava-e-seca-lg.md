@@ -7,7 +7,7 @@ tags: ["erro de1 lava e seca lg", "código DE1", "trava da porta", "sensor da po
 author: "Marcelo França"
 keywords: ["erro de1 lava e seca lg", "código DE1", "trava da porta", "sensor da porta", "porta não fecha", "interruptor da porta"]
 image: "/images/blog/erro-de1-lava-e-seca-lg.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-07T23:43:17Z"
 ---
 
 A máquina para no meio do ciclo, o display pisca e aparece aquela combinação enigmática: DE1. Na hora, vem aquele aperto no peito — será que queimou a placa? Será que é caro consertar?
@@ -72,8 +72,6 @@ Excluídas as causas mais óbvias, dá pra resolver boa parte dos casos em casa,
 
 7. **Chame a assistência técnica autorizada se nada funcionou.** O sensor de porta é uma peça específica do modelo, e a troca exige abertura do painel superior. Mexer por conta própria nessa etapa costuma danificar conectores delicados.
 
-## Até onde vale tentar sozinho
-
 ### O ponto exato de parar
 
 O passo a passo que mostrei resolve talvez 70% dos casos, e é justamente aí que mora a dúvida: quando desistir? Se você já limpou o encaixe, verificou a borracha e a porta continua trancando e destrancando sem padrão, o problema saiu do nível "dá pra resolver em casa".
@@ -97,8 +95,6 @@ Outro hábito que salva: não force a porta pra fechar com pressa. O impacto rep
 Fique de olho no comportamento da máquina uma vez por mês. Se ela demora pra reconhecer a porta fechada, é sinal de que o interruptor está perdendo sensibilidade. Nesse caso, chame a assistência antes que o problema vire defeito maior — trocar uma peça pequena é bem mais barato que um reparo completo.
 
 E nunca pule o ciclo de limpeza da lavadora. Esse tipo de lavadora acumula resíduos de sabão que endurecem nas vedações com o tempo. Um produto específico pra limpeza, a cada dois meses, mantém a borracha maleável e evita o ressecamento que trava a porta.
-
-## Perguntas rápidas
 
 ### O código some depois de um tempo sozinho?
 
@@ -125,5 +121,5 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 - [Erro pe lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-pe-lava-e-seca-lg/)
 - [Erro oe LG lava e seca: Causas, Soluções e Guia Completo](/blog/erro-oe-lg-lava-e-seca/)
 - [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
-- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro OE na lava e seca Samsung: o que significa](/blog/erro-oe-lava-e-seca-samsung/)
 - [Ranking das melhores lava e seca do mercado](/)

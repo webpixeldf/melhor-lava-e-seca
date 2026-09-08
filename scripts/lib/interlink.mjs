@@ -27,14 +27,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
  * evita duplicar a lista (que sairia do ar assim que os produtos mudassem).
  */
 function loadProducts() {
-  const file = path.resolve(__dirname, '..', '..', 'src', 'content', 'products.js');
-  if (!fs.existsSync(file)) return [];
-  const src = fs.readFileSync(file, 'utf8');
-  const out = [];
-  const re = /slug:\s*'([^']+)'[\s\S]{0,400}?name:\s*'([^']+)'/g;
-  let m;
-  while ((m = re.exec(src))) out.push({ slug: m[1], name: m[2] });
-  return out;
+  const file=path.resolve(__dirname,'../../src/content/products-data.json');
+  return JSON.parse(fs.readFileSync(file,'utf8')).map(({slug,name})=>({slug,name}));
 }
 
 const products = loadProducts();

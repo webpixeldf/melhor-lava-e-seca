@@ -36,7 +36,6 @@ import {
 import {
   addInternalLinks,
   buildLeiaTambem,
-  linkBackToNewPost,
   linkTargetFor,
   countInternalLinks,
 } from './lib/interlink.mjs';
@@ -51,6 +50,7 @@ import { fixAccents } from './lib/accents.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const DRAFT_DIR = path.join(ROOT, 'src', 'content', 'drafts');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
 // Fotos ja usadas como capa, pra nao repetir a mesma imagem entre artigos.
 const USADAS_FILE = path.join(ROOT, 'scripts', 'data', 'capas-usadas.json');
@@ -76,16 +76,18 @@ const ONLY = val('--slug', null);
 // novo, o acervo se refaz em ~3 semanas sem rajada de API. Com --count N
 // da pra fazer em lote quando houver pressa.
 const REWRITE = has('--rewrite');
+if (REWRITE) { console.error('Reescrita automática desativada. Prepare uma revisão em src/content/drafts e use blog:publish após revisão documental.'); process.exit(1); }
 
 if (!KEY) { console.error('DEEPSEEK_API_KEY nao definida em .env.local'); process.exit(1); }
 
 // ----------------------------------------------------------------- prompts
 
-const VOICE = `Voce e um redator brasileiro que trabalha com eletrodomestico ha anos e escreve pro blog do melhorlavaeseca.com.
+const VOICE = `Voce redige rascunhos documentais sobre eletrodomesticos e escreve pro blog do melhorlavaeseca.com.
 
 COMO VOCE ESCREVE:
 - Portugues brasileiro com acentuacao completa e correta. Isso e inegociavel.
-- Primeira pessoa, tom de conversa, como quem explica pra um amigo. Pode usar expressao coloquial brasileira sem exagero.
+- Tom claro e direto. Nunca invente uso pessoal, credenciais, testes, depoimentos ou experiencias.
+- Toda alegacao de produto precisa de fonte primaria consultavel. Sem evidencia, indique o que falta verificar. Nao prometa desempenho, silencio ou economia sem dados comparaveis.
 - Frases de tamanho variado. Alterne periodo curto e longo: texto com todas as frases do mesmo tamanho soa robotico.
 - PARAGRAFO CURTO, regra critica: 2 ou 3 frases, entre 180 e 320 caracteres.
   NUNCA passe de 340 caracteres. A maioria le no celular, e bloco grande de
@@ -107,7 +109,7 @@ O QUE VOCE NUNCA FAZ:
 - Nunca abra secao com definicao de dicionario.
 - Nunca escreva conclusao generica tipo "espero ter ajudado" ou "em suma".
 - Nunca cite preco em reais. Diga para consultar o preco atualizado.
-- Nunca cite numero de kWh, decibeis, rpm ou anos de garantia que nao esteja na lista de modelos fornecida. Sem o dado, fale qualitativamente ("gasta pouco", "quase nao vibra").
+- Nunca cite numero de kWh, decibeis, rpm ou anos de garantia que nao esteja na lista de modelos fornecida. Sem o dado, nao afirme economia ou silencio; indique que falta confirmacao.
 - Nunca invente link, URL ou marcacao de link. Escreva so o texto corrido: os links sao inseridos depois.
 
 REGRA DE PRODUTOS (a mais importante de todas):
@@ -124,16 +126,7 @@ com modelo inventado.`;
  * aconteceu no primeiro teste.
  */
 function loadCatalog() {
-  const file = path.join(ROOT, 'src', 'content', 'products.js');
-  if (!fs.existsSync(file)) return [];
-  const src = fs.readFileSync(file, 'utf8');
-  const out = [];
-  const re = /name:\s*'([^']+)',\s*\n\s*brand:\s*'([^']+)'[\s\S]{0,1500}?capacityWash:\s*([\d.]+),[\s\S]{0,120}?capacityDry:\s*([\d.]+)/g;
-  let m;
-  while ((m = re.exec(src))) {
-    out.push({ name: m[1], brand: m[2], wash: parseFloat(m[3]), dry: parseFloat(m[4]) });
-  }
-  return out;
+  return JSON.parse(fs.readFileSync(path.join(ROOT,'src/content/products-data.json'),'utf8')).map(p=>({name:p.name,brand:p.brand,wash:p.capacityWash,dry:p.capacityDry,source:p.sourceUrl}));
 }
 
 // Marcas que existem no mercado mas (ainda) nao no catalogo. Se a pauta cita
@@ -194,7 +187,7 @@ function checkCoverage(pauta, catalog) {
 
 function catalogBlock(models) {
   if (!models.length) return '';
-  const lines = models.map((c) => `- ${c.name} (lava ${c.wash}kg / seca ${c.dry}kg)`);
+  const lines = models.map((c) => `- ${c.name} (lava ${c.wash}kg / seca ${c.dry}kg). Fonte: ${c.source}`);
   return `\n\nMODELOS QUE VOCE PODE CITAR (os unicos — nao invente outros nem cite modelo de outra marca):\n${lines.join('\n')}`;
 }
 
@@ -769,6 +762,7 @@ function buildFrontmatter(pauta, description, image, iso) {
     `category: ${q(CATEGORY[pauta.intent] || 'Guia')}`,
     `tags: [${kws.slice(0, 4).map(q).join(', ')}]`,
     `author: "Marcelo França"`,
+    'status: draft',
     `keywords: [${kws.map(q).join(', ')}]`,
     // Sem capa baixada, o campo nao entra: apontar pra arquivo inexistente
     // rende imagem quebrada no artigo e no card da listagem.
@@ -785,13 +779,14 @@ function readCorpus() {
     .filter((f) => f.endsWith('.md'))
     .map((f) => {
       const raw = fs.readFileSync(path.join(BLOG_DIR, f), 'utf8');
+      if (/^status:\s*['"]?(retired|draft)/m.test(raw)) return null;
       const title = raw.match(/title:\s*"([^"]+)"/)?.[1] || f;
       const kws = raw.match(/keywords:\s*\[([^\]]*)\]/)?.[1] || '';
-      const keyword = kws.split(',')[0]?.replace(/["']/g, '').trim() || '';
+      const keyword = kws.split(',')[0]?.replace(/["']/g, '').trim() || title;
       const date = raw.match(/date:\s*"([^"]+)"/)?.[1] || '';
       return { slug: f.replace(/\.md$/, ''), title, keyword, date, file: path.join(BLOG_DIR, f) };
     })
-    .filter((c) => c.keyword);
+    .filter((c) => c && c.keyword);
 }
 
 async function generate(pauta, corpus, models = []) {
@@ -880,98 +875,11 @@ async function conferirModelo() {
   console.log(`   modelo ${MODEL} respondendo ("${teste.slice(0, 20)}")`);
 }
 
-/**
- * Diagnostico de um artigo ja publicado: cliche e ausencia de passo a passo
- * sao os dois defeitos que so a regeracao resolve. Quanto maior a nota, pior.
- */
-function notaDeDefeito(md, intent) {
-  const cliches = acharCliches(md).length;
-  const passos = (md.match(/^[ ]*[0-9]+[.)][ ]+\S/gm) || []).length;
-  const semPassos = ENSINA.has(intent) && passos < 4;
-  return cliches * 2 + (semPassos ? 5 : 0);
-}
-
-/** Escolhe o proximo artigo publicado a regerar: o mais defeituoso primeiro. */
-function proximoParaRegerar(queue, jaTentados) {
-  const candidatos = [];
-  for (const pauta of queue.items) {
-    if (pauta.status !== 'publicado' || jaTentados.has(pauta.slug)) continue;
-    const file = path.join(BLOG_DIR, pauta.slug + '.md');
-    if (!fs.existsSync(file)) continue;
-    const md = fs.readFileSync(file, 'utf8');
-    let nota = notaDeDefeito(md, escolherTemplate(pauta));
-    // Artigo reprovado na regeracao mantinha a mesma nota e era reescolhido na
-    // execucao seguinte, pra sempre — um texto que o modelo nao consegue
-    // acertar travaria a fila e os outros 45 nunca chegariam a vez. Cada
-    // fracasso rebaixa a prioridade; ao terceiro, sai da fila.
-    const fracassos = pauta.rewriteFails || 0;
-    if (fracassos >= 3) continue;
-    nota -= fracassos * 3;
-    if (nota > 0) candidatos.push({ pauta, nota, file, md });
-  }
-  candidatos.sort((a, b) => b.nota - a.nota);
-  return candidatos[0] || null;
-}
-
-/**
- * Regenera um artigo publicado no lugar. Preserva slug, capa e a data de
- * PUBLICACAO — so marca `updated`, que e o campo que o sitemap usa como
- * lastmod. Assim o Google rebusca sem que o artigo finja ser novo nem embaralhe
- * a ordem da listagem.
- */
-async function regerarUm(queue, jaTentados) {
-  const alvo = proximoParaRegerar(queue, jaTentados);
-  if (!alvo) { console.log('  Nenhum artigo publicado precisa de regeracao.'); return false; }
-  jaTentados.add(alvo.pauta.slug);
-
-  const catalog = loadCatalog();
-  const cover = checkCoverage(alvo.pauta, catalog);
-  console.log(`\n  REGERANDO "${alvo.pauta.title}" (nota de defeito ${alvo.nota})`);
-
-  const corpus = readCorpus();
-  const { body, intro, check } = await generate(alvo.pauta, corpus, cover.models || []);
-  if (!check.ok) {
-    console.log(`   REPROVADO na regeracao, artigo antigo mantido: ${check.problems.join('; ')}`);
-    markStatus(queue, alvo.pauta.slug, 'publicado', {
-      rewriteFails: (alvo.pauta.rewriteFails || 0) + 1,
-      rewriteProblems: check.problems,
-    });
-    saveQueue(queue);
-    return false;
-  }
-
-  const original = alvo.md;
-  const dataPub = (original.match(/^date:\s*"([^"]+)"/m) || [])[1] || new Date().toISOString();
-  const imagem = (original.match(/^image:\s*"([^"]+)"/m) || [])[1] || null;
-  const agora = new Date().toISOString().replace(/\.\d\d\dZ$/, '-03:00');
-
-  const description = await metaDescription(alvo.pauta, intro);
-  let fm = buildFrontmatter(alvo.pauta, description, imagem, dataPub);
-  fm = fm.replace(/\n---$/, `\nupdated: "${agora}"\n---`);
-
-  fs.writeFileSync(alvo.file, fm + '\n\n' + body + '\n', 'utf8');
-  console.log(`   REGERADO | ${check.words} palavras | ${check.problems.length} problema(s)`);
-  markStatus(queue, alvo.pauta.slug, 'publicado', { rewrittenAt: agora, rewriteFails: 0 });
-  saveQueue(queue);
-  return true;
-}
-
 async function main() {
   await conferirModelo();
   const queue = loadQueue();
-  fs.mkdirSync(BLOG_DIR, { recursive: true });
+  fs.mkdirSync(DRAFT_DIR, { recursive: true });
   fs.mkdirSync(IMG_DIR, { recursive: true });
-
-  if (REWRITE) {
-    const jaTentados = new Set();
-    let feitos = 0;
-    for (let i = 0; i < COUNT; i++) {
-      if (await regerarUm(queue, jaTentados)) feitos++;
-    }
-    console.log(`
-Regerados: ${feitos} de ${COUNT} tentativa(s)`);
-    return;
-  }
 
   const catalog = loadCatalog();
   let published = 0, skipped = 0;
@@ -999,7 +907,7 @@ Regerados: ${feitos} de ${COUNT} tentativa(s)`);
   // sair um "ranking Philco" cheio de Samsung, ou nada.
   while (published < COUNT) {
     const pauta = ONLY
-      ? queue.items.find((i) => i.slug === ONLY && !tried.has(i.slug))
+      ? queue.items.find((i) => i.slug === ONLY && i.status !== 'retired' && !tried.has(i.slug))
       : pendentesPorPrioridade(queue).find((i) => !tried.has(i.slug));
     if (!pauta) {
       if (!tried.size) console.log(ONLY ? `Pauta "${ONLY}" nao encontrada.` : 'Nada pendente na fila.');
@@ -1043,7 +951,7 @@ Regerados: ${feitos} de ${COUNT} tentativa(s)`);
         continue;
       }
 
-      const iso = new Date().toISOString().replace(/\.\d{3}Z$/, '-03:00');
+      const iso = new Date().toISOString();
       const imgWeb = `/images/blog/${pauta.slug}.webp`;
       if (!DRY) {
         try {
@@ -1068,10 +976,9 @@ Regerados: ${feitos} de ${COUNT} tentativa(s)`);
       if (DRY) {
         console.log('   [dry-run] nao gravado');
       } else {
-        fs.writeFileSync(path.join(BLOG_DIR, `${pauta.slug}.md`), md, 'utf8');
-        const touched = linkBackToNewPost(corpus.map((c) => c.file), pauta, fs);
-        console.log(`   PUBLICADO | linkagem retroativa em ${touched.length} artigo(s)`);
-        markStatus(queue, pauta.slug, 'publicado', { publishedAt: iso });
+        fs.writeFileSync(path.join(DRAFT_DIR, `${pauta.slug}.md`), md, {encoding:'utf8',flag:'wx'});
+        console.log('   RASCUNHO | revisão e fontes necessárias antes da publicação');
+        markStatus(queue, pauta.slug, 'draft', { draftedAt: iso });
         saveQueue(queue);
       }
       published++;
@@ -1089,14 +996,14 @@ Regerados: ${feitos} de ${COUNT} tentativa(s)`);
     }
   }
 
-  console.log(`\nPublicados: ${published} | Pulados: ${skipped}`);
+  console.log(`\nRascunhos: ${published} | Pulados: ${skipped}`);
 
   // Sair com sucesso quando a API esta fora esconde a quebra: o workflow fica
   // verde, ninguem recebe aviso e o blog passou 4 dias parado (31/07 a 03/08)
   // sem ninguem perceber. Falha de API derruba a execucao de proposito, pro
   // GitHub notificar. Reprovacao no portao nao: aquilo e rotina editorial.
   if (abortouPorErroDeApi && published === 0) {
-    throw new Error('nenhum artigo publicado: a API do modelo falhou em todas as tentativas');
+    throw new Error('nenhum rascunho gerado: a API do modelo falhou em todas as tentativas');
   }
 }
 

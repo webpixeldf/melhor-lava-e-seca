@@ -7,7 +7,7 @@ tags: ["armário para embutir lava e seca", "nicho", "marcenaria", "medidas"]
 author: "Marcelo França"
 keywords: ["armário para embutir lava e seca", "nicho", "marcenaria", "medidas", "ventilação", "lavanderia planejada"]
 image: "/images/blog/armario-para-embutir-lava-e-seca.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Parece simples: é só comprar a máquina lava e seca, medir o espaço e encaixar um armário em volta. Mas na prática, embutir esse eletrodoméstico exige planejamento que vai muito além da fita métrica.
@@ -72,8 +72,6 @@ Antes de chamar o marceneiro, vale percorrer essa lista com a ficha técnica da 
 
 6. **Use silicone apenas no acabamento visível, nunca nas laterais internas.** O silicone veda a junção entre o balcão e a parede, evitando que a água escorra pra trás do móvel. Mas se você vedar as laterais internas do nicho, a máquina fica presa num caixote sem respiro. Deixe as laterais livres e aplique silicone só no acabamento de cima e nas bordas externas.
 
-## Quando a regra muda
-
 ### Tecidos que pedem outra estratégia
 
 Nem toda roupa sai da lava e seca pronta pra dobrar. Jeans pesado, toalha de algodão grosso e edredom de casal costumam sair com umidade residual — e olha que a máquina fez o trabalho dela direitinho. O ciclo simplesmente entende que aquela carga precisa parar antes de danificar a fibra.
@@ -90,8 +88,6 @@ Na prática, isso significa que o móvel precisa acomodar a máquina, mas també
 
 Moro em região úmida e posso te dizer: por lá, a secagem demora mais e a ventilação do nicho precisa ser ainda mais generosa. Se a sua casa sofre com mofo nas paredes, vale reforçar a saída de ar atrás do aparelho ou até deixar a porta do armário sempre entreaberta quando a máquina não estiver em uso.
 
-## O que não fazer
-
 ### Fechar tudo sem pensar na saida de ar
 
 O erro mais comum de quem planeja a lavanderia é pedir um móvel lacrado, com portas que fecham hermeticas. Parece bonito, esconde a máquina, cria uma falsa sensação de organização. Na primeira secagem, o vapor não tem por onde sair e o resultado é mofo no armário, cheiro de pano úmido na roupa e até ferrugem nas dobradiças.
@@ -107,8 +103,6 @@ Também tem o erro de não deixar sobra de altura. Você compra a máquina, depo
 Ou o contrapiso tem um desnível de dois dedos que ninguém percebeu na hora de medir. O móvel fica pronto e o armário para embutir lava e seca vira um quebra-cabeça.
 
 Por isso, sempre vale conferir o nível do piso antes de fechar o projeto e exigir folga de pelo menos dois centímetros nas laterais e no topo.
-
-## Perguntas rápidas
 
 ### Preciso de um nicho específico ou qualquer armário serve?
 
@@ -134,10 +128,10 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 
 ## Relacionados
 
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
-- [Melhor lava e seca com inteligência artificial: Ranking 2026](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca com IA: quais recursos comparar?](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
 - [As lava e seca mais bem avaliadas, lado a lado](/)

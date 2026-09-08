@@ -1,6 +1,6 @@
 export const site = {
   name: 'Melhor Lava e Seca',
-  tagline: 'Reviews honestos das melhores lava e seca do Brasil',
+  tagline: 'Comparativos e guias de lava e seca com referências',
   url: 'https://melhorlavaeseca.com',
   domain: 'melhorlavaeseca.com',
   locale: 'pt-BR',
@@ -24,7 +24,7 @@ export const site = {
   },
   nav: [
     { label: 'Melhor Lava e Seca', href: '/' },
-    { label: 'Ranking', href: '/#ranking' },
+    { label: 'Modelos', href: '/#ranking' },
     { label: 'Guia de compra', href: '/#guia' },
     { label: 'Comparativo', href: '/#comparativo' },
     { label: 'FAQ', href: '/#faq' },

@@ -19,3 +19,10 @@ backup/
 
 # Artefatos temporários dos scripts
 scripts/data/*.tmp
+
+# Variantes geradas em prebuild a partir das capas originais
+public/images/blog/responsive/
+
+# Artefatos brutos da auditoria (dumps HTTP, PNGs, JSONs): 13MB de saida
+# descartavel. Os dois relatorios ficam versionados em docs/.
+auditoria-seo-2026-09-05/

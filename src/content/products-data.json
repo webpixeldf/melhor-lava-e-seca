@@ -1,0 +1,392 @@
+[
+  {
+    "id": "samsung-wd11m-addwash",
+    "slug": "samsung-wd11m-addwash",
+    "rank": 1,
+    "brand": "Samsung",
+    "asin": "B0B625GC45",
+    "name": "Samsung WD11M Digital Inverter",
+    "model": null,
+    "image": "/images/products/lava-e-seca-samsung-wd11m.webp",
+    "badge": "11 kg / 7 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 11,
+    "capacityDry": 7,
+    "wifi": null,
+    "steam": null,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Lavagem de 11 kg e secagem de 7 kg para comparar com outras opções de porte médio.",
+    "pitch": "A WD11M desta seleção corresponde à linha de 11 kg de lavagem e 7 kg de secagem. Esses dois limites precisam entrar no planejamento: uma carga completa de lavagem pode exigir divisão antes de secar. O código completo e a tensão do anúncio devem coincidir com a versão que você pretende comprar. Recursos de outras linhas Samsung não devem ser atribuídos a ela apenas pela marca.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.samsung.com/br/support/model/WD11M4473PW/AZ/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 11 kg",
+      "Secagem: 7 kg"
+    ],
+    "pros": [
+      "Lavagem de 11 kg e secagem de 7 kg para comparar com outras opções de porte médio."
+    ],
+    "cons": [
+      "Limite de secagem de 7 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "lg-vc4-ai-direct-drive",
+    "slug": "lg-vc4-ai-direct-drive",
+    "rank": 2,
+    "brand": "LG",
+    "asin": "B0D2Y5X13C",
+    "name": "LG VC4 14 kg AI DD",
+    "model": null,
+    "image": "/images/products/lava-e-seca-lg-vc4.webp",
+    "badge": "14 kg / 8 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 14,
+    "capacityDry": 8,
+    "wifi": true,
+    "steam": true,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Mais capacidade de lavagem e conectividade para acompanhar a rotina.",
+    "pitch": "A VC4 de 14 kg amplia a capacidade de lavagem e oferece recursos como AI DD, vapor e conexão LG ThinQ nas versões consultadas. A indicação depende tanto do volume de roupa quanto do espaço para instalação. O programa, a carga e o tecido influenciam o resultado; a presença de inteligência artificial não elimina os cuidados de separação das peças.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.lg.com/br/lavanderia/lava-e-seca/cv5014wc4a/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 14 kg",
+      "Secagem: 8 kg"
+    ],
+    "pros": [
+      "Mais capacidade de lavagem e conectividade para acompanhar a rotina."
+    ],
+    "cons": [
+      "Limite de secagem de 8 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "samsung-wd13t-smart-inverter",
+    "slug": "samsung-wd13t-smart-inverter",
+    "rank": 3,
+    "brand": "Samsung",
+    "asin": "B0FWMTC71W",
+    "name": "Samsung WD13FG AI Control",
+    "model": null,
+    "image": null,
+    "badge": "13 kg / 8 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 13,
+    "capacityDry": 8,
+    "wifi": true,
+    "steam": null,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "13 kg de lavagem com controles da linha AI Control.",
+    "pitch": "A WD13FG combina capacidade de 13 kg de lavagem e 8 kg de secagem com AI Control. A ficha consultada informa gabinete de 60 cm de largura e 85 cm de altura. Ao medir a lavanderia, acrescente as folgas de instalação e o espaço de abertura da porta indicados no manual. Não confunda essa linha com WD13T ou com modelos AddWash.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.samsung.com/br/washers-and-dryers/washer-dryer-combo/wd6000f-front-loading-ai-ecobubble-ai-control-ai-energy-mode-13kg-refined-inox-wd13fg6b34bxbz/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 13 kg",
+      "Secagem: 8 kg"
+    ],
+    "pros": [
+      "13 kg de lavagem com controles da linha AI Control."
+    ],
+    "cons": [
+      "Limite de secagem de 8 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "electrolux-lsp11-turbo",
+    "slug": "electrolux-lsp11-turbo",
+    "rank": 4,
+    "brand": "Electrolux",
+    "asin": "B084RVVF5S",
+    "name": "Electrolux LSP11 Perfect Care",
+    "model": null,
+    "image": "/images/products/lava-e-seca-electrolux-lsp11.webp",
+    "badge": "Vapor Tira Odor",
+    "badgeTone": "neutral",
+    "capacityWash": 11,
+    "capacityDry": 7,
+    "wifi": null,
+    "steam": true,
+    "energyClass": "A",
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Sensores de lavagem e secagem e programa Vapor Tira Odor.",
+    "pitch": "A LSP11 Perfect Care lava 11 kg e seca 7 kg. A Electrolux descreve SensiCare para ajuste da lavagem, AutoSense para secagem e programa Vapor Tira Odor. Esses recursos devem ser comparados com a rotina de roupas e com os programas que você realmente utilizará, sem supor que a máquina terá conectividade por aplicativo.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://loja.electrolux.com.br/lava-e-seca-electrolux-11kg-branca-perfect-care-inverter-com-agua-quente-vapor--lsp11-/p",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 11 kg",
+      "Secagem: 7 kg"
+    ],
+    "pros": [
+      "Sensores de lavagem e secagem e programa Vapor Tira Odor."
+    ],
+    "cons": [
+      "Limite de secagem de 7 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "samsung-ecobubble-digital-inverter",
+    "slug": "samsung-ecobubble-digital-inverter",
+    "rank": 5,
+    "brand": "Samsung",
+    "asin": "B0CB51NXF2",
+    "name": "Samsung WD10M Ecobubble",
+    "model": null,
+    "image": "/images/products/samsung-lava-e-seca-digital-inverter-ecobubble.webp",
+    "badge": "10,1 kg / 6 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 10.1,
+    "capacityDry": 6,
+    "wifi": null,
+    "steam": null,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "10,1 kg para lavar; considere o limite de 6 kg na secagem.",
+    "pitch": "A WD10M consultada tem capacidade de lavagem de 10,1 kg e de secagem de 6 kg. A diferença é relevante para quem pretende lavar e secar tudo sem retirar parte da carga. A tecnologia Ecobubble é uma característica da linha; preços, tensão e condições de garantia devem ser verificados na versão anunciada.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.samsung.com/br/washers-and-dryers/washer-dryer-combo/lava-e-seca-10kg-white-wd10m4453mwfaz/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 10,1 kg",
+      "Secagem: 6 kg"
+    ],
+    "pros": [
+      "10,1 kg para lavar; considere o limite de 6 kg na secagem."
+    ],
+    "cons": [
+      "Limite de secagem de 6 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "samsung-wd11a-ecobubble",
+    "slug": "samsung-wd11a-ecobubble",
+    "rank": 6,
+    "brand": "Samsung",
+    "asin": "B0CB6TK5J8",
+    "name": "Samsung WD11A Ecobubble",
+    "model": null,
+    "image": "/images/products/lava-e-seca-samsung-wd11a.webp",
+    "badge": "Ecobubble",
+    "badgeTone": "neutral",
+    "capacityWash": 11,
+    "capacityDry": 7,
+    "wifi": null,
+    "steam": null,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Ecobubble em uma opção de 11 kg de lavagem.",
+    "pitch": "A WD11A com Ecobubble oferece 11 kg de lavagem e 7 kg de secagem. Compare-a com a WD11M considerando os recursos descritos na ficha, além do valor final com frete. O diagnóstico por aplicativo, quando oferecido, não deve ser confundido com controle remoto por Wi-Fi ou dosagem automática de sabão.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.samsung.com/br/washers-and-dryers/washer-dryer-combo/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-11kg-white-wd11a4453bw-az/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 11 kg",
+      "Secagem: 7 kg"
+    ],
+    "pros": [
+      "Ecobubble em uma opção de 11 kg de lavagem."
+    ],
+    "cons": [
+      "Limite de secagem de 7 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "midea-mf200d-healthguard",
+    "slug": "midea-mf200d-healthguard",
+    "rank": 7,
+    "brand": "Midea",
+    "asin": "B0CJSTMNR7",
+    "name": "Midea MF200D HealthGuard 10,5 kg",
+    "model": null,
+    "image": "/images/products/lava-e-seca-midea-mf200d105wb.webp",
+    "badge": "HealthGuard",
+    "badgeTone": "neutral",
+    "capacityWash": 10.5,
+    "capacityDry": 6,
+    "wifi": true,
+    "steam": true,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Conectividade e vapor em uma máquina de 10,5 kg.",
+    "pitch": "A HealthGuard MF200D105WB atende à faixa de 10,5 kg de lavagem e 6 kg de secagem. O manual da família e a ficha da marca apresentam conectividade e Steam Care. Consulte o sufixo completo do modelo para confirmar tensão e acabamento, pois essas informações mudam entre versões visualmente semelhantes.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://conteudo.midea.com.br/manuais/lava-e-seca-10-5kg-midea-healthguard-titanium-conectada.pdf",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 10,5 kg",
+      "Secagem: 6 kg"
+    ],
+    "pros": [
+      "Conectividade e vapor em uma máquina de 10,5 kg."
+    ],
+    "cons": [
+      "Limite de secagem de 6 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "hisense-wd3s11-smart",
+    "slug": "hisense-wd3s11-smart",
+    "rank": 8,
+    "brand": "Hisense",
+    "asin": "B08DMTGN38",
+    "name": "Hisense WD3S11",
+    "model": null,
+    "image": "/images/products/lava-e-seca-hisense-wd3s11.webp",
+    "badge": "ConnectLife",
+    "badgeTone": "neutral",
+    "capacityWash": 11,
+    "capacityDry": 7,
+    "wifi": true,
+    "steam": true,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "Wi-Fi pelo ConnectLife e opção de vapor.",
+    "pitch": "A WD3S11 integra a série 3S da Hisense, com capacidade de 11 kg de lavagem e 7 kg de secagem, Wi-Fi pelo ConnectLife e vapor. A marca também oferece outras capacidades na mesma família. Por isso, confirme que a ficha e o anúncio selecionados correspondem à versão de 11 kg antes de comparar dimensões e programas.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.hisense.com.br/lava-e-seca/3s/",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 11 kg",
+      "Secagem: 7 kg"
+    ],
+    "pros": [
+      "Wi-Fi pelo ConnectLife e opção de vapor."
+    ],
+    "cons": [
+      "Limite de secagem de 7 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "brastemp-bnq10-inverter",
+    "slug": "brastemp-bnq10-inverter",
+    "rank": 9,
+    "brand": "Brastemp",
+    "asin": "B0FW15RTK6",
+    "name": "Brastemp BNO11AB",
+    "model": null,
+    "image": null,
+    "badge": "11 kg / 6 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 11,
+    "capacityDry": 6,
+    "wifi": null,
+    "steam": true,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "11 kg de lavagem e 6 kg de secagem na linha Brastemp.",
+    "pitch": "A BNO11AB é uma lava e seca de 11 kg de lavagem e 6 kg de secagem. A linha oferece funções de vapor e Smart Sensor. Não confunda o código BNO11AB com BNQ10AB ou BNC10AB: são produtos diferentes. A disponibilidade de assistência deve ser consultada pelo endereço, sem presumir cobertura por ser uma marca conhecida.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.brastemp.com.br/eletrodomesticos/lava-e-seca",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 11 kg",
+      "Secagem: 6 kg"
+    ],
+    "pros": [
+      "11 kg de lavagem e 6 kg de secagem na linha Brastemp."
+    ],
+    "cons": [
+      "Limite de secagem de 6 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  },
+  {
+    "id": "brastemp-bno14as-titanium",
+    "slug": "brastemp-bno14as-titanium",
+    "rank": 10,
+    "brand": "Brastemp",
+    "asin": "B0HBCJVFYR",
+    "name": "Brastemp BNO14AS Titanium",
+    "model": null,
+    "image": null,
+    "badge": "14 kg / 8 kg",
+    "badgeTone": "neutral",
+    "capacityWash": 14,
+    "capacityDry": 8,
+    "wifi": null,
+    "steam": true,
+    "energyClass": null,
+    "voltage": "Conferir a versão no anúncio",
+    "headline": "14 kg de lavagem e 8 kg de secagem para cargas maiores.",
+    "pitch": "A BNO14AS Titanium amplia a capacidade para 14 kg de lavagem e 8 kg de secagem e oferece ciclo 100 Manchas e vapor. É uma opção para comparar quando o volume de roupa é decisivo. Ainda assim, uma carga máxima de lavagem não cabe integralmente na etapa de secagem. Verifique no anúncio a tensão e as condições de instalação.",
+    "rating": null,
+    "scoreBreakdown": null,
+    "priceFrom": null,
+    "reviewsCount": null,
+    "sourceUrl": "https://www.brastemp.com.br/eletrodomesticos/lava-e-seca",
+    "sourceChecked": "2026-09-05",
+    "evaluationType": "documental",
+    "features": [
+      "Lavagem: 14 kg",
+      "Secagem: 8 kg"
+    ],
+    "pros": [
+      "14 kg de lavagem e 8 kg de secagem para cargas maiores."
+    ],
+    "cons": [
+      "Limite de secagem de 8 kg: planeje a divisão de cargas maiores.",
+      "Confirme medidas, tensão, vendedor e assistência antes da compra."
+    ],
+    "ideal": "Compare o limite de secagem com a sua carga habitual e confira a instalação no manual."
+  }
+]

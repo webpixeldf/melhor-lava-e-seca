@@ -6,6 +6,9 @@ import { remark } from 'remark';
 import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
 import { site } from './site';
+import { resolvedImage } from './images';
+import { topicFor } from './topics';
+import { expandCatalog } from './catalog-markdown';
 
 const BLOG_DIR = path.join(process.cwd(), 'src', 'content', 'blog');
 
@@ -20,7 +23,8 @@ export function getAllSlugs() {
   return fs
     .readdirSync(BLOG_DIR)
     .filter((f) => f.endsWith('.md') || f.endsWith('.mdx'))
-    .map((f) => f.replace(/\.(md|mdx)$/, ''));
+    .map((f) => f.replace(/\.(md|mdx)$/, ''))
+    .filter((slug) => getPostBySlug(slug));
 }
 
 export function getPostBySlug(slug) {
@@ -33,19 +37,26 @@ export function getPostBySlug(slug) {
   if (!fullPath) return null;
 
   const raw = fs.readFileSync(fullPath, 'utf8');
-  const { data, content } = matter(raw);
+  const { data, content: rawContent } = matter(raw);
+  const content = expandCatalog(rawContent);
+  if (data.draft === true || data.status === 'draft' || data.status === 'retired') return null;
+  if (!data.date || !Number.isFinite(Date.parse(data.date))) throw new Error(`Data de publicação inválida: ${slug}`);
   const stats = readingTime(content);
 
   return {
     slug,
     title: data.title || slug,
     description: data.description || '',
-    date: data.date || new Date().toISOString(),
-    updated: data.updated || data.date || new Date().toISOString(),
+    date: data.date,
+    updated: data.updated || data.date,
     category: data.category || 'Guia',
     tags: data.tags || [],
     author: data.author || site.author,
-    image: data.image || '/images/blog/default-cover.jpg',
+    image: resolvedImage(data.image),
+    imageAlt: data.imageAlt || '',
+    reviewed: data.reviewed || null,
+    reviewer: data.reviewer || null,
+    sources: data.sources || [],
     keywords: data.keywords || [],
     content,
     readingTime: `${Math.max(1, Math.round(stats.minutes))} min de leitura`,
@@ -69,7 +80,7 @@ export async function renderMarkdown(markdown) {
     .use(remarkGfm)
     .use(remarkHtml, { sanitize: false })
     .process(markdown);
-  return enhanceLinks(String(processed));
+  return enhanceLinks(String(processed)).replace(/<table>/g, '<p class="table-hint">No celular, deslize a tabela para ver todas as colunas.</p><div class="article-table-scroll" role="region" aria-label="Tabela comparativa — deslize para ver todas as colunas" tabindex="0"><table>').replace(/<\/table>/g, '</table></div>');
 }
 
 /**
@@ -86,7 +97,9 @@ function enhanceLinks(html) {
       const isExternal = /^https?:\/\//i.test(href);
       if (!isExternal) return match;
 
-      const isAmazon = /amazon\.com(\.br)?/i.test(href) || /amzn\.to/i.test(href);
+      const host = new URL(href).hostname.toLowerCase();
+      if (host === new URL(site.url).hostname) return match;
+      const isAmazon = host === 'amzn.to' || host === 'amazon.com.br' || host.endsWith('.amazon.com.br') || host === 'amazon.com' || host.endsWith('.amazon.com');
 
       // Remove atributos rel/target que porventura já existam pra não duplicar
       const clean = (pre + post).replace(/\s*(rel|target)="[^"]*"/gi, '').trim();
@@ -98,4 +111,14 @@ function enhanceLinks(html) {
       return `<a ${clean ? clean + ' ' : ''}href="${href}" target="_blank" rel="${rel}">`;
     }
   );
+}
+
+export function getRelatedPosts(post, limit = 6) {
+ const all=getAllPosts();
+ const siblings=all.filter(p=>topicFor(p).slug===topicFor(post).slug).sort((a,b)=>a.slug.localeCompare(b.slug));
+ const position=siblings.findIndex(p=>p.slug===post.slug);
+ const neighbors=siblings.length>1?[siblings[(position+siblings.length-1)%siblings.length],siblings[(position+1)%siblings.length]]:[];
+ const terms=new Set(post.slug.split('-').filter(w=>w.length>2&&!['lava','seca','como','melhor','para','uma'].includes(w)));
+ const ranked=all.filter(p=>p.slug!==post.slug).map(p=>({post:p,score:p.slug.split('-').filter(w=>terms.has(w)).length*3+(topicFor(p).slug===topicFor(post).slug?2:0)})).filter(p=>p.score>0).sort((a,b)=>b.score-a.score||a.post.slug.localeCompare(b.post.slug)).map(p=>p.post);
+ return [...new Map([...neighbors,...ranked].filter(p=>p.slug!==post.slug).map(p=>[p.slug,p])).values()].slice(0,limit);
 }

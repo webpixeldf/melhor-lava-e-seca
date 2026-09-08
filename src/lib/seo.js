@@ -13,6 +13,7 @@ export function buildMetadata({
   articleSection,
   articleTags,
   appendSiteName = true,
+  noindex = false,
 }) {
   const url = `${site.url}${path}`;
   // Paginas cuja propria keyword ja e o nome do site (a home, por exemplo)
@@ -69,11 +70,11 @@ export function buildMetadata({
       creator: '@melhorlavaeseca',
     },
     robots: {
-      index: true,
+      index: !noindex,
       follow: true,
       nocache: false,
       googleBot: {
-        index: true,
+        index: !noindex,
         follow: true,
         'max-video-preview': -1,
         'max-image-preview': 'large',
@@ -95,7 +96,7 @@ export function buildMetadata({
     other: {
       'theme-color': '#0B5FFF',
       'msapplication-TileColor': '#0B5FFF',
-      'google-site-verification': '',
+
     },
   };
 

@@ -7,7 +7,7 @@ tags: ["lava e seca altura e dimensões", "largura", "profundidade", "altura"]
 author: "Marcelo França"
 keywords: ["lava e seca altura e dimensões", "largura", "profundidade", "altura", "espaço para instalação", "medidas da lava e seca"]
 image: "/images/blog/lava-e-seca-altura-e-dimensoes.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Muita gente acha que qualquer lava e seca serve em qualquer cantinho da casa. Basta medir a largura e a profundidade, empurrar pro lugar e pronto — mas não é bem assim que funciona.
@@ -61,8 +61,6 @@ Antes de sair medindo a máquina, meça o vão onde ela vai morar. O erro mais c
 5. **Confira o nível do piso antes de ligar.** Um piso desnivelado faz a lava e seca vibrar e andar sozinha no ciclo de centrifugação. Use um nível de bolha sobre a máquina e ajuste os pés rosqueáveis até a bolha ficar no centro.
 6. **Calcule o contra-peso na hora de subir escada.** Uma máquina com tambor grande pode passar dos 90 kg, e o transporte em andar sem elevador exige planejamento. Combine com a loja se a entrega inclui subida de escada e a instalação completa, porque isso muda o valor final.
 
-## Quando a regra muda
-
 ### A exceção dos edredons e cobertores
 
 Lá pelas tantas, todo mundo descobre que a medida da máquina não é o único número que importa. Um edredom de casal, por exemplo, raramente seca numa leva só — mesmo que a profundidade da lavadora seja generosa. É o tipo de coisa que você só percebe na prática, quando o alarme de fim de ciclo toca e o edredom ainda está úmido nas pontas.
@@ -74,8 +72,6 @@ Nesse caso, a solução é dividir em duas secagens ou escolher um modelo com ta
 Quem mora em lugar úmido ou com varanda fechada vai precisar de mais ciclos, e o espaço ao redor da máquina precisa permitir que a porta abra totalmente. Muita gente esquece que a lava e seca altura e dimensões padrão não resolve tudo quando o ambiente é apertado.
 
 Se a sua lavanderia é minúscula, meça também a folga da porta aberta. Uma máquina que encaixa no vão, mas não abre a tampa direito, vira um problema diário. E lembra do peso que falamos? Numa instalação no segundo andar, o transporte e o apoio no piso fazem diferença real.
-
-## O que não fazer
 
 ### Erro clássico: confiar na fita métrica do vendedor
 
@@ -94,8 +90,6 @@ Outro detalhe: deixar a máquina colada na parede de trás. Ela vibra, encosta, 
 ### Nível de bolha é item obrigatório, não opcional
 
 Máquina desnivelada não é frescura. Ela quica, anda pelo cômodo e ainda prejudica a centrífuga, que fica ruidosa e desgasta os amortecedores. Ajuste os pés antes da primeira lavagem, não depois de ouvir o estouro.
-
-## Dúvidas que sempre aparecem
 
 ### Dá pra instalar lava e seca em apartamento pequeno?
 
@@ -117,10 +111,10 @@ Ainda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking co
 
 ## Continue por aqui
 
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
-- [Melhor lava e seca com inteligência artificial: Ranking 2026](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca com IA: quais recursos comparar?](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
 - [Ranking das melhores lava e seca do mercado](/)

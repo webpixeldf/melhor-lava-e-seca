@@ -6,6 +6,8 @@ import BackToTop from '@/components/BackToTop';
 import { OrganizationSchema, WebSiteSchema } from '@/components/Schema';
 import { buildMetadata } from '@/lib/seo';
 import { site } from '@/lib/site';
+import { products } from '@/content/products';
+import AnalyticsConsent from '@/components/AnalyticsConsent';
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -15,9 +17,9 @@ const lexend = Lexend({
 });
 
 export const metadata = buildMetadata({
-  title: 'Melhor Lava e Seca 2026: Ranking com 9 Modelos Testados',
+  title: `Melhor Lava e Seca 2026: Compare ${products.length} Modelos`,
   description:
-    'Qual a melhor lava e seca de 2026? Ranking com 9 modelos testados da Samsung, LG, Electrolux e Brastemp: prós, contras e consumo real de energia.',
+    'Compare modelos de lava e seca por capacidade de lavagem e secagem, recursos e espaço. Consulte fichas dos fabricantes e confira as ofertas.',
   path: '/',
   appendSiteName: false,
   keywords: [
@@ -61,46 +63,6 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://www.amazon.com.br" />
         <meta name="format-detection" content="telephone=no" />
 
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18305955963"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-18305955963');
-            `,
-          }}
-        />
-
-        {/* Conversão "clique de saída": dispara ao clicar em qualquer link de
-            afiliado (rel="sponsored"). Usa delegação no document para
-            sobreviver às re-renderizações do React. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              document.addEventListener('click', function (e) {
-                var link = e.target && e.target.closest
-                  ? e.target.closest('a[rel~="sponsored"]')
-                  : null;
-                if (!link) return;
-                if (typeof window.gtag === 'function') {
-                  gtag('event', 'conversion', {
-                    'send_to': 'AW-18305955963/CR2fCOHGtMwcEPvw-phE',
-                    'value': 1.0,
-                    'currency': 'BRL'
-                  });
-                }
-                if (window.console) console.log('[track] clique_afiliado:', link.href);
-              });
-            `,
-          }}
-        />
-
         <OrganizationSchema />
         <WebSiteSchema />
       </head>
@@ -110,6 +72,7 @@ export default function RootLayout({ children }) {
         <main id="conteudo">{children}</main>
         <Footer />
         <BackToTop />
+        <AnalyticsConsent />
       </body>
     </html>
   );

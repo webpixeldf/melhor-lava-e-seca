@@ -7,7 +7,7 @@ tags: ["erro ue lg lava e seca", "código UE LG", "carga desbalanceada", "redist
 author: "Marcelo França"
 keywords: ["erro ue lg lava e seca", "código UE LG", "carga desbalanceada", "redistribuir roupas", "centrifugação", "excesso de roupas"]
 image: "/images/blog/erro-ue-lg-lava-e-seca.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-07T23:43:17Z"
 ---
 
 Parece um problema raro, mas na prática é uma das buscas mais comuns entre donos de lava e seca da LG. O temido “erro ue” surge do nada, a máquina para no meio do ciclo e você fica sem saber se é algo simples ou se precisa chamar um técnico.
@@ -68,8 +68,6 @@ Antes de sair desmontando qualquer coisa, vale uma verdade: a maioria dos casos 
 
 7. **Limpe o filtro da bomba.** Ele fica num compartimento na parte da frente, atrás de uma tampinha. Retire fiapos, moedas e resto de papel que ficam presos — isso alivia o esforço do motor durante a centrifugação.
 
-## A hora de parar e chamar um técnico
-
 ### Quando o "faça você mesmo" vira risco
 
 Você já tentou de tudo: redistribuiu as roupas, tirou o excesso, nivelou a máquina e o código continua voltando. Nesse ponto, insistir é jogar contra o aparelho. Forçar ciclos de centrifugação com o sensor de balanceamento dando defeito pode estourar o amortecedor, queimar a placa ou até danificar o motor.
@@ -79,8 +77,6 @@ Sinais claros de que a hora é de ligar pra assistência: o erro aparece com pou
 ### O que o técnico vai fazer
 
 Ele dispõe de multímetro e conhecimento de placa pra testar o sensor de forma isolada. Às vezes a solução é uma calibragem simples, outras vezes a troca da peça. Deixa com quem entende — o custo de um conserto é bem menor que o de uma lavadora nova.
-
-## O que fazer pra não repetir o problema
 
 ### Uma rotina simples de prevenção
 
@@ -93,8 +89,6 @@ Respeite o limite de peso da sua máquina. Encher até o talo é o caminho mais 
 ### Manutenção que evita dor de cabeça
 
 A cada três meses, vale revisar os pés niveladores com uma chave. Máquina que vibra demais desalinha sozinha com o tempo. Aproveite e limpe o filtro da bomba — resíduo acumulado também mexe com o balanceamento. Com esse cuidado básico, a lavadora trabalha tranquila por anos.
-
-## Dúvidas que sempre aparecem
 
 ### O código apaga sozinho e a máquina volta a funcionar?
 
@@ -120,6 +114,6 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 - [Erro pe lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-pe-lava-e-seca-lg/)
 - [Erro oe LG lava e seca: Causas, Soluções e Guia Completo](/blog/erro-oe-lg-lava-e-seca/)
 - [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
-- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro OE na lava e seca Samsung: o que significa](/blog/erro-oe-lava-e-seca-samsung/)
 - [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
 - [Ranking das melhores lava e seca do mercado](/)

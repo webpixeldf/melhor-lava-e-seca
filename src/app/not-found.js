@@ -5,6 +5,7 @@ export const metadata = buildMetadata({
   title: 'Página não encontrada',
   description: 'A página que você tentou acessar não existe ou foi movida.',
   path: '/404/',
+  noindex: true,
 });
 
 export default function NotFound() {

@@ -23,7 +23,11 @@
     "indexnow:latest": "node scripts/indexnow-ping.mjs --latest",
     "indexnow:all": "node scripts/indexnow-ping.mjs --all",
     "icons:build": "node scripts/build-favicons.mjs",
-    "postinstall": "node scripts/build-favicons.mjs || echo 'favicons opcional'"
+    "postinstall": "node scripts/build-favicons.mjs || echo 'favicons opcional'",
+    "prebuild": "node scripts/build-responsive-images.mjs",
+    "blog:publish": "node scripts/publish-reviewed-post.mjs",
+    "seo:check": "node scripts/check-seo.mjs",
+    "test:editorial": "node scripts/test-editorial-gate.mjs"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

@@ -7,7 +7,7 @@ tags: ["erro oe lg lava e seca", "código OE LG", "bomba de drenagem", "água pa
 author: "Marcelo França"
 keywords: ["erro oe lg lava e seca", "código OE LG", "bomba de drenagem", "água parada", "mangueira de drenagem", "filtro LG"]
 image: "/images/blog/erro-oe-lg-lava-e-seca.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-07T23:43:17Z"
 ---
 
 Muita gente acha que o "OE" no painel é o fim da máquina, que o motor queimou e o conserto vai custar uma fortuna. Na real, esse código quase nunca é defeito grave: ele só indica que a água não está saindo do tambor no tempo certo.
@@ -84,8 +84,6 @@ A mangueira de drenagem também merece um olhar. A cada três meses, desligue a 
 
 No mais, use o sabão na medida certa. Excesso de espuma sobrecarrega o sensor de nível e força a bomba a trabalhar além do necessário. Com essa rotina, o erro oe lg lava e seca vira só uma lembrança distante.
 
-## Perguntas rápidas
-
 ### O erro OE sempre significa que a máquina quebrou?
 
 Não. Na maioria dos casos, é só sujeira acumulada no caminho da água. O filtro de fiapos entupido responde por boa parte das ocorrências, e a limpeza resolve em poucos minutos.
@@ -110,6 +108,6 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 - [Erro TCL lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-tcl-lava-e-seca-lg/)
 - [Erro pe lava e seca LG: Causas, Soluções e Guia Completo](/blog/erro-pe-lava-e-seca-lg/)
 - [Erro oc lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oc-lava-e-seca-samsung/)
-- [Erro oe lava e seca Samsung: Causas e Como Resolver 2026](/blog/erro-oe-lava-e-seca-samsung/)
+- [Erro OE na lava e seca Samsung: o que significa](/blog/erro-oe-lava-e-seca-samsung/)
 - [Erro ie lava e seca Electrolux: Guia Completo e Soluções](/blog/erro-ie-lava-e-seca-electrolux/)
 - [As lava e seca mais bem avaliadas, lado a lado](/)

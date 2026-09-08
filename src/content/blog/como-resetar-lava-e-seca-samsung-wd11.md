@@ -89,8 +89,6 @@ Outra situação típica: o dispenser de sabão entope com frequência e a lavag
 
 Uma dica honesta: anote o código de erro que apareceu e o comportamento da máquina antes de chamar o técnico. Isso agiliza o diagnóstico e evita que ele troque peça sem necessidade.
 
-## Como evitar que aconteça de novo
-
 ### Rotina de limpeza que vale ouro
 
 A maioria dos travamentos que eu vejo por aí não vem de defeito de fábrica — vem de acúmulo de sujeira e mau uso. Então, deixa eu te passar o que funciona na prática.
@@ -108,8 +106,6 @@ A regra que eu uso: **encheu, mas sobrou espaço pra mão girar** — tá bom. R
 Ah, e o filtro da mangueira de entrada? Vale conferir a cada seis meses, principalmente se a água da sua região é dura. Um palitinho de dente resolve o entupimento na hora.
 
 Por fim: com essa rotina, a chance de você precisar de um procedimento de emergência cai drasticamente. Mas se um dia precisar, o passo a passo que mostrei antes resolve na maioria dos casos. O segredo é tratar a máquina como o eletrodoméstico caro que ela é — manutenção preventiva é sempre mais barata que conserto.
-
-## Perguntas frequentes
 
 ### Resetar a máquina apaga meus programas personalizados?
 
@@ -139,6 +135,6 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 - [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)
 - [Como deixar roupa de molho na lava e seca Samsung: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-samsung/)
-- [Como calibrar lava e seca Samsung WD11T: Guia Completo 2026](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
-- [Como calibrar lava e seca Samsung ecobubble: Guia 2026](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
+- [Calibrar Samsung WD11T: manual e preparação](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
+- [Calibrar Samsung Ecobubble: confira o seu modelo](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

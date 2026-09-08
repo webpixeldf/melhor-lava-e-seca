@@ -7,7 +7,7 @@ tags: ["lava e seca não centrifuga", "roupa encharcada", "bomba de drenagem", "
 author: "Marcelo França"
 keywords: ["lava e seca não centrifuga", "roupa encharcada", "bomba de drenagem", "filtro entupido", "excesso de carga", "balanceamento"]
 image: "/images/blog/lava-e-seca-nao-centrifuga.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Tem gente que jura que máquina que lava e seca não centrifuga é defeito de fábrica. Na maioria dos casos, não é bem assim.
@@ -88,8 +88,6 @@ Continuar forçando ciclos com a máquina nesse estado pode queimar componentes 
 
 Se a lava e seca não centrifuga nem no modo manual e você ouve um zumbido abafado, é sinal de motor travado ou capacitor morto. Chame a assistência técnica — e peça orçamento antes de autorizar qualquer serviço.
 
-## O que fazer pra não repetir o problema
-
 ### A rotina que vale ouro: limpeza mensal do filtro
 
 Reserva dez minutos por mês pra tirar o filtro, lavar com água corrente e escova macia. Parece pouco, mas é o gesto que mais evita susto com roupa encharcada no futuro. Fiapo de toalha e pelo de pet se acumulam ali sem você perceber, e quando menos espera, a drenagem trava.
@@ -101,8 +99,6 @@ Vale criar o hábito junto com a limpeza do compartimento de sabão. Dois cuidad
 Nunca encha o tambor até o limite visual — a roupa precisa de espaço pra se mover. Uma boa referência: se você fecha o tambor com esforço, é sinal de que passou do ponto. Pra edredom ou cobertores, divida em duas levas e use o ciclo específico.
 
 Ah, e distribua as peças de forma uniforme. Colocar tudo de um lado só desbalanceia o tambor e a máquina desiste da centrifugação no meio do caminho.
-
-## Dúvidas que sempre aparecem
 
 ### Por que a roupa sai encharcada mesmo no ciclo de secagem?
 
@@ -129,9 +125,9 @@ Na dúvida sobre qual modelo compensa, o [ranking de lava e seca atualizado](/) 
 ## Continue por aqui
 
 - [Lava e seca Samsung não está drenando a água: Guia 2026](/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua/)
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
 - [Ranking das melhores lava e seca do mercado](/)

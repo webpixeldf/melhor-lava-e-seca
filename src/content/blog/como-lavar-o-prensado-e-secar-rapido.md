@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Como lavar o prensado e secar rápido: Guia Completo 2026"
 description: "Aprenda como lavar o prensado e secar rápido em poucas horas com técnicas caseiras que eliminam a sujeira sem mofo, usando itens que você já tem em casa."
 date: "2026-08-10T23:16:47-03:00"

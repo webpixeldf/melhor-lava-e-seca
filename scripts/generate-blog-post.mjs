@@ -17,7 +17,7 @@ import { fetchBlogCover } from './lib/unsplash.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const BLOG_DIR = path.join(ROOT, 'src', 'content', 'drafts');
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'blog');
 
 const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY;
@@ -211,7 +211,7 @@ async function main() {
     fs.writeFileSync(mdPath, finalContent);
   }
 
-  console.log(`✅ Artigo salvo: src/content/blog/${slug}.md`);
+  console.log(`✅ Artigo salvo: src/content/drafts/${slug}.md`);
   console.log(`   Titulo: ${title}`);
   console.log(`   ${content.length} caracteres, ~${Math.round(content.split(/\s+/).length)} palavras`);
 }

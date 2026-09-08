@@ -7,7 +7,7 @@ tags: ["lava e seca lg cv5012pc4", "LG CV5012PC4", "AI DD", "ThinQ"]
 author: "Marcelo França"
 keywords: ["lava e seca lg cv5012pc4", "LG CV5012PC4", "AI DD", "ThinQ", "Direct Drive", "Steam"]
 image: "/images/blog/lava-e-seca-lg-cv5012pc4.webp"
-updated: "2026-09-05T09:12:11-03:00"
+updated: "2026-09-08T00:21:43Z"
 ---
 
 Errar o ciclo da lava e seca custa caro. Não estou falando só da conta de luz, que já pesa, mas daquele edredom que encolheu, da camisa que saiu amassada como se tivesse dormido dentro da máquina e de horas perdidas tentando entender qual botão apertar.
@@ -66,8 +66,6 @@ Colocar a máquina pra funcionar direito não tem mistério, mas a ordem dos pas
 
 6. **Conecte o app ThinQ e deixe as notificações ativas.** Você inicia o ciclo de qualquer lugar e recebe aviso quando termina — útil pra quem esquece roupa na máquina. Se morar em apartamento, programe a lavagem pra horário de tarifa mais barata direto no aplicativo.
 
-## Quando a regra muda
-
 ### Onde a orientação anterior não vale
 
 Tem um detalhe que muita gente esquece: o sensor de umidade decide quando parar a secagem, e ele trabalha com o que está dentro do tambor. Misturar um edredom com camisetas faz o sensor ler a média — aí a roupa leve sai certinha, mas o edredom volta úmido. Separe cargas por tipo de tecido, não por quantidade.
@@ -81,8 +79,6 @@ Seda, renda e peças com aplicação de strass não deveriam ir pra secagem auto
 Algodão pesado, como toalhas felpudas e jeans grossos, tende a sair com uma umidade residual. Isso também é esperado: o sensor entende que o tecido pode encolher e para um pouco antes do ponto máximo. Uma passada rápida no ciclo de secagem extra resolve, ou deixar alguns minutos no varal.
 
 Feito isso, a máquina da conta de quase tudo — só não dá pra exigir que ela mude a física.
-
-## O que não fazer
 
 ### O erro do sabão em excesso
 
@@ -99,8 +95,6 @@ Outra coisa: ativacoes de ciclo pela tela do celular parecem práticas, mas voc�
 ### Quando o ciclo virar moda
 
 Steam e Turbowash são recursos excelentes nos momentos certos, mas usar toda vez acelera o desgaste da roupa e aumenta a conta de luz. Pra roupa do dia a dia, o ciclo normal resolve. Guarde os recursos pra peças mais pesadas — e deixe a máquina trabalhar em paz.
-
-## Perguntas frequentes
 
 ### A lava e seca LG cv5012pc4 cabe em apartamento pequeno?
 
@@ -122,10 +116,10 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 
 ## Para ir mais fundo
 
-- [Melhor maquina lava e seca cinza: Ranking e Análise 2026](/blog/melhor-maquina-lava-e-seca-cinza/)
-- [Melhor lava e seca de embutir: Ranking Completo e Análise](/blog/melhor-lava-e-seca-de-embutir/)
-- [Melhor lava e seca de até r$ 2.500: Ranking Completo 2026](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
-- [Melhor lava seca e dobra: Ranking Completo e Análise 2026](/blog/melhor-lava-seca-e-dobra/)
-- [Melhor maquina lava e seca abertura superior: Ranking 2026](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
-- [Melhor lava e seca com inteligência artificial: Ranking 2026](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
+- [Lava e seca cinza: como comparar acabamentos e modelos](/blog/melhor-maquina-lava-e-seca-cinza/)
+- [Lava e seca sob bancada: como planejar o nicho](/blog/melhor-lava-e-seca-de-embutir/)
+- [Lava e seca até R$ 2.500: como avaliar uma oferta](/blog/melhor-lava-e-seca-de-ate-r-2-500/)
+- [Máquina lava, seca e dobra? O que conferir na oferta](/blog/melhor-lava-seca-e-dobra/)
+- [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
+- [Lava e seca com IA: quais recursos comparar?](/blog/melhor-lava-e-seca-com-inteligencia-artificial/)
 - [Comparativo completo das lava e seca de 2026](/)
