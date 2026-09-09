@@ -5047,8 +5047,9 @@
         "manutenção",
         "assistência técnica"
       ],
-      "status": "pending",
-      "publishedAt": null
+      "status": "draft",
+      "publishedAt": null,
+      "draftedAt": "2026-09-09T19:45:39.891Z"
     },
     {
       "keyword": "lava e seca midea vazando água por baixo",
