@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Instalar lava e seca Samsung: confira a versão"
 description: "Instalar lava e seca Samsung: confira a versão. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-09-05T19:01:53Z"
@@ -30,7 +31,7 @@ Adaptações elétricas e hidráulicas precisam de avaliação qualificada. A ex
 
 Siga a preparação inicial do fabricante. Se houver calibração, use o procedimento do painel correto, sem assumir uma combinação universal. Observe se há vazamento ou deslocamento durante a primeira utilização e interrompa se notar anormalidade.
 
-Consulte também [instalação em apartamento](/blog/como-instalar-lava-e-seca-em-apartamento/) e [calibração de modelos Ecobubble](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/).
+Consulte também [instalação em apartamento](/blog/como-instalar-lava-e-seca/) e [calibração de modelos Ecobubble](/blog/como-calibrar-a-lava-e-seca-samsung/).
 
 ## Referências consultadas
 

@@ -130,7 +130,6 @@ Ainda está escolhendo qual aparelho levar pra casa? Vale conferir o [ranking co
 ## Relacionados
 
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
 - [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)

@@ -122,8 +122,6 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 ## Relacionados
 
-- [Calibrar Samsung WD11T: manual e preparação](/blog/como-calibrar-lava-e-seca-samsung-wd11t/)
-- [Calibrar Samsung Ecobubble: confira o seu modelo](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/)
 - [Como resetar lava e seca Samsung WD11: Guia Completo 2026](/blog/como-resetar-lava-e-seca-samsung-wd11/)
 - [Como lavar o tambor da lava e seca Samsung: Guia 2026](/blog/como-lavar-o-tambor-da-lava-e-seca-samsung/)
 - [Como destravar a lava e seca Samsung: Guia Completo 2026](/blog/como-destravar-a-lava-e-seca-samsung/)

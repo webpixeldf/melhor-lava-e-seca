@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Lava e seca Midea: checklist da primeira lavagem"
 description: "Lava e seca Midea: checklist da primeira lavagem. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-09-07T20:33:57Z"
@@ -32,7 +33,7 @@ A carga deve atender ao limite de secagem e ao programa, não apenas à capacida
 
 Observe vazamentos, deslocamento e avisos do painel. Se algo estiver fora do normal, interrompa a operação conforme o manual e registre o código. Não entre em modos de serviço para tentar corrigir uma falha de instalação.
 
-O código E21 não é o nome de um modelo: veja [o que conferir quando aparece E21](/blog/e21-lava-e-seca-midea-e-boa/). Para outros programas, consulte [uso e cuidados com a Midea](/blog/lava-e-seca-midea-como-usar/).
+O código E21 não é o nome de um modelo: veja [o que conferir quando aparece E21](/blog/e21-lava-e-seca-midea-e-boa/). Para outros programas, consulte [uso e cuidados com a Midea](/blog/como-usar-a-lava-e-seca-midea/).
 
 ## Referências consultadas
 

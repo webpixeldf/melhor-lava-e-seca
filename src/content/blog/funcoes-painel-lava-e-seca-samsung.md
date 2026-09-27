@@ -131,7 +131,7 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Como tirar o tambor da lava e seca Samsung: Guia 2026](/blog/como-tirar-o-tambor-da-lava-e-seca-samsung/)
 - [Como so centrifugar na lava e seca Samsung: Guia 2026](/blog/como-so-centrifugar-na-lava-e-seca-samsung/)
 - [Como secar na lava e seca Samsung: Causas e Soluções 2026](/blog/como-secar-na-lava-e-seca-samsung/)
-- [Como instalar maquina lava e seca Samsung: Guia 2026](/blog/como-instalar-maquina-lava-e-seca-samsung/)
+- [Como instalar maquina lava e seca Samsung: Guia 2026](/blog/como-instalar-lava-e-seca/)
 - [Qual sabão usar na lava e seca Samsung: Ranking Completo](/blog/qual-sabao-usar-na-lava-e-seca-samsung/)
 - [Lava e seca Samsung não está drenando a água: Guia 2026](/blog/lava-e-seca-samsung-nao-esta-drenando-a-agua/)
 - [Comparativo completo das lava e seca de 2026](/)

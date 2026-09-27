@@ -133,8 +133,7 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 ## Leia também
 
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)
 - [Como instalar lava e seca: checklist do local](/blog/como-instalar-lava-e-seca/)
 - [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)

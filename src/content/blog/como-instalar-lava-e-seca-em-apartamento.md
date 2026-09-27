@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Instalar lava e seca em apartamento: planeje o espaço"
 description: "Instalar lava e seca em apartamento: planeje o espaço. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-09-05T15:07:04Z"

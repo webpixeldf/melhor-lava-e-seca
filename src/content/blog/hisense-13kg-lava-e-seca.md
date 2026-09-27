@@ -118,7 +118,7 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 
 - [Samsung 11 kg ou 13 kg: compare lavagem e secagem](/blog/melhor-lava-e-seca-samsung-11kg-e-13kg/)
 - [Lava e seca Hisense: compare 11 kg e 13 kg da linha 3S](/blog/melhor-lava-e-seca-hisense/)
-- [Lava e seca Hisense 11 kg: Tudo o Que Você Precisa Saber](/blog/lava-e-seca-hisense-11-kg/)
+- [Lava e seca Hisense 11 kg: Tudo o Que Você Precisa Saber](/blog/hisense-lava-e-seca-11kg/)
 - [Lava e seca 13kg Electrolux: Guia Completo com Dicas 2026](/blog/lava-e-seca-13kg-electrolux/)
 - [Lava e seca 13kg branca Midea healthguard conectada](/blog/lava-e-seca-13kg-branca-midea-healthguard-conectada/)
 - [Hisense maquina lava e seca: Guia Completo com Dicas 2026](/blog/hisense-maquina-lava-e-seca/)

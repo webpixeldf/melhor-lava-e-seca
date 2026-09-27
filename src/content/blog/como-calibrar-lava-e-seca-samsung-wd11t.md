@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Calibrar Samsung WD11T: manual e preparação"
 description: "Calibrar Samsung WD11T: manual e preparação. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-08-08T13:09:52-03:00"
@@ -30,7 +31,7 @@ Se a tela ou os botões não coincidirem com a instrução consultada, interromp
 
 Registre o sintoma e a etapa em que ele ocorre. Problemas de abastecimento, drenagem ou temperatura podem exigir outra orientação. Evite reiniciar ciclos repetidamente se houver vazamento ou comportamento anormal.
 
-O [guia de modelos Ecobubble](/blog/como-calibrar-lava-e-seca-samsung-ecobubble/) explica por que o nome da tecnologia não substitui o código. Para assistência, use os canais oficiais abaixo.
+O [guia de modelos Ecobubble](/blog/como-calibrar-a-lava-e-seca-samsung/) explica por que o nome da tecnologia não substitui o código. Para assistência, use os canais oficiais abaixo.
 
 ## Referências consultadas
 

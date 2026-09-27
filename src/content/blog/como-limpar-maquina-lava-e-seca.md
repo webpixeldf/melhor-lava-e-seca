@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Como limpar a máquina lava e seca: rotina e manual"
 description: "Como limpar a máquina lava e seca: rotina e manual. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-09-06T00:12:47Z"

@@ -132,6 +132,5 @@ Se ainda restou dúvida, o [guia com os modelos de lava e seca que recomendamos]
 - [Lava e seca de abertura superior: o que verificar](/blog/melhor-maquina-lava-e-seca-abertura-superior/)
 - [Lava e seca Hisense: compare 11 kg e 13 kg da linha 3S](/blog/melhor-lava-e-seca-hisense/)
 - [Pes para maquina lava e seca: Guia Completo e Dicas 2026](/blog/pes-para-maquina-lava-e-seca/)
-- [Lava e seca Hisense 11 kg: Tudo o Que Você Precisa Saber](/blog/lava-e-seca-hisense-11-kg/)
-- [Hisense lava e seca 11kg: Guia Completo e Dicas Práticas](/blog/hisense-lava-e-seca-11kg/)
+- [Lava e seca Hisense 11 kg: Tudo o Que Você Precisa Saber](/blog/hisense-lava-e-seca-11kg/)
 - [Comparativo completo das lava e seca de 2026](/)

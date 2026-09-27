@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Calibrar Samsung Ecobubble: confira o seu modelo"
 description: "Calibrar Samsung Ecobubble: confira o seu modelo. Confira o manual, os cuidados e as verificações permitidas para a versão do seu aparelho."
 date: "2026-08-07T23:16:18-03:00"
@@ -30,7 +31,7 @@ Piso estável, nivelamento, elementos de transporte e posição das mangueiras p
 
 Fotografe a mensagem e consulte a tabela de códigos antes de tentar calibrar. Nem toda falha de drenagem, temperatura ou porta está relacionada à leitura de carga.
 
-Para uma WD11T, consulte também o [guia específico de identificação](/blog/como-calibrar-lava-e-seca-samsung-wd11t/). Se o erro persistir, procure atendimento com o modelo e o código registrados.
+Para uma WD11T, consulte também o [guia específico de identificação](/blog/como-calibrar-a-lava-e-seca-samsung/). Se o erro persistir, procure atendimento com o modelo e o código registrados.
 
 ## Referências consultadas
 

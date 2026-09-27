@@ -30,7 +30,7 @@ O nivelamento e a fixação das mangueiras também precisam ser feitos conforme 
 
 Consulte as etapas iniciais recomendadas, que podem incluir verificação de funcionamento ou calibração em modelos específicos. Observe conexões durante essa primeira utilização. Se houver vazamento, interrompa o uso e corrija a instalação antes de insistir.
 
-Veja os guias de [instalação em apartamento](/blog/como-instalar-lava-e-seca-em-apartamento/) e [planejamento de nicho](/blog/melhor-lava-e-seca-de-embutir/) para organizar o local.
+Veja os guias de instalação em apartamento e [planejamento de nicho](/blog/melhor-lava-e-seca-de-embutir/) para organizar o local.
 
 ## Referências consultadas
 

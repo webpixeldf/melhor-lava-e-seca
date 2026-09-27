@@ -61,12 +61,17 @@ function quebrar(bloco) {
 function lerCorpus() {
   return fs.readdirSync(DIR).filter((f) => f.endsWith('.md')).map((f) => {
     const raw = fs.readFileSync(path.join(DIR, f), 'utf8');
+    // Artigo retirado ou rascunho nao e destino de link nem deve ser
+    // reprocessado — mesma regra do gerador e do site (lib/blog.js). Sem isto,
+    // rodar o retrofit recolocaria nos relacionados as URLs aposentadas na
+    // consolidacao de 26/09/2026, que so existem como 301.
+    if (/^status:\s*['"]?(retired|draft)/m.test(raw)) return null;
     const title = (raw.match(/title:\s*"([^"]+)"/) || [])[1] || f;
     const kws = (raw.match(/keywords:\s*\[([^\]]*)\]/) || [])[1] || '';
     const keyword = (kws.split(',')[0] || '').replace(/["']/g, '').trim();
     const date = (raw.match(/date:\s*"([^"]+)"/) || [])[1] || '';
     return { slug: f.replace(/\.md$/, ''), title, keyword, date };
-  }).filter((c) => c.keyword);
+  }).filter((c) => c && c.keyword);
 }
 
 const corpus = lerCorpus();

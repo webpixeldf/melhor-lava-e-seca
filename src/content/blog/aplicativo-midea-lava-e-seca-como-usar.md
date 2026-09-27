@@ -119,8 +119,7 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 
 ## Continue por aqui
 
-- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Como usar lava e seca LG 14kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-14kg/)
 - [Como interromper a secagem da lava e seca Midea: Guia 2026](/blog/como-interromper-a-secagem-da-lava-e-seca-midea/)

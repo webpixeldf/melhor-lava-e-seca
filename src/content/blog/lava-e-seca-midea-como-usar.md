@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Lava e seca Midea: programas e cuidados de uso"
 description: "Confira o uso dos programas da lava e seca Midea, respeitando o manual, as etiquetas das roupas e os limites de lavagem e secagem."
 date: "2026-08-29T00:58:36-03:00"

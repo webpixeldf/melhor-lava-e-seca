@@ -1,4 +1,5 @@
 ---
+status: retired
 title: "Lava e seca Hisense 11 kg: Tudo o Que Você Precisa Saber"
 description: "A lava e seca Hisense 11 kg resolve a vida em apartamento pequeno. Veja como ela seca no dia a dia, o consumo real e se vale a pena trocar sua lavadora."
 date: "2026-08-26T19:17:51-03:00"

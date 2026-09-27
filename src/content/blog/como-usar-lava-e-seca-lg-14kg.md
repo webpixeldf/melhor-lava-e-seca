@@ -138,9 +138,8 @@ Se a ideia é comparar antes de comprar, dá uma olhada na [seleção das melhor
 ## Relacionados
 
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
-- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
-- [Como usar a lava e seca Midea: Guia Completo e Soluções](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como funciona uma lava e seca: Guia Completo e Soluções](/blog/como-funciona-uma-lava-e-seca/)
 - [Como deixar roupa de molho na lava e seca LG: Guia 2026](/blog/como-deixar-roupa-de-molho-na-lava-e-seca-lg/)
 - [Nossa seleção de lava e seca por faixa de uso](/)

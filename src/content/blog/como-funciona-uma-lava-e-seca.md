@@ -143,6 +143,6 @@ Antes de bater o martelo, vale passar pelo [comparativo com as lava e seca mais 
 - [Como deixar a roupa cheirosa na lava e seca: Guia 2026](/blog/como-deixar-a-roupa-cheirosa-na-lava-e-seca/)
 - [Aplicativo Midea lava e seca como usar: Guia Completo 2026](/blog/aplicativo-midea-lava-e-seca-como-usar/)
 - [Lava e seca seminova: o que conferir antes de comprar](/blog/lava-e-seca-semi-nova-como-comprar/)
-- [Lava e seca Midea: programas e cuidados de uso](/blog/lava-e-seca-midea-como-usar/)
+- [Lava e seca Midea: programas e cuidados de uso](/blog/como-usar-a-lava-e-seca-midea/)
 - [Como usar lava e seca LG 12kg: Guia Completo e Soluções](/blog/como-usar-lava-e-seca-lg-12kg/)
 - [Nossa seleção de lava e seca por faixa de uso](/)
