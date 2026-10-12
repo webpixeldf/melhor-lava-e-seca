@@ -18,8 +18,8 @@ const guides=[
 ];
 const profiles=[
  ['Orçamento de entrada','Comece pelos modelos de 10 e 11 kg. Confira a garantia do motor no anúncio, porque os comparativos citam prazos diferentes.',['philco-pls11t-eco-inverter','philco-pls11a-eco-invertplus','samsung-ecobubble-digital-inverter']],
- ['Volume grande de roupa','Para 13 kg ou 14 kg de lavagem, a secagem costuma ter limite de 8 kg. Planeje a divisão das cargas maiores.',['lg-vc4-ai-direct-drive','lg-vc2-cv9014wc2-ai-dd','brastemp-bno14as-titanium','midea-mf200d130wb-healthguard','samsung-wd13t-smart-inverter']],
- ['Controle pelo celular','Modelos com Wi-Fi e aplicativo nas fichas consultadas. Confirme se o aplicativo corresponde à versão escolhida.',['lg-vc4-ai-direct-drive','lg-vc2-cv9014wc2-ai-dd','hisense-wd3s11-smart','midea-mf200d110wb-healthguard','midea-mf200d-healthguard']],
+ ['Volume grande de roupa','Para 13 kg ou 14 kg de lavagem, a secagem costuma ter limite de 8 kg. Planeje a divisão das cargas maiores.',['lg-vc4-ai-direct-drive','brastemp-bno14as-titanium','midea-mf200d130wb-healthguard','samsung-wd13t-smart-inverter']],
+ ['Controle pelo celular','Modelos com Wi-Fi e aplicativo nas fichas consultadas. Confirme se o aplicativo corresponde à versão escolhida.',['lg-vc4-ai-direct-drive','hisense-wd3s11-smart','midea-mf200d110wb-healthguard','midea-mf200d-healthguard']],
  ['Odores e vapor','Programas de vapor ou de tira-odor nas fichas consultadas. O resultado depende do tecido e da carga.',['electrolux-lsp11-turbo','brastemp-bnq10-inverter','brastemp-bno14as-titanium']],
 ];
 const yesNo=v=>v===true?'Sim':v===false?'Não':'Consultar ficha';
